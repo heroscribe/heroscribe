@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE quest PUBLIC
+"-//org.lightless//HeroScribe Quest 1.4//EN"
+"http://lightless.org/files/xml/quest-1.4.dtd">
+
+<quest name="A Test Quest" region="Europe" width="1" height="1" version="1.0">
+  <board>
+    <dark left="1" top="5" width="26" height="15"/>
+    <dark left="10" top="1" width="17" height="4"/>
+
+    <object id="Gargoyle" left="7" top="4"/>
+    <object id="Stairway" left="4" top="2"/>
+    <object id="Door" left="7" top="1"/>
+    <object id="Door" left="1" top="3" rotation="rightward"/>
+    <object id="Gargoyle" left="6" top="3" rotation="downward"/>
+    <object id="TreasureChest" left="9" top="4" rotation="upward"/>
+    <object id="LetterA" left="9" top="3"/>
+    <object id="SingleBlockedSquare" left="1" top="5"/>
+    <object id="SingleBlockedSquare" left="9" top="1"/>
+  </board>
+  
+  <speech>"Heroes you shouldn't go through this quest: after all it's
+  only a test :)"</speech>
+
+  <note>The Heroes have absolutely nothing to do here. They should go
+  back as soon as they enter.</note>
+  <note>A: This chest is empty.</note>
+  <note>Wandering Monster: Goblin.</note>
+</quest>

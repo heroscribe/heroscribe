@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<!DOCTYPE quest PUBLIC
+"-//org.lightless//HeroScribe Quest 1.4//EN"
+"http://lightless.org/files/xml/quest-1.4.dtd">
+
+<quest name="Improved" region="Europe" width="1" height="1" version="1.0">
+
+   <board>
+      <dark top="2" left="13" width="10" height="5" />
+      <dark top="6" left="22" width="4" height="4" />
+      <dark top="7" left="18" width="4" height="3" />
+      <dark top="5" left="2" width="8" height="5" />
+      <dark top="11" left="8" width="2" height="3" />
+      <dark top="15" left="2" width="4" height="4" />
+
+      <object id="HurricaneTrap" top="6" left="26" />
+      <object id="CarpetRoom" top="2" left="22" />
+      <object id="ChaosRoom" top="7" left="10" />
+      <object id="PitRoom" top="14" left="15" />
+      <object id="SwingingBladeTrap" top="10" left="21" />
+      <object id="SwingingBladeTrap" top="10" left="22" />
+      <object id="SwingingAxe" top="10" left="23" />
+      <object id="SunEyeRoom" top="11" left="22" />
+      <object id="Surface" top="15" left="19" />
+      <object id="StoneDoorway" top="10" left="17" rotation="rightward" />
+      <object id="StoneDoorway" top="16" left="18" rotation="rightward" />
+      <object id="Door" top="16" left="14" rotation="rightward" />
+      <object id="StoneDoorway" top="13" left="14" />
+      <object id="OpenDoor" top="12" left="25" rotation="rightward" />
+      <object id="Door" top="2" left="25" rotation="rightward" />
+      <object id="Door" top="19" left="18" rotation="rightward" />
+      <object id="Door" top="12" left="21" rotation="rightward" />
+      <object id="DeepPitTrap" top="17" left="13" />
+      <object id="TeleportTrapA" top="12" left="19" />
+      <object id="SingleBlockedSquare" top="19" left="12" />
+      <object id="Dwarf" top="4" left="24" />
+      <object id="Wizard" top="13" left="24" />
+      <object id="ChaosWarrior" top="11" left="18" />
+      <object id="ChaosWarrior" top="13" left="18" />
+      <object id="ChaosWarrior" top="12" left="20" />
+      <object id="DarkWarrior" top="14" left="15" />
+      <object id="DarkWarrior" top="17" left="18" />
+      <object id="OgreChampion" top="9" left="16" />
+      <object id="OgreLord" top="13" left="17" />
+      <object id="OgreWarrior" top="12" left="15" />
+      <object id="OgreWarrior" top="11" left="11" />
+      <object id="OgreWarrior" top="8" left="11" />
+
+      <object id="BottomlessChasm" top="11" left="2" />
+      <object id="FrozenCryptRoom" top="14" left="10" />
+      <object id="IceGremlinTreasureRoom" top="2" left="2" rotation="leftward" />
+      <object id="IceVault2x3" top="11" left="6" />
+      <object id="IceLedge" top="2" left="10" />
+      <object id="IceSlide" top="1" left="2" rotation="leftward" />
+      <object id="IcyRiver1x8" top="12" left="1" />
+      <object id="LongStairway" top="19" left="3" rotation="rightward" />
+      <object id="SlipperyIce3x1" top="2" left="7" rotation="rightward" />
+      <object id="DoubleArrowDoor" top="10" left="0" rotation="leftward" />
+      <object id="Door" top="1" left="10" />
+      <object id="Door" top="4" left="9" rotation="rightward" />
+      <object id="Door" top="13" left="7" />
+      <object id="Door" top="18" left="9" />
+      <object id="Door" top="10" left="3" />
+      <object id="Door" top="12" left="5" rotation="rightward" />
+      <object id="Door" top="15" left="9" rotation="rightward" />
+      <object id="Portcullis" top="3" left="5" rotation="rightward" />
+      <object id="DoubleBlockedSquare" top="1" left="13" />
+      <object id="Stairway" top="16" left="7" />
+      <object id="Barbarian" top="3" left="1" />
+      <object id="Elf" top="11" left="2" />
+      <object id="ElvenWarrior" top="2" left="12" />
+      <object id="ElvenWarrior" top="3" left="10" />
+      <object id="ElvenArcher" top="6" left="12" />
+      <object id="ElvenArcher" top="6" left="10" />
+      <object id="Crossbowman" top="14" left="5" />
+      <object id="Crossbowman" top="11" left="5" />
+      <object id="Swordsman" top="13" left="2" />
+      <object id="Halberdier" top="15" left="6" />
+      <object id="Halberdier" top="15" left="9" />
+      <object id="Halberdier" top="18" left="6" />
+      <object id="Halberdier" top="18" left="9" />
+      <object id="FrozenHorror" top="14" left="10" />
+      <object id="PolarWarbear" top="11" left="6" />
+      <object id="GiantWolf" top="2" left="8" />
+      <object id="IceGremlin" top="3" left="3" />
+      <object id="TreasureChest" top="2" left="3" />
+      <object id="CrystalKey" top="18" left="12" />
+      <object id="TeleportTrapB" top="14" left="8" />
+      <object id="Stalactite" top="16" left="11" />
+   </board>
+
+   <speech>"Introduction."</speech>
+
+   <note>Text.</note>
+
+   <note>Wandering monster: </note>
+
+</quest>
+

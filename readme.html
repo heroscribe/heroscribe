@@ -1,0 +1,184 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>HeroScribe</title></head>
+<body>
+<h1 align="center">HeroScribe 1.0a3</h1>
+<h5 align="center">HeroScribe is &copy; 2003-2004 Flavio Chierichetti and Valerio Chierichetti<br>
+HeroScribe is free software, distributed under the terms of the GNU GPL 2<br>
+HeroQuest and its icons are &copy; of Milton Bradley Co.</h5>
+
+<h2>1. What is it?</h2>
+
+<p>HeroScribe lets you produce high quality HeroQuest maps (with 
+European or US layout). It reads an XML description of the quest
+and transforms it into an <acronym title="Encapsulated PostScript">EPS</acronym>
+or a <acronym title="Portable Network Graphics">PNG</acronym>
+file.<br>
+If <a href="http://www.cs.wisc.edu/~ghost/doc/gnu/index.htm">ghostscript</a>
+is installed, HeroScribe can use it to produce
+<acronym title="Portable Document Format">PDF</acronym> files.</p>
+
+<p>EPS files can be opened by almost any CG application (I recommend
+ghostscript: a free as in freedom application) or directly
+sent to a postscript printer.</p>
+
+<p>HeroScribe is free as in freedom. You are welcome to use it under the
+terms of the <a href="License.txt">GPL 2</a>.
+You should read the GPL 2 as it's the only actual binding document here;
+anyway, if you - just like us 8^) - hate legalese, we'll tell you in an informal way that
+you can do almost anything you want with this program and its source
+code, but the code (wheter modified or not) can be redistributed only under
+the GPL, mentioning us as the original coders.</p>
+
+<p>HeroScribe uses <a href="Objects.html">icons</a> from the HeroQuest
+game system: those icons are copyright of Milton Bradley Co. .<br>
+HeroQuest is discontinued by MB: this program was written with the intent
+of helping the HeroQuest community creating new quests and, by doing so,
+extending the life of the game.</p>
+
+<h2>2. How to produce maps</h2>
+
+<p>Start the program - this can be done in a number of ways:</p><ul>
+<li>click on the HeroScribe icon in the start menu;
+<li>click on the HeroScribe.jar icon in the HeroScribe directory;
+<li>execute <i>java -jar HeroScribe.jar</i> from the command line.
+</ul>
+
+<p>You'll see some command buttons, a menu bar and a hints bar.</p>
+
+<p>The <i>Add object</i> command is self-explanatory. You select an object and
+add it to the map 8^)</p>
+
+<p>The <i>Select/Remove object</i> command is used to select the
+objects on a board square and to remove, to rotate or to change the
+zorder of those objects.<br>
+The zorder defines the "depth" of the objects. A low zorder object
+is drawn before a high zorder one. So the former could be covered by
+the latter, but not the other way around.<br>
+So if you want to
+draw an orc near a door and you want to prevent the door from covering part
+of the orc, you have to set the orc zorder to a value higher than the
+door one.<br>
+From versione 1.0a2, HeroScribe sports a default zorder system designed to keep
+the number of zorder changes low - meaning: you can safely ignore the existance
+of zorder 8^).</p>
+
+<p>The <i>Dark/Bridge</i> command is used to make the board squares
+dark or white and to add bridges between boards (in multiple boards maps).<br>
+Left-clicking a board square makes it dark; right-clicking (or
+ctrl-clicking) a square clears it.<br>
+To put a bridge on an infra-board square (a square between two
+boards), left-click that square. To remove a bridge, right-click (or
+ctrl-click) it.</p>
+
+<p>The <i>File</i> menu does everything you expect it to. Particularly:</p><ul>
+<li>the <i>New</i> submenu produces a new map (a single or multiple
+boards one);
+<li>the <i>Export</i> submenu exports the
+board in a high-quality EPS or PDF vector file or a low
+quality PNG raster file;
+<li>the <i>Preferences</i> submenu is used to set the Ghostscript
+executable file (which is <i>gswin32c.exe</i> under windows, and
+<i>gs</i> under un*x).
+</ul>
+
+<p>EPS files can be read by almost any CG application (try <a
+href="http://www.cs.wisc.edu/~ghost/doc/gnu/index.htm">GNU
+Ghostscript</a>, if you're lost).</p>
+
+<p>The <i>Region</i> menu sets the board region (european or
+american).</p>
+
+<h2>3. Python version</h2>
+
+<p>Before version 1.0, HeroScribe was a python program; there were
+many differences, the most important being the lack of a GUI.<br>
+We have not received any feedback from users of the python version:
+we therefore concluded that there are no such users and used all our time 
+on the java version stopping the development of the python one.</p>
+<p>We can of course reconsider if a consistent number of python users will ask us so.</p>
+
+<h2>4. Thanks</h2>
+
+<p>We'd really like to mention Dirk Rombauts for providing us most of the
+original icons' scans: thank you man.</p>
+
+<p>Thanks to Luis "Wolf" Bermudez for drawing the Dwarf icon: a true
+piece of art!</p>
+
+<p>And thanks to the GNU, python (used for many devel scripts), ghostscript,
+NSIS - and surely a whole lot more - crews for providing us the free
+(as in freedom) software needed and used in this project.</p>
+
+<h2>5. What's New</h2>
+
+<ul>
+<li>Version 1.0pre1 (2004/12/25)<ul>
+<li>Fixed some problems with JRE 1.5, that can now be used to run HeroScribe.
+<li>Maps can now have multiple boards (like MB's Advanced Quest &copy;).
+<li>If ghostscript is installed quests can be exported in PDF format.
+<!--<li>Changed some EPS code to make the PDFs (as converted by ghostscript) work with some commercial CG application.-->
+<li>The xml schemas have been updated.
+</ul>
+
+<li>Version 1.0a2 (2004/09/12)<ul>
+<li>Any object can now have a default zorder: rooms
+are - by default - placed under everything, doors just above the rooms and
+marks over everything.
+<li>Quests can now be exported in png format (but the quality is much
+lower than eps).
+</ul>
+
+<li>Version 1.0a1 (2004/09/10)<ul>
+<li>There's a GUI! It's written in swing, so it'll look native on MacOS X, windows and GTK 1.
+<li>Three new icons. In the last version, we said we'd got them all: we know better now 8^)
+<li>The application has been rewritten in java.
+<li>The xml schemas have been updated.
+<li>Various fixes.
+</ul>
+
+<li>Version 0.46b (2004/08/15)<ul>
+<li>Quite a lot icons have been added:<ul>
+<li>As far as we know, every "official" HQ icon is in HeroScribe now.
+<li>An unofficial Dwarf icon (designed by Luis Bermudez) has been
+included so that all the heroes can be represented.
+<li>Every object has now both european and american icons: this means
+that every quest can be rendered in any layout.
+</ul>
+
+<li>The letter icons have been "standardized":<ul>
+<li>there are letters from "A" to "M" and
+<li>we kept only one kind of american letters (there were too many
+kinds in the various expansions: that was confusing).
+</ul>
+
+<li>Icons have been tailored to better please the eye.
+<li>The biggest icons have been modified to lower the disk consumption.
+<li>The layout given in the quest file can be overridden by using the
+"--force-region" option ("HeroScribe.py --help" for more
+information).
+<li>"List.html" has been ravamped.
+<li>Doors on the border of the boardset are now well-aligned.
+<li>There have been some small changes in the quest dtd and xsd
+files. The new version number for the schemas is 1.1 .
+<li>Some object names have been changed (we tried to smooth things up
+after all the changes): please have a look at "List.html" and adjust
+your quest files.
+<li>Various fixes.
+</ul>
+
+<li>Version 0.44 (2003/12/25) - 0.43b - 0.43a - 0.42b - 0.42a<ul>
+<li>No changelist available: sorry!
+</ul>
+</ul>
+
+<h2>6. Contact</h2>
+<p>We'd be glad to hear from you; send us bug reports, so we can try to squash
+the bugs and make HeroScribe better. Suggestions and constructive criticism
+are always welcome too.</p>
+
+<p>Web Page: <a href="http://lightless.org/heroscribe">http://lightless.org/heroscribe</a></p>
+<p>E-Mail: <a href="mailto:hqcadarn@yahoo.it">hqcadarn@yahoo.it</a></p>
+
+</body>
+</html>

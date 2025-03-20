@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!DOCTYPE quest PUBLIC
+"-//org.lightless//HeroScribe Quest 1.4//EN"
+"http://lightless.org/files/xml/quest-1.4.dtd">
+
+<quest name="Aelle and Cullwych" region="Europe" width="1" height="1" version="1.0">
+
+   <board>
+      <dark left="1" top="1" width="26" height="1"/>
+      <dark left="2" top="2" width="4" height="3"/>
+      <dark left="10" top="2" width="3" height="5"/>
+      <dark left="18" top="2" width="9" height="4"/>
+      <dark left="22" top="6" width="5" height="3"/>
+      <dark left="22" top="9" width="4" height="1"/>
+      <dark left="2" top="11" width="4" height="8"/>
+      
+      <object id="Door" top="18" left="7" />
+      <object id="Door" top="18" left="9" rotation="leftward" />
+      <object id="Orc" top="18" left="12" />
+      <object id="SpearTrap" top="18" left="19" />
+      <object id="SpearTrap" top="18" left="20" />
+      <object id="SpearTrap" top="18" left="21" />
+      <object id="Goblin" top="17" left="11" />
+      <object id="SecretDoor" top="17" left="18" rotation="leftward" />
+      <object id="Arrow" top="17" left="21" />
+      <object id="Door" top="17" left="21" rotation="leftward" />
+      <object id="FallingRock" top="17" left="22" />
+      <object id="SpearTrap" top="16" left="19" />
+      <object id="SpearTrap" top="16" left="21" />
+      <object id="LetterA" top="16" left="24" />
+      <object id="LetterG" top="15" left="8" />
+      <object id="Orc" top="15" left="10" />
+      <object id="Goblin" top="15" left="19" />
+      <object id="Stairway" top="15" left="22" />
+      <object id="Tomb" top="14" left="6" />
+      <object id="Skeleton" top="14" left="8" />
+      <object id="Skeleton" top="14" left="9" />
+      <object id="DoubleBlockedSquare" top="14" left="13" />
+      <object id="LetterB" top="14" left="17" />
+      <object id="Cupboard" top="14" left="18" rotation="leftward" />
+      <object id="Door" top="14" left="21" />
+      <object id="Door" top="14" left="24" />
+      <object id="SecretDoor" top="13" left="6" rotation="upward" />
+      <object id="SingleBlockedSquare" top="13" left="10" />
+      <object id="Door" top="13" left="11" />
+      <object id="TreasureChest" top="13" left="18" />
+      <object id="Stairway" top="12" left="8" rotation="upward" />
+      <object id="SecretDoor" top="12" left="10" rotation="leftward" />
+      <object id="Fireplace" top="12" left="12" rotation="upward" />
+      <object id="Fimir" top="12" left="18" />
+      <object id="Table" top="12" left="19" rotation="leftward" />
+      <object id="Table" top="12" left="22" rotation="leftward" />
+      <object id="LetterH" top="11" left="6" />
+      <object id="Orc" top="11" left="7" />
+      <object id="Door" top="11" left="9" rotation="leftward" />
+      <object id="Throne" top="11" left="13" rotation="upward" />
+      <object id="LetterC" top="11" left="18" />
+      <object id="Orc" top="11" left="24" />
+      <object id="SingleBlockedSquare" top="10" left="10" />
+      <object id="LetterX" top="10" left="13" />
+      <object id="LetterF" top="10" left="17" />
+      <object id="SingleBlockedSquare" top="10" left="18" />
+      <object id="Door" top="10" left="19" />
+      <object id="Door" top="10" left="24" />
+      <object id="SingleBlockedSquare" top="10" left="21" />
+      <object id="Door" top="9" left="3" />
+      <object id="SecretDoor" top="9" left="17" rotation="rightward" />
+      <object id="Door" top="9" left="19" />
+      <object id="SingleBlockedSquare" top="9" left="26" />
+      <object id="Bookcase" top="8" left="11" rotation="rightward" />
+      <object id="Orc" top="8" left="12" />
+      <object id="Orc" top="8" left="14" />
+      <object id="Bookcase" top="8" left="16" rotation="leftward" />
+      <object id="PitTrap" top="7" left="2" />
+      <object id="Door" top="7" left="5" rotation="leftward" />
+      <object id="Door" top="7" left="13" />
+      <object id="LetterE" top="7" left="13" />
+      <object id="Rack" top="7" left="18" rotation="rightward" />
+      <object id="Fimir" top="7" left="21" />
+      <object id="Goblin" top="6" left="2" />
+      <object id="LetterJ" top="6" left="3" />
+      <object id="LetterD" top="6" left="7" />
+      <object id="Door" top="6" left="17" rotation="leftward" />
+      <object id="TreasureChest" top="5" left="2" />
+      <object id="Goblin" top="5" left="3" />
+      <object id="ChaosWarrior" top="5" left="6" />
+      <object id="ChaosWarrior" top="5" left="8" />
+      <object id="Orc" top="5" left="16" />
+      <object id="SpearTrap" top="4" left="6" />
+      <object id="Door" top="4" left="7" />
+      <object id="PitTrap" top="4" left="7" />
+      <object id="Door" top="4" left="14" rotation="leftward" />
+      <object id="SpearTrap" top="3" left="7" />
+      <object id="Gargoyle" top="2" left="1" />
+      <object id="DoubleBlockedSquare" top="2" left="13" />
+      <object id="AlchemistsBench" top="2" left="15" />
+      <object id="Door" top="1" left="1" />
+      <object id="LetterI" top="1" left="1" />
+   </board>
+
+   <speech>"Aelle and Cullwych."</speech>
+
+   <note>Kill Aelle.</note>
+
+   <note>Wandering monster: Chaos Warrior</note>
+
+</quest>
+

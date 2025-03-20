@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE quest PUBLIC
+"-//org.lightless//HeroScribe Quest 1.4//EN"
+"http://lightless.org/files/xml/quest-1.4.dtd">
+
+<quest name="Carpets for Sale" region="USA" version="1.0" width="1" height="3">
+<board>
+<object id="ThroneRoom" left="21.0" top="7.0" rotation="rightward" zorder="0.0"/>
+<object id="RevolvingRoom" left="23.0" top="12.0" rotation="downward" zorder="0.0"/>
+<object id="CloudOfChaos" left="19.0" top="12.0" rotation="rightward" zorder="0.0"/>
+<object id="Surface" left="1.0" top="1.0" rotation="downward" zorder="0.0"/>
+<object id="CarpetRoom" left="5.0" top="16.0" rotation="downward" zorder="0.0"/>
+<object id="SunEyeRoom" left="1.0" top="16.0" rotation="downward" zorder="0.0"/>
+<object id="BattleRoom" left="5.0" top="11.0" rotation="upward" zorder="0.0"/>
+<object id="PitRoom" left="1.0" top="11.0" rotation="upward" zorder="0.0"/>
+<object id="ChaosRoom" left="1.0" top="4.0" rotation="downward" zorder="0.0"/>
+<object id="SeatOfPower" left="9.0" top="6.0" rotation="rightward" zorder="0.0"/>
+<object id="Quicksand" left="17.0" top="1.0" rotation="downward" zorder="0.0"/>
+<object id="InnerSanctum" left="22.0" top="1.0" rotation="downward" zorder="0.0"/>
+<object id="IceCaveEntrance" left="9.0" top="1.0" rotation="upward" zorder="0.0"/>
+<object id="ScepterRoom" left="15.0" top="7.0" rotation="downward" zorder="0.0"/>
+<object id="LivingFogRoom" left="15.0" top="11.0" rotation="upward" zorder="0.0"/>
+<object id="CageRoom" left="11.0" top="15.0" rotation="downward" zorder="0.0"/>
+<object id="BottomlessChasm" left="11.0" top="11.0" rotation="downward" zorder="0.0"/>
+<object id="IceVault3x4" left="24.0" top="16.0" rotation="downward" zorder="0.0"/>
+<object id="IceLedge" left="18.0" top="15.0" rotation="downward" zorder="0.0"/>
+<object id="IceGremlinTreasureRoom" left="21.0" top="16.0" rotation="upward" zorder="0.0"/>
+<object id="FrozenCryptRoom" left="15.0" top="15.0" rotation="downward" zorder="0.0"/>
+<object id="IcyRiver1x8" left="9.0" top="11.0" rotation="downward" zorder="0.0"/>
+<object id="IceSlide" left="10.0" top="11.0" rotation="downward" zorder="0.0"/>
+<object id="SlipperyIce2x3" left="15.0" top="1.0" rotation="downward" zorder="0.0"/>
+<object id="SlipperyIce3x1" left="15.0" top="4.0" rotation="rightward" zorder="0.0"/>
+<object id="SlipperyIce2x1" left="16.0" top="4.0" rotation="rightward" zorder="0.0"/>
+<object id="SlipperyIce1x1" left="16.0" top="6.0" rotation="downward" zorder="0.0"/>
+<object id="IceVault2x3" left="19.0" top="7.0" rotation="downward" zorder="0.0"/>
+<object id="IcyRiver1x3" left="9.0" top="19.0" rotation="rightward" zorder="0.0"/>
+<object id="CrystalKey" left="19.0" top="10.0" rotation="downward" zorder="0.0"/>
+<object id="IceTunnelC" left="12.0" top="19.0" rotation="downward" zorder="0.0"/>
+<object id="IceTunnelB" left="14.0" top="19.0" rotation="downward" zorder="0.0"/>
+<object id="IceTunnelA" left="13.0" top="19.0" rotation="downward" zorder="0.0"/>
+</board>
+<speech></speech>
+</quest>

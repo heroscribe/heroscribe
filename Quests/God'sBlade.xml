@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!DOCTYPE quest PUBLIC
+"-//org.lightless//HeroScribe Quest 1.4//EN"
+"http://lightless.org/files/xml/quest-1.4.dtd">
+
+<quest name="God's Blade" region="USA" width="1" height="1" version="1.0">
+
+   <board>
+      <dark top="1" left="1" width="12" height="6" />
+      <dark top="1" left="13" width="14" height="1" />
+      <dark top="2" left="26" width="1" height="18" />
+      <dark top="6" left="18" width="4" height="4" />
+      <dark top="7" left="1" width="9" height="4" />
+      <dark top="11" left="1" width="1" height="9" />
+      <dark top="11" left="17" width="1" height="2" />
+      <dark top="11" left="22" width="4" height="9" />
+      <dark top="13" left="15" width="3" height="1" />
+      <dark top="15" left="19" width="3" height="5" />
+      <dark top="19" left="2" width="17" height="1" />
+
+      <object id="DoubleBlockedSquare" top="2" left="13" />
+      <object id="Bookcase" top="2" left="15" />
+      <object id="Orc" top="2" left="22" />
+      <object id="Fimir" top="2" left="23" />
+	  <object id="Fimir" top="2" left="24" />
+	  <object id="Orc" top="2" left="25" />
+      <object id="PitTrap" top="3" left="14" />
+      <object id="Door" top="3" left="14" rotation="rightward" />
+      <object id="LetterE" top="3" left="17" />
+      <object id="Orc" top="3" left="19" />
+	  <object id="Orc" top="3" left="23" />
+	  <object id="Orc" top="3" left="24" />
+      <object id="WeaponsRack" top="3" left="25" rotation="leftward" />
+      <object id="Door" top="4" left="17" rotation="rightward" />
+      <object id="Orc" top="4" left="18" />
+      <object id="Orc" top="5" left="20" />
+      <object id="SecretDoor" top="5" left="21" rotation="leftward" />
+      <object id="Door" top="5" left="24" />
+      <object id="Orc" top="6" left="23" />
+      <object id="Orc" top="6" left="25" />
+      <object id="LetterH" top="7" left="11" />
+      <object id="Door" top="7" left="11" />
+      <object id="SingleBlockedSquare" top="7" left="14" />
+      <object id="SecretDoor" top="7" left="15" />
+      <object id="Orc" top="7" left="24" />
+      <object id="SeatOfPower" top="8" left="11" rotation="rightward" />
+	  <object id="Table" top="8" left="13" rotation="rightward" />
+      <object id="LetterC" top="8" left="24" />
+      <object id="Orc" top="9" left="10" />
+      <object id="ChaosWarrior" top="9" left="12" />
+      <object id="LetterF" top="9" left="15" />
+      <object id="Door" top="9" left="16" rotation="rightward" />
+      <object id="LetterI" top="9" left="17" />
+      <object id="Door" top="9" left="24" />
+      <object id="SingleBlockedSquare" top="10" left="10" />
+	  <object id="Orc" top="10" left="11" />
+	  <object id="SingleBlockedSquare" top="10" left="17" />
+	  <object id="Door" top="10" left="20" />
+	  <object id="SingleBlockedSquare" top="10" left="25" />
+      <object id="Skeleton" top="11" left="3" />
+	  <object id="Skeleton" top="11" left="5" />
+      <object id="Cupboard" top="11" left="6" rotation="rightward" />
+      <object id="LetterD" top="11" left="7" />
+      <object id="Door" top="11" left="7" rotation="rightward" />
+      <object id="Mummy" top="11" left="8" />
+      <object id="Table" top="11" left="14" />
+      <object id="Orc" top="11" left="20" />
+      <object id="Goblin" top="11" left="21" />
+      <object id="LetterX" top="12" left="7" />
+      <object id="Zombie" top="12" left="8" />
+      <object id="LetterG" top="12" left="10" />
+      <object id="Door" top="12" left="10" rotation="rightward" />
+      <object id="Stairway" top="13" left="4" rotation="upward" />
+      <object id="Door" top="13" left="9" rotation="rightward" />
+      <object id="DoubleBlockedSquare" top="13" left="13" />
+      <object id="Door" top="13" left="18" />
+      <object id="Fimir" top="13" left="20" />
+      <object id="Door" top="14" left="3" />
+      <object id="ChaosWarrior" top="14" left="6" />
+      <object id="SecretDoor" top="14" left="7" />
+      <object id="Throne" top="14" left="8" />
+      <object id="LetterB" top="14" left="10" />
+      <object id="Tomb" top="14" left="11" />
+      <object id="Fireplace" top="14" left="19" rotation="upward" />
+      <object id="LetterJ" top="15" left="6" />
+      <object id="Orc" top="15" left="14" />
+      <object id="Door" top="15" left="14" rotation="rightward" />
+      <object id="Goblin" top="15" left="16" />
+      <object id="Zombie" top="16" left="3" />
+      <object id="Door" top="16" left="9" rotation="rightward" />
+	  <object id="SorcerersTable" top="16" left="17" rotation="leftward" />
+      <object id="AlchemistsBench" top="17" left="2" rotation="upward" />
+      <object id="Door" top="17" left="5" rotation="rightward" />
+      <object id="PitTrap" top="17" left="6" />
+      <object id="Door" top="17" left="12" rotation="rightward" />
+      <object id="Gargoyle" top="17" left="16" />
+      <object id="LetterA" top="18" left="5" />
+	  <object id="DoubleBlockedSquare" top="18" left="13" />
+   </board>
+
+   <speech>"Introduction."</speech>
+
+   <note>Text.</note>
+
+   <note>Wandering monster: </note>
+
+</quest>
+
