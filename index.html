@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>HeroScribe Online</title>
 <style>
 html {
   background: darkgrey;
@@ -53,7 +54,9 @@ html {
   top: 55px;
 }
 .selected {
-  background: red;
+  background: grey;
+  background-blend-mode: lighten;
+  background-color: rgba(255,100,100,0.5);
 }
 .board .intro, .board .speech {
   bottom: 5px;
@@ -89,102 +92,19 @@ html {
   width: 3px;
   height: 3px;
 }
-.door {
-  border-radius: 3px;
-  width: 24px;
-  height: 24px;
-}
 .piece {
   width: 20px;
   height: 20px;
-  z-index: 1;
-}
-.large {
-  z-index: 0;
 }
 .dark {
   width: 20px;
   height: 20px;
   background: lightgrey;
 }
-.rightward {
-  transform: translate(-50%, -50%) rotate(-90deg) translate(-50%, 50%);
-}
-.leftward {
-  transform: translate(-50%, -50%) rotate(90deg) translate(50%, -50%);
-}
-.upward {
-  transform: translate(-50%, -50%) rotate(180deg) translate(-50%, -50%);
-}
-.Door.rightward, .DoorTrap.rightward, .OpenDoor.rightward, .Portcullis.rightward, .StoneDoorway.rightward {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(-90deg) translate(-50%, 100%);
-}
-.Door.leftward, .DoorTrap.leftward, .OpenDoor.leftward, .Portcullis.leftward, .StoneDoorway.leftward  {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(90deg) translate(50%, -100%);
-}
-.Door.upward, .DoorTrap.upward, .OpenDoor.upward, .Portcullis.upward, .StoneDoorway.upward  {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(180deg) translate(-50%, -100%);
-}
-.Door.downward, .DoorTrap.downward, .OpenDoor.downward, .Portcullis.downward, .StoneDoorway.downward  {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(0deg) translate(50%, 100%);
-}
-.DoorIn.leftward {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(90deg) translate(50%, -125%);
-}
-.DoorOut.leftward, .DoubleArrowDoor.leftward, .SecretDoorAlternate.leftward {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(90deg) translate(50%, -75%);
-}
-.DoorIn.rightward {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(-90deg) translate(-50%, 75%);
-}
-.DoorOut.rightward, .DoubleArrowDoor.rightward {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(-90deg) translate(-50%, 125%);
-}
-.DoorIn.upward {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(180deg) translate(-50%, -125%);
-}
-.DoorOut.upward, .DoubleArrowDoor.upward {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(180deg) translate(-50%, -75%);
-}
-.DoorIn.downward {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(-0deg) translate(50%, 75%);
-}
-.DoorOut.downward, .DoubleArrowDoor.downward {
-  transform: scale(1.2, 1.2) translate(-50%, -50%) rotate(-0deg) translate(50%, 125%);
-}
-.SecretDoorAlternate.leftward, .SecretDoor.leftward {
-  transform: translate(-50%, -50%) rotate(90deg) translate(50%, -90%);
-}
-.SecretDoorAlternate.rightward {
-  transform: translate(-50%, -50%) rotate(-90deg) translate(-50%, 10%);
-}
-.SecretDoorAlternate.upward {
-  transform: translate(-50%, -50%) rotate(180deg) translate(-50%, -90%);
-}
-.SecretDoorAlternate.downward {
-  transform: translate(-50%, -50%) rotate(-0deg) translate(50%, 10%);
-}
-.SecretDoor.leftward {
-  transform: translate(-50%, -50%) rotate(90deg) translate(50%, -65%);
-}
-.SecretDoor.rightward {
-  transform: translate(-50%, -50%) rotate(-90deg) translate(-50%, 35%);
-}
-.SecretDoor.upward {
-  transform: translate(-50%, -50%) rotate(180deg) translate(-50%, -60%);
-}
-.SecretDoor.downward {
-  transform: translate(-50%, -50%) rotate(0deg) translate(50%, 35%);
-}
-
-.LetterX {
-  width: 10px;
-  transform: translate(50%, 0);
-}
-.Number1-2, .Number1, .Number2, .Number3, .Number4, .Number5, .Number6,
-.Number7, .Number8, .Number9, .Number10, .Number11 {
-  height: 10px;
-  transform: translate(0, 50%);
+.mark {
+  width: 16px;
+  height: 16px;
+  background-size: cover;
 }
 
 .map {
@@ -193,15 +113,30 @@ html {
 .readme {
   width: 600px;
 }
+#campaigns {
+  width: 700px;
+}
+#campaignsEU, #campaignsUS {
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+.title {
+  font-size: 300%;
+}
 </style>
 </head>
 <body onload="init()">
 <script type="text/javascript" src="ui.js"></script>
 <script type="text/javascript" src="xml.js"></script>
 <script type="text/javascript" src="hq.js"></script>
-<a href="hq.html">HeroScribe Online</a>
+<a class="title" href=".">HeroScribe Online</a>
 <div><br/><a href="readme.html">Readme</a></div>
-<div class="menu">
+<div class="menu"></div>
+<div id="campaigns">
+<div id="campaignsEU"></div>
+<div id="campaignsUS"></div>
 </div>
+<div id="maps"></div>
 </body>
 </html>

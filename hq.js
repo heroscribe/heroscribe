@@ -42,81 +42,8 @@ rooms = [
   {x: 21, y: 10, w: 4, h: 4},
   {x: 21, y: 14, w: 4, h: 4},
 ];
-passages = [
-  {x: 0, y: 0, w: 26, h: 1},
-  {x: 9, y: 6, w: 8, h: 1},
-  {x: 0, y: 9, w: 10, h: 1},
-  {x: 9, y: 12, w: 8, h: 1},
-  {x: 16, y: 9, w: 10, h: 1},
-  {x: 0, y: 18, w: 26, h: 1},
-  {x: 0, y: 0, w: 1, h: 19},
-  {x: 9, y: 6, w: 1, h: 7},
-  {x: 12, y: 0, w: 2, h: 7},
-  {x: 12, y: 12, w: 2, h: 7},
-  {x: 16, y: 6, w: 1, h: 7},
-  {x: 25, y: 0, w: 1, h: 19},
-]
-monsters = [
-  "Goblin", "Orc", "Fimir", "Skeleton", "Zombie", "Mummy", "ChaosWarrior", "Gargoyle",
-]
-multisquare = {
-  "SingleBlockedSquare": {w: 1, h: 1},
-  "DoubleBlockedSquare": {w: 2, h: 1},
-  "TreasureChest": {w: 1, h: 1},
-  "Throne": {w: 1, h: 1},
-  "Table": {w: 3, h: 2},
-  "Rack": {w: 2, h: 3},
-  "AlchemistsBench": {w: 3, h: 2},
-  "SorcerersTable": {w: 3, h: 2},
-  "Tomb": {w: 2, h: 3},
-  "WeaponsRack": {w: 3, h: 1},
-  "Fireplace": {w: 3, h: 1},
-  "Bookcase": {w: 3, h: 1},
-  "Cupboard": {w: 3, h: 1},
-  "Stairway": {w: 2, h: 2},
-//KK
-  "CliffCorridor": {w: 8, h: 1},
-  "DwarvenForge": {w: 3, h: 1},
-  "CloudOfChaos": {w: 3, h: 4},
-  "LongStairway": {w: 1, h: 5},
-  "ShortStairway": {w: 1, h: 3},
-//RotWL
-  "RevolvingRoom": {w: 4, h: 4},
-  "Coffin": {w: 1, h: 2},
-  "ThroneRoom": {w: 5, h: 6},
-
-//AtOH
-  "PitRoom": {w: 4, h: 5},
-  "BattleRoom": {w: 4, h: 5},
-  "CarpetRoom": {w: 4, h: 4},
-  "SunEyeRoom": {w: 4, h: 4},
-  "ChaosRoom": {w: 8, h: 7},
-  "Surface": {w: 8, h: 5},
-//FH
-  "BottomlessChasm": {w: 4, h: 4},
-  "CageRoom": {w: 4, h: 4},
-  "FrozenCryptRoom": {w: 3, h: 5},
-  "FrozenHorror": {w: 2, h: 1},
-  "IceGremlinTreasureRoom": {w: 3, h: 4},
-  "IceCaveEntrance": {w: 6, h: 5},
-  "IceLedge": {w: 3, h: 5},
-  "IceSlide": {w: 1, h: 8},
-  "IceVault2x3": {w: 2, h: 3},
-  "IceVault3x4": {w: 3, h: 4},
-  "IcyRiver1x3": {w: 1, h: 3},
-  "IcyRiver1x8": {w: 1, h: 8},
-  "LivingFogRoom": {w: 4, h: 4},
-  "ScepterRoom": {w: 4, h: 4},
-  "SeatOfPower": {w: 5, h: 6},
-  "SlipperyIce2x1": {w: 2, h: 1},
-  "SlipperyIce2x3": {w: 2, h: 3},
-  "SlipperyIce3x1": {w: 3, h: 1},
-//MotM
-  "GiantWolf": {w: 2, h: 1},
-  "InnerSanctum": {w: 5, h: 6},
-  "Quicksand": {w: 5, h: 6},
-  "LongPitTrap": {w: 2, h: 1},
-}
+passages = []
+var multisquare = {}
 gs_us = [
   "01-TheTrial", "02-TheRescueofSirRagnar", "03-LairoftheOrcWarlord",
   "04-PrinceMagnusGold", "05-MelarsMaze", "06-LegacyoftheOrcWarlord", "07-TheLostWizard",
@@ -185,11 +112,6 @@ campaigns = {
   },
 }
 
-cards = [
-    {title: "Gold!", image: "logo", text: "some length text", gold:"25"},
-    {title: "Title2", image: "logo", text: "some length text",},
-    {title: "Titlexxx", image: "logo", text: "some length text",},
-];
 var map = [];
 ui = new UI();
 class Field extends UIElement {
@@ -234,16 +156,24 @@ class Passage extends Area {
   }
 }
 class Piece extends UIElement {
-  constructor(piece, fields) {
+  constructor(piece, fields, objects) {
     super();
     this.type = piece.type;
     this.field = fields[piece.field] || fields["a1"];
-    if (multisquare[this.type]) {
-      this.w = multisquare[this.type].w
-      this.h = multisquare[this.type].h;
+    if (objects[this.type]) {
+      this.w = objects[this.type].w
+      this.h = objects[this.type].h;
+      this.z = objects[this.type].z;
+      this.icons = objects[this.type].icons;
+      this.xoffset = objects[this.type].xoffset;
+      this.yoffset = objects[this.type].yoffset;
+      this.kind = objects[this.type].kind;
+      if (this.kind == "doorx")
+        this.h = this.w = 1;
     }
-    this.r = piece.rotation;
-    this.id = this.type + this.field.id + this.r;
+    let rotations = ["downward", "leftward", "upward", "rightward"];
+    this.angle = 90 * rotations.indexOf(piece.rotation);
+    this.id = this.type + this.angle + this.field.id;
   }
 }
 class Dark extends UIElement {
@@ -255,14 +185,14 @@ class Dark extends UIElement {
   }
 }
 class PieceFactory {
-  create(piece, fields) {
+  create(piece, fields, objects) {
     if (piece.category == "dark")
       return new Dark(piece, fields);
-    return new Piece(piece, fields);
+    return new Piece(piece, fields, objects);
   }
 }
 class Board extends UIElement {
-  constructor(rooms, passages, pieces, region, name, speech) {
+  constructor(objects, rooms, passages, pieces, region, name, speech) {
     super();
     this.w = 26;
     this.h = 19;
@@ -280,7 +210,7 @@ class Board extends UIElement {
     this.areas.push(new Area(0, this.h, this.w, 1));
     this.areas.forEach(a => a.fields.forEach(f => this.fields[f.id] = f));
     let factory = new PieceFactory();
-    pieces.forEach(p => factory.create(p, this.fields));
+    pieces.forEach(p => factory.create(p, this.fields, objects));
   }
 }
 
@@ -307,7 +237,7 @@ class Map {
     let dark = Array.prototype.slice.call(b.getElementsByTagName("dark"));
     dark.forEach(o => o.id = "Dark");
     dark.forEach(o => this.addObject(o, map));
-    new Board(rooms, passages, this.map, this.region, this.name, this.speech);
+    new Board(multisquare, rooms, passages, this.map, this.region, this.name, this.speech);
   }
   addObject(o) {
     let x = Math.round(parseFloat(o.getAttribute("left")));
@@ -317,6 +247,25 @@ class Map {
     let type = o.id;
     let category = type == "Dark" ? "dark" : "generic";
     this.map.push({type: type, field: field, category: category, rotation: r});
+  }
+}
+
+class Object2 {
+  constructor(o) {
+    this.id = o.getAttribute("id");
+    this.name = o.getAttribute("name");
+    this.kind = o.getAttribute("kind");
+    this.w = parseInt(o.getAttribute("width"));
+    this.h = parseInt(o.getAttribute("height"));
+    this.z = Math.round(parseInt(o.getAttribute("zorder")));
+    this.icons = {};
+    this.xoffset = {}
+    this.yoffset = {}
+    for (const i of o.children) {
+      this.icons[i.getAttribute("region")] = i.getAttribute("path");
+      this.xoffset[i.getAttribute("region")] = parseFloat(i.getAttribute("xoffset"));
+      this.yoffset[i.getAttribute("region")] = parseFloat(i.getAttribute("yoffset"));
+    }
   }
 }
 
@@ -353,12 +302,12 @@ function addFileDialog() {
   input.setAttribute("type", "file");
   input.setAttribute("onchange", "readFile(this)");
   input.setAttribute("multiple", "");
-  document.getElementsByTagName("body")[0].appendChild(input);
+  document.getElementsByClassName("menu")[0].appendChild(input);
   let b = document.createElement("button");
   b.setAttribute("type", "button");
   b.setAttribute("onclick", "clearBoards()");
   b.innerHTML = "Clear";
-  document.getElementsByTagName("body")[0].appendChild(b);
+  document.getElementsByClassName("menu")[0].appendChild(b);
 }
 
 async function loadCampaign(campaign, region, map) {
@@ -371,19 +320,38 @@ async function loadCampaign(campaign, region, map) {
     await loadMap(q, campaign.name, region)
 }
 
+async function loadObjects() {
+  xml = await fetch("Objects.xml").then(response => response.text());
+  let parser = new DOMParser();
+  let xmlDoc = parser.parseFromString(xml, "text/xml");
+  for (const o of xmlDoc.getElementsByTagName("object")) {
+    let o2 = new Object2(o);
+    multisquare[o2.id] = o2;
+  }
+  for (const o of xmlDoc.getElementsByTagName("corridor")) {
+    let x = parseInt(o.getAttribute("left")) - 1;
+    let y = parseInt(o.getAttribute("top")) - 1;
+    let w = parseInt(o.getAttribute("width"));
+    let h = parseInt(o.getAttribute("height"));
+    passages.push({x: x, y: y, w: w, h: h});
+  }
+}
+
 
 function addLink(abbrev, region, name, index) {
   let div = document.createElement("div");
   let link = document.createElement("a");
   link.innerHTML = name;
-  href = "hq.html?c=" + abbrev + "&r=" + region
+  href = ".?c=" + abbrev + "&r=" + region
   if (index != undefined) {
     href += "&m=" + index
     addClass(div, "map");
   }
   link.setAttribute("href", href);
   div.appendChild(link);
-  document.getElementsByTagName("body")[0].appendChild(div);   
+  parent = document.getElementById("campaigns" + region)
+  parent = parent || document.getElementsByTagName("body")[0];
+  parent.appendChild(div);   
 }
 
 function addLinks(campaign2) {
@@ -392,13 +360,11 @@ function addLinks(campaign2) {
       addLink(abbrev, region, c2.name + " " + region);
       for (const [i, m] of c2.quests.entries())
           addLink(abbrev, region, m, i);
-      //if (campaign2 && c2.quests.length == 0)
-      //  addFileDialog();
     }
   }
 }
 
-function init() { 
+async function init() { 
   let idx = document.URL.indexOf('?');
   let params = new Array();
   if (idx != -1) {
@@ -412,5 +378,6 @@ function init() {
   c = c && c[params.c];
   addFileDialog();
   addLinks(c);
+  await loadObjects();
   loadCampaign(c, params.r, params.m);
 }

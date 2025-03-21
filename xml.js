@@ -37,10 +37,11 @@ class Xml {
     this.board.appendChild(object);
     object.setAttribute("id", type);
     let pos = o.getAttribute("pos");
-    let rot = o.getAttribute("rot");
     object.setAttribute("left", xcoord(pos) + ".0");
     object.setAttribute("top", ycoord(pos) + ".0");
-    object.setAttribute("rotation", o.getAttribute("rot"));
+    let rotations = ["downward", "leftward", "upward", "rightward"];
+    let angle = parseInt(o.getAttribute("angle"));
+    object.setAttribute("rotation", rotations[Math.abs(angle / 90) % 4])
     object.setAttribute("zorder", "0.0");
   }
   addField(f) {
@@ -82,3 +83,4 @@ class Xml {
     }
   }
 }
+

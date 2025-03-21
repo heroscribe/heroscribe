@@ -45,11 +45,6 @@ class UI {
     this.region = "Europe";
     this.fields = {};
   }
-  setBackgroundImage(div, type) {
-    let abbrev = this.region.substring(0, 2).toUpperCase();
-    let url = "url('Raster/" + this.region + "/" + type + "_" + abbrev + ".png')";
-    div.style["background-image"] = url;
-  }
   deleteSelected() {
     if (this.selected)
       this.selected.remove();
@@ -101,22 +96,38 @@ class UI {
     removeClass(this.selected, "selected");
     this.selected = undefined;
   }
+  update(div) {
+    let angle = parseInt(div.getAttribute("angle"));
+    let x = [50, 50, -50, -50][(angle / 90) % 4]
+    let y = [50, -50, -50, 50][(angle / 90) % 4]
+    let xoffset = Math.round(parseFloat(div.getAttribute("xoffset")));
+    let yoffset = Math.round(parseFloat(div.getAttribute("yoffset")));
+    if (hasClass(div, "mark")) {
+      xoffset += 2;
+      yoffset += 2;
+    }
+    let offset = "translate(" + xoffset + "px, " + yoffset + "px)"
+    let rotate = "rotate(" + angle + "deg) "
+    let shiftBack = "translate(" + x + "%, " + y + "%) "
+    let scale = "scale(0.8, 0.8) "
+    div.style["transform"] = "translate(-50%, -50%) " + rotate + shiftBack + offset;
+  }
   rotate(div) {
-    let rotations = ["downward", "rightward", "upward", "leftward"];
-    let r = rotations.filter(r => Array.prototype.slice.call(div.classList).includes(r))[0];
-    removeClass(div, r);
-    r = rotations[rotations.indexOf(r) + 1] || rotations[0];
-    addClass(div, r);
-    div.setAttribute("rot", r);
+    if (hasClass(div, "mark"))
+        return;
+    if (["hero", "monster", "man-at-arms"].some(t => hasClass(div, t)) && ! hasClass(div, "large"))
+      return;
+    let angle = parseInt(div.getAttribute("angle"));
+    div.setAttribute("angle", angle + 90);
+    this.update(div);
   }
   selectObject(div) {
     removeClass(this.selected, "selected");
     if (this.selected == div) {
-      this.rotate(div);
-      this.selected = undefined;
-    } else if (hasClass(this.selected, "large")) {
+        this.rotate(div);
+        this.selected = undefined;
+    } else if (["door", "room"].some(t => hasClass(this.selected, t))) {
       this.place(this.selected, div);
-      console.log("large");
     } else {
       this.selected = div;
       addClass(this.selected, "selected");
@@ -125,19 +136,24 @@ class UI {
   addObject(obj, category) {
     let div = this.addElement(obj.id, category);
     div.setAttribute("pos", obj.field.id);
-    div.setAttribute("rot", obj.r);
-    this.setBackgroundImage(div, obj.type);
-    if (obj.w)
+    div.style["z-index"] = 10 + (obj.z || 0);
+    div.style["background-image"] = "url('Icons/Raster/" + obj.icons[this.region] + ".png')";
+    let xoffset = obj.xoffset[this.region] || 0;
+    div.setAttribute("xoffset", 20 * xoffset);
+    let yoffset = obj.yoffset[this.region] || 0;
+    div.setAttribute("yoffset", 20 * yoffset);
+    if (obj.w > 1)
       div.style["width"] = 21 * obj.w + "px";
-    if (obj.h)
+    if (obj.h > 1)
       div.style["height"] = 21 * obj.h + "px";
-    if (obj.h >= 2 || obj.w >= 2)
+    if (obj.h > 1 || obj.w > 1)
       addClass(div, "large");
-    if (obj.r)
-      addClass(div, obj.r);
+    div.setAttribute("angle", obj.angle);
     addClass(div, obj.type);
+    addClass(div, obj.kind);
     div.setAttribute("type", obj.type);
     div.setAttribute("onclick", "ui.selectObject(this)");
+    this.update(div);
     return div
   }
   addDark(obj) {
@@ -188,7 +204,7 @@ class UI {
     div.style.height = (21 * this.h - 1) + "px";
     this.board.appendChild(div);
     this.board.style = "width: " + (20 + 21 * obj.w) + "px; height: " + (25 + 20 + 21 * obj.h) + "px;"
-    document.getElementsByTagName("body")[0].appendChild(this.board);
+    document.getElementById("maps").appendChild(this.board);
   }
   set(obj, prop, value) {
     //console.log(obj, prop, value);
