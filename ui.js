@@ -1,7 +1,3 @@
-function* createId(id) { 
-  while (++id) 
-    yield id; 
-}
 function addClass(e, className) {
   if (!e)
     return;
@@ -41,14 +37,15 @@ function addCSSRule(sheet, selector, rules, index) {
 
 class UI {
   constructor(style) {
-    this.id = createId(0);
+    this.id = "ui";//createId(0);
     this.region = "Europe";
     this.fields = {};
   }
   deleteSelected() {
-    if (this.selected)
-      this.selected.remove();
-    this.selected = undefined;
+    let div = this.selected;
+    this.unselect();
+    if (div)
+      div.remove();
   }
   addElement(id, type) {
     let div = document.createElement("div");
@@ -58,9 +55,9 @@ class UI {
     return div;
   }
   addField(field) {
-    let rule = "left: " + (16 + 21 * field.x) + "px; top: " + (16 + 21 * field.y) + "px;";
-    addCSSRule(document.styleSheets[0], "div[pos='" + field.id + "']", rule);
     let div = this.addElement(field.id, "field")
+    div.obj = field;
+    field.div = div;
     if (field.x < 0 || field.x >= this.w || field.y < 0 || field.y >= this.h)
       addClass(div, "border");
     div.setAttribute("pos", field.id);
@@ -68,6 +65,8 @@ class UI {
     this.fields[field.id] = div;
     div.setAttribute("type", "Field");
     div.setAttribute("onclick", "ui.selectField(this)");
+    div.style["left"] = (16 + 21 * field.x) + "px";
+    div.style["top"] = (16 + 21 * field.y) + "px";
   }
   addWall(wall) {
     let div = this.addElement(wall.id, "wall")
@@ -81,20 +80,34 @@ class UI {
   place(div, field) {
     if (!div)
       return;
-    removeClass(div, "selected");
-    if (field.parentNode != div.parentNode)
+    this.unselect();
+    if (field.parentNode != div.parentNode) {
       div = field.parentNode.appendChild(div.cloneNode(true));
-    div.setAttribute("pos", field.getAttribute("pos"));
-    removeClass(div, "selected");
-    this.selected = undefined;
+      div.style["opacity"] = 0.5;
+      removeClass(div, "selected");
+      removeClass(div, "transparent");
+      div.setAttribute("pos", field.getAttribute("pos"));
+      this.update(div);
+      div.offsetWidth;//triggers reflow -> fade in
+      div.style["opacity"] = 1;
+    } else {
+      div.setAttribute("pos", field.getAttribute("pos"));
+      this.update(div);
+    }
+    this.revealAreas(field, true);
   }
   selectField(div) {
     if (this.selected)
       this.place(this.selected, div);
-    else
-      toggleClass(div, "revealed");
-    removeClass(this.selected, "selected");
-    this.selected = undefined;
+    else {
+      let field = div.parentNode.obj.fields.filter(f => f.id == div.id)[0];
+      console.log(field);
+      if (!field.revealed)
+        div.parentNode.obj.fields.filter(f => f.id == div.id).forEach(f => f.reveal(true));
+      else
+        this.revealAreas(div, false);
+    }
+    this.unselect();
   }
   update(div) {
     let angle = parseInt(div.getAttribute("angle"));
@@ -111,6 +124,11 @@ class UI {
     let shiftBack = "translate(" + x + "%, " + y + "%) "
     let scale = "scale(0.8, 0.8) "
     div.style["transform"] = "translate(-50%, -50%) " + rotate + shiftBack + offset;
+    let pos = div.getAttribute("pos");
+    x = pos.charCodeAt(0) - "a1".charCodeAt(0) + 1;
+    y = parseInt(pos.slice(1))
+    div.style["left"] = (-5 + 21 * x) + "px";
+    div.style["top"] = (-5 + 21 * y) + "px";
   }
   rotate(div) {
     if (hasClass(div, "mark"))
@@ -121,26 +139,44 @@ class UI {
     div.setAttribute("angle", angle + 90);
     this.update(div);
   }
+  select(div) {
+    for (const o of document.getElementsByClassName("object"))
+      addClass(o, "transparent");
+    this.selected = div;
+    removeClass(div, "transparent");
+    addClass(div, "selected");
+  }
+  unselect() {
+    if (!this.selected)
+      return;
+    for (const o of document.getElementsByClassName("object"))
+      removeClass(o, "transparent");
+    removeClass(this.selected, "selected");
+    this.selected = undefined;
+  }
   selectObject(div) {
     removeClass(this.selected, "selected");
     if (this.selected == div) {
         this.rotate(div);
-        this.selected = undefined;
+        this.unselect();
     } else if (["door", "room"].some(t => hasClass(this.selected, t))) {
       this.place(this.selected, div);
     } else {
-      this.selected = div;
-      addClass(this.selected, "selected");
+      this.select(div);
     }
+  }
+  revealAreas(div, state) {
+    let areas = div.parentNode.obj.areas.filter(a => a.fields.some(f => f.id == div.getAttribute("pos")));
+    areas.forEach(a => a.reveal(state));
   }
   addObject(obj, category) {
     let div = this.addElement(obj.id, category);
     div.setAttribute("pos", obj.field.id);
     div.style["z-index"] = 10 + (obj.z || 0);
     div.style["background-image"] = "url('Icons/Raster/" + obj.icons[this.region] + ".png')";
-    let xoffset = obj.xoffset[this.region] || 0;
+    let xoffset = obj.xoffset && obj.xoffset[this.region] || 0;
     div.setAttribute("xoffset", 20 * xoffset);
-    let yoffset = obj.yoffset[this.region] || 0;
+    let yoffset = obj.yoffset && obj.yoffset[this.region] || 0;
     div.setAttribute("yoffset", 20 * yoffset);
     if (obj.w > 1)
       div.style["width"] = 21 * obj.w + "px";
@@ -150,10 +186,12 @@ class UI {
       addClass(div, "large");
     div.setAttribute("angle", obj.angle);
     addClass(div, obj.type);
+    addClass(div, "object");
     addClass(div, obj.kind);
     div.setAttribute("type", obj.type);
     div.setAttribute("onclick", "ui.selectObject(this)");
     this.update(div);
+    this.revealAreas(div, true);
     return div
   }
   addDark(obj) {
@@ -181,7 +219,8 @@ class UI {
   }
   addBoard(obj) {
     this.board = document.createElement("div");
-    this.board.id = "board";
+    this.board.id = obj.id;
+    this.board.obj = obj;
     this.region = obj.region;
     this.board.setAttribute("region", obj.region);
     this.w = obj.w;
@@ -198,13 +237,16 @@ class UI {
     //this.addSpeech(obj.speech);
     div = document.createElement("div");
     div.className = "frame";
-    div.style.width = (21 * this.w - 1) + "px";
+    div.style.width = (21 * this.w - 0) + "px";
     div.style.top = "10px";
     div.style.left = "10px";
-    div.style.height = (21 * this.h - 1) + "px";
+    div.style.height = (21 * this.h - 0) + "px";
     this.board.appendChild(div);
     this.board.style = "width: " + (20 + 21 * obj.w) + "px; height: " + (25 + 20 + 21 * obj.h) + "px;"
     document.getElementById("maps").appendChild(this.board);
+  }
+  reveal(obj, state) {
+    addClassIf(obj.div, "revealed", state);
   }
   set(obj, prop, value) {
     //console.log(obj, prop, value);
@@ -212,6 +254,8 @@ class UI {
     var ret = Reflect.set(...arguments);
     if (prop == "id")
         this["add" + type] && this["add" + type](obj);
+    if (prop == "revealed")
+      this.reveal(obj, value);
     return ret;
   }
 }

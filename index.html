@@ -43,6 +43,9 @@ html {
   background-position: center;
   transition: all ease 0.3s;
 }
+.object.transparent {
+  pointer-events: none;
+}
 .board button {
   position: absolute;
   left: 102%;
@@ -76,21 +79,25 @@ html {
   border-style: double;
   background: none;
 }
-.field {
+.board .field {
   width: 20px;
   height: 20px;
   background: lightgrey;
+  pointer-events: auto;
+  border: 1px solid grey;
 }
 .field.revealed {
   background: white;
 }
 .field.border {
   background: none;
+  border: none;
 }
 .wall {
   background: black;
   width: 3px;
   height: 3px;
+  pointer-events: none;
 }
 .piece {
   width: 20px;
@@ -129,6 +136,7 @@ html {
 <body onload="init()">
 <script type="text/javascript" src="ui.js"></script>
 <script type="text/javascript" src="xml.js"></script>
+<script type="text/javascript" src="objects.js" id="objects"></script>
 <script type="text/javascript" src="hq.js"></script>
 <a class="title" href=".">HeroScribe Online</a>
 <div><br/><a href="readme.html">Readme</a></div>

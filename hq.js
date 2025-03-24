@@ -1,3 +1,10 @@
+function* createId(id) { 
+  while (++id) 
+    yield id; 
+}
+
+var id = createId(0);
+
 function addCard(parent, content, type) {
   console.log(content["image"])
   let card = document.createElement("div");
@@ -17,8 +24,8 @@ function addCard(parent, content, type) {
   card.appendChild(text);
 }
 
-
-rooms = [
+var definitions2 = {
+"rooms": [
   {x: 1, y: 1, w: 4, h: 3},
   {x: 1, y: 4, w: 4, h: 5},
   {x: 5, y: 1, w: 4, h: 3},
@@ -41,9 +48,11 @@ rooms = [
   {x: 14, y: 13, w: 4, h: 5},
   {x: 21, y: 10, w: 4, h: 4},
   {x: 21, y: 14, w: 4, h: 4},
-];
-passages = []
-var multisquare = {}
+],
+"passages":  [],
+"objects": {},
+};
+
 gs_us = [
   "01-TheTrial", "02-TheRescueofSirRagnar", "03-LairoftheOrcWarlord",
   "04-PrinceMagnusGold", "05-MelarsMaze", "06-LegacyoftheOrcWarlord", "07-TheLostWizard",
@@ -90,6 +99,7 @@ sq = [
   "AGrowlofThunder", "RunningtheGauntlet",
 ]
 custom = ["01-ANewBeginning", "02-CozyHome", "03-CarpetsforSale"]
+boards = {};
 
 campaigns = {
   "EU": {
@@ -119,7 +129,12 @@ class Field extends UIElement {
     super();
     this.x = x;
     this.y = y;
-    this.id = String.fromCharCode("a".charCodeAt(0) + x) + (y + 1)
+    this.areas = [];
+    this.id = String.fromCharCode("a".charCodeAt(0) + x) + (y + 1);
+    this.revealed = true;
+  }
+  reveal(state) {
+    this.revealed = state == undefined ? !this.revealed : state;
   }
 } 
 
@@ -134,16 +149,29 @@ class Wall extends UIElement {
   }
 }
 class Area {
-  constructor(x1, y1, w, h) {
+  constructor(x1, y1, w, h, shared=[]) {
     this.fields = []
+    this.revealed = true;
     for (let x = x1; x < x1 + w; x++)
-      for (let y = y1; y < y1 + h; y++)
-        this.fields.push(new Field(x, y));
+      for (let y = y1; y < y1 + h; y++) {
+        let f = Object.values(shared).filter(f => f.x == x && f.y == y)[0];
+        f = f || new Field(x, y);
+        f.areas.push(this);
+        this.fields.push(f);
+      }
+  }
+  reveal(state) {
+    this.revealed = state == undefined ? !this.revealed : state;
+    for (let f of this.fields)
+      f.reveal(this.revealed);
   }
 }
 class Room extends Area {
-  constructor(x1, y1, w, h) {
-    super(x1, y1, w, h);
+  constructor(x1, y1, w, h, fields) {
+    super(x1, y1, w, h, []);
+    this.fields.filter(f => f.areas.some(a => a != this)).forEach(f => {
+      console.log(this, f);
+    });
     new Wall(x1, y1, w, 0);
     new Wall(x1, y1 + h, w, 0);
     new Wall(x1, y1, 0, h);
@@ -151,15 +179,15 @@ class Room extends Area {
   }
 }
 class Passage extends Area {
-  constructor(x1, y1, w, h) {
-    super(x1, y1, w, h);
+  constructor(x1, y1, w, h, fields) {
+    super(x1, y1, w, h, fields);
   }
 }
 class Piece extends UIElement {
   constructor(piece, fields, objects) {
     super();
     this.type = piece.type;
-    this.field = fields[piece.field] || fields["a1"];
+    this.field = fields.filter(f => f.id == piece.field)[0] || fields[0];
     if (objects[this.type]) {
       this.w = objects[this.type].w
       this.h = objects[this.type].h;
@@ -180,7 +208,7 @@ class Dark extends UIElement {
   constructor(piece, fields) {
     super();
     this.type = piece.type;
-    this.field = fields[piece.field];
+    this.field = fields.filter(f => f.id == piece.field)[0] || fields[0];
     this.id = this.type + this.field.id;
   }
 }
@@ -192,25 +220,28 @@ class PieceFactory {
   }
 }
 class Board extends UIElement {
-  constructor(objects, rooms, passages, pieces, region, name, speech) {
+  constructor(definitions, pieces, region, name, speech) {
     super();
     this.w = 26;
     this.h = 19;
     this.region = region;
     this.name = name;
     this.speech = speech;
-    this.id = "board";
+    this.id = "board" + id.next().value;
     this.areas = [];
-    this.fields = {};
-    passages.forEach(r => this.areas.push(new Passage(r.x, r.y, r.w, r.h)))
-    rooms.forEach(r => this.areas.push(new Room(r.x, r.y, r.w, r.h)))
-    this.areas.push(new Area(-1, 0, 1, this.h));
-    this.areas.push(new Area(this.w, 0, 1, this.h));
-    this.areas.push(new Area(0, -1, this.w, 1));
-    this.areas.push(new Area(0, this.h, this.w, 1));
-    this.areas.forEach(a => a.fields.forEach(f => this.fields[f.id] = f));
+    this.fields = [];
+    definitions["passages"].forEach(r => this.addArea(new Passage(r.x, r.y, r.w, r.h, this.fields)));
+    definitions["rooms"].forEach(r => this.addArea(new Room(r.x, r.y, r.w, r.h, this.fields)));
+    this.addArea(new Area(-1, 0, 1, this.h));
+    this.addArea(new Area(this.w, 0, 1, this.h));
+    this.addArea(new Area(0, -1, this.w, 1));
+    this.addArea(new Area(0, this.h, this.w, 1));
     let factory = new PieceFactory();
-    pieces.forEach(p => factory.create(p, this.fields, objects));
+    pieces.forEach(p => factory.create(p, this.fields, definitions["objects"]));
+  }
+  addArea(a) {
+      this.areas.push(a);
+      a.fields.forEach(f => this.fields.push(f));
   }
 }
 
@@ -228,7 +259,8 @@ class Map {
     this.name = xmlDoc.getElementsByTagName("quest")[0].getAttribute("name");
     this.speech = xmlDoc.getElementsByTagName("speech")[0];
     this.speech = this.speech && this.speech.innerHTML;
-    Array.prototype.slice.call(xmlDoc.getElementsByTagName("board")).forEach(b => this.addBoard(b));
+    for (const b of xmlDoc.getElementsByTagName("board"))
+      this.addBoard(b);
   }
   addBoard(b) {
     this.map = [];
@@ -237,7 +269,8 @@ class Map {
     let dark = Array.prototype.slice.call(b.getElementsByTagName("dark"));
     dark.forEach(o => o.id = "Dark");
     dark.forEach(o => this.addObject(o, map));
-    new Board(multisquare, rooms, passages, this.map, this.region, this.name, this.speech);
+    let board = new Board(definitions, this.map, this.region, this.name, this.speech);
+    boards[board.id] = board;
   }
   addObject(o) {
     let x = Math.round(parseFloat(o.getAttribute("left")));
@@ -259,13 +292,22 @@ class Object2 {
     this.h = parseInt(o.getAttribute("height"));
     this.z = Math.round(parseInt(o.getAttribute("zorder")));
     this.icons = {};
-    this.xoffset = {}
-    this.yoffset = {}
     for (const i of o.children) {
-      this.icons[i.getAttribute("region")] = i.getAttribute("path");
-      this.xoffset[i.getAttribute("region")] = parseFloat(i.getAttribute("xoffset"));
-      this.yoffset[i.getAttribute("region")] = parseFloat(i.getAttribute("yoffset"));
+      if (i.tagName == "icon") {
+        this.icons[i.getAttribute("region")] = i.getAttribute("path");
+        if (i.hasAttribute("xoffset")) {
+          this.xoffset = this.xoffset || {};
+          this.xoffset[i.getAttribute("region")] = parseFloat(i.getAttribute("xoffset"));
+        }
+        if (i.hasAttribute("yoffset")) {
+          this.yoffset = this.yoffset || {};
+          this.yoffset[i.getAttribute("region")] = parseFloat(i.getAttribute("yoffset"));
+        }
+      }
     }
+  }
+  addIcon(i) {
+
   }
 }
 
@@ -320,24 +362,6 @@ async function loadCampaign(campaign, region, map) {
     await loadMap(q, campaign.name, region)
 }
 
-async function loadObjects() {
-  xml = await fetch("Objects.xml").then(response => response.text());
-  let parser = new DOMParser();
-  let xmlDoc = parser.parseFromString(xml, "text/xml");
-  for (const o of xmlDoc.getElementsByTagName("object")) {
-    let o2 = new Object2(o);
-    multisquare[o2.id] = o2;
-  }
-  for (const o of xmlDoc.getElementsByTagName("corridor")) {
-    let x = parseInt(o.getAttribute("left")) - 1;
-    let y = parseInt(o.getAttribute("top")) - 1;
-    let w = parseInt(o.getAttribute("width"));
-    let h = parseInt(o.getAttribute("height"));
-    passages.push({x: x, y: y, w: w, h: h});
-  }
-}
-
-
 function addLink(abbrev, region, name, index) {
   let div = document.createElement("div");
   let link = document.createElement("a");
@@ -378,6 +402,7 @@ async function init() {
   c = c && c[params.c];
   addFileDialog();
   addLinks(c);
-  await loadObjects();
+//  await loadObjects();
   loadCampaign(c, params.r, params.m);
+  
 }
