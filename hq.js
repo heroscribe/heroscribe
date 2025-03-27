@@ -5,25 +5,6 @@ function* createId(id) {
 
 var id = createId(0);
 
-function addCard(parent, content, type) {
-  console.log(content["image"])
-  let card = document.createElement("div");
-  card.className = "card " + content["type"]
-  parent.appendChild(card)
-  let title = document.createElement("div");
-  title.innerHTML = content["title"];
-  title.className = "title";
-  card.appendChild(title);
-  let img = document.createElement("div");
-  card.appendChild(img);
-  img.className = "image";
-  img.style = "background-image: url('" + content["image"] + ".png');"
-  let text = document.createElement("div");
-  text.innerHTML = content["text"];
-  text.className = "text";
-  card.appendChild(text);
-}
-
 var definitions2 = {
 "rooms": [
   {x: 1, y: 1, w: 4, h: 3},
@@ -43,14 +24,25 @@ var definitions2 = {
   {x: 17, y: 5, w: 4, h: 4},
   {x: 21, y: 5, w: 4, h: 4},
   {x: 21, y: 1, w: 4, h: 4},
+  {x: 14, y: 13, w: 4, h: 5},
   {x: 17, y: 10, w: 4, h: 4},
   {x: 18, y: 14, w: 3, h: 4},
-  {x: 14, y: 13, w: 4, h: 5},
   {x: 21, y: 10, w: 4, h: 4},
   {x: 21, y: 14, w: 4, h: 4},
 ],
 "passages":  [],
 "objects": {},
+};
+
+var stats = {
+  "Goblin": {a: 3, d: 2, mv: 10},
+  "Orc": {a: 3, d: 2, mv: 8},
+  "Fimir": {a: 3, d: 3, mv: 6},
+  "Skeleton": {a: 2, d: 2, mv: 6},
+  "Zombie": {a: 2, d: 3, mv: 4},
+  "Mummy": {a: 3, d: 4, mv: 4},
+  "ChaosWarrior": {a: 3, d: 4, mv: 6},
+  "Gargoyle": {a: 4, d: 4, mv: 6},
 };
 
 gs_us = [
@@ -124,70 +116,42 @@ campaigns = {
 
 var map = [];
 ui = new UI();
-class Field extends UIElement {
-  constructor(x, y) {
-    super();
-    this.x = x;
-    this.y = y;
-    this.areas = [];
-    this.id = String.fromCharCode("a".charCodeAt(0) + x) + (y + 1);
-    this.revealed = true;
-  }
-  reveal(state) {
-    this.revealed = state == undefined ? !this.revealed : state;
-  }
-} 
 
-class Wall extends UIElement {
-  constructor(x, y, w, h) {
+class Card extends UIElement {
+  constructor(card) {
     super();
-    this.x = x;
-    this.y = y;
-    this.w = w;
-    this.h = h;
-    this.id = "wall" + x + y + w + h;
+    this.title = card.title;
+    this.text = card.text;
+    this.image = card.image;
+    this.cost = card.cost;
+    this.wizard = card.wizard;
+    this.type = card.type;
+    this.id = "card" + this.title;
   }
 }
-class Area {
-  constructor(x1, y1, w, h, shared=[]) {
-    this.fields = []
-    this.revealed = true;
-    for (let x = x1; x < x1 + w; x++)
-      for (let y = y1; y < y1 + h; y++) {
-        let f = Object.values(shared).filter(f => f.x == x && f.y == y)[0];
-        f = f || new Field(x, y);
-        f.areas.push(this);
-        this.fields.push(f);
-      }
-  }
-  reveal(state) {
-    this.revealed = state == undefined ? !this.revealed : state;
-    for (let f of this.fields)
-      f.reveal(this.revealed);
-  }
-}
-class Room extends Area {
-  constructor(x1, y1, w, h, fields) {
-    super(x1, y1, w, h, []);
-    this.fields.filter(f => f.areas.some(a => a != this)).forEach(f => {
-      console.log(this, f);
-    });
-    new Wall(x1, y1, w, 0);
-    new Wall(x1, y1 + h, w, 0);
-    new Wall(x1, y1, 0, h);
-    new Wall(x1 + w, y1, 0, h);
-  }
-}
-class Passage extends Area {
-  constructor(x1, y1, w, h, fields) {
-    super(x1, y1, w, h, fields);
+class Set extends UIElement {
+  constructor(set) {
+    super();
+    this.name = set.name
+    this.region = set.region;
+    this.id = set.name;
+    this.cards = [];
+    for (const card of set.cards)
+      this.cards.push(new Card(card));
   }
 }
 class Piece extends UIElement {
   constructor(piece, fields, objects) {
     super();
+    this.stats = stats[piece.type];
+    this.availableFields = fields;
+    if (piece instanceof Piece) {
+      ["type", "icons", "w", "h", "z", "xoffset", "yoffset", "kind", "angle"].forEach(p => this[p] = piece[p]);
+      this.place(objects);
+      this.id = piece.id;
+      return;
+    }
     this.type = piece.type;
-    this.field = fields.filter(f => f.id == piece.field)[0] || fields[0];
     if (objects[this.type]) {
       this.w = objects[this.type].w
       this.h = objects[this.type].h;
@@ -201,22 +165,215 @@ class Piece extends UIElement {
     }
     let rotations = ["downward", "leftward", "upward", "rightward"];
     this.angle = 90 * rotations.indexOf(piece.rotation);
-    this.id = this.type + this.angle + this.field.id;
+    this.place(fields.filter(f => f.id == piece.field)[0]);
+    this.id = this.type + this.angle + this.fields[0].id;
+  }
+  async moveAlong(path) {
+    if (!path[0])
+      return;
+    let field = path.pop();
+    this.place(field);
+    new Promise(r => setTimeout(r, 50)).then(r => this.moveAlong(path));
+  }
+  async moveTo(field) {
+    this.moveAlong(field.path());
+  }
+  place(field) {
+    if (this.fields)
+      this.fields.forEach(f => {
+        f.objects = f.objects.filter(o => o != this)
+        f.links = f.links.filter(l => l != this)
+      });
+    if (!field)
+      return;
+    let w = this.angle % 180 ? this.h : this.w;
+    let h = this.angle % 180 ? this.w : this.h;
+    this.fields = [field, ...this.availableFields.filter(f => f != field && f.x >= field.x && f.x < field.x + w && f.y >= field.y && f.y < field.y + h)];
+    if (this.type.includes("SecretDoor")) {
+      let x = -(this.angle / 90 % 4 - 2) % 2;
+      let y = (this.angle / 90 % 4 - 1) % 2;
+      this.fields.push(this.availableFields.filter(f => f.x == field.x + x && f.y == field.y +y)[0]);
+    }
+    this.fields.forEach(f => f.objects.push(this));
+    if (this.kind == "door" || this.type.includes("SecretDoor"))
+      this.fields.forEach(f => f.links.push(this));
+  }
+  rotate() {
+    if (this.kind == "mark")
+      return;
+    if (["hero", "monster", "man-at-arms"].some(k => this.kind == k) && this.w == 1 && this.h == 1)
+      return;
+    this.angle += 90;
+    this.place(this.fields[0]);
+  }
+  letsPass(object) {
+    return this.kind != "furniture" && !this.sealsOff();
+  }
+  sealsOff() {
+    return this.type.includes("BlockedSquare");
+  }
+  isOpen() {
+    return true;
+  }
+  die() {
+    this.place(undefined);
+    this.id = undefined;
+  }
+  canAttack(opponent) {
+    if (!this.stats || !opponent.stats)
+      return false;
+    return this.fields.filter(f => opponent.fields.some(n => n.isNeighbor(f)))[0]
+  }
+  attack(opponent) {
+    console.log(this.id, "attacks", opponent.id);
+    if (!this.canAttack(opponent))
+      return
+    this.opponent = opponent;
+//    opponent.die();
   }
 }
+
+class Dice extends Piece {
+  constructor(piece, fields, objects) {
+    super(piece, fields, objects);
+    this.rolled = 6;
+  }
+  rotate() {
+    this.rolled = Math.floor(Math.random() * 6) + 1;
+  }
+}
+
 class Dark extends UIElement {
   constructor(piece, fields) {
     super();
     this.type = piece.type;
     this.field = fields.filter(f => f.id == piece.field)[0] || fields[0];
+    this.field.revealed = false;
     this.id = this.type + this.field.id;
   }
 }
-class PieceFactory {
-  create(piece, fields, objects) {
-    if (piece.category == "dark")
-      return new Dark(piece, fields);
-    return new Piece(piece, fields, objects);
+
+class Field extends UIElement {
+  constructor(x, y) {
+    super();
+    this.x = x;
+    this.y = y;
+    this.areas = [];
+    this.links = [];
+    this.objects = [];
+    this.id = String.fromCharCode("a".charCodeAt(0) + x) + (y + 1);
+    this.revealed = true;
+  }
+  reveal(state) {
+    this.revealed = state == undefined ? !this.revealed : state;
+    this.neighbors().filter(n => !n.objects.some(o => o.sealsOff()) && n.revealed != this.revealed).forEach(n => n.reveal(this.revealed));
+  }
+  isBlocked() {
+    return this.objects.some(o => o.id.includes("BlockedSquare"));
+  }
+  isNeighbor(n) {
+    return Math.abs(this.x - n.x) + Math.abs(this.y - n.y) == 1;
+  }
+  neighbors() {
+    return this.links.filter(l => l.isOpen()).map(l => l.fields.filter(f => f.id != this.id)[0]);
+  }
+  reach(i, distance=0) {
+    if (!i || distance > i || distance >= this.distance)
+      return;
+    this.distance = distance;
+    this.neighbors().filter(n => n.objects.every(o => o.letsPass())).forEach(n => n.reach(i, distance + 1));
+  }
+  path(ret = []) {
+    ret.push(this);
+    let n = this.neighbors().filter(n => n.distance < this.distance)[0];
+    if (n)
+      n.path(ret);
+    return ret;
+  }
+} 
+
+class Link extends UIElement {
+  constructor(f1, f2) {
+    super();
+    if (!f1 || !f2)
+      return;
+    this.fields = [f1, f2];
+    f1.links.push(this);
+    f2.links.push(this);
+    this.id = "link" + f1.id + f2.id
+  }
+  isOpen() {
+    return true;
+  }
+}
+class Wall extends Link {
+  constructor(f1, f2) {
+    super(f1, f2);
+    this.id = "wall" + f1.id + f2.id;
+  }
+  isOpen() {
+    return false;
+  }
+}
+class Area {
+  constructor(x1, y1, w, h, fields, share=true) {
+    this.fields = []
+    this.revealed = true;
+    for (let x = x1; x < x1 + w; x++)
+      for (let y = y1; y < y1 + h; y++) {
+        let f = fields.filter(f => f.x == x && f.y == y)[0];
+        if (f && f.areas[0] && !share)
+          continue;
+        if (!f)
+          f = this.createField(x, y, fields);
+        f.areas.push(this);
+        this.fields.push(f);
+      }
+    this.setNeighbors();
+  }
+  setNeighbors() {
+    this.fields.forEach(f => this.fields.filter(n => n.isNeighbor(f)).forEach(n => this.addLink(f, n)));
+  }
+  addLink(f1, f2) {
+    if (!f1.links.some(l => l.fields.includes(f2)))
+      new Link(f1, f2);
+  }
+  reveal(state) {
+    this.revealed = state == undefined ? !this.revealed : state;
+    for (let f of this.fields)
+      f.reveal(this.revealed);
+  }
+  createField(x, y, fields) {
+    let f = new Field(x, y);
+    fields.push(f);
+    return f;
+  }
+}
+class Room extends Area {
+  constructor(x1, y1, w, h, fields) {
+    super(x1, y1, w, h, fields, false);
+    this.fields.filter(f => f.areas.some(a => a != this)).forEach(f => {
+      console.log(this, f);
+    });
+    this.fields.filter(f => f.x == x1).forEach(f => this.addWall(f, fields, -1, 0));
+    this.fields.filter(f => f.x == x1 + w - 1).forEach(f => this.addWall(f, fields, 1, 0));
+    this.fields.filter(f => f.y == y1).forEach(f => this.addWall(f, fields, 0, -1));
+    this.fields.filter(f => f.y == y1 + h - 1).forEach(f => this.addWall(f, fields, 0, 1));
+  }
+  addWall(f, fields, x, y) {
+    let f2 = fields.filter(f2 => f2.y == f.y + y && f2.x == f.x + x)[0];
+    f2 = f2 || this.createField(f.x + x, f.y + y, fields);
+    if (f.links.some(l => [f, f2].every(f => l.fields.includes(f))))
+      return;
+    if (f2.x < f.x || f2.y < f.y)
+      new Wall(f, f2);
+    else
+      new Wall(f2, f);
+  }
+}
+class Passage extends Area {
+  constructor(x1, y1, w, h, fields) {
+    super(x1, y1, w, h, fields);
   }
 }
 class Board extends UIElement {
@@ -230,18 +387,33 @@ class Board extends UIElement {
     this.id = "board" + id.next().value;
     this.areas = [];
     this.fields = [];
+    this.objects = [];
     definitions["passages"].forEach(r => this.addArea(new Passage(r.x, r.y, r.w, r.h, this.fields)));
     definitions["rooms"].forEach(r => this.addArea(new Room(r.x, r.y, r.w, r.h, this.fields)));
-    this.addArea(new Area(-1, 0, 1, this.h));
-    this.addArea(new Area(this.w, 0, 1, this.h));
-    this.addArea(new Area(0, -1, this.w, 1));
-    this.addArea(new Area(0, this.h, this.w, 1));
-    let factory = new PieceFactory();
-    pieces.forEach(p => factory.create(p, this.fields, definitions["objects"]));
+    this.addArea(new Area(-1, 0, 1, this.h, this.fields));
+    this.addArea(new Area(this.w, 0, 1, this.h, this.fields));
+    this.addArea(new Area(0, -1, this.w, 1, this.fields));
+    this.addArea(new Area(0, this.h, this.w, 1, this.fields));
+    pieces.forEach(p => this.addObject(p));
   }
   addArea(a) {
       this.areas.push(a);
-      a.fields.forEach(f => this.fields.push(f));
+  }
+  addObject(o, def=definitions["objects"]) {
+    if (o.category == "dark")
+      this.objects.push(new Dark(o, this.fields));
+    else if (o.type == "Dice")
+      this.objects.push(new Dice(o, this.fields, def));
+    else
+      this.objects.push(new Piece(o, this.fields, def));
+  }
+  cloneObject(o, f) {
+    this.addObject(o, f);
+  }
+  removeObject(o) {
+    o.place(undefined);
+    this.objects = this.objects.filter(o2 => o2 != o);
+    o.id = undefined;
   }
 }
 
@@ -388,7 +560,16 @@ function addLinks(campaign2) {
   }
 }
 
-async function init() { 
+function setExtraDefinitions() {
+  definitions.objects["Dice"] = {id: "Dice", name: "Dice", kind: "dice", h: 1, w: 1, icons: {Europe: "Dice", USA: "Dice"}, xoffset: {"Europe": 0.1, "USA": 0.1}, yoffset: {"Europe": 0.1, "USA": 0.1}};
+}
+
+function loadCards() {
+  for (const set of sets)
+    new Set(set);
+}
+
+function loadCampaigns() {
   let idx = document.URL.indexOf('?');
   let params = new Array();
   if (idx != -1) {
@@ -402,7 +583,11 @@ async function init() {
   c = c && c[params.c];
   addFileDialog();
   addLinks(c);
-//  await loadObjects();
   loadCampaign(c, params.r, params.m);
+}
+
+async function init() { 
+  setExtraDefinitions();
+//  await loadObjects();
   
 }

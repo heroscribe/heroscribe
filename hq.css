@@ -1,0 +1,163 @@
+html {
+  background: darkgrey;
+}
+.set {
+  width: 700px;
+}
+.card {
+  vertical-align:top;
+  display: inline-block;
+  margin: 1px;
+  background: white;
+  border-radius: 10px;
+  border: 7px solid black;
+  width: 120px;
+  height: 180px;
+  text-align: center;
+}
+.card div {
+  width: 100%;
+}
+.card .image {
+  top: 15%;
+  height: 35%;
+  width: 70%;
+  left: 15%;
+  margin-left: 15%;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.card .text {
+  font-size: 8px;
+  top: 50%;
+  display: block;
+}
+.card .title {
+  font-size: 10px;
+  width: 100%;
+  text-align: center;
+}
+.board {
+  background: grey;
+  padding: 5px;
+  position: relative;
+  margin-top: 5px;
+}
+.board div {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: all ease 0.3s;
+}
+.selected .object {
+  pointer-events: none;
+}
+.selected .object.selected {
+  pointer-events: auto;
+}
+.board button {
+  position: absolute;
+  left: 102%;
+}
+.board button:nth-child(2) {
+  top: 30px;
+}
+.board button:nth-child(3) {
+  top: 55px;
+}
+.object.selected {
+  background-blend-mode: lighten;
+  background-color: rgba(255,100,100,0.5);
+}
+.board .intro, .board .speech {
+  bottom: 5px;
+  background: white;
+  border: 1px solid black;
+  width: 90%;
+  left: 5%;
+  text-align: center;
+}
+.board .speech {
+  bottom: 30px;
+}
+.board .frame {
+/*  border: 1px solid black;*/
+  border-width: 6px;
+  border-color: black;
+  border-style: double;
+  background: none;
+}
+.field {
+  width: 20px;
+  height: 20px;
+  background: lightgrey;
+  pointer-events: auto;
+  border: 1px solid grey;
+}
+.field.revealed {
+  background: white;
+}
+.field.reach {
+  background: green;
+}
+.field.border {
+  background: none;
+  border: none;
+}
+.wall {
+  background: black;
+  width: 3px;
+  height: 3px;
+  pointer-events: none;
+}
+.piece {
+  width: 20px;
+  height: 20px;
+}
+.dark {
+  width: 20px;
+  height: 20px;
+  background: lightgrey;
+}
+.mark {
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+}
+
+.map {
+  margin-left: 20px;
+}
+.fight {
+  width: 20px;
+  height: 20px;
+  background: red;
+  top: 0px;
+  left: 100px;
+  z-index: 20;
+}
+div .dice {
+  width: 18px;
+  height: 18px;
+  background-size: cover;
+  border-radius: 10%;
+  background-repeat: repeat;
+  transition: all ease 0.3s, background-position ease 1s;
+}
+.readme {
+  width: 600px;
+}
+#campaigns {
+  width: 700px;
+}
+#campaignsEU, #campaignsUS {
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+.title {
+  font-size: 300%;
+}

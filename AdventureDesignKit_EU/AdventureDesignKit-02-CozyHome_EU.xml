@@ -5,6 +5,10 @@
 
 <quest name="Cozy Home" region="Europe" version="1.0" width="1" height="3">
 <board>
+<object id="Dice" left="22.0" top="6.0" rotation="downward" zorder="0.0"/>
+<object id="Dice" left="23.0" top="6.0" rotation="downward" zorder="0.0"/>
+<object id="Dice" left="24.0" top="6.0" rotation="downward" zorder="0.0"/>
+<object id="Dice" left="25.0" top="6.0" rotation="downward" zorder="0.0"/>
 <object id="Tomb" left="8.0" top="2.0" rotation="downward" zorder="0.0"/>
 <object id="Skeleton" left="2.0" top="3.0" rotation="downward" zorder="0.0"/>
 <object id="Zombie" left="3.0" top="3.0" rotation="downward" zorder="0.0"/>
