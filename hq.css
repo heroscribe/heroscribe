@@ -1,6 +1,7 @@
 html {
   background: darkgrey;
 }
+}
 .set {
   width: 700px;
 }
@@ -9,17 +10,25 @@ html {
   display: inline-block;
   margin: 1px;
   background: white;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 7px solid black;
-  width: 120px;
-  height: 180px;
+  width: 150px;
+  height: 225px;
   text-align: center;
+  position: relative;
+}
+.set.US .card {
+  border: 7px solid white;
+  height: 250px;
+}
+.set.US .card .image {
+  height: 31.5%;
+
 }
 .card div {
   width: 100%;
 }
 .card .image {
-  top: 15%;
   height: 35%;
   width: 70%;
   left: 15%;
@@ -30,12 +39,20 @@ html {
   background-position: center;
 }
 .card .text {
-  font-size: 8px;
+  font-size: 10px;
   top: 50%;
   display: block;
+  margin-top: 2px;
+}
+.card .text.type {
+  top: 94%;
+  position: absolute;
+}
+.set.US .card .text {
+  font-size: 9px;
 }
 .card .title {
-  font-size: 10px;
+  font-size: 11px;
   width: 100%;
   text-align: center;
 }
@@ -44,6 +61,7 @@ html {
   padding: 5px;
   position: relative;
   margin-top: 5px;
+  page-break-inside: avoid;
 }
 .board div {
   position: absolute;
@@ -160,4 +178,14 @@ div .dice {
 }
 .title {
   font-size: 300%;
+}
+@media print {
+html, .board {
+  background: none;
+}
+button {
+  display: none;
+}
+#maps {
+  page-break-before: always;
 }

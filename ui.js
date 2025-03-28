@@ -246,9 +246,13 @@ class UI {
     let img = document.createElement("div");
     card.appendChild(img);
     img.className = "image";
-    img.style = "background-image: url('Images/Cards/pic_" + (obj.image || "treasure_nothing2_eu") + ".jpg');"
+    let image = obj.type == "scroll" ? "scroll" : (obj.image || obj.title.toLowerCase());
+    for (let c of [" ", "'", "!", "-"])
+        image = image.replaceAll(c, "");
+    img.style = "background-image: url('Images/Cards/pic_" + obj.set + "_" + image + ".jpg');"
     let text = document.createElement("div");
-    text.innerHTML = obj.text + (obj.type == "scroll" ? " Scroll crumbles to dust after it is used." : "");
+    let scrollText = " May be used by any Hero. Scroll crumbles to dust after it is used."
+    text.innerHTML = obj.text + (obj.type == "scroll" ? scrollText : "");
     text.className = "text";
     card.appendChild(text);
     let cost = document.createElement("div");
@@ -261,7 +265,7 @@ class UI {
     card.appendChild(wizard);
     let type = document.createElement("div");
     type.innerHTML = obj.type && obj.type != "scroll" ? obj.type.toUpperCase() : "";
-    type.className = "text";
+    type.className = "text type";
     card.appendChild(type);
     this.board.appendChild(card);
   }
@@ -272,6 +276,7 @@ class UI {
     this.board = document.createElement("div");
     this.board.id = obj.id
     addClass(this.board, "set");
+    addClass(this.board, obj.region);
     document.getElementById("cards").appendChild(this.board);
   }
   addBoard(obj) {

@@ -118,8 +118,9 @@ var map = [];
 ui = new UI();
 
 class Card extends UIElement {
-  constructor(card) {
+  constructor(card, set) {
     super();
+    this.set = set;
     this.title = card.title;
     this.text = card.text;
     this.image = card.image;
@@ -134,10 +135,11 @@ class Set extends UIElement {
     super();
     this.name = set.name
     this.region = set.region;
+    this.type = set.type;
     this.id = set.name;
     this.cards = [];
     for (const card of set.cards)
-      this.cards.push(new Card(card));
+      this.cards.push(new Card(card, this.type));
   }
 }
 class Piece extends UIElement {
