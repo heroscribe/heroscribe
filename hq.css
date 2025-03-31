@@ -1,7 +1,6 @@
 html {
   background: darkgrey;
 }
-}
 .set {
   width: 700px;
 }
@@ -17,11 +16,11 @@ html {
   text-align: center;
   position: relative;
 }
-.set.US .card {
+.US .card {
   border: 7px solid white;
   height: 250px;
 }
-.set.US .card .image {
+.US .card .image {
   height: 31.5%;
 
 }
@@ -55,6 +54,28 @@ html {
   font-size: 11px;
   width: 100%;
   text-align: center;
+}
+.card .icon {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+.card .icon.upright {
+  top: 0px;
+  left 0px;
+}
+.card .icon.topdown {
+  bottom: 0px;
+  right: 0px;
+  transform: rotate(180deg);
+}
+.monster .card, .menatarms .card {
+  background: beige;
+  border: 7px solid white;
+}
+.monster .card .image, .menatarms .card .image {
+  height: 54%;
 }
 .board {
   background: grey;

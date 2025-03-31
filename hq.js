@@ -35,14 +35,59 @@ var definitions2 = {
 };
 
 var stats = {
-  "Goblin": {a: 3, d: 2, mv: 10},
-  "Orc": {a: 3, d: 2, mv: 8},
-  "Fimir": {a: 3, d: 3, mv: 6},
-  "Skeleton": {a: 2, d: 2, mv: 6},
-  "Zombie": {a: 2, d: 3, mv: 4},
-  "Mummy": {a: 3, d: 4, mv: 4},
-  "ChaosWarrior": {a: 3, d: 4, mv: 6},
-  "Gargoyle": {a: 4, d: 4, mv: 6},
+"EU":{
+  "Goblin": {a: 3, d: 2, mv: 10, iq: 1},
+  "Orc": {a: 3, d: 2, mv: 8, iq: 2},
+  "Fimir": {a: 3, d: 3, mv: 6, iq: 3},
+  "Skeleton": {a: 2, d: 2, mv: 6, iq: 0},
+  "Zombie": {a: 2, d: 3, mv: 4, iq: 0},
+  "Mummy": {a: 3, d: 4, mv: 4, iq: 0},
+  "ChaosWarrior": {a: 3, d: 4, mv: 6, iq: 3},
+  "Gargoyle": {a: 4, d: 4, mv: 6, iq: 4},
+  "OgreWarrior": {a: 5, d: 5, mv: 6, iq: 1, hp: "variable"},
+  "OgreChampion": {a: 5, d: 5, mv: 6, iq: 1, hp: "variable"},
+  "OgreChieftain": {a: 6, d: 6, mv: 4, iq: 2, hp: "variable"},
+  "OgreLord": {a: 6, d: 6, mv: 4, iq: 5, hp: "variable"},
+  "ElvenWarrior": {mv: 6, a: 4, d: 3, hp: 3, iq: 2},
+  "ElvenArcher": {mv: 6, a: "4(1)", d: 2, hp: 3, iq: 2, special: "Elven Archers roll 4 combat dice when attacking non-adjacent targets in their line of sight. They roll only 1 combat die attacking adjacent targets."},
+  "GiantWolf": {mv: 9, a: 6, d: 3, hp: 5, iq: 1},
+  "Ogre": {mv: 4, a: 6, d: 4, hp: 10, iq: 2},
+  "IceGremlin": {mv: 10, a: 2, d: 3, hp: 3, iq: 3, special: "Special Ability: Steal items"},
+  "Yeti": {mv: 8, a: 3, d: 3, hp: 5, iq: 2, special: "Special Ability: Hug attack"},
+  "PolarWarbear": {mv: 6, a: "4/4", d: 3, hp: 6, iq: 2, special: "Special Ability: Two attacks"},
+  "FrozenHorror": {mv: 8, a: 5, d: 4, hp: 6, iq: 4, special: "Special Ability: Spellcaster"},
+  "Halberdier": {mv: 6, a: 3, d: 3, iq: 2, cost: 75, special: "Special Ability: Can make diagonal attacks"},
+  "Swordsman": {mv: 5, a: 4, d: 5, iq: 2, cost: 100},
+  "Scout": {mv: 9, a: 2, d: 3, iq: 2, cost: 50},
+  "Crossbowman": {mv: 6, a: 3, d: 3, iq: 2, cost: 75, special: "Special Ability: Wields a crossbow"},
+},
+"US": {
+  "Goblin": {a: 3, d: 2, mv: 10, iq: 1},
+  "Orc": {a: 3, d: 2, mv: 8, iq: 2},
+  "Fimir": {a: 3, d: 3, mv: 6, iq: 3, hp: 2},
+  "Skeleton": {a: 2, d: 2, mv: 6, iq: 0},
+  "Zombie": {a: 2, d: 3, mv: 5, iq: 0},
+  "Mummy": {a: 3, d: 4, mv: 4, iq: 0, hp: 2},
+  "ChaosWarrior": {a: 3, d: 4, mv: 7, iq: 3, hp: 3},
+  "Gargoyle": {a: 4, d: 5, mv: 6, iq: 4, hp: 3},
+  "OgreWarrior": {a: 5, d: 5, mv: 6, iq: 1, hp: "variable"},
+  "OgreChampion": {a: 5, d: 5, mv: 6, iq: 1, hp: "variable"},
+  "OgreChieftain": {a: 6, d: 6, mv: 4, iq: 2, hp: "variable"},
+  "OgreLord": {a: 6, d: 6, mv: 4, iq: 5, hp: "variable"},
+  "ElvenWarrior": {mv: 6, a: 4, d: 3, hp: 3, iq: 2},
+  "ElvenArcher": {mv: 6, a: "4(1)", d: 2, hp: 3, iq: 2, special: "Elven Archers roll 4 combat dice when attacking non-adjacent targets in their line of sight. They roll only 1 combat die attacking adjacent targets."},
+  "GiantWolf": {mv: 9, a: 6, d: 3, hp: 5, iq: 1},
+  "Ogre": {mv: 4, a: 6, d: 4, hp: 10, iq: 2},
+  "IceGremlin": {mv: 10, a: 2, d: 3, hp: 3, iq: 3, special: "Special Ability: Steal items"},
+  "Yeti": {mv: 8, a: 3, d: 3, hp: 5, iq: 2, special: "Special Ability: Hug attack"},
+  "PolarWarbear": {mv: 6, a: "4/4", d: 3, hp: 6, iq: 2, special: "Special Ability: Two attacks"},
+  "FrozenHorror": {mv: 8, a: 5, d: 4, hp: 6, iq: 4, special: "Special Ability: Spellcaster"},
+  "Halberdier": {mv: 6, a: 3, d: 3, hp: 2, iq: 2, cost: 75, special: "Special Ability: Can make diagonal attacks"},
+  "Swordsman": {mv: 5, a: 4, d: 5, hp: 2, iq: 2, cost: 100},
+  "Scout": {mv: 9, a: 2, d: 3, hp: 2, iq: 2, cost: 50},
+  "Crossbowman": {mv: 6, a: 3, d: 3, hp: 2, iq: 2, cost: 75, special: "Special Ability: Wields a crossbow"},
+
+},
 };
 
 gs_us = [
@@ -118,8 +163,11 @@ var map = [];
 ui = new UI();
 
 class Card extends UIElement {
-  constructor(card, set) {
+  constructor(card, set, stats) {
     super();
+    this.name = card.name || card.title;
+    for (let c of ["The ", " ", "'", "!", "-"])
+        this.name = this.name.replaceAll(c, "");
     this.set = set;
     this.title = card.title;
     this.text = card.text;
@@ -127,7 +175,8 @@ class Card extends UIElement {
     this.cost = card.cost;
     this.wizard = card.wizard;
     this.type = card.type;
-    this.id = "card" + this.title;
+    this.stats = stats[this.name];
+    this.id = "card" + this.name;
   }
 }
 class Set extends UIElement {
@@ -139,7 +188,7 @@ class Set extends UIElement {
     this.id = set.name;
     this.cards = [];
     for (const card of set.cards)
-      this.cards.push(new Card(card, this.type));
+      this.cards.push(new Card(card, this.type, stats[this.region]));
   }
 }
 class Piece extends UIElement {
@@ -567,20 +616,10 @@ function setExtraDefinitions() {
 }
 
 function loadCards() {
-  for (const set of sets)
+  for (const set of sets.filter(s => !params.r || s.region == params.r))
     new Set(set);
 }
-
 function loadCampaigns() {
-  let idx = document.URL.indexOf('?');
-  let params = new Array();
-  if (idx != -1) {
-    let pairs = document.URL.substring(idx+1, document.URL.length).split('&');
-    for (let i=0; i<pairs.length; i++) {
-      nameVal = pairs[i].split('=');
-      params[nameVal[0]] = nameVal[1];
-    }
-  }
   c = campaigns[params.r]
   c = c && c[params.c];
   addFileDialog();
@@ -588,7 +627,20 @@ function loadCampaigns() {
   loadCampaign(c, params.r, params.m);
 }
 
+var params = []
+function setParams() {
+  let idx = document.URL.indexOf('?');
+  if (idx != -1) {
+    let pairs = document.URL.substring(idx+1, document.URL.length).split('&');
+    for (let i=0; i<pairs.length; i++) {
+      nameVal = pairs[i].split('=');
+      params[nameVal[0]] = nameVal[1];
+    }
+  }
+}
+
 async function init() { 
+  setParams();
   setExtraDefinitions();
 //  await loadObjects();
   

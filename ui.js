@@ -236,9 +236,30 @@ class UI {
   addDice(obj) {
     this.addObject(obj, "object");
   }
+  addSub(parent, text, className) {
+    let sub = document.createElement("div");
+    sub.innerHTML = text;
+    sub.className = className;
+    parent.appendChild(sub);
+    return sub;
+  }
+  addStats(card, stats, icon) {
+    if (!stats)
+      return
+    this.addSub(card, "Move " + stats.mv + " squares", "text");
+    this.addSub(card, "Attack " + stats.a + " dice", "text");
+    this.addSub(card, "Defend " + stats.d + " dice", "text");
+    this.addSub(card, "Body " + (stats.hp || 1), "text");
+    this.addSub(card, "Mind " + stats.iq, "text");
+    let sub = this.addSub(card, "", "icon upright");
+    sub.style["background-image"] = "url('Icons/Raster/" + icon + ".png')";
+    sub = this.addSub(card, "", "icon topdown");
+    sub.style["background-image"] = "url('Icons/Raster/" + icon + ".png')";
+  }
   addCard(obj) {
     let card = document.createElement("div");
     addClass(card, "card");
+    addClass(card, obj.type);
     let title = document.createElement("div");
     title.innerHTML = obj.title;
     title.className = "title";
@@ -251,8 +272,7 @@ class UI {
         image = image.replaceAll(c, "");
     img.style = "background-image: url('Images/Cards/pic_" + obj.set + "_" + image + ".jpg');"
     let text = document.createElement("div");
-    let scrollText = " May be used by any Hero. Scroll crumbles to dust after it is used."
-    text.innerHTML = obj.text + (obj.type == "scroll" ? scrollText : "");
+    text.innerHTML = obj.text
     text.className = "text";
     card.appendChild(text);
     let cost = document.createElement("div");
@@ -267,6 +287,9 @@ class UI {
     type.innerHTML = obj.type && obj.type != "scroll" ? obj.type.toUpperCase() : "";
     type.className = "text type";
     card.appendChild(type);
+    let icon = definitions.objects[obj.name];
+    icon = icon && icon.icons["Europe"];
+    this.addStats(card, obj.stats, icon);
     this.board.appendChild(card);
   }
   addSet(obj) {
@@ -277,6 +300,7 @@ class UI {
     this.board.id = obj.id
     addClass(this.board, "set");
     addClass(this.board, obj.region);
+    addClass(this.board, obj.type);
     document.getElementById("cards").appendChild(this.board);
   }
   addBoard(obj) {
