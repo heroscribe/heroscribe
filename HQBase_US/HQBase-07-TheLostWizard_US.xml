@@ -338,5 +338,34 @@
 <object id="SingleBlockedSquare" left="10.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="Skeleton" left="3.0" top="18.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+The Emperor’s personal wizard, Wardoz, has disap-
+peared. The Emperor fears that he has been murdered
+or has succumbed to the lures of Chaos magic. You
+must find out what happened to Wardoz. You will
+each be paid 100 gold coins upon returning to the
+stairway.
+</speech>
+<note>A. All the Chaos Warriors in this adventure are made of stone and
+may roll an extra Defend die.</note>
+<note>B. This is the weapons room. The first Hero who searches for
+treasure in this room will find the magical artifact, Borin’s
+Armor. Its use is explained on the matching Artifact Card.</note>
+<note>This chest has a trap with a poison needle in it. If a Hero
+searches for treasure before the trap is disarmed, he will lose
+2 Body Points. He will then find a flask filled with an
+unidenufiable purple liquid. Do not tell the Hero what the
+liquid is at this time. If he drinks the liquid, it will taste
+terrible and cause the Hero to temporarily turn into a stone
+statue. He will be unable to move for 5 of his turns.
+However, during that time he cannot be harmed.
+After 5 of his turns, he comes back to life.</note>
+<note>D. Wardoz’s treasure chest contains 144 gold coins. The Zombie
+in this room is dressed in Wizard’s robes. It is Wardoz. After
+destroying Wardoz, the first Hero who searches for treasure
+will find the coins. He will also find some papers on Wardoz’s
+bench. These papers prove that Wardoz was consumed by
+the chaotic magic he was experimenting with and was turned
+into a mindless Zombie.</note>
+<note>Wandering Monster in this Quest: Mummy</note>
 </quest>

@@ -297,5 +297,22 @@
 <object id="SecretDoor" left="20.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="SingleBlockedSquare" left="22.0" top="19.0" rotation="downward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+A guide has led you into an underground maze that
+is rumored to hold a great secret. He has led you down
+many dark corridors and finally you find yourself in
+aroom with three doors. Suddenly the guide puts out
+his torch and in the darkness you hear him laugh.
+‘Farewell, my Heroes,’ he sneers as he makes his
+escape. You realize to your horror that itis a trap! You
+must escape (make it back to the stairway) or perish
+in this dark, forgotten hole.
+</speech>
+<note>A. This is the room where the Heroes begin their Quest.</note>
+<note>B. These treasure chests each contain 100 gold coins.</note>
+<note>C. This chest has a trap with poisonous gas. If a Hero searches for
+treasure before the trap is disarmed, he will lose 3 Body Points.
+Inside the chest is the artifact called the Elixir of Life. Its use
+is explained on the matching Artifact Card.</note>
+<note>Wandering Monster in this Quest: Fimir</note>
 </quest>

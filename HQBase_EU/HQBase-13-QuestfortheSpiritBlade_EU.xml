@@ -336,5 +336,11 @@
 <object id="SingleBlockedSquare" left="25.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="FallingRock" left="20.0" top="18.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+You have awoken the Witch Lord. He will pose a most serious threat to the Emperor in the coming war. The Witch Lord must be destroyed before he can bring his army of Undead to attack the Emperor's forces. You must first find the Spirit Blade, for only this ancient weapon can harm him. The Spirit Blade was forged by the Dwarves of the World Edge Mountains and cooled in the Elven fountain of Lebin. The sword now lies in an ancient, ruined temple and you must recover it.
+</speech>
+<note>The spaces marked with a falling blocks show where the ceiling is dangerous. Any player who moves onto one of these squares must roll a die. If he rolls a 5 or 6, he will lose one Body Point from falling masonry. If the player is wearing a helmet, and has a helmet card, then he will only lose a Body point on the roll of a 6. Monsters are not affected by the falling block squares, as they are familiar with the passages. Do not place the falling block tiles onto the gameboard.</note>
+<note>A  The Spirit Blade is in the centre of the room, bathed in a cool blue light. This is a Quest treasure and the player should take the appropriate card, which he may keep.</note>
+<note>B  The Treasure chest contains 200 gold coins.</note>
+<note>Wandering monster: Chaos Warrior</note>
 </quest>

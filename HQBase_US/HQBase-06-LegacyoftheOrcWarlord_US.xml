@@ -295,5 +295,38 @@
 <object id="Door" left="16.0" top="10.0" rotation="rightward" zorder="1.0" />
 <object id="Door" left="1.0" top="18.0" rotation="rightward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>Ulag’s foul offspring, Grak, has sworn revenge on
+those who killed his father. Although it has taken him
+several months, he has finally tracked youdown (all
+four Heroes) and captured you in an ambush. Now
+you are all held prisoner in his dungeons while he
+decides when and how you will meet your fate. While
+the guard sleeps outside your cell, you manage to pick
+the lock with an old rat bone. You must find your
+equipment and escape to the stairway.
+</speech>
+<note>Heroes begin their Quest in the room marked CELL.
+Heroes cannot search for treasure in the cell. All of the Heroes’ equip-
+ment has been taken. They may not use any equipment (weapons,
+armor, potions, etc.) or cast any spells until they locate their
+equipment. A Hero with no weapons or armor rolls one die to
+attack and two dice to defend.</note>
+<note>A. The Heroes’ equipment is stored in the cupboard in this room.
+When the room is searched for treasure, the equipment will be
+found. Each remaining Hero must then enter the room to collect
+his belongings. The Wizard and Elf may again cast spells once
+they enter the room and reclaim their magical powers.</note>
+<note>B. These stairs lead out of the dungeon to freedom. Any Hero
+who manages to move onto the stairway tile has escaped. Use
+an Ore figure for Grak. He is an extra tough-looking Orc who
+is holding a staff exactly like the one described in the Armory
+on the cardboard platform. Grak is also wearing a Wizard’s
+Cloak. Its use is explained on the matching Artifact Card.
+If Grak is killed, the cloak will be of special interest to the
+Wizard. Give him the matching Artifact Card.</note>
+<note>GRAK: MOVEMENT 8 ATTACK 4 DEFEND 4 BODY 3 MIND 3</note>
+<note>Grak knows 3 Chaos Spells that he may cast (one per turn) instead
+of attacking. The spells are: Fear, Sleep and Tempest. (Refer to
+the Chaos Spell Cards for details.)</note>
+<note>Wandering Monster in this Quest: Fimir</note>
 </quest>

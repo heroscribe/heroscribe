@@ -273,5 +273,42 @@
 <object id="Door" left="25.0" top="8.0" rotation="rightward" zorder="1.0" />
 <object id="Door" left="11.0" top="18.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+War with the eastern Orcs is brewing and the
+Emperor needs to unite the lesser kingdoms for the
+conflict to come. To do this, you must find the ancient
+Star of the West as worn by the Kings of Legend
+in ages past. You will be rewarded with 200 gold
+coins (to be divided evenly among all Heroes) when
+the Star of the West is returned to safety.
+The Star of the West lies in Barak Tor, the resting
+place of the evil Witch Lord. He was defeated by the
+magical Spirit Blade long ago. This blade is the only
+weapon that can harm him.
+</speech>
+<note>A. These are false doors and cannot be opened at all.</note>
+<note>B. The Star of the West is in the Zombie’s hand.</note>
+<note>C. This is a special falling block trap that will collapse automatically
+after the last Hero passes by it. It will not be sprung by the
+Heroes as they move onto the square. After it falls, it will forever
+block that path back to the stairs.</note>
+<note>D. This is the tomb of the Witch Lord. The Witch Lord will be
+released from his imprisonment when the first Hero enters
+the room. Use the Chaos Warlock figure to represent the Witch
+Lord on the board. Read the text that follows to the players.<br/>
+"You have broken the magic seal that kept the Witch Lord
+imprisoned. Now he has awoken and you must run. Only the
+Spirit Blade can harm him."</note>
+<note>E. The first Hero to search for treasure will find a magical staff
+hidden behind the bookcase. It is the artifact known as the
+Wizard’s Staff. Its use is described on the matching
+Artifact Card.</note>
+<note>THE WITCH LORD: The Witch Lord is not affected by any
+weapon or spell. Only the Spirit Blade can harm him. The Heroes
+must try to recover the Spirit Blade in the NEXT Quest. The
+Witch Lord moves 1 space per turn and rolls 2 combat dice when
+attacking. He also knows the following spells: Summon Undead,
+Fear, Command, and Ball of Flame. (Refer to the Chaos Spell
+Cards for details.)</note>
+<note>Wandering Monster in this Quest: Skeleton</note>
 </quest>

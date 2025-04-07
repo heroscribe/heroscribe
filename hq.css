@@ -77,8 +77,18 @@ html {
 .monster .card .image, .menatarms .card .image {
   height: 54%;
 }
+.card.cardback {
+  background-size: cover;
+  background-position: center;
+  border: none;
+  width: 164px;
+  height: 239px;
+}
+.US .card.cardback {
+  width: 164px;
+  height: 264px;
+}
 .board {
-  background: grey;
   padding: 5px;
   position: relative;
   margin-top: 5px;
@@ -111,13 +121,35 @@ html {
   background-blend-mode: lighten;
   background-color: rgba(255,100,100,0.5);
 }
-.board .intro, .board .speech {
-  bottom: 5px;
+.quest {
+  background: grey;
+}
+.parchment {
   background: white;
   border: 1px solid black;
-  width: 90%;
-  left: 5%;
   text-align: center;
+  margin: auto;
+  margin: 5px;
+}
+.parchment .title {
+  font-size: 18px;
+}
+.speech {
+  background: white;
+  font-size: 12px;
+  font-style: italic;
+  max-width: 700px;
+}
+.speech p {
+  text-indent: 30px;
+  margin: 2px;
+}
+.quest .speech {
+  text-align: center;
+}
+.notes {
+  font-size: 12px;
+  margin-left: 5px;
 }
 .board .speech {
   bottom: 30px;
@@ -130,8 +162,6 @@ html {
   background: none;
 }
 .field {
-  width: 20px;
-  height: 20px;
   background: lightgrey;
   pointer-events: auto;
   border: 1px solid grey;
@@ -148,17 +178,9 @@ html {
 }
 .wall {
   background: black;
-  width: 3px;
-  height: 3px;
   pointer-events: none;
 }
-.piece {
-  width: 20px;
-  height: 20px;
-}
 .dark {
-  width: 20px;
-  height: 20px;
   background: lightgrey;
 }
 .mark {
@@ -171,8 +193,8 @@ html {
   margin-left: 20px;
 }
 .fight {
-  width: 20px;
-  height: 20px;
+  width: 21px;
+  height: 21px;
   background: red;
   top: 0px;
   left: 100px;
@@ -200,8 +222,18 @@ div .dice {
 .title {
   font-size: 300%;
 }
+figcaption {
+  font-weight: bold;
+  caption-side: left;
+}
+.zargon::before{
+  content:url("Images/Rules/zargon.jpg");
+}
+.heroes::before{
+  content:url("Images/Rules/heroes.jpg");
+}
 @media print {
-html, .board {
+html, .quest {
   background: none;
 }
 button {
@@ -209,4 +241,5 @@ button {
 }
 #maps {
   page-break-before: always;
+}
 }

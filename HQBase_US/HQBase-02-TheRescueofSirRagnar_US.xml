@@ -331,5 +331,19 @@
 <object id="SingleBlockedSquare" left="15.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="Orc" left="10.0" top="16.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>Sir Ragnar, one of the Emperor’s most powerful knights, has been captured. There is reason to believe that he is being held prisoner by Ulag, the Orc Warlord. You are to find Sir Ragnar and bring him back to the stairway. Prince Magnus will pay 240 gold coins to be divided among the Heroes, if they rescue Sir Ragnar. No reward will be paid if Sir Ragnar is killed during the escape.</speech>
+<note>A. The treasure chest has a trap with a poison needle on it. If a Hero searches for treasure before the trap is disarmed, he will lose one Body Point. The chest is empty.</note>
+<note>B. The first Hero who searches the room for treasure will find 60 gold coins inside this chest. He will also find a Potion of Healing, which will restore up to 4 lost Body Points when consumed.</note>
+<note>FINDING SIR RAGNAR: When Sir Ragnar is found, an alarm
+sounds. Use the plastic Chaos Warlock figure to represent Sir
+Ragnar on the board. Place ALL remaining monsters, doors and
+furniture on the board. All doors are now open. Sir Ragnar should
+be moved by the Hero who opened the door to his cell. (Heroes
+cannot search for treasure in the cell.) The Hero takes his regular
+turn first, then rolls one red die to move the wounded knight. Sir
+Ragnar must be moved back to the stairs alive to collect your
+reward (see parchment text above). Sir Ragnar may not attack,
+but may roll 2 dice to defend. He has 2 Body Points left.
+</note>
+<note>Wandering Monster in this Quest: Orc</note>
 </quest>

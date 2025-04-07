@@ -337,5 +337,28 @@
 <object id="SingleBlockedSquare" left="25.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="Door" left="20.0" top="9.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+You have awoken the Witch Lord! He will pose a most
+serious threat to the Emperor in the coming war. The
+Witch Lord must be destroyed before he can bring his
+army of Undead to attack the Emperor’s forces. Your
+goal in this Quest is to find the Spirit Blade and return
+it to safety. Only this ancient weapon can harm the
+Witch Lord. The Spirit Blade was forged by the
+Dwarves of the World Edge Mountains and cooled in
+the Elven Fountain of Leben. The sword now lies
+somewhere in an ancient ruined temple.
+</speech>
+<note>In this Quest, the rules for falling block squares are different. Any
+player who moves onto one of these squares must roll a red die. If
+he rolls a 4, 5, or 6, he will lose one Body Point. If the player is
+equipped with a helmet, he will only lose a Body Point on a roll of
+a 6. Monsters are not affected by these squares. Do not place the
+falling block tiles onto the gameboard. Heroes are not blocked by
+these squares in this Quest.</note>
+<note>A. The first Hero who searches for treasure will find the Spirit
+Blade. It is a magical artifact. Its use is explained on the
+matching Artifact Card.</note>
+<note>B. The treasure chest contains 200 gold coins.</note>
+<note>Wandering Monster in this Quest: Chaos Warrior</note>
 </quest>

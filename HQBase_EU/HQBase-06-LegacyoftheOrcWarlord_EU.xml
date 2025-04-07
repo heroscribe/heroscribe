@@ -285,5 +285,20 @@
 <object id="SingleBlockedSquare" left="3.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="Orc" left="20.0" top="19.0" rotation="downward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+Ulag's foul offspring. Grak. has sworn revenge on those who killed his father. Although it has taken him
+several months, he has finally tracked you down and captured you in an ambush. Now you are held prisoner in his dungeons while he racks his brains to devise a terrible punishment for you. While the guard sleeps, however, you manage to pick the lock of your cell with an old rat bone. You must find your equipment and escape.
+</speech>
+<note>Because the players have had all their equipment taken, they may not use any equipment that they may have from previous games. Neither the Wizard or the Elf may cast spells until they have found the room where all the equipment has been stored.</note>
+<note>X  This is where the players start.</note>
+<note>A  This is where the players' equipment is stored. When one of the players opens the door, you must tell him that this is where the equipment is. When a player enters the room he may regain all the equipment, Quest Treasure and spell cards. Other players may regain their equipment by being in the same room or passage as the player who collected everything. That player may decide to keep some, or all, items of equipment for himself, but may not keep or use the spells, unless he is the Wizard or Elf.</note>
+<note>B These stairs lead out of the dungeon to freedom. Any character who manages to move onto the stairway tile has escaped.</note>
+<note>GRAK</note>
+<note>Use an Orc piece for Grak. He rolls the following dice:</note>
+<note>Attack 4 dice</note>
+<note>Defend 4 dice</note>
+<note>Move 8 squares</note>
+<note>Mind 3</note>
+<note>Body 1</note>
+<note>Wandering monster: Fimir</note>
 </quest>

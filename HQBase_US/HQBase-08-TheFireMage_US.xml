@@ -235,5 +235,24 @@
 <object id="Skeleton" left="3.0" top="18.0" rotation="downward" zorder="2.0" />
 <object id="Skeleton" left="6.0" top="19.0" rotation="downward" zorder="2.0" />
 </board>
-<speech></speech>
+<speech>The Orcs of the Black Mountains have been using
+fire magic in their raids. Balur, the Fire Mage, is
+thought to be responsible for helping them. No fire
+magic can harm Balur and the Emperor’s wizards
+are unable to counter his spells. You have therefore
+been chosen to enter his Lair, deep beneath Black Fire
+Crag. The Emperor will reward each Hero with 100
+gold coins for Balur’s destruction.</speech>
+<note>Use the Chaos Warlock figure for Balur. Fire spells do not affect him.</note>
+<note>Balur has the following spells which he may use once during
+the Quest: Ball of Flame, Firestorm, Tempest, Summon Orcs,
+Fear, and Escape. (Refer to the Chaos Spell Cards for details.)
+The Escape spell will teleport him to the square marked “XX”
+in the middle room. If Balur uses the escape spell, do not put
+him onto that square until the Heroes open the door.</note>
+<note>A. The treasure chest contains 150 gold coins and the artifact
+called the Wand of Magic. Its use is explained on the
+matching Artifact Card.</note>
+<note>BALUR: MOVEMENT 8, ATTACK 2, BODY 2, MIND 7</note>
+<note>Wandering Monster in this Quest: Fimir</note>
 </quest>

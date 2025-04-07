@@ -217,5 +217,19 @@
 <object id="SingleBlockedSquare" left="10.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="Door" left="8.0" top="18.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+The Orcs of the Black Mountains have been using Fire magic in their raids. Balur, the Fire Mage. is thought to be responsible for helping them. No Fire magic can harm him. and the Emperor's Wizards are unable to counter his spells. You have therefore been chosen to enter his lair, deep beneath Black Fire Crag. The Emperor will reward you with 150 gold coins each for Balur's destruction.
+</speech>
+<note>Use the Chaos Sorcerer model for Balur.</note>
+<note>A  Treasure chest contains 150 gold coins and the Wand of Recall. This is a Quest Treasure, the player who finds it takes the appropriate card, which he may keep.</note>
+<note>BALUR</note>
+<note>Balur has the following values:</note>
+<note>Move 8 squares</note>
+<note>Attack 2 dice</note>
+<note>Defend 5 dice</note>
+<note>Mind 7</note>
+<note>Body 1</note>
+<note>Balur has the three Fire spells, which he may use during the game. The players may not choose Fire spells for this game. They must choose their spells from the remaining sets.</note>
+<note>Balur also has the special ability of being able to run through any wall once during the game. When he does this, he is placed on the X in the middle room. If the furniture in this room has not been put out yet, wait until the room is seen before placing Balur on the marked square.</note>
+<note>Wandering monster: Fimir</note>
 </quest>

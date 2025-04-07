@@ -387,5 +387,18 @@
 <object id="Door" left="5.0" top="17.0" rotation="rightward" zorder="0.0" />
 <object id="Fimir" left="4.0" top="18.0" rotation="downward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+Prince Magnus has ordered that the Orc Warlord Ulag, who was responsible for the kidnapping of Sir Ragnar, should be sought out and killed. Whoever kills Ulag will be rewarded with 100 gold coins. Any treasure found in Ulag's stronghold may also be kept.
+</speech>
+<note>A  The cupboard contains 30 gold coins and a potion of Healing, which will restore up to four lost Body points.</note>
+<note>B  This Treasure chest contains a trap. Anyone who opens the chest without searching for traps will lose one Body point. The chest contains 100 gold coins.</note>
+<note>C  This is the Armoury. If a player searches for treasure, he will find a spear. The player may take a spear card from the Equipment pack.</note>
+<note>ULAG</note>
+<note>Use the Orc figure with the large sword to represent Ulag. Ulag rolls the following dice:</note>
+<note>Attack 4 dice</note>
+<note>Defend 5 dice</note>
+<note>Move 10 squares</note>
+<note>Mind 3</note>
+<note>Body 1</note>
+<note>Wandering monster: Orc</note>
 </quest>

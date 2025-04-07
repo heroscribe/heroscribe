@@ -294,5 +294,11 @@
 <object id="SecretDoor" left="20.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="SingleBlockedSquare" left="22.0" top="19.0" rotation="downward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+A guide has led you into a dungeon that is rumoured to hold a great secret. He has led you down many dark corridors and finally you find yourself in a room with three doors. Suddenly the guide puts out his torch and in the darkness You hear him laugh. 'Farewell my Heroes, he sneers as he makes his escape. You realize to your horror that it is a trap! You must escape or perish in this dark, forgotten hole.
+</speech>
+<note>The character players must attempt to find their way to the stairway tile.</note>
+<note>A  This is the room where the players start.</note>
+<note>B  These Treasure chests each contain 100 gold coins.</note>
+<note>Wandering monster: Fimir</note>
 </quest>

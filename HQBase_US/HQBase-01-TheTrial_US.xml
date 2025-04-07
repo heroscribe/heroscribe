@@ -286,5 +286,22 @@
 <object id="SingleBlockedSquare" left="15.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="Orc" left="9.0" top="16.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>You have learned well, my friends. Now has come
+the time of your first trial. You must first enter the
+catacombs which contain Fellmarg’s Tomb. You must
+seek out and destroy Verag, a foul Gargoyle who
+hides in the catacombs. This Quest is not easy and
+you must work together in order to survive. This is
+your first step on the road to becoming true Heroes.
+Tread carefully my friends.
+</speech>
+<note>Zargon, you may tell everyone that there are no traps or secret doors in this first Quest. However, you should also warn them that this is a tough adventure. It is meant to show the players that their chances of survival will depend on how well they work together.</note>
+<note>In each Quest, notes prefaced with a capital letter correspond to a matching letter location on the Quest Map.</note>
+<note>A. The weapons on this weapons rack are chipped, rusted and
+broken. There is nothing here that the Heroes would want.</note>
+<note>B. This treasure chest is empty.</note>
+<note>C. This Mummy is the Guardian of Fellmarg’s Tomb and was once a mighty warrior. It rolls 4 dice instead of 3 when it attacks.</note>
+<note>D. The first Hero who searches for treasure will find 84 gold coins in this treasure chest.</note>
+<note>E. The first Hero who searches for treasure will find 120 gold coins in this treasure chest.</note>
+<note>Wandering Monster in this Quest: Orc</note>
 </quest>

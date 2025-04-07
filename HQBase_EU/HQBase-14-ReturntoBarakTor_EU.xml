@@ -293,5 +293,20 @@
 <object id="Door" left="1.0" top="17.0" rotation="rightward" zorder="0.0" />
 <object id="SingleBlockedSquare" left="1.0" top="18.0" rotation="downward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+Now that you have found the Spirit Blade, you must return to Barak Tor and defeat the Witch Lord. The Emperor has ridden forth to meet the Eastern Orcs at Black Fire Pass. If you fail. the Witch Lord will lead his army of Undead and attack the Emperor's forces from the rear. Then nothing will remain to prevent the Forces of Chaos overrunning the land...
+</speech>
+<note>WL Use the Chaos Sorcerer model for the Witch Lord.</note>
+<note>A  The Tomb is now empty.</note>
+<note>THE WITCH LORD</note>
+<note>The Witch Lord is not affected by any weapon other than the Spirit Blade; neither is he affected by any spell. The Witch Lord has grown stronger and now rolls the following dice:</note>
+<note>Move 10 Squares</note>
+<note>Attack 5 Dice</note>
+<note>Defend 6 Dice</note>
+<note>Mind 4</note>
+<note>Body 1</note>
+<note>Wandering monster: Mummy</note>
+<note></note>
+<note>Mind 6</note>
+<note>Body 1</note>
 </quest>

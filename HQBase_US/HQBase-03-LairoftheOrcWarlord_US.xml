@@ -393,5 +393,25 @@
 <object id="Goblin" left="6.0" top="18.0" rotation="downward" zorder="0.0" />
 <object id="Fimir" left="5.0" top="9.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>Prince Magnus has ordered that the Orc Warlord,
+Ulag, who was responsible for the imprisonment of
+Sir Ragnar, be sought out and destroyed. When Ulag
+is destroyed, the Heroes will receive a reward of
+180 gold coins to be divided among them. Any
+treasure found in Ulag’s stronghold may be kept by
+the finder alone.
+</speech>
+<note>. This is the Ore’s Armory. The first Hero who searches for
+treasure will find a staff weapon that he may add to his
+character sheet or may give to another Hero. This staff is
+exactly like the one described in the Armory on the
+cardboard platform.</note>
+<note>B. The first Hero who searches for treasure will find 24 gold
+coins and a Potion of Healing in the cupboard. The Potion
+will restore up to 4 lost Body Points when consumed.</note>
+<note>ULAG:
+Use the Orc figure with the large sword to represent Ulag.
+Ulag has the following stats:
+MOVEMENT 10 ATTACK 4 DEFEND 5 BODY 2 MIND 3
+</note>
 </quest>

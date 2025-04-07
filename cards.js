@@ -1,4 +1,71 @@
-eu_cards = {
+wandering_1st = {title: "Wandering Monster", text: "As you are busy searching a monster stalks up on you and attacks. The Evil Wizard player should place the wandering monster, shown in the Quest Book, for this adventure in any square next to you. The monster attacks immediately.", image: ""}
+potionofhealing_1st = {title: "Potion of Healing", text: "Enveloped in a bundle of rags you find a small bottle of liquid. You recognise it as a healing potion. You may drink the potion at any time. It will restore up to four lost Body points. The card is then discarded.", image: ""}
+helmet_1st = {title: "The Helmet", text: "The helmet gives you one extra combat die in defence.", image: "helmet", cost: "120", wizard: false, type: "armour"}
+shield_1st =  {title: "The shield", text: "The shield gives you one extra combat die in defence.", image: "shield", cost: "100", wizard: false, type: "armour"}
+
+cards_1st = {
+treasure: [
+  {title: "Gold!", text: "A meagre haul of just 10 gold coins is found in the pocket of a smelly, worn jerkin. Record the money on the back of your character sheet and return this card to the treasure pile.", image: "gold_eu"},
+  {title: "Gold!", text: "A rummage through several items of clothing reveals 20 gold coins. Record the money on the back of your character sheet and return this card to the treasure pile.", image: "gold_eu"},
+  {title: "Gold!", text: "Amidst the clutter, the old rags, the greasy fur robes and soiled blankets, you find 25 gold coins. Record the money on the back of your character sheet and return this card to the treasure pile.", image: "gold_eu"},
+  {title: "Gold!", text: "Foolishly left unhidden lies a small box containing 25 gold coins. Record the money on the back of your character sheet and return this card to the treasure pile.", image: "gold_eu"},
+  {title: "Gold!", text: "You find a loose stone behind which is hidden a small leather pouch wrapped in an old rag. You look inside the pouch and find 50 gold coins. Record the money on the back of your character sheet and return this card to the treasure pile.", image: "gold_eu"},
+  {title: "Gold!", text: "You search and find small amounts of gold hidden in several places. But you lose track of time. Roll one die and multiply the result by ten to see how many gold coins you find. Miss your next go. Record the money on the back of your character sheet and return this card to the treasure pile.", image: "gold_eu"},
+  {title: "Gem!", text: "Tucked into the toe of an old boot you find a valuable Gem. The stone is worth 50 gold coins. Record the money on the back of your character sheet and return this card to the treasure pile.", image: ""},
+  {title: "Jewels!", text: "You find a small wooden box. The box is plain and old but within … it is lined with velvet and contains 50 gold coins' worth of jewels. Record the money on the back of your character sheet and return this card to the treasure pile.", image: ""},
+  potionofhealing_1st, potionofhealing_1st,
+  {title: "Heroic Brew", text: "A leather bag hanging on the wall contains a potion. It is a Heroic Brew. The potion may be taken just before you are about to attack. Any player who drinks the potion will be able to make two attacks instead of one, for one turn only. The card is then discarded.", image: ""},
+  {title: "Holy Water", text: "Discarded and forgotten in a corner of the room you find a vial of Holy Water. You may use the Holy Water instead of attacking. It will kill any undead creature: Skeleton, Zombie, Mummy. Discard after use.", image: ""},
+  {title: "Potion of Resilience", text: "Amidst a collection of old bottles and earthen jugs you find a small clear vial, a Potion of Resilience. It may be taken at any time. You may then roll two extra combat dice in defence when you next defend. The card is then discarded.", image: "potionofdefense"},
+  {title: "Potion of Speed", text: "Standing on a shelf you see a dusty bottle. As you wipe it clean, you realize it is a potion of speed. You may drink the potion at any time. It will allow you to roll twice as many dice as usual the next time you move. The card is then discarded.", image: ""},
+  {title: "Potion of Strength", text: "You find a small purple bottle. It is a Potion of Strength. You may drink the potion at any time. It will enable you to roll two extra combat dice in attack in your next attack. The card is then discarded.", image: ""},
+  {title: "Nothing", text: "Despite a thorough search you find nothing.", image: ""},
+  {title: "Treasure Horde!", text: "Luck is with you. A small treasure chest you find, hidden under an old fur, contains 100 gold coins. Record the money on the back of your character sheet.", image: ""},
+  {title: "Trap!", text: "As you search you unwittingly set off a trap. An arrow shoots out from the wall. You must lose one body point.", image: "hazard1"},
+  {title: "Trap!", text: "You feel the gentle pressure of a trip wire against your leg, you spin round … but it is too late. You lose one body point from the crossbow bolt that shoots from the wall.", image: "hazard1"},
+  {title: "Trap!", text: "The stone beneath your foot begins to give way and all too late you realize it is a trap. You fall into a pit and lose one Body point. You may climb out and move as normal on your next turn.", image: "trap03"},
+  wandering_1st,
+  wandering_1st,
+  wandering_1st,
+  wandering_1st,
+  wandering_1st,
+],
+equipment: [
+  {title: "Battle axe", text: "The Battle axe allows you to roll four combat dice in attack. You may not use a shield when using the Battle axe.", image: "", cost: 400, wizard: false, type: "weapon"},
+  {title: "Broadsword", text: "The Broadsword allows you to roll three combat dice in attack.", image: "", cost: "250", wizard: false, type: "weapon"},
+  {title: "Crossbow", text: "The Crossbow allows you to roll three combat dice in attack. You may not use the Crossbow against an opponent who is adjacent to you.", image: "", cost: "350", wizard: false, type: "weapon"},
+  {title: "Short sword", text: "The Short sword allows you to roll two combat dice in attack. The Short sword may be used to attack diagonally.", image: "", cost: "150", wizard: false, type: "weapon"},
+  {title: "Spear", text: "The Spear allows you to roll two combat dice in attack. The Spear may be used to attack diagonally. You may also throw the Spear but if you do so you lose it.", image: "", cost: "150", wizard: false, type: "weapon"},
+  {title: "Hand axe", text: "The Hand axe allows you to roll two combat dice in attack. You may also throw the Hand axe but if you do so you lose it.", image: "", cost: "150", wizard: false, type: "weapon"},
+  {title: "Staff", text: "The Staff allows you to roll two combat dice in attack. The Staff may be used to attack diagonally.", image: "", cost: "100", type: "weapon"},
+  {title: "Plate armour", text: "Plate armour allows you to roll four combat dice in defence, BUT You may only roll one die for movement whilst wearing plate armour.", image: "", cost: "850", wizard: false, type: "armour"},
+  {title: "Chain Mail", text: "Chain mail armour allows you to roll three combat dice in defence.", image: "", cost: "450", wizard: false, type: "armour"},
+  helmet_1st, helmet_1st, shield_1st, shield_1st,
+  {title: "Tool kit", text: "The tool kit enables you to remove any trap that you find. Roll one combat die. On the roll of a skull the trap goes off and you lose one Body point. Once you have rolled the die the trap is removed.", image: "", cost: "250"},
+],
+earthspells: [
+  {title: "Heal Body", text: "This spell may be cast on any one player. It will restore up to four Body points that have been lost. The spell is then discarded.", image: ""},
+  {title: "Pass through Rock", text: "This spell may be cast on any one player. That player may then move through walls when he next moves. The player may move through as many walls as his movement will allow. The spell is then discarded.", image: ""},
+  {title: "Rock Skin", text: "This spell may be cast on any one player. That player may then throw two extra combat dice the next time he defends. The spell is then discarded.", image: ""},
+],
+firespells: [
+  {title: "Ball of Flame", text: "This spell may be cast at any one monster or player. It will inflict two points of Body damage. The victim may roll two dice. For each shield he rolls he may reduce the damage by one. The spell is then discarded.", image: ""},
+  {title: "Courage", text: "This spell may be cast on any one player. That player may then throw two extra dice the next time he attacks. The spell is then discarded.", image: ""},
+  {title: "Fire of Wrath", text: "This spell may be cast on any one monster or player, anywhere on the board. It will seek out your enemy and inflict one Body point of damage, unless your opponent can roll a shield on one combat die. The spell is then discarded.", image: ""},
+],
+waterspells: [
+  {title: "Sleep", text: "This spell will put one monster or player to sleep. They may try to defend themselves by rolling one die per Mind point. If they manage to roll a shield they are unaffected. Once put to sleep they must roll a six at the start of their turn before they can move again.", image: ""},
+  {title: "Veil of Mist", text: "This spell may be cast on any one player. That player may then move unseen through spaces that are occupied by other players or monsters the next time he moves. The spell is then discarded.", image: ""},
+  {title: "Water of Healing", text: "This spell may be cast on any one player. It will restore up to four Body points that have been lost. The spell is then discarded.", image: ""},
+],
+}
+
+wandering_2nd = {title: "Wandering Monster", text: "As you are busy searching, a monster stalks up on you and attacks. The Evil Wizard player may place the wandering monster shown in the Quest Book for this adventure in any square next to you. The monster attacks immediately. Return this card to the treasure pile.", image: ""}
+potionofhealing_2nd = {title: "Potion of Healing", text: "Enveloped in a bundle of rags you find a small bottle of liquid. You recognise it as a healing potion. You may drink the potion at any time. It will restore up to four lost Body points. The card is then discarded.", image: ""}
+helmet_2nd = {title: "The Helmet", text: "The helmet gives you one extra combat die in defence.", image: "helmet", cost: "120", wizard: false, type: "armour"}
+shield_2nd = {title: "The shield", text: "The shield gives you one extra combat die in defence.", image: "shield", cost: "100", wizard: false, type: "armour"}
+
+cards_2nd = {
 monsters: [
   {title: "Goblin", text: ""},
   {title: "Orc", text: ""},
@@ -10,48 +77,47 @@ monsters: [
   {title: "Gargoyle", text: ""},
 ],
 treasure: [
-  {title: "Gem!", text: "Tucked into the toe of an old boot you find a valuable Gem. The stone is worth 50 gold coins. Record the money on the back of your character sheet.", image: ""},
   {title: "Gold!", text: "A meagre haul of just 10 gold coins is found in the pocket of a smelly, worn jerkin. Record the money on the back of your character sheet.", image: "gold_eu"},
   {title: "Gold!", text: "A rummage through several items of clothing reveals 20 gold coins. Record the money on the back of your character sheet.", image: "gold_eu"},
   {title: "Gold!", text: "Amidst the clutter, the old rags, the greasy fur robes and soiled blankets, you find 25 gold coins. Record the money on the back of your character sheet.", image: "gold_eu"},
   {title: "Gold!", text: "Foolishly left unhidden lies a small box containing 25 gold coins. Record the money on the back of your character sheet.", image: "gold_eu"},
   {title: "Gold!", text: "You find a loose stone behind which is hidden a small leather pouch wrapped in an old rag. You look inside the pouch and find 50 gold coins. Record the money on the back of your character sheet.", image: "gold_eu"},
   {title: "Gold!", text: "You search and find small amounts of gold hidden in several places. But you lose track of time. Roll one die and multiply the result by ten to see how many gold coins you find. Miss your next go. Record the money on the back of your character sheet.", image: "gold_eu"},
-  {title: "Trap!", text: "As you search you unwittingly set off a trap. An arrow shoots out from the wall. You must lose one body point. Return this card to the treasure pile.", image: "hazard1"},
-  {title: "Trap!", text: "You feel the gentle pressure of a trip wire against your leg, you spin round … but it is too late. You lose one body point from the crossbow bolt that shoots from the wall. Return this card to the treasure pile.", image: "trap03"},
-  {title: "Trap!", text: "The stone beneath your foot begins to give way and all too late you realize it is a trap. You fall into a pit and lose one Body point. You may climb out and move as normal on your next turn. The pit then closes. Return this card to the treasure pile.", image: "hazard2"},
+  {title: "Gem!", text: "Tucked into the toe of an old boot you find a valuable Gem. The stone is worth 50 gold coins. Record the money on the back of your character sheet.", image: ""},
+  {title: "Jewels!", text: "You find a small wooden box. The box is plain and old but within … it is lined with velvet and contains 50 gold coins' worth of jewels. Record the money on the back of your character sheet.", image: ""},
+  potionofhealing_2nd, potionofhealing_2nd,
   {title: "Heroic Brew", text: "A leather bag hanging on the wall contains a potion. It is a Heroic Brew. The potion may be taken just before you are about to attack. Any player who drinks the potion will be able to make two attacks instead of one, for one turn only. The card is then discarded.", image: ""},
   {title: "Holy Water", text: "Discarded and forgotten in a corner of the room you find a vial of Holy Water. You may use the Holy Water instead of attacking. It will kill any undead creature: Skeleton, Zombie, Mummy. Discard after use.", image: ""},
-  {title: "Jewels!", text: "You find a small wooden box. The box is plain and old but within … it is lined with velvet and contains 50 gold coins' worth of jewels. Record the money on the back of your character sheet.", image: ""},
-  {title: "Nothing", text: "Despite a thorough search you find nothing.", image: ""},
-  {title: "Potion of Resilience", text: "Amidst a collection of old bottles and earthen jugs you find a small clear vial, a Potion of Resilience. It may be taken at any time. You may then roll two extra combat dice in defence when you next defend. The card is then discarded.", image: "potionofstrength"},
-  {title: "Potion of Healing", text: "Enveloped in a bundle of rags you find a small bottle of liquid. You recognise it as a healing potion. You may drink the potion at any time. It will restore up to four lost Body points. The card is then discarded.", image: ""},
+  {title: "Potion of Resilience", text: "Amidst a collection of old bottles and earthen jugs you find a small clear vial, a Potion of Resilience. It may be taken at any time. You may then roll two extra combat dice in defence when you next defend. The card is then discarded.", image: "potionofdefense"},
   {title: "Potion of Speed", text: "Standing on a shelf you see a dusty bottle. As you wipe it clean, you realize it is a potion of speed. You may drink the potion at any time. It will allow you to roll twice as many dice as usual the next time you move. The card is then discarded.", image: ""},
   {title: "Potion of Strength", text: "You find a small purple bottle. It is a Potion of Strength. You may drink the potion at any time. It will enable you to roll two extra combat dice in attack in your next attack. The card is then discarded.", image: ""},
+  {title: "Nothing", text: "Despite a thorough search you find nothing.", image: ""},
   {title: "Treasure Horde!", text: "Luck is with you. A small treasure chest you find, hidden under an old fur, contains 100 gold coins. Record the money on the back of your character sheet.", image: ""},
-  {title: "Wandering Monster", text: "As you are busy searching, a monster stalks up on you and attacks. The Evil Wizard player may place the wandering monster shown in the Quest Book for this adventure in any square next to you. The monster attacks immediately. Return this card to the treasure pile.", image: ""},
+  {title: "Trap!", text: "As you search you unwittingly set off a trap. An arrow shoots out from the wall. You must lose one body point. Return this card to the treasure pile.", image: "hazard1"},
+  {title: "Trap!", text: "You feel the gentle pressure of a trip wire against your leg, you spin round … but it is too late. You lose one body point from the crossbow bolt that shoots from the wall. Return this card to the treasure pile.", image: "hazard1"},
+  {title: "Trap!", text: "The stone beneath your foot begins to give way and all too late you realize it is a trap. You fall into a pit and lose one Body point. You may climb out and move as normal on your next turn. The pit then closes. Return this card to the treasure pile.", image: "trap03"},
+  wandering_2nd, wandering_2nd, wandering_2nd, wandering_2nd, wandering_2nd,
 ],
 artifacts: [
-  {title: "Borin's Armour", text: "Borin's Armour allows you to roll four combat dice in defence.", image: ""},
-  {title: "Orcs Bane", text: "The sword, Orcs Bane allows you to roll two combat dice in attack. You may attack TWICE if you are fighting Orcs.", image: ""},
-  {title: "Spirit Blade", text: "Spirit Blade allows you to roll three combat dice in attack OR four dice in attack against undead creatures: Skeletons, Zombies and Mummies.", image: ""},
+  {title: "Borin's Armour", text: "Borin's Armour allows you to roll four combat dice in defence.", image: "", type: "armour"},
+  {title: "Orcs Bane", text: "The sword, Orcs Bane allows you to roll two combat dice in attack. You may attack TWICE if you are fighting Orcs.", image: "", type: "weapon"},
+  {title: "Spirit Blade", text: "Spirit Blade allows you to roll three combat dice in attack<br/>OR<br/>four dice in attack against undead creatures: Skeletons, Zombies and Mummies.", image: "", type: "weapon"},
   {title: "Talisman of Lore", text: "The Talisman allows you to increase your Mind points by two as long as you have the Talisman in your possession.", image: ""},
   {title: "Wand of Recall", text: "The Wand of Recall allows you to cast two spells instead of one during your turn.", image: ""},
 ],
 equipment: [
   {title: "Battle axe", text: "The Battle axe allows you to roll four combat dice in attack. You may not use a shield when using the Battle axe.", image: "", cost: 400, wizard: false, type: "weapon"},
-  {title: "Bracers", text: "The Bracers allows you to roll one extra combat die in defence.", image: "", cost: 200, wizard: true, type: "armour"},
   {title: "Broadsword", text: "The Broadsword allows you to roll three combat dice in attack.", image: "", cost: "250", wizard: false, type: "weapon"},
-  {title: "Chain Mail", text: "Chain mail armour allows you to roll three combat dice in defence.", image: "", cost: "450", wizard: false, type: "armour"},
-  {title: "Cloak of Protection", text: "The cloak allows you to roll one extra die in defence.", image: "", cost: "350", wizard: true, type: "armour"},
   {title: "Crossbow", text: "The Crossbow allows you to roll three combat dice in attack. You may not use the Crossbow against an opponent who is adjacent to you.", image: "", cost: "350", wizard: false, type: "weapon"},
-  {title: "Hand axe", text: "The Hand axe allows you to roll two combat dice in attack. You may also throw the Hand axe but if you do so you lose it.", image: "", cost: "150", wizard: false, type: "weapon"},
-  {title: "The Helmet", text: "The helmet gives you one extra combat die in defence.", image: "helmet", cost: "120", wizard: false, type: "armour"},
-  {title: "Plate armour", text: "Plate armour allows you to roll four combat dice in defence, BUT You may only roll one die for movement whilst wearing plate armour.", image: "", cost: "850", wizard: false, type: "armour"},
-  {title: "The shield", text: "The shield gives you one extra combat die in defence.", image: "shield", cost: "100", wizard: false, type: "armour"},
   {title: "Short sword", text: "The Short sword allows you to roll two combat dice in attack. The Short sword may be used to attack diagonally.", image: "", cost: "150", wizard: false, type: "weapon"},
   {title: "Spear", text: "The Spear allows you to roll two combat dice in attack. The Spear may be used to attack diagonally. You may also throw the Spear but if you do so you lose it.", image: "", cost: "150", wizard: false, type: "weapon"},
+  {title: "Hand axe", text: "The Hand axe allows you to roll two combat dice in attack. You may also throw the Hand axe but if you do so you lose it.", image: "", cost: "150", wizard: false, type: "weapon"},
   {title: "Staff", text: "The Staff allows you to roll two combat dice in attack. The Staff may be used to attack diagonally.", image: "", cost: "100", type: "weapon"},
+  {title: "Plate armour", text: "Plate armour allows you to roll four combat dice in defence, BUT You may only roll one die for movement whilst wearing plate armour.", image: "", cost: "850", wizard: false, type: "armour"},
+  {title: "Chain Mail", text: "Chain mail armour allows you to roll three combat dice in defence.", image: "", cost: "450", wizard: false, type: "armour"},
+  helmet_2nd, helmet_2nd, shield_2nd, shield_2nd,
+  {title: "Cloak of Protection", text: "The cloak allows you to roll one extra die in defence.", image: "", cost: "350", wizard: true, type: "armour"},
+  {title: "Bracers", text: "The Bracers allows you to roll one extra combat die in defence.", image: "", cost: 200, wizard: true, type: "armour"},
   {title: "Tool kit", text: "The tool kit enables you to remove any trap that you find. Roll one combat die. On the roll of a skull the trap goes off and you lose one Body point. Once you have rolled the die the trap is removed.", image: "", cost: "250"},
 ],
 airspells: [
@@ -349,15 +415,15 @@ monsters: [
 ],
 }
 
-sets = [
-  {name: "Monsters", campaign: "GS", region: "EU", type: "monster", cards: eu_cards.monsters},
-  {name: "Quest Treasure", campaign: "GS", region: "EU", type: "artifact", cards: eu_cards.artifacts},
-  {name: "Air Spells", campaing: "GS", region: "EU", type: "airspell", cards: eu_cards.airspells},
-  {name: "Earth Spells", campaign: "GS", region: "EU", type: "earthspell", cards: eu_cards.earthspells},
-  {name: "Fire Spells", campaign: "GS", region: "EU", type: "firespell", cards: eu_cards.firespells},
-  {name: "Water Spells", campaign: "GS", region: "EU", type: "waterspell", cards: eu_cards.waterspells},
-  {name: "Treasure", campaign: "GS", region: "EU", type: "treasure", cards: eu_cards.treasure},
-  {name: "Equipment", campaign: "GS", region: "EU", type: "equipment", cards: eu_cards.equipment},
+sets_2nd = [
+  {name: "Monsters", campaign: "GS", region: "EU", type: "monster", cards: cards_2nd.monsters},
+  {name: "Quest Treasure", campaign: "GS", region: "EU", type: "artifact", cards: cards_2nd.artifacts},
+  {name: "Air Spells", campaing: "GS", region: "EU", type: "airspell", cards: cards_2nd.airspells},
+  {name: "Earth Spells", campaign: "GS", region: "EU", type: "earthspell", cards: cards_2nd.earthspells},
+  {name: "Fire Spells", campaign: "GS", region: "EU", type: "firespell", cards: cards_2nd.firespells},
+  {name: "Water Spells", campaign: "GS", region: "EU", type: "waterspell", cards: cards_2nd.waterspells},
+  {name: "Treasure", campaign: "GS", region: "EU", type: "treasure", cards: cards_2nd.treasure},
+  {name: "Equipment", campaign: "GS", region: "EU", type: "equipment", cards: cards_2nd.equipment},
   {name: "Against the Ogre Horde Chaos Spells (originally not on cards)", campaign: "AtOH", region: "EU", type: "chaos", cards: atoh_cards.chaosspells},
   {name: "Against the Ogre Horde Monsters (originally inside the booklet)", campaign: "AtOH", region: "EU", type: "monster", cards: atoh_cards.monsters},
   {name: "Wizards of Morcar Treasure", campaign: "WoM", region: "EU", type: "treasure", cards: wom_cards.treasure},
@@ -369,6 +435,18 @@ sets = [
   {name: "Wizards of Morcar Spells of Detection", campaign: "WoM", region: "EU", type: "spellofdetection", cards: wom_cards.spellsofdetection},
   {name: "Wizards of Morcar Spells of Darkness", campaign: "WoM", region: "EU", type: "spellofdarkness", cards: wom_cards.spellsofdarkness},
   {name: "Wizards of Morcar Men-at-Arms", campaign: "WoM", region: "EU", type: "menatarms", cards: wom_cards.menatarms},
+];
+sets_1st = [
+  {name: "Monsters", campaign: "GS", region: "EU", type: "monster", cards: cards_2nd.monsters},
+  {name: "Quest Treasure", campaign: "GS", region: "EU", type: "artifact", cards: cards_2nd.artifacts},
+  {name: "Air Spells", campaing: "GS", region: "EU", type: "airspell", cards: cards_2nd.airspells},
+  {name: "Earth Spells", campaign: "GS", region: "EU", type: "earthspell", cards: cards_1st.earthspells},
+  {name: "Fire Spells", campaign: "GS", region: "EU", type: "firespell", cards: cards_1st.firespells},
+  {name: "Water Spells", campaign: "GS", region: "EU", type: "waterspell", cards: cards_1st.waterspells},
+  {name: "Treasure", campaign: "GS", region: "EU", type: "treasure", cards: cards_1st.treasure},
+  {name: "Equipment", campaign: "GS", region: "EU", type: "equipment", cards: cards_1st.equipment},
+]
+sets_us = [
   {name: "Monsters", campaign: "GS", region: "US", type: "monster", cards: us_cards.monsters},
   {name: "Artifacts", campaign: "GS", region: "US", type: "artifact", cards: us_cards.artifacts},
   {name: "Air Spells", campaign: "GS", region: "US", type: "airspell", cards: us_cards.airspells},
@@ -384,10 +462,16 @@ sets = [
   {name: "The Frozen Horror Chaos Spells", campaign: "FH", region: "US", type: "chaos", cards: fh_cards.chaosspells},
   {name: "The Frozen Horror Treasure", campaign: "FH", region: "US", type: "treasure", cards: fh_cards.treasure},
   {name: "The Frozen Horror Monsters", campaign: "FH", region: "US", type: "monster", cards: fh_cards.monsters},
-  {name: "The Frozen Horror Men-at-Arms", campaign: "FH", region: "US", type: "menatarms", cards: fh_cards.menatarms},
+  {name: "The Frozen Horror Men-at-Arms", campaign: "FH", region: "US", type: "monster", cards: fh_cards.menatarms},
   {name: "The Mage of the Mirror Arftifacts", campaign: "MM", region: "US", type: "artifact", cards: mm_cards.artifacts},
   {name: "The Mage of the Mirror Chaos Spells", campaign: "MM", region: "US", type: "chaos", cards: mm_cards.chaosspells},
   {name: "The Mage of the Mirror Elf Spells", campaign: "MM", region: "US", type: "elfspell", cards: mm_cards.elfspells},
   {name: "The Mage of the Mirror Treasure", campaign: "MM", region: "US", type: "treasure", cards: mm_cards.treasure},
   {name: "The Mage of the Mirror Monsters", campaign: "MM", region: "US", type: "monster", cards: mm_cards.monsters},
 ];
+
+sets = {
+  "1st": sets_1st,
+  "2nd": sets_2nd,
+  "US": sets_us,
+}

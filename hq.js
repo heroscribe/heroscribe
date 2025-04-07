@@ -90,75 +90,7 @@ var stats = {
 },
 };
 
-gs_us = [
-  "01-TheTrial", "02-TheRescueofSirRagnar", "03-LairoftheOrcWarlord",
-  "04-PrinceMagnusGold", "05-MelarsMaze", "06-LegacyoftheOrcWarlord", "07-TheLostWizard",
-  "08-TheFireMage", "09-RaceAgainstTime", "10-CastleofMystery", "11-BastionofChaos",
-  "12-BarakTor-BarrowoftheWitchLord", "13-QuestfortheSpiritBlade", "14-ReturntoBarakTor",
-];
-gs_eu = [
-  "00-TheMaze", "01-TheTrial", "02-TheRescueofSirRagnar", "03-LairoftheOrcWarlord",
-  "04-PrinceMagnusGold", "05-MelarsMaze", "06-LegacyoftheOrcWarlord", "07-TheStoneHunter",
-  "08-TheFireMage", "09-RaceAgainstTime", "10-CastleofMystery", "11-BastionofChaos",
-  "12-BarakTor-BarrowoftheWitchLord", "13-QuestfortheSpiritBlade", "14-ReturntoBarakTor",
-];
-kk = [
-  "01-TheGreatGate", "02-TheWarriorHalls", "03-TheSpiralPassage", "04-TheDwarvenForge",
-  "05-HallofDwarvenKings", "06-TheGreatCitadel", "07-TheEasternPassage", "08-BelornsMine",
-  "09-TheEastGate", "10-GrinsCrag",
-]
-rotwl = [
-  "01-TheGateofDoom", "02-TheColdHalls", "03-TheSilentPassages", "04-HallsofVision",
-  "05-TheGateofBellthor", "06-HallsoftheDead", "07-TheForgottenLegion",
-  "08-TheForbiddenCity", "09-TheLastGate", "10-TheCourtoftheWitchLord",
-]
-atoh = [
-   "01-SearchfortheOgreFortress", "02-TheOuterCaves", "03-LairoftheOgreHorde",
-   "04-TheCarrionHalls", "05-ThePitofChaos", "06-FortressoftheOgreLord",
-   "07-FighttotheSurface",
-]
-wom = [
-  "01-TheToweroftheHighMage", "02-CryptoftheNecromancer", "03-EyrieoftheStormMaster",
-  "04-LairoftheOrcShaman", "05-TheFinalConflict",
-]
-dc = [""]
-fh = [
-  "01-XanonPass", "02-TrialbyIce", "03-TheRescue", "04-TheGlacialGate", "05-TheDeadlyDepths",
-  "06-TheFrostedPath", "07-TheHallsofKelvinos", "08-TheSearchfortheScepter",
-  "09-TheHeartofIcePartI", "10-TheHeartofIcePartII",
-]
-mm = [
-  "01-TheAvengerReturns", "02-OnSacredGround", "03-TerelliasMaze", "04-TheElvenProspector",
-  "05-TheAlchemistsLaboratory", "06-TormuksGuests", "07-GlinessFen",
-  "08-TheGatheringStorm", "09-HiddenRealmsPartI", "10-HiddenRealmsPartII",
-]
-sq = [
-  "AGrowlofThunder", "RunningtheGauntlet",
-]
-custom = ["01-ANewBeginning", "02-CozyHome", "03-CarpetsforSale"]
 boards = {};
-
-campaigns = {
-  "EU": {
-    "ADC": {name: "AdventureDesignKit", quests: custom},
-    "GS": {name: "HQBase", quests: gs_eu},
-    "KK": {name: "KellarsKeep", quests: kk},
-    "RotWL": {name: "ReturnOfTheWitchLord", quests: rotwl},
-    "AtOH": {name: "AgainstTheOgreHorde", quests: atoh},
-    "WoM": {name: "WizardsOfMorcar", quests: wom},
-    "DC": {name: "TheDarkCompany", quests: dc},
-    "SQ": {name: "SoloQuests", quests: sq},
-  },
-  "US": {
-    "ADC": {name: "AdventureDesignKit", quests: custom},
-    "GS": {name: "HQBase", quests: gs_us},
-    "KK": {name: "KellarsKeep", quests: kk},
-    "RotWL": {name: "ReturnOfTheWitchLord", quests: rotwl},
-    "FH": {name: "TheFrozenHorror", quests: fh},
-    "MM": {name: "TheMageOfTheMirror", quests: mm},
-  },
-}
-
 var map = [];
 ui = new UI();
 
@@ -180,10 +112,11 @@ class Card extends UIElement {
   }
 }
 class Set extends UIElement {
-  constructor(set) {
+  constructor(set, edition) {
     super();
     this.name = set.name
     this.region = set.region;
+    this.edition = edition;
     this.type = set.type;
     this.id = set.name;
     this.cards = [];
@@ -326,7 +259,7 @@ class Field extends UIElement {
     return Math.abs(this.x - n.x) + Math.abs(this.y - n.y) == 1;
   }
   neighbors() {
-    return this.links.filter(l => l.isOpen()).map(l => l.fields.filter(f => f.id != this.id)[0]);
+    return this.links.filter(l => l.isOpen()).map(l => l.fields.filter(f => f.id != this.id)[0]).filter(f => f);
   }
   reach(i, distance=0) {
     if (!i || distance > i || distance >= this.distance)
@@ -428,13 +361,11 @@ class Passage extends Area {
   }
 }
 class Board extends UIElement {
-  constructor(definitions, pieces, region, name, speech) {
+  constructor(definitions, pieces, region) {
     super();
     this.w = 26;
     this.h = 19;
     this.region = region;
-    this.name = name;
-    this.speech = speech;
     this.id = "board" + id.next().value;
     this.areas = [];
     this.fields = [];
@@ -471,19 +402,22 @@ class Board extends UIElement {
 function fieldId(x, y) {
   return String.fromCharCode("a".charCodeAt(0) + x) + (y + 1)
 }
-class Map {
+class Quest extends UIElement {
   constructor(xml) {
+    super();
     this.fromXml(xml);
   }
   fromXml(xml) {
     let parser = new DOMParser();
     let xmlDoc = parser.parseFromString(xml, "text/xml");
+    this.id = "quest";
     this.region = xmlDoc.getElementsByTagName("quest")[0].getAttribute("region");
-    this.name = xmlDoc.getElementsByTagName("quest")[0].getAttribute("name");
-    this.speech = xmlDoc.getElementsByTagName("speech")[0];
-    this.speech = this.speech && this.speech.innerHTML;
     for (const b of xmlDoc.getElementsByTagName("board"))
       this.addBoard(b);
+    this.title = xmlDoc.getElementsByTagName("quest")[0].getAttribute("name");
+    let speech = xmlDoc.getElementsByTagName("speech")[0];
+    this.speech = speech && speech.innerHTML;
+    this.notes = Array.prototype.slice.call(xmlDoc.getElementsByTagName("note")).map(n => n.innerHTML);
   }
   addBoard(b) {
     this.map = [];
@@ -492,7 +426,7 @@ class Map {
     let dark = Array.prototype.slice.call(b.getElementsByTagName("dark"));
     dark.forEach(o => o.id = "Dark");
     dark.forEach(o => this.addObject(o, map));
-    let board = new Board(definitions, this.map, this.region, this.name, this.speech);
+    let board = new Board(definitions, this.map, this.region);
     boards[board.id] = board;
   }
   addObject(o) {
@@ -540,7 +474,7 @@ function readFile(input) {
     let reader = new FileReader();
     reader.readAsText(f);
     reader.onload = function() {
-      new Map(reader.result);
+      new Quest(reader.result);
     };
     reader.onerror = function() {
       console.log(reader.error);
@@ -549,12 +483,12 @@ function readFile(input) {
 }
 
 
-async function loadMap(quest, campaign, region) {
+async function loadQuest(quest, campaign, region) {
   url = campaign + "_" + region + "/" + campaign
   if (quest)
     url += "-" + quest
   url += "_" + region + ".xml";
-  await fetch(url).then(response => response.text()).then(str => new Map(str));
+  await fetch(url).then(response => response.text()).then(str => new Quest(str));
 }
 
 function clearBoards() {
@@ -575,14 +509,27 @@ function addFileDialog() {
   document.getElementsByClassName("menu")[0].appendChild(b);
 }
 
+function addCampaignText(text) {
+  if (!text)
+    return;
+  let div = document.createElement("div");
+  div.innerHTML = text;
+  addClass(div, "speech");
+  document.getElementById("maps").appendChild(div);
+}
+
 async function loadCampaign(campaign, region, map) {
   if (!campaign)
     return;
+  if (!map)
+    addCampaignText(campaign.intro);
   clearBoards();
   map = campaign.quests[map]
   quests = map ? [map] : campaign.quests;
   for (const q of quests)
-    await loadMap(q, campaign.name, region)
+    await loadQuest(q, campaign.name, region)
+  if (!map)
+    addCampaignText(campaign.outro);
 }
 
 function addLink(abbrev, region, name, index) {
@@ -616,8 +563,8 @@ function setExtraDefinitions() {
 }
 
 function loadCards() {
-  for (const set of sets.filter(s => !params.r || s.region == params.r))
-    new Set(set);
+  for (const set of sets[params.e] || [])
+    new Set(set, params.e);
 }
 function loadCampaigns() {
   c = campaigns[params.r]

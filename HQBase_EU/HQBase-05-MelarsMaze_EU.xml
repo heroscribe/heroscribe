@@ -279,5 +279,11 @@
 <object id="SingleBlockedSquare" left="12.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="Door" left="4.0" top="14.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+Long ago, a powerful sorcerer by the name of Melar created a Talisman which would enhance the wearer's understanding of magic. He kept the Talisman with him at all times, fearing it might be stolen and used by the allies of Morcar. It is said that he left the Talisman in his laboratory at the heart of his Maze. Melar's Maze is guarded by many traps and magical guardians. It is also rumoured to be haunted by those who have sought the Talisman and perished in the attempt...
+</speech>
+<note>A  If a player searches for secret doors, he will find nothing. However, if a player searches for treasure, he will find Melar's Key. Upon touching it, the Key will disappear and the throne will slide sideways, revealing a secret door.</note>
+<note>B  This room contains a Gargoyle. The Gargoyle may not be moved until one of the players has opened the door marked with the arrow. The Gargoyle cannot be harmed until it has either moved or attacked another player.</note>
+<note>C  Any player who searches for Treasure will find the Talisman of Lore. The Talisman is a Quest treasure and the player who found it should take the appropriate Quest treasure card.</note>
+<note>Wandering monster: Zombie</note>
 </quest>

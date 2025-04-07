@@ -375,5 +375,37 @@
 <object id="Skeleton" left="17.0" top="18.0" rotation="downward" zorder="0.0" />
 <object id="Number10" left="23.0" top="13.87" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+Long ago, a wizard named Ollar discovered the
+entrance to a gold mine. Using his great powers, he
+built a magic castle above the mine to protect it. The
+lower chamber of the castle has many magical doors
+and is guarded by a host of monsters who were
+trapped in time. Can you find the entrance to the
+gold mine? Others have tried, but the castle thwarted
+them every time.
+</speech>
+<note>As soon as a Hero moves through any door, he must stop immediately
+and roll two red dice. He will then be teleported to the square
+with the same number as the dice total. If that square is already
+occupied, he will land on the Hero or monster in the square. The
+landed-on Hero or monster will lose 1 Body point, and, if still
+alive, must roll two red dice to see where he/it is teleported. If the
+same square number is rolled, roll again. The first teleported Hero
+remains on the square. Heroes may only pass through one door
+per turn!</note>
+<note>A. If both of these Chaos Warriors are defeated, the first Hero to
+search for treasure will find that one of the warriors was
+wearing the magical artifact called the Ring of Return.
+is explained on the matching Artifact Card.</note>
+<note>B. This square is the entrance to the mine. Any player who enters
+this room may take 5,000 gold coins. However, as long as he is
+carrying the gold, he may not attack or defend himself. If the
+Hero puts the gold down, it will disappear back into the mine.</note>
+<note>The Quest is over when all of the monsters are killed or when all
+of the Heroes have left the Quest by returning to the stairs on a
+roll of 2 or 12. When the game is over, tell the players that all the
+gold found at the mine entrance is fool’s gold and is worthless.
+Any other treasure that is found is real.</note>
+<note>Wandering Monster in this Quest: Ollar’s ghost appears, chuckles madly, and disappears</note>
 </quest>

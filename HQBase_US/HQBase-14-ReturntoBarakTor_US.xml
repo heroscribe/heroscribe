@@ -300,5 +300,29 @@
 <object id="Door" left="23.0" top="1.0" rotation="downward" zorder="1.0" />
 <object id="Door" left="1.0" top="3.0" rotation="rightward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+Now that you have found the Spirit Blade, you must
+return to Barak Tor and defeat the Witch Lord. The
+Emperor has ridden forth to meet the eastern Orcs at
+Black Fire Pass. If you fail, the Witch Lord will lead
+his army of Undead and attack the Emperor’s forces
+from the rear. Then nothing will remain to prevent
+the forces of Chaos from overrunning the land!
+</speech>
+<note>A. The Witch Lord’s tomb is now empty.</note>
+<note>Use the Chaos Warlock figure for the Witch Lord. The Witch
+Lord is not affected by any weapon or spell other than the Spirit
+Blade. The Witch Lord has grown stronger! (See stat chart at
+right.) Also, he knows the following spells: Summon Undead,
+Fear (which he can cast twice), Ball of Flame, Command, and
+Tempest. Refer to the Chaos Spell Cards for details.</note>
+<note>THE WITCH LORD: MOVEMENT 10 ATTACK 5 DEFEND 6 BODY 4 MIND 6</note>
+<note>If the Witch Lord is defeated, he will vanish in a puff of foul,
+black smoke. When the smoke clears, the Heroes will hear the
+tinkle of metal skittering across the floor. On the floor, they will
+find an artifact—the magical Spell Ring—which the Witch Lord
+was wearing. Its use is explained on the matching Artifact Card.</note>
+<note>After this Quest is successfully completed, all surviving Heroes
+are awarded the title of "Champion" by the Emperor.</note>
+<note>Wandering Monster in this Quest: Mummy</note>
 </quest>

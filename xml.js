@@ -28,26 +28,39 @@ class Xml {
   constructor(board) {
     if (!board)
       return;
-    this.name = board.getElementsByClassName("intro")[0].textContent;
-    this.region = board.getAttribute("region");
-    let objects = board.getElementsByTagName("div");
+    let board2 = board.getElementsByClassName("board")[0];
+    let parchment = board.getElementsByClassName("parchment")[0];
+    this.name = parchment.getElementsByClassName("title")[0].textContent;
+    this.region = board2.getAttribute("region");
+    let objects = board2.getElementsByTagName("div");
     this.xml = document.implementation.createDocument(null, "quest");
-    let quest = this.xml.getElementsByTagName("quest")[0];
-    quest.setAttribute("name", this.name);
-    quest.setAttribute("region", this.region);
-    quest.setAttribute("version", "1.0");
-    quest.setAttribute("width", "1");
-    quest.setAttribute("height", "1");
+    this.quest = this.xml.getElementsByTagName("quest")[0];
+    this.quest.setAttribute("name", this.name);
+    this.quest.setAttribute("region", this.region);
+    this.quest.setAttribute("version", "1.0");
+    this.quest.setAttribute("width", "1");
+    this.quest.setAttribute("height", "1");
     this.board = this.xml.createElement("board");
-    quest.appendChild(this.board);
-    for (const o of objects) {
+    this.quest.appendChild(this.board);
+    for (const o of objects)
       if (o.getAttribute("type") == "Field")
         this.addField(o);
       else
         this.addObject(o);
-    }
-    quest.appendChild(this.xml.createElement("speech"));
+    this.addSpeech(parchment.getElementsByClassName("speech")[0].textContent);
+    for (const note of board.getElementsByClassName("notes")[0].getElementsByTagName("div"))
+      this.addNote(note.textContent);
     this.save();
+  }
+  addSpeech(text) {
+    let speech = this.xml.createElement("speech");
+    speech.appendChild(document.createTextNode(text));
+    this.quest.appendChild(speech);
+  }
+  addNote(text) {
+    let note = this.xml.createElement("note");
+    note.appendChild(document.createTextNode(text));
+    this.quest.appendChild(note);
   }
   addObject(o) {
     let type = o.getAttribute("type");

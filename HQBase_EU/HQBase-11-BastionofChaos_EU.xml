@@ -261,5 +261,11 @@
 <object id="Door" left="23.0" top="18.0" rotation="downward" zorder="0.0" />
 <object id="PitTrap" left="26.0" top="19.0" rotation="downward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+The Lands to the east have been plagued by marauding Orcs and Goblins. The Emperor has ordered that a band of worthy Heroes should be sent forth to destroy them. The Orcs are well protected in a strong underground fortress known as the Bastion of Chaos. They are led by a small group of Chaos Warriors. You must fight your way in and kill all the monsters you find. You will be paid a bounty of: <br/>10 gold coins for each Goblin killed<br/>20 gold coins for each Orc killed<br/>30 gold coins for each Fimir or Chaos Warrior killed.
+</speech>
+<note>A  This is the Armoury. There are many weapons here but they are all unusable. However, if a player searches for Treasure, he will find a shield. That player takes a shield card from the Equipment cards.</note>
+<note>B  The Treasure chest is a trap. If any player opens the chest the Gargoyle will spring to life and immediately attack. If a player searches for traps he will discover what would happen if he opened the chest. The Gargoyle cannot be harmed until it has either moved or attacked another player.</note>
+<note>C  The Chaos Warrior has a magic sword. Whoever kills the Chaos Warrior may take the sword as a prize. The sword is Orcs Bane. This is a Quest treasure and the player should take the appropriate card, which he may keep.</note>
+<note>Wandering monster: Fimir</note>
 </quest>

@@ -373,5 +373,12 @@
 <object id="Skeleton" left="17.0" top="18.0" rotation="downward" zorder="0.0" />
 <object id="Number10" left="23.0" top="13.87" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+Long ago a crazy wizard, Ollar, discovered the entrance to a gold mine. Using his great powers he built a magic castle above the mine to protect it. The castle had many magic portals and was guarded by a host of monsters who were trapped in time. Can you find the entrance? Others have tried, but the castle has thwarted them every time.
+</speech>
+<note>Whenever a character moves through a door, he rolls two standard dice. He will then be teleported to the square with the same number as the dice total. If that square is already occupied, he will land on the character or monster on it. The character or monster will lose 1 Body point and, if still alive, must roll two dice to see where he is teleported. The first character remains on the square. If a character or monster rolls the number of the square on which he is currently standing, he rolls the dice again.</note>
+<note><b>Characters may only pass through one portal per turn.</b></note>
+<note>A  This is the entrance to the mine. Any player who enters this room may take 5000 gold pieces. However, as long as he is carrying the gold, he may not attack or defend himself. If the character puts the gold down, it will disappear back to the mine.</note>
+<note>When the game is over, tell the players that all the gold found in the mine is fool's gold. Any other Treasure that is found, however, is real.</note>
+<note>Wandering monster: Tell the player that the ghost of Ollar appears, chuckles madly and disappears.</note>
 </quest>

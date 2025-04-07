@@ -37,6 +37,7 @@ function addCSSRule(sheet, selector, rules, index) {
 
 class UI {
   constructor(style) {
+    this.square = 26;
     this.id = "ui";
     this.region = "Europe";
     this.fields = {};
@@ -49,7 +50,6 @@ class UI {
   addElement(id, type) {
     let div = document.createElement("div");
     div.className = type;
-    let parent 
     this.board.appendChild(div);
     return div;
   }
@@ -64,19 +64,19 @@ class UI {
     this.fields[field.id] = div;
     div.setAttribute("type", "Field");
     div.setAttribute("onclick", "ui.selectField(this)");
-    div.style["left"] = (16 + 21 * field.x) + "px";
-    div.style["top"] = (16 + 21 * field.y) + "px";
+    div.style["left"] = (16 + this.square * field.x) + "px";
+    div.style["top"] = (16 + this.square * field.y) + "px";
+    div.style["width"] = this.square + "px";
+    div.style["height"] = this.square + "px";
   }
   addWall(wall) {
     if (!wall.fields)
       return;
     let div = this.addElement(wall.id, "wall")
-    div.style["top"] = (15 + 21 * wall.fields[0].y) + "px";
-    div.style["left"] = (15 + 21 * wall.fields[0].x) + "px"
-    if (wall.fields[0].x == wall.fields[1].x)
-      div.style["width"] = "24px";
-    if (wall.fields[0].y == wall.fields[1].y)
-      div.style["height"] = "24px";
+    div.style["top"] = (15 + this.square * wall.fields[0].y) + "px";
+    div.style["left"] = (15 + this.square * wall.fields[0].x) + "px"
+    div.style["width"] = ((wall.fields[0].x == wall.fields[1].x ? 1 : 0) * this.square + 3) + "px";
+    div.style["height"] = ((wall.fields[0].y == wall.fields[1].y ? 1 : 0) * this.square + 3) + "px";
   }
   place(div, field) {
     if (!div)
@@ -121,8 +121,8 @@ class UI {
     let pos = div.getAttribute("pos");
     x = pos.charCodeAt(0) - "a1".charCodeAt(0) + 1;
     y = parseInt(pos.slice(1))
-    div.style["left"] = (-5 + 21 * x) + "px";
-    div.style["top"] = (-5 + 21 * y) + "px";
+    div.style["left"] = (-10 + this.square * x) + "px";
+    div.style["top"] = (-10 + this.square * y) + "px";
   }
   rotate(div) {
     div.obj.rotate();
@@ -167,13 +167,15 @@ class UI {
     div.style["z-index"] = 10 + (obj.z || 0);
       div.style["background-image"] = "url('Icons/Raster/" + obj.icons[this.region] + ".png')";
     let xoffset = obj.xoffset && obj.xoffset[this.region] || 0;
-    div.setAttribute("xoffset", 20 * xoffset);
+    div.setAttribute("xoffset", 21 * xoffset);
     let yoffset = obj.yoffset && obj.yoffset[this.region] || 0;
-    div.setAttribute("yoffset", 20 * yoffset);
-    if (obj.w > 1)
-      div.style["width"] = 21 * obj.w + "px";
-    if (obj.h > 1)
-      div.style["height"] = 21 * obj.h + "px";
+    div.setAttribute("yoffset", 21 * yoffset);
+    div.style["width"] = this.square * obj.w + "px";
+    div.style["height"] = this.square * obj.h + "px";
+    if (obj.kind == "mark") {
+      div.style["width"] = "21px";
+      div.style["height"] = "21px";
+    }
     if (obj.h > 1 || obj.w > 1)
       addClass(div, "large");
     div.setAttribute("angle", obj.angle);
@@ -201,13 +203,6 @@ class UI {
     b.setAttribute("onclick", action);
     b.innerHTML = text;
     this.board.appendChild(b);
-  }
-  addSpeech(speech) {
-    let div = document.createElement("div");
-    div.innerHTML = speech;
-    div.className = "speech";
-    div.setAttribute("contentEditable", "true");
-    this.board.appendChild(div);
   }
   addFight() {
     this.fight = this.addElement("fight", "fight");
@@ -290,18 +285,23 @@ class UI {
     let icon = definitions.objects[obj.name];
     icon = icon && icon.icons["Europe"];
     this.addStats(card, obj.stats, icon);
-    this.board.appendChild(card);
+    this.quest.appendChild(card);
   }
   addSet(obj) {
     let div = document.createElement("div");
-    div.innerHTML = obj.region + " " + obj.name;
+    div.innerHTML = obj.edition + " Edition " + obj.name;
     document.getElementById("cards").appendChild(div);
-    this.board = document.createElement("div");
-    this.board.id = obj.id
-    addClass(this.board, "set");
-    addClass(this.board, obj.region);
-    addClass(this.board, obj.type);
-    document.getElementById("cards").appendChild(this.board);
+    this.quest = document.createElement("div");
+    this.quest.id = obj.id
+    addClass(this.quest, "set");
+    addClass(this.quest, obj.region);
+    addClass(this.quest, obj.type);
+    let back = document.createElement("div");
+    addClass(back, "card");
+    addClass(back, "cardback");
+    back.style["background-image"] = "url('Images/Cardbacks" + obj.region + "/" + obj.type + "_back.jpg')";
+    this.quest.appendChild(back);
+    document.getElementById("cards").appendChild(this.quest);
   }
   addBoard(obj) {
     this.board = document.createElement("div");
@@ -313,25 +313,54 @@ class UI {
     this.w = obj.w;
     this.h = obj.h;
     this.board.className = "board";
-    this.addButton("Save", "new Xml(this.parentNode)");
+    this.addButton("Save", "new Xml(this.parentNode.parentNode)");
     this.addButton("Close", "this.parentNode.remove()");
     this.addButton("Delete", "ui.deleteSelected()");
     let div = document.createElement("div");
-    div.innerHTML = obj.name;
-    div.className = "intro";
-    div.setAttribute("contentEditable", "true");
-    this.board.appendChild(div);
-    //this.addSpeech(obj.speech);
-    div = document.createElement("div");
     div.className = "frame";
-    div.style.width = (21 * this.w - 0) + "px";
+    div.style.width = (this.square * this.w - 0) + "px";
     div.style.top = "10px";
     div.style.left = "10px";
-    div.style.height = (21 * this.h - 0) + "px";
+    div.style.height = (this.square * this.h - 0) + "px";
     this.board.appendChild(div);
-    this.board.style = "width: " + (20 + 21 * obj.w) + "px; height: " + (25 + 20 + 21 * obj.h) + "px;"
-    document.getElementById("maps").appendChild(this.board);
+    this.board.style["width"] = (20 + this.square * obj.w) + "px";
+    this.board.style["height"] = (20 + this.square * obj.h) + "px";
+    this.quest.appendChild(this.board);
 //    this.addFight();
+    this.quest.style["width"] = (30 + this.square * obj.w) + "px";
+  }
+  setSpeech(obj, value) {
+    let div = document.createElement("div");
+    div.innerHTML = value;
+    div.className = "speech";
+    div.setAttribute("contentEditable", "true");
+    let parchment = obj.getElementsByClassName("parchment")[0]
+    parchment.appendChild(div);
+  }
+  setNotes(obj, value) {
+    let div = document.createElement("div");
+    div.className = "notes";
+    div.setAttribute("contentEditable", "true");
+    div.innerHTML = value.map(n => "<div>" + n + "</div>").join("");
+    this.quest.appendChild(div);
+  }
+  setTitle(obj, value) {
+    if (!obj)
+      return;
+    let div = document.createElement("div");
+    div.innerHTML = value;
+    div.className = "title";
+    div.setAttribute("contentEditable", "true");
+    let parchment = document.createElement("div");
+    parchment.className = "parchment";
+    this.quest.appendChild(parchment);
+    parchment.appendChild(div);
+  }
+  addQuest(obj) {
+    this.quest = document.createElement("div");
+    obj.div = this.quest;
+    addClass(this.quest, "quest");
+    document.getElementById("maps").appendChild(this.quest);
   }
   setRevealed(obj, state) {
     addClassIf(obj, "revealed", state);
@@ -353,7 +382,7 @@ class UI {
   }
   setOpponent(obj, value) {
     console.log("xxx");
-    this.fight.style["width"] = 21 * obj.obj.stats.a + "px";
+    this.fight.style["width"] = this.square * obj.obj.stats.a + "px";
     this.fight.style["left"] = obj.style["left"];
   }
   set(obj, prop, value) {

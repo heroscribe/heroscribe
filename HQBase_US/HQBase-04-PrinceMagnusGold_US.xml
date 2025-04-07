@@ -317,5 +317,19 @@
 <object id="Orc" left="17.0" top="10.0" rotation="downward" zorder="1.0" />
 <object id="Goblin" left="9.0" top="8.0" rotation="downward" zorder="2.0" />
 </board>
-<speech></speech>
+<speech>‘“Three treasure chests have been stolen while being
+taken to the Emperor. A reward of 240 gold coins has
+been offered to any group of Heroes who return the
+chests and ALL of the gold. The thieves are a well-known band of Orcs whose lair is in the Black
+Mountains. They are led by Gulthor, a Chaos Warrior.
+</speech>
+<note>
+A. These are the three chests. They are marked with the Prince’s
+royal seal. Each chest is locked and contains 250 gold coins
+and other items of value to the Prince and the Emperor. A
+Hero can carry only one chest at a time. When carrying a
+treasure chest, a Hero can only roll ONE red die for movement.
+The Heroes cannot keep the gold inside the treasure chests.
+</note>
+<note>Wandering Monster in this Quest: Fimir</note>
 </quest>

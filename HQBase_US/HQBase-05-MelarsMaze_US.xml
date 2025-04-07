@@ -289,5 +289,35 @@
 <object id="SingleBlockedSquare" left="12.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="Door" left="4.0" top="14.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+Long ago, a powerful wizard by the name of Melar
+created a Talisman of Lore which would enhance the
+wearer’s understanding of magic. It is rumored that
+Melar hid the Talisman in an underground laboratory
+at the heart of his Maze, fearing it might be stolen
+by the evil minions of Zargon. As you search for
+the Talisman, beware of many traps and deadly
+monsters.
+</speech>
+<note>A. The first Hero to search for treasure will find a half-filled flask
+sitting on the alchemist’s bench. It is a Potion of Healing
+that will restore up to 2 lost Body Points when consumed.</note>
+<note>B. This chamber contains a Gargoyle that appears to be
+paralyzed. The Gargoyle will not move at first and will only
+“come to life’’ after one of the Heroes opens the door that
+leads into the next room. The Gargoyle cannot be harmed
+(takes no damage) until it has either moved or attacked
+a Hero.</note>
+<note>C. The chest is filled with poisonous gas—it is a trap! If a Hero
+searches for treasure before the trap is disarmed, he will
+lose 2 Body Points. The chest also contains 144 gold coins.
+There is no other treasure in this room.</note>
+<note>D. The first Hero who searches for treasure will find the Talisman
+of Lore. The Talisman is a magical artifact. Its use is explained
+on the matching Artifact Card.</note>
+<note>E. If a Hero searches for secret doors, he will find nothing on
+either side of the wall. However, if a Hero searches for treasure
+he will find Melar’s Key. Upon touching it, the key will disappear
+and the throne will slide sideways, revealing a secret door!</note>
+<note>Wandering Monster in this Quest: Zombie</note>
 </quest>

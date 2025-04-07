@@ -329,5 +329,11 @@
 <object id="SingleBlockedSquare" left="2.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="SingleBlockedSquare" left="10.0" top="19.0" rotation="downward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+The Emperor's personal Wizard, Karlen has disappeared. The Emperor fears that either he has been murdered or has succumbed to the lures of Chaos magic. You are to find out what has happened to Karlen and, if he is alive, bring him to safety. You will be paid 100 gold coins each upon returning.
+</speech>
+<note>A  All the Chaos Warriors in this adventure are made of stone and may roll an extra defence die.</note>
+<note>B  This is the weapons room. Any player who searches for treasure will find Borin's armour. This is a Quest Treasure and the player takes the appropriate card, which he may keep.</note>
+<note>C  Karlen's treasure chest contains 200 gold coins. The Zombie in this room is Karlen. Whilst working on a Chaos spell he was consumed by the magic he created and was turned into a mindless Zombie.</note>
+<note>Wandering monster: Mummy</note>
 </quest>

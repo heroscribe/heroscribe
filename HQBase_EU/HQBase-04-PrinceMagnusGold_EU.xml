@@ -296,5 +296,10 @@
 <object id="Orc" left="22.0" top="9.0" rotation="downward" zorder="1.0" />
 <object id="Orc" left="17.0" top="10.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+Three Treasure chests have been stolen whilst being taken to the Emperor. A reward of 200 gold coins has been offered to anyone who can return the chest and ALL the gold. The thieves are known to be a band of Orcs hiding in the Black Mountains. They are led by Gulthor, a Chaos Warrior.
+</speech>
+<note>A  These are the three chests, each containing 250 gold coins' worth of treasure. Each character may carry one Treasure chest at a time. When carrying a Treasure chest, you may only roll one die for movement.</note>
+<note>IF any character decides to keep Prince Magnus' gold instead of returning it, he will be outlawed. This character may never become a Champion.</note>
+<note>Wandering monster: Fimir</note>
 </quest>
