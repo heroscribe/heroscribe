@@ -92,7 +92,7 @@ html {
   padding: 5px;
   position: relative;
   margin-top: 5px;
-  page-break-inside: avoid;
+  break-inside: avoid;
 }
 .board div {
   position: absolute;
@@ -146,13 +146,17 @@ html {
 }
 .quest .speech {
   text-align: center;
+  line-height: 1.6;
 }
 .notes {
+  background: white;
   font-size: 12px;
   margin-left: 5px;
+  margin-right: 5px;
 }
-.board .speech {
-  bottom: 30px;
+.notes div {
+  margin: 5px;
+  margin-left: 40px;
 }
 .board .frame {
 /*  border: 1px solid black;*/
@@ -214,10 +218,8 @@ div .dice {
 #campaigns {
   width: 700px;
 }
-#campaignsEU, #campaignsUS {
-  margin-right: 5px;
-  display: inline-block;
-  vertical-align: top;
+#campaigns * {
+  margin-bottom: 10px;
 }
 .title {
   font-size: 300%;
@@ -239,7 +241,18 @@ html, .quest {
 button {
   display: none;
 }
-#maps {
-  page-break-before: always;
+#header {
+  display: none;
+  background: green;
+}
+.quest {
+  break-before: always;
+}
+.outro {
+  break-before: always;
+}
+.parchment {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 }

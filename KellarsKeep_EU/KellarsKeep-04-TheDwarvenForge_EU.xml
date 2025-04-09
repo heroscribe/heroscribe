@@ -370,5 +370,20 @@
 <object id="Door" left="9.0" top="12.0" rotation="rightward" zorder="0.0" />
 <object id="LetterA" left="11.0" top="1.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+“The greatest of the Dwarven crafts is metalwork. Few can match the Dwarves for their skill and
+understanding of the metals they work. The weapons they forged at the dawn of time have become legendary:
+the beauty of their jewels sought by King and thief alike. It is said that, though the Orcs have long since
+dwelt in the Halls of Belorn, they have yet to find the Dwarven Forge.
+Part of Grin's stone map lies here.
+</speech>
+<note>A  When this Orc is attacked he screams out. The door he is guarding opens and the contents
+of the room must be placed out.</note>
+<note>B  This treasure chest contains a part of Grin’s stone map. Take one of the map tokens.</note>
+<note>C  This treasure chest contains 50 gold coins.</note>
+<note>D  This is the Dwarven Forge. The heat from the forge is intense, for the embers burn with a magic
+fire brought from the depths of the earth. On each of your turns, burning embers will fly from the
+forge, scorching every one in the room except the Dwarf. All other characters and monsters must roll
+one combat die. Any player who rolls a skull loses one body point. The treasure chest is empty.</note>
+<note>Wandering monster: Fimir</note>
 </quest>

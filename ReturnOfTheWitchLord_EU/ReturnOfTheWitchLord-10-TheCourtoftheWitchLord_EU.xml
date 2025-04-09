@@ -268,5 +268,22 @@
 <object id="Zombie" left="7.0" top="13.0" rotation="downward" zorder="1.0" />
 <object id="Door" left="5.0" top="10.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"The Witch Lord has watched your progress. He has tried to destroy you but you have thwarted him
+every time. Now he has fled to his throne room there you must do battle with him. This time there must
+be no escape for him."
+</speech>
+<note>A  Here the Witch Lord awaits the final conflict. Use the courtroom on the die cut sheet for this Quest.
+The two Chaos warriors in the room are members of the Doomguard and act as normal Chaos warriors
+except that they roll 4 attack dice and 6 defence dice. If the room is searched 500 Gold coins will be found in a secret compartment under the throne.</note>
+<note>The Witch Lord attacks and defends as follows: Move: 10 Attack: 5 Dice Defend: 6 Dice Mind: 5 Body: 1</note>
+<note>The Witch Lord can only be harmed by two things: the Spirit Blade and Fire magic.</note>
+<note>As well as fighting he is able to summon an evil creature ONCE per turn. On each turn he may randomly pick
+ONE monster card to see which type of creature he may summon. If there are no available pieces for that
+monster type, nothing is summoned that turn. The summoned monster must be placed adjacent to the Witch
+Lord and may move/attack as normal this turn.</note>
+<note>B  This chest contains two potions of Healing, each of which will restore up to four lost body points when drunk.</note>
+<note>C  These Orcs are magical statues and may not attack or be harmed. However, if any player attacks them their
+weapon breaks and they must discard that equipment card. This can happen to any weapon, even magical ones.</note>
+<note>Wandering monster: Mummy.</note>
 </quest>

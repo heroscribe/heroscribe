@@ -367,5 +367,13 @@
 <object id="Stairs" left="24.0" top="19.0" rotation="downward" zorder="0.0" />
 <object id="Fimir" left="13.0" top="12.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+This is as far as I may go with you: once beyond these gates you will be on your own. This gateway will lead you into the falls of Belorn. I shall watch over your progress and aid you, if I can. Carry these crystals with you at all times. If the crystal you are carrying glows red look deep into it. This is how I shall contact you when you are in need.
+</speech>
+<note>A  The Characters may start in any of the passage squares marked X.</note>
+<note>B  The treasure chest is empty.</note>
+<note>C  These three secret doors may not be found by searching. You may place these onto the board at the beginning of any turn. When you place them onto the board you should set up the two rooms as usual, placing the monsters where shown.</note>
+<note>You may move the monsters in the same turn.</note>
+<note>D  The treasure chest is trapped. If any player opens the treasure chest the Gargoyle will spring to life and attack immediately. If a player searches for traps he will discover what would happen if he opened the chest. The Gargoyle cannot be harmed until it has either moved or attacked another player. The chest contains 200 gold coins.</note>
+<note>Wandering monster: Orc</note>
 </quest>

@@ -228,5 +228,24 @@
 <object id="SpearTrap" left="5.0" top="14.0" rotation="downward" zorder="1.0" />
 <object id="SpearTrap" left="19.0" top="11.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+Here begins the true domain of the Witch Lord. In these deepest caverns he has created his own
+subteranean
+fortress, from which he plans the destruction of the Empire. "Loretome has told me of a
+terrible guardian. Bellthor, whoe watches over the gate. You must confront Bellthor together if you
+are to be victorious."
+</speech>
+<note>A  Both these chests contain 200 gold coins.</note>
+<note>B  Once all of the players have entered this room, the door will disappear, trapping the players
+in the room with the Gargoyle, Bellthor, who will attack only when all the players are in the room
+together. Until he attacks, Bellthor will not move and cannot be attacked.</note>
+<note>Bellthor moves and fights as follows: Move: 6 Attack: 4 Dice Defend: 6 Dice Body: 1 Mind: 4</note>
+<note>Bellthor has a poisonous breath and can breathe on any one character in the room once a turn after he
+has attacked. To do this he rolls SIX combat dice. For each skull he rolls the defender must lose one
+Mind point. If a character is reduced to zero Mind points he is not killed but knocked unconscious.
+The character should then be removed from the board.</note>
+<note>If Bellthor is killed he will explode, filling the room with poisonous gas which will knock everyone in
+the room unconscious.</note>
+<note>All the characters have now been captured by the Witch Lord.</note>
+<note>Wandering monster: Skeleton.</note>
 </quest>

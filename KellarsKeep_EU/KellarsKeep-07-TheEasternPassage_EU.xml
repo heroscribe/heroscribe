@@ -307,5 +307,25 @@
 <object id="Door" left="16.0" top="18.0" rotation="downward" zorder="1.0" />
 <object id="SpearTrap" left="25.0" top="2.0" rotation="downward" zorder="2.0" />
 </board>
-<speech></speech>
+<speech>
+The East gate marks the end of the Halls of Belorn. But to get there you must first negotiate the
+Eastern passage. The passage is guarded: take care. The foe will be many, so you must fight your way through
+to the East Gate. You must enter through the south door. The last part of
+Grin's stone map is to be found here.
+</speech>
+<note>A  The leader of these Orcs is Ograk, an infamous Orc Captain who has, for many years, led his
+evil marauders into the border provinces of the Empire. Use the Orc with the long sword to
+represent Ograk.</note>
+<note>When it is your turn you may move him through the secret door in the room.</note>
+<note>Place the next room out as usual. Ograk may not move through closed doors. He rolls the following
+dice:</note>
+<note>Move 8 square Body 1
+Attack 4 dice Mind 3
+Defend 6 dice
+</note>
+<note>B  This treasure chest contains a part of Grin’s stone map. Take another one of the remaining map
+tokens.</note>
+<note>There are two possible ways out of The Eastern Passage. If the characters leave by the door marked 1
+they will go into "The East Gate". If they leave by the door marked 2 they will go into ""Belorn’s Mine".</note>
+<note>Wanderng monster: Chaos Warrior</note>
 </quest>

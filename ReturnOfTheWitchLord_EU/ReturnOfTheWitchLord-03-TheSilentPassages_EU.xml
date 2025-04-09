@@ -353,5 +353,18 @@
 <object id="Door" left="5.0" top="3.0" rotation="rightward" zorder="0.0" />
 <object id="SpearTrap" left="7.0" top="14.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"These passages have been silent for over a thousand years. The last Voices that echoed these hallowed
+halls were those of king Agrain and his people as they rushed to defend the city. It is said that ancient
+and terrible magic is at work here. Tread warily, my friends"
+</speech>
+<note>A  The shaded corridor is haunted by the Death Mist, a breath of Chaos which destroys all
+who are not evil. The Mist cannot be attacked and it may only be destroyed by a Tempest spell
+or by the Spirit Blade. The Death Mist may attack characters by moving through them and
+causing one body point of damage. The Mist may move through several characters in one move.
+It will not affect monsters. The Death Mist may never leave the shaded corridor area. It moves
+6 squares per turn and may not end its turn on the same square as another miniature.</note>
+<note>B  The treasure chest contains 100 gold coins and a potion of Healing which will restore up to four lost body points.</note>
+<note>C  This treasure chest is trapped. Any character opening the chest will lose one Body point as a dart shoots from the wall.</note>
+<note>Wandering monster: Skeleton</note>
 </quest>

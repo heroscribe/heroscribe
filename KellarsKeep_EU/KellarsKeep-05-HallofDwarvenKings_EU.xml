@@ -401,5 +401,28 @@
 <object id="Skeleton" left="10.0" top="12.0" rotation="downward" zorder="2.0" />
 <object id="Skeleton" left="17.0" top="12.0" rotation="downward" zorder="2.0" />
 </board>
-<speech></speech>
+<speech>
+The Dwarves have had many great Kings. Belorn built the great Citadel and was honoured with a great
+burial hall. His decendants have all proved themselves, and each is buried alongside his forefathers: Kings such
+as Holgar, who led his warriors at the battle of Keloth’s Hill: and Garin, who fought to the last with his
+brothers, when Morcar's legions attacked the halls. Let no man say that the Dwarves are without courage,
+for their valour has no equal. Here you will find another part of Grin's stone map.
+</speech>
+<note>A  When the first Character player passes this square read out the following:</note>
+<note><b>“The distant sound of warriors echoes down the passage. There can be no doubt a war party
+has been sent after you. Hurry, for time is short.”</b></note>
+<note>Starting from your next turn roll one die to see how many monsters enter the passage behind the characters. Roll
+once at the beginning of each turn. You may choose any monsters you wish. The monsters enter by the same door
+through which the characters entered the passage.</note>
+<note>B  The skeletons behind the doors from this room are those of Dwarven kings from long ago. When one door is
+opened, all the other doors will open at the same time. They will not attack or move unless one of the skeletons is
+attacked, at which point they will all attack. If they are attacked, each moves and fights as follows:</note>
+<note>Move 6 squares
+Attack 3 dice
+Body 1
+Mind 1
+Defend 4 dice</note>
+<note>The Zombie is a normal Zombie and will attack as usual.</note>
+<note>C  This treasure chest contains a part of Grin’s stone map. Take another one of the remaining map tokens.</note>
+<note>Wandering monster: Fimir</note>
 </quest>

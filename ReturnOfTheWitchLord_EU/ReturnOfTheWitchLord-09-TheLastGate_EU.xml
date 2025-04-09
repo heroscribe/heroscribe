@@ -277,5 +277,18 @@
 <object id="Zombie" left="20.0" top="6.0" rotation="downward" zorder="1.0" />
 <object id="SpearTrap" left="16.0" top="11.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"This, my friends, is the last gate before you reach the Court of the Witch Lord. The passages beyond the
+gate are guarded by the Chaos warriors from the Doomguard. Heed well, for they are more powerful than
+other Chaos warriors you have battled with."
+</speech>
+<note>A  This is the abode of three Doomguard chaos warriors who are normal chaos warriors except
+that they roll 4 dice for attack and 6 dice for defence. The chest in this room contains
+250 gold coins.</note>
+<note>B  This is the chamber of Kessandria, the Witch Queen. She is immune to all magic except Fire
+magic. She can also cast a Swift Wind spell once per Quest. She moves and fights as follows:</note>
+<note>Move: 6 Attack: 4 Dice Defend: 6 Dice Body: 1 Mind: 6</note>
+<note>Use the Chaos Sorcerer miniature to represent Kessandria. If attacked, Kessandria will attempt to
+escape by reaching the stairway. If she succeeds, remove her miniature from the board.</note>
+<note>Wandering monster: Chaos Warrior.</note>
 </quest>

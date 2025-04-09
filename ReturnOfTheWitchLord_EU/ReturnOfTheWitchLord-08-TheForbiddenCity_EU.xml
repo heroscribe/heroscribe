@@ -178,5 +178,18 @@
 <object id="OpenDoor" left="1.0" top="6.0" rotation="rightward" zorder="0.0" />
 <object id="DoorOut" left="26.0" top="10.0" rotation="rightward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+"No man has ever entered the Forbidden City before. Even Loretome can tell little of what lies before
+you. It is said that the passages are filled with the walking dead, the mindless servants of Morcar
+who
+are doomed to walk the passages of the Forbidden City forever. You must also be wary of the city itself,
+for it is crumbling and ready to collapse at any time.
+</speech>
+<note>A  At the beginning of each of the Evil Wizard’s turns he may pick any two undead monsters
+(skeletons, zombies or mummies) from the available miniature mix, and place them on any of
+the four starting spaces marked with an "X".</note>
+<note>B  This chest contains 350 gold coins.</note>
+<note><img src="Icons/Raster/Europe/Base/OpenDoor_EU.png"></img>: This symbol denotes that the game begins with these doors open. Place the contents of
+these rooms, except traps, on the board at the start of the game.</note>
+<note>Wandering monster: Chaos Warrior.</note>
 </quest>

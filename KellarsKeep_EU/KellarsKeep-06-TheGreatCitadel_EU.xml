@@ -243,5 +243,20 @@
 <object id="Goblin" left="1.0" top="13.0" rotation="downward" zorder="1.0" />
 <object id="Door" left="23.0" top="18.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+The Great Citadel lies at the centre of the Halls of Belorn. This is where most of the orcs now dwell. You
+will find then here in great numbers, for they are massing for their attack on the Empire. They are led by
+Gragor. an evil magician. So be warned, the battle will soon be joined. Prepare yourself well. for victory is
+not certain. The third part of Grins stone map is to be found in the Great Citadel.
+</speech>
+<note>A  This door has been locked for many years and cannot be opened. When a player tries to
+open the door he must roll two dice, and roll the same number or less than the number of
+Body points shown on his Character board, in order to force the door open. Ignore any lost
+Body points for the purpose of this roll. If the player fails to open the door his turn ends.</note>
+<note>B  The treasure chest contains two potions of Healing. Each will restore up to four lost Body points.</note>
+<note>C  This treasure chest contains a part of Grin’s stone map. Take another one of the remaining map
+tokens.</note>
+<note>D  Use the Chaos Sorcerer figure to represent Gragor. Gragor rolls the same dice as a normal Chaos
+Warrior except that, because of his magic armour, he rolls 6 combat dice when defending.</note>
+<note>Wandering monster: Fimir</note>
 </quest>

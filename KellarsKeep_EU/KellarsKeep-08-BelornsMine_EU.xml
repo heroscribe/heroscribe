@@ -343,5 +343,20 @@
 <object id="LetterC" left="21.0" top="15.0" rotation="downward" zorder="5.0" />
 <object id="LetterB" left="24.0" top="19.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+The Dwarves are expert miners, able to mine through even the toughest rock to reach the rich veins of gold
+and iron they seek. The Dwarven kingdoms of old were built upon these valuable metals. Within the Halls
+lies Belorn’s mine, an ancient mine that was once the richest of all. Yet take care for the mine has long since
+been abandoned and the tunnels are likely to collapse. Orcs often search the mines, hoping to find the gold that
+legend tells was hidden here in the last days before the Halls fell.
+</speech>
+<note>The monsters’ movement will not set off the falling block traps.</note>
+<note>A  These treasure chests each contain 200 gold coins.</note>
+<note>B  An Orc scouting party looking for the gold.</note>
+<note>C  Both these squares contain trapdoors which are linked by a tunnel. Any character or monster
+landing on one of these squares must immediately move to the other trapdoor square. The character or
+monster may continue to move if he has any movement left. The tunnel, however, is dark and the rock
+jagged. Any character or monster moving through the tunnel must roll one combat die and lose one
+Body point if he rolls a skull.</note>
+<note>Wandering monster: Gargoyle</note>
 </quest>

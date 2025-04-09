@@ -484,6 +484,8 @@ function readFile(input) {
 
 
 async function loadQuest(quest, campaign, region) {
+  for (let c of [" ", "'", "!", "-"])
+    campaign = campaign.replaceAll(c, "");
   url = campaign + "_" + region + "/" + campaign
   if (quest)
     url += "-" + quest
@@ -509,27 +511,30 @@ function addFileDialog() {
   document.getElementsByClassName("menu")[0].appendChild(b);
 }
 
-function addCampaignText(text) {
+function addCampaignText(text, type="") {
   if (!text)
     return;
   let div = document.createElement("div");
   div.innerHTML = text;
-  addClass(div, "speech");
+  addClass(div, type);
   document.getElementById("maps").appendChild(div);
 }
 
 async function loadCampaign(campaign, region, map) {
   if (!campaign)
     return;
-  if (!map)
-    addCampaignText(campaign.intro);
+  if (!map) {
+    addCampaignText(campaign.name, "title");
+    addCampaignText(campaign.instructions);
+    addCampaignText(campaign.intro, "speech intro");
+  }
   clearBoards();
   map = campaign.quests[map]
   quests = map ? [map] : campaign.quests;
   for (const q of quests)
     await loadQuest(q, campaign.name, region)
   if (!map)
-    addCampaignText(campaign.outro);
+    addCampaignText(campaign.outro, "speech outro");
 }
 
 function addLink(abbrev, region, name, index) {
@@ -543,7 +548,7 @@ function addLink(abbrev, region, name, index) {
   }
   link.setAttribute("href", href);
   div.appendChild(link);
-  parent = document.getElementById("campaigns" + region)
+  parent = document.getElementById("campaigns")
   parent = parent || document.getElementsByTagName("body")[0];
   parent.appendChild(div);   
 }
@@ -552,7 +557,8 @@ function addLinks(campaign2) {
   for (const [region, c] of Object.entries(campaigns)) {
     for (const [abbrev, c2] of Object.entries(c).filter(([abbrev, c2]) => !campaign2 || c2 == campaign2)) {
       addLink(abbrev, region, c2.name + " " + region);
-      for (const [i, m] of c2.quests.entries())
+      if (campaign2)
+        for (const [i, m] of c2.quests.entries())
           addLink(abbrev, region, m, i);
     }
   }

@@ -287,5 +287,16 @@
 <object id="Door" left="3.0" top="1.0" rotation="downward" zorder="0.0" />
 <object id="SpearTrap" left="9.0" top="12.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+The entrance to the stronghold is not hard to find. for no attempt has been mave to disguise it. The outer
+gate lies open and You see evidence that Many creatures have passed through in the last few days.
+“You must work your way through the fearful tunnels to find the Gate of Doom: your destiny lies beyond.
+Tread carefully, my friends, the enemy have had many days to prepare your welcome."
+</speech>
+<note>A  This is a false door. It cannot be opened.</note>
+<note>B  The treasure chest contains 200 gold coins.</note>
+<note>C  The monsters in these four rooms have been warned of the characters’ arrival and have
+prepared an ambush. When the players first enter any one of these rooms, all the monsters in
+these four rooms will be activated and all doors in the four rooms will open immediately.</note>
+<note>Wandering monster: Chaos Warrior.</note>
 </quest>

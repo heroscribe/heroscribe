@@ -313,5 +313,23 @@
 <object id="Cupboard" left="6.0" top="2.0" rotation="upward" zorder="0.0" />
 <object id="Fimir" left="10.0" top="16.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+Now you have Grin's map you may find the way to Grin’s Crag.  Remember your task. Do not stray from it,
+for the enemy are too numerous. The hour of victory is close at hand. Once you have passed Grin's Crag you
+will be able to lead the garrison of Karak Varn to safety. The crag is narrow! You must tread carefully or
+fall into the abyss.
+</speech>
+<note>A  The door is magically locked and will only open when the Gargoyle is dead.</note>
+<note>B  This room is filled with a Magical Darkness. Any player who enters the room must roll one die.  If he rolls:</note>
+<note>1 or 2 The character ends up back in the hall on the numbered square;</note>
+<note>3, 4 or 5 The character ends up walking through into one of the adjoining rooms.</note>
+<note>The character does not need to open a door because these doors are all open. The character is moved to the square with
+the corresponding number. If that square is occupied he stays in the room and treats his roll as a 6;</note>
+<note>6 The Magical Darkness attacks the player. Roll one combat die.  If you roll a skull, all characters in the room with the Darkness must lose one Body Point.</note>
+<note>Monsters may not enter the room with the Magical Darkness.</note>
+<note>D The first player who moves onto or through on this square will activate the guardian of Grin’s Crag. Place the
+Gargoyle in one of the adjacent squares. The Gargoyle rolls the same dice as a normal Gargoyle. He is, however, immune
+to all spells and has 3 Body points.  Keep track of the Gargoyle’s Body points on a character sheet.</note>
+<note>C  The treasure chest contains 250 gold coins.</note>
+<note>Wandering monster: Fimir</note>
 </quest>

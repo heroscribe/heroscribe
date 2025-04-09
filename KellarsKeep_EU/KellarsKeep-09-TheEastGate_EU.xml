@@ -319,5 +319,24 @@
 <object id="Orc" left="7.0" top="10.0" rotation="downward" zorder="1.0" />
 <object id="Orc" left="20.0" top="10.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+You have journeyed far to reach this point. The East gate must now be passed if you are to reach Grin's
+Crag and rescue the King. The East gate will undoubtedly be guarded, for you are closer now to the dark
+lands than you have been before.
+</speech>
+<note>A  The gate is locked and strength will not force it. The runes carved upon it must be read
+aloud. Any player attempting to read the runes must roll two dice, and roll a number equal
+to or less than the number of Mind points shown on his Character board, to open the door.
+If the player fails to open the door his turn ends. The Dwarf only needs to roll one die, as he is
+familiar with Dwarven runes.</note>
+<note>B  This monster is a shape-changer and is currently in the shape of a Fimir. Every time he is killed
+shuffle all the monster cards and then take the top card. This is now the new form he has adopted.
+Place the new monster figure in the space where he was killed. If, however, the new monster card
+matches his current form, he is permanently killed.</note>
+<note>C  This Chaos Sorcerer, Petrokk, rolls the same dice as a Chaos Warrior. He may, however, also make
+an additional attack once per turn. This attack may be made against any character in line of sight in
+the same room or passage. Petrokk rolls two combat dice. For each skull he rolls, the victim of the
+attack must lose one Mind point. If a character reaches less than one Mind point, he dies.</note>
+<note>D  The treasure chest is empty.</note>
+<note>Wandering Monster: Fimir</note>
 </quest>

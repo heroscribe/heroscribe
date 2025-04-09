@@ -333,5 +333,18 @@
 <object id="Door" left="19.0" top="18.0" rotation="downward" zorder="1.0" />
 <object id="Goblin" left="1.0" top="12.0" rotation="downward" zorder="2.0" />
 </board>
-<speech></speech>
+<speech>
+The Great Citadel lies deep beneath the mountains. The series of staircases that lead to the Citadel is known
+as the Spiral Passage. It seems. to those who pass through them. that they are forever going own and around
+into the very heart of the mountain. The journey down to the main living quarters is a long one. Beware. for
+the Orcs may have laid traps to guard against attack.
+</speech>
+<note>A  When the last player passes the square marked A a large boulder will fall from the ceiling.
+Place the boulder token in the square marked A. On your next turn and subsequent turns roll
+two dice to see how far the boulder moves. The boulder will crash into the wall at the end of
+the passage, in the square marked with a star, and block the way. Roll five combat dice for any
+player hit by the boulder. For each skull rolled he must lose one Body point.</note>
+<note>B  The traps in this passage are so well hidden that any player who searches for traps will only find the next trap down the passage.</note>
+<note>C  Tell the character players they are through the Spiral Passage.</note>
+<note>Wandering monster: Orc</note>
 </quest>

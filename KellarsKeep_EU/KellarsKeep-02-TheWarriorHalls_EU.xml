@@ -355,5 +355,19 @@
 <object id="Skeleton" left="24.0" top="10.0" rotation="downward" zorder="1.0" />
 <object id="Skeleton" left="3.0" top="10.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+Another great door lies before you. The crystal Mentor gave you glows red. You look into it and see him.
+“Beyond lay the Warrior Halls, ancient halls wherein all the great Owarven warriors are honoured. Each
+has his deeds carved into the walls, so that none may forget their valour. Tread carefully, for these halls were
+desiqned to test the bravest and most cunning of the Dwarven warriors. The halls are full of traps and
+magical opponents.
+</speech>
+<note>All the monsters in these halls are illusions created by powerful Dwarven magic. The players,
+however, will have to fight them as though they were real.</note>
+<note>A  The four Chaos Warriors are actually enchanted suits of armour used to test the fighting skills of
+Dwarven warriors. They fight as Chaos Warriors and the magic that animates them also prevents them
+from setting off the traps.</note>
+<note>B  This is the secret armoury of the Dwarves. The first player to search for treasure in this room
+shuffles the Equipment cards and takes the top card.</note>
+<note>Wandering monster: Fimir</note>
 </quest>

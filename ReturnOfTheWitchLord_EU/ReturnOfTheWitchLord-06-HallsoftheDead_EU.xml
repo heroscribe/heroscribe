@@ -241,5 +241,20 @@
 <object id="Door" left="14.0" top="2.0" rotation="rightward" zorder="0.0" />
 <object id="SpearTrap" left="11.0" top="14.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"A terrible fate has befallen you. and you have become the prisoners of the Witch Lord. Already the Elf
+and the Barbarian have been taken to the hall where he plans to feed them to his pets. I have worked a
+powerful spell to aid you, but now you must help yourselves. Good luck. You must free them and escape.”
+</speech>
+<note>A  The Dwarf and the Wizard are imprisoned in this room. The door bursts open, thanks to
+Mentor’s spell. Both characters may pick up all their equipment. The jailers have, however,
+stolen all their gold. Both characters should cross out any gold they have noted on their pads.
+The Wizard has his spells as usual.</note>
+<note>B  This is the Hall of the Witch Lord. The Barbarian and Elf start here on the spaces marked with
+an ‘X’. They are chained up and have also had all their gold and equipment taken. The Barbarian and
+the Elf should not be put on the board until either the Dwarf or the Wizard enter the room, after
+which they may move normally.</note>
+<note>When they enter the Witch Lord curses them and disappears amidst a howling tempest.</note>
+<note>The Barbarian’s and the Elf’s equipment and gold are in this chest.</note>
+<note>Wandering monster: Skeleton</note>
 </quest>

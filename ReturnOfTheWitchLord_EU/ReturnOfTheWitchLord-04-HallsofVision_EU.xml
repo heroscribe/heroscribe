@@ -333,5 +333,17 @@
 <object id="Door" left="5.0" top="18.0" rotation="rightward" zorder="0.0" />
 <object id="Door" left="1.0" top="18.0" rotation="rightward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+King Agrain was one of the great kings who ruled in a time before chaos. He was a feared warrior and
+his laws were known for their fairness. Agrain also dabbled in magic and through this created the Halls
+of Vision, a maze of magical rooms, the secret of which lies in the Keys of Agrain.
+</speech>
+<note>A  These are all magical rooms, built to protect King Agrain’s secret workshop. Each is
+guarded by a mummy. If this mummy is killed you may remove the door marked with a black
+arrow immediately.</note>
+<note>B  This is the magical workshop of King Agrain. On his table lie four large gems. These are the Keys
+of Agrain, which allow their owner to pass safely through the magical rooms and replace any missing
+doors. The mummies will not attack anyone holding one of the gems. The gems are each worth 100
+gold coins.</note>
+<note>Wandering monster: Mummy.</note>
 </quest>

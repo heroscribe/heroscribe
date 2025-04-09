@@ -322,5 +322,19 @@
 <object id="TreasureChest" left="6.0" top="19.0" rotation="rightward" zorder="0.0" />
 <object id="Zombie" left="17.0" top="13.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+These Icy passages are the resting place of the dread Spirit Riders who once led the Witch Lord's
+skeletal calvalry into battle. They now lie dreaming of past glories, waiting to be summoned to the Black
+banner once more.
+</speech>
+<note>A  The skeletons in these rooms are the Spirit Riders. Each moves and fights as follows:</note>
+<note>Move: 8 Attack: 4 Dice Defend: 3 Dice Body: 1 Mind: 3</note>
+<note>The Spirit Riders are hard to kill and so, each time they fail to defend against an attack they must
+roll one attack die. If a shield of any kind is rolled, the Rider will die, but if a skull is rolled the Rider
+is unharmed.</note>
+<note>B  This is a revolving room. Monsters may not enter the revolving room. When the players attempt to
+leave by any exit they must roll one die to see by which door they leave.</note>
+<note>1-2: Door One 3: Door Two 4-5: Door Three 6: Door Four</note>
+<note>C  The treasure chest contains 300 gold coins.</note>
+<note>Wandering monster: Zombie.</note>
 </quest>
