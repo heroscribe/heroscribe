@@ -486,6 +486,8 @@ function readFile(input) {
 async function loadQuest(quest, campaign, region) {
   for (let c of [" ", "'", "!", "-"])
     campaign = campaign.replaceAll(c, "");
+  for (let c of [" ", "'",])
+    quest = quest.replaceAll(c, "");
   url = campaign + "_" + region + "/" + campaign
   if (quest)
     url += "-" + quest

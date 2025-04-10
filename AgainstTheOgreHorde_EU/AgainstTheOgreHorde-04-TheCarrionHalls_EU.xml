@@ -243,5 +243,14 @@
 <object id="LetterA" left="14.0" top="2.0" rotation="downward" zorder="1.0" />
 <object id="SwingingBladeTrap" left="17.0" top="9.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+You are now entering the inner reaches of the fortress. Before you can reach any of your objectives, you
+must pass through the Ogres' eating halls where they pursue one of their favorite pastimes.
+</speech>
+<note>OGRE BODY POINTS: <table class="bodypoints"><td/><td/><th/><td/><td/><td/><th/><td/><td/><th/><td/><td/><th/><td/><td/><td/><th/><td/><th/><th/></table></note>
+<note>A  If players open the door on the right, they will activate the swinging blade trap marked on the board. It cannot be activated in any other way.</note>
+<note>B  This chest contains 200 gold coins and some old bones.</note>
+<note>C  These two Goblins are both armed with shortbows.  They may each make ranged attacks with 2 attack dice.</note>
+<note>D  A search of this room will reveal a cache of 5 diamonds worth 100 gold coins each, hidden behind the fireplace.</note>
+<note>Wandering monsters: 2 Fimir.</note>
 </quest>

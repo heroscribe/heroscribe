@@ -223,5 +223,15 @@
 <object id="SwingingAxe" left="8.0" top="14.0" rotation="downward" zorder="1.0" />
 <object id="SwingingBladeTrap" left="8.0" top="13.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+You, my heroes, must find the gateway to the Ogre Fortress which is hidsen within the coils of a vast
+cavern complex. But tread warily for the denizens of that Fortress will surely have placed
+guardians and traps to protect their domain.
+</speech>
+<note>OGRE BODY POINTS <table class="bodypoints"><td/><td/><td/><th/></table></note>
+<note>A  The Gargoyle in this room has three Body points. <table class="bodypoints"><td/><td/><th/></table></note>
+<note>B  This Swinging Blade Trap will only be triggered by someone opening the chest or someone attempting and failing to disarm the trap.  The chest contains 50 gold coins.</note>
+<note>C  All the Orcs in this room are armed with spears and may attack diagonally with their normal combat dice if they wish.</note>
+<note>D  This Orc is a magical statue which is able to cast a Fireball of three combat dice, every turn.  It has 5 Defence dice and two Body points.  It is unable to move and is immune to all spells.  Players may only pass this Orc once it has been destroyed.  Magical Statue <table class="bodypoints"><td/><th/></table></note>
+<note>Wandering monsters: 4 Goblins.</note>
 </quest>

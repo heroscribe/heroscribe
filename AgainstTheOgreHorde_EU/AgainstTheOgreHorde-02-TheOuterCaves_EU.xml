@@ -250,5 +250,15 @@
 <object id="Goblin" left="8.0" top="13.0" rotation="downward" zorder="1.0" />
 <object id="Orc" left="11.0" top="6.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+You have found the entrance to the Ogre Fortress. You must now strike at their raiding parties
+and destroy the subterranean headquarters where they plan their raids, by keeping the central
+chamber free of monsters for at least one turn.
+</speech>
+<note>OGRE BODY POINTS: <table class="bodypoints"><td/><td/><td/><th/><td/><td/><td/><td/><th/><td/><td/><th/><td/><th/><td/><td/><th/><th/><th/></table></note>
+<note>A  This chest contains Emeralds worth 300 gold coins.</note>
+<note>B  The Orcs in this room have crossbows. They will pick off adventurers while the Ogre prevents them from crossing the pit traps.</note>
+<note>C  These are the headquarters for the Ogres’ raiding squads.  To complete their Quest, the heroes must clear the room of monsters and be the sole occupants for one turn.  The two chests contain the loot from the Ogres’ latest raid, a total of 600 gold coins and a Potion of Healing which allows one player one chance to heal up to six Body points.</note>
+<note>D  When any characters land on or pass the space marked with an "X", the occupants of this room are activated and the secret door opens.</note>
+<note>Wandering monsters: 2 Chaos Warriors.</note>
 </quest>

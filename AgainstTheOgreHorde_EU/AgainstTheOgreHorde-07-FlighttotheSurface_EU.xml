@@ -3,7 +3,7 @@
 "-//org.lightless//HeroScribe Quest 1.4//EN"
 "http://lightless.org/files/xml/quest-1.4.dtd">
 
-<quest name="Fight to the Surface" region="Europe" version="1.0" width="1" height="1">
+<quest name="Flight to the Surface" region="Europe" version="1.0" width="1" height="1">
 <board>
 <dark left="2" top="5" width="1" height="1" />
 <dark left="2" top="6" width="1" height="1" />
@@ -175,5 +175,21 @@
 <object id="ChaosWarrior" left="8.0" top="5.0" rotation="downward" zorder="1.0" />
 <object id="SpearTrap" left="16.0" top="7.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+A thousand praises my heroes! You have destroyed the Ogre Lord and shattered the might of the Ogre
+Horde. But beware for we cannot rejoice yet! You are still deep within the Ogre Fortress and the
+alarm has now been raised. You must escape and if you can reach the surface you will be able to lead
+the Emperor's forces against the remnants of the Ogre Horde.
+</speech>
+<note>OGRE BODY POINTS <table class="bodypoints"><td/><td/><td/><th/><td/><th/><td/><td/><td/><th/><td/><td/><th/><td/><td/><th/></table></note>
+<note>On each of his turns, the Evil Wizard player may activate all the monsters in one or two rooms,
+whether the door to that room has been opened or not.  He rolls one die and on a roll of 1 to 5
+may activate one room; on a roll of 6 he may activate two rooms. The contents of the room are
+then laid out and the door is opened.  Any monsters in that room may move on that turn.</note>
+<note>A  On each turn after the heroes have left this room, the Evil Wizard player may place up to three Orcs on the stair tile, depending on how many he has available. The Orcs may move immediately.</note>
+<note>B  The first player to open this door will trigger a falling rock trap which will fall on the space marked
+with an "X". This works in the same way as a normal Falling Block Trap.</note>
+<note>The chest inside the room is empty.</note>
+<note>C  Once players pass through this door onto the overground tile, they are safe.  No monsters may follow them there.</note>
+<note>Wandering monsters: If a wandering monster card is drawn, the Evil Wizard player may activate one room.</note>
 </quest>

@@ -221,5 +221,21 @@
 <object id="Orc" left="4.0" top="14.0" rotation="downward" zorder="1.0" />
 <object id="SwingingBladeTrap" left="13.0" top="18.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+At last you have reached the heart of the Ogre Fortress where the lord of the Ogres presides over his
+clan. If you can kill the Ogre Lord you will break the unity of the Ogre Horde and save the
+Empire from their treat.
+</speech>
+<note>OGRE BODY POINTS <table class="bodypoints"><td/><td/><th/><td/><td/><td/><th/><td/><td/><th/><td/><td/><td/><th/><td/><td/><th/><td/><td/><td/><th/><td/><th/><td/><td/><td/><th/><td/><th/><th/></table></note>
+<note>A  Both of these Orcs are armed with crossbows which attack with three combat dice.</note>
+<note>B  This is the chamber of Xenloth the Chaos Mage, who is Festral’s assistant. Xenloth is able
+to use the Mind Lock spell and the Mind Blast spell.  He has 5 tokens for each spell.</note>
+<note>Attack 2 dice Defend 4 dice Move 6 Body 1 Mind 4</note>
+<note>C  Here lies the treasure of the Ogre Lord. Each chest contains 700 gold coins, but all the chests
+conceal traps. Anyone opening one of them is attacked by a 1 die spear trap.</note>
+<note>D  You have finally reached the Great Hall of the Ogre Lord. Here he sits with his general, an Ogre
+Chieftain and his finest warriors. If he is killed, the first character to search the room will find his
+jewel-encrusted crown which is worth 450 gold coins.</note>
+<note>Ogre Lord <table class="bodypoints"><td/><td/><td/><td/><th/></table></note>
+<note>Wandering monster: Ogre Warrior</note>
 </quest>

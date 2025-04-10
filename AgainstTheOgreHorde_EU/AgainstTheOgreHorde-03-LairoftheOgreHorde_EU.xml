@@ -233,5 +233,17 @@
 <object id="Zombie" left="19.0" top="16.0" rotation="downward" zorder="1.0" />
 <object id="Zombie" left="20.0" top="15.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+In order to reach the heart of the fortress, you must make your way through the lair that houses the might of the Ogre Horde. Be wary not to alert these forces to your presence for even you might be hard pressed to defeat an entire army.
+</speech>
+<note>OGRE BODY POINTS: <table class="bodypoints"><td/><td/><td/><th/><td/><td/><td/><th/><td/><td/><th/><td/><td/><td/><th/><td/><th/><th/><th/><th/></table></note>
+<note>A  This chest contains 200 Gold Coins.</note>
+<note>B  Whenever there are any adventurers in any of these corridors during the Evil Wizard player’s turn, he must roll one normal die. On a roll of 1 or 2 all the monsters in the central hall are activated and the doors opened. A roll of 3, 4, 5 or 6 has no effect. The Evil Wizard player may roll every turn that there is somebody in the central hall.</note>
+<note>C  This is the chamber of Tograk, the commander of the Ogre forces. He is an Ogre Chieftain.</note>
+<note>Body <table class="bodypoints"><td/><td/><td/><th/></table></note>
+<note>D  This is the chamber of Nexrael, an apprentice Chaos Sorcerer.</note>
+<note>Attack 3 dice Defend 4 dice Move 8 Body 1 Mind 5</note>
+<note>Nexrael can use the Mind Blast spell and has 4 tokens for it.</note>
+<note>E  This is the Horde’s plunder room. There are 400 gold coins in the first chest. The second chest conceals a spear trap and contains 500 gold coins.</note>
+<note>Wandering monsters: 3 Orcs</note>
 </quest>

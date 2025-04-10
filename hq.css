@@ -212,6 +212,22 @@ div .dice {
   background-repeat: repeat;
   transition: all ease 0.3s, background-position ease 1s;
 }
+.bodypoints {
+  border-collapse: collapse;
+  display: inline-table;
+}
+.bodypoints td, .bodypoints th {
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  border: 1px solid black;
+  background: white;
+  text-align: center;
+}
+.bodypoints th {
+  background-image: url("Images/Rules/bodypointkill.jpg");
+  background-size: cover;
+}
 .readme {
   width: 600px;
 }

@@ -237,5 +237,15 @@
 <object id="SpearTrap" left="7.0" top="11.0" rotation="downward" zorder="1.0" />
 <object id="SpearTrap" left="7.0" top="12.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+Tread carefully heroes, for I sense that you are now approaching a source of Chaos power.
+You must destroy this source by finding Festral's Ring of Power and hurling it into the Pit.
+</speech>
+<note>OGRE BODY POINTS: <table class="bodypoints"><td/><td/><td/><td/><th/><td/><td/><th/><td/><td/><td/><th/><td/><td/><td/><th/><th/></table></note>
+<note>A In the centre of this chamber is the Pit of Chaos.  Anyone who moves into the pit will instantly turn to Chaos and fall under the control of the Evil Wizard player forever.  This is the domain of Festral, the Chaos Sorcerer, whose characteristics are as follows:</note>
+<note>Attack 4 dice Defend 5 dice Move 6 Body <table class="bodypoints"><td/><td/><th/></table> Mind 6</note>
+<note>Festral knows all three of the Chaos Sorcerer spells and has three tokens for each spell.  The Chaos Warriors in the room are members of Festral’s personal guard and have 5 attack dice and 5 defence dice.</note>
+<note>B  Hidden in the bookshelf is a hollow book containing Festral’s Ring of Power and 10 diamonds worth 75 gold coins each.</note>
+<note>C  The centre of this room is a bottomless pit, over which one small bridge stretches.  Any character or monster who falls into the Pit dies.</note>
+<note>Wandering monsters: 3 Chaos Warriors</note>
 </quest>
