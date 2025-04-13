@@ -280,5 +280,19 @@
 <object id="TreasureChest" left="11.0" top="8.0" rotation="downward" zorder="0.0" />
 <object id="TreasureChest" left="16.0" top="8.0" rotation="downward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+Alas! Morcar has deceived you and saved his four Lieutenants from the jaws of death. He has now
+brought them together in his citadel of darkness. However the effort has cost him much. You must take
+advantage of this moment of weakness to assault his citadel and finally vanquish his evil Lieutenants.
+</speech>
+<note>On his first turn, the Evil Wizard player must lay out the contents of the central chamber.
+All 4 sorcerer figures start from the central chamber. They may then open and move through
+doors and secret doors. Lay out the contents of any rooms which they enter. The 4 sorcerers
+each have their 6 spell cards and have the same characteristics as detailed in the previous
+Quests.</note>
+<note>Zanrath <table class="bodypoints"><td/><td/><td/><th/></table></note>
+<note>Fanrax <table class="bodypoints"><td/><td/><td/><th/></table></note>
+<note>Boroush <table class="bodypoints"><td/><td/><td/><th/></table></note>
+<note>Grawshak <table class="bodypoints"><td/><td/><td/><th/></table></note>
+<note>Wandering monsters: 1 of the Sorcerers.</note>
 </quest>

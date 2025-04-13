@@ -3,7 +3,7 @@
 "-//org.lightless//HeroScribe Quest 1.4//EN"
 "http://lightless.org/files/xml/quest-1.4.dtd">
 
-<quest name="Crypt of Necromancer" region="Europe" version="1.0" width="1" height="1">
+<quest name="Crypt of the Necromancer" region="Europe" version="1.0" width="1" height="1">
 <board>
 <dark left="2" top="11" width="1" height="1" />
 <dark left="2" top="12" width="1" height="1" />
@@ -280,5 +280,22 @@
 <object id="Orc" left="23.0" top="9.0" rotation="downward" zorder="1.0" />
 <object id="LetterA" left="2.0" top="10.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+Summon up your courage my Heroes, for you must journey to a most terrible place to find your next
+enemy, Fanrax the Malicious. He dwells in an ancient crypt that lies in the vast and nameless
+graveyard swamp beyond the Shuddering Forests. Be doubly careful, for Fanrax commands both the
+forces of the living and the forces of the dead.
+</speech>
+<note>All skeletons in this Quest are special creations of Fanrax. They attack and defend with 3 dice.</note>
+<note>A  This is a magical statue of a Chaos Sorcerer. At the beginning of each of the Evil Wizard’s
+turns, it will fire a death ray down the corridor which will attack any and all figures in the
+corridor with 2 attack dice which they may defend against in the normal way. This statue cannot
+be harmed in any way.</note>
+<note>B  This room is filled with a magical darkness.  Any figures in the room other than skeletons, zombies
+or mummies will attack and defend with 2 less dice than normal. No ranged attacks may be used at all.</note>
+<note>C  Each of these chests contain 150 gold coins.</note>
+<note>D  This is the crypt of Fanrax the Necromancer. He has all 6 Necromancer spells.
+His characteristics are:</note>
+<note>Move 6 Attack 4 dice Defend 6 dice Mind 7 Body <table class="bodypoints"><td/><td/><td/><td/><th/></table></note>
+<note>Wandering monsters: 2 Skeletons.</note>
 </quest>

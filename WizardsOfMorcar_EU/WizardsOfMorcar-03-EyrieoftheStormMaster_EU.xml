@@ -262,5 +262,15 @@
 <object id="Orc" left="13.0" top="17.0" rotation="downward" zorder="1.0" />
 <object id="SpearTrap" left="4.0" top="10.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+High atop the loftiest peak in the dark mountains lies the eyrie of Boroush, the Storm Master. He is the
+next Lieutenant of Morcar you must defeat. You have had to scale the sheer heights of the
+mountains to get to this eyrie. Now you are here you must move quickly, for Boroush commands great
+elemental forces with which he can easily overcome unwary intruders.
+</speech>
+<note>A  This chest contains 250 gold coins.</note>
+<note>B  This is the home of Boroush. He has all 6 Storm Master spells. His characteristics are:</note>
+<note>Move 7 Attack 6 dice Defend 5 dice Mind 6 Body <table class="bodypoints"><td/><td/><td/><td/><th/></table></note>
+<note>Anyone who searches this chamber will discover 3 huge gems worth 150 gold coins each.</note>
+<note>Wandering monsters: 2 Fimir.</note>
 </quest>

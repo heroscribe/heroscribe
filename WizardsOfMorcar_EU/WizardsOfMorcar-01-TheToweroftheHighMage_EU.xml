@@ -296,5 +296,17 @@
 <object id="Zombie" left="6.0" top="3.0" rotation="downward" zorder="1.0" />
 <object id="TeleportTrapA" left="8.0" top="13.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+The first of Morcar's sorcerous Lieutenants you must defeat is Zanrath, High Mage of Sarako.
+He lives in a magical tower high in the Tarak Mountains, where he is guarded by his elite army
+of Chaos Warriors. Prepare yourselves, my Heroes, for a fearsome battle against steel and magic.
+</speech>
+<note>All Chaos Warriors in this Quest are part of Zanrath’s elite force. They attack and defend
+with 5 dice.</note>
+<note>A  This chest is empty.</note>
+<note>B  The chest on the left contains 300 gold coins and a potion of healing which will restore 2 Body points to the first figure who drinks it. The second chest is empty.</note>
+<note>C  This is the chamber of Zanrath. He has all 6 High Mage spells.  His characteristics are:</note>
+<note>Move 5 Attack 5 dice Defend 5 dice Mind 8 Body <table class="bodypoints"><td/><td/><td/><td/><th/></table></note>
+<note>Anyone who searches the room will discover 400 gold coins in a secret drawer in the table.</note>
+<note>Wandering monsters: 2 Elite Chaos Warriors</note>
 </quest>

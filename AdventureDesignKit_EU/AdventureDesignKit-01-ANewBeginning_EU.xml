@@ -6,5 +6,7 @@
 <quest name="A New Beginning" region="Europe" version="1.0" width="1" height="3">
 <board>
 </board>
-<speech></speech>
+<speech>This is an empty map for your own quest. To add an object, select an object from another map and then click on this map to copy the object.</speech>
+<note>This is a note.</note>
+<note>This is another note.</note>
 </quest>
