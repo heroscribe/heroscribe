@@ -100,14 +100,14 @@ class Card extends UIElement {
     this.name = card.name || card.title;
     for (let c of ["The ", " ", "'", "!", "-"])
         this.name = this.name.replaceAll(c, "");
-    this.set = set;
+    this.set = card.set || set;
     this.title = card.title;
     this.text = card.text;
     this.image = card.image;
     this.cost = card.cost;
     this.wizard = card.wizard;
     this.type = card.type;
-    this.stats = stats[this.name];
+    this.stats = card.stats || stats[this.name];
     this.id = "card" + this.name;
   }
 }
