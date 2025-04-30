@@ -1,5 +1,5 @@
 html {
-  background: darkgrey;
+  background: none;
 }
 .set {
   width: 700px;
@@ -91,7 +91,6 @@ html {
 .board {
   padding: 5px;
   position: relative;
-  margin-top: 5px;
   break-inside: avoid;
 }
 .board div {
@@ -123,6 +122,8 @@ html {
 }
 .quest {
   background: grey;
+  padding: 5px;
+  margin-bottom: 5px;
 }
 .parchment {
   background: white;
@@ -210,6 +211,7 @@ div .dice {
   background-size: cover;
   border-radius: 10%;
   background-repeat: repeat;
+  background-image: url("Icons/Raster/Dice.png");
   transition: all ease 0.3s, background-position ease 1s;
 }
 .bodypoints {
