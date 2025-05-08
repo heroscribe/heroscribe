@@ -375,5 +375,38 @@
 <object id="Door" left="21.0" top="10.0" rotation="downward" zorder="1.0" />
 <object id="LetterA" left="11.0" top="1.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"Although the Orcs now dwell in these halls, they
+have yet to find the magical Dwarven Forge. The
+weapons forged by the Dwarves at the dawn of time
+are legendary. You must find the Forge, for it is
+written that part of Grin's stone map lies somewhere
+nearby. Once you find part of the map, you must find
+the wooden exit door to continue on your journey."
+</speech>
+<note>A  When this Orc is killed, he screams out and the door he was
+guarding opens. The monsters in the room must then be 
+placed on the gameboard.</note>
+<note>B  The Fimir in this room knows the Chaos spell "Rust." (See
+Chaos spell card in Game System.) It can cast this spell on
+3 separate turns. The first Hero to search for treasure in this
+room will find a beautiful fire opal hidden under the table.
+The opal is worth 100 gold coins.</note>
+<note>C  The first Hero to search for treasure in this room will find a
+Fire Ring in the chest. This powerful ring is explained on the
+new artifact card.</note>
+<note>D  This is the Dwarven Forge. The heat from the forge is intense,
+for the embers burn with a magic fire brought from the depths of
+the earth. Burning embers blast out of the forge, threatening
+any Hero in the room except the Dwarf. Any Hero (except the
+Dwarf) who ends his move in this room must immediately roll
+1 combat die.  If a skull is rolled, the Hero loses 1 Body Point.</note>
+<note>E  This chest is trapped with a poison dart.  If a Hero searches
+for treasure before the trap has been disarmed, he will lose
+2 Body Points.  One part of Grin’s stone map is inside the
+chest.  The Hero who finds it should take one of the stone
+map tokens.</note>
+<note>F  The first Hero to search for treasure in this special room will
+discover 300 gold coins in the chest.</note>
+<note>Wandering Monster in this Quest: Fimir</note>
 </quest>

@@ -395,4 +395,42 @@
 <object id="LetterX" left="12.0" top="5.0" rotation="downward" zorder="5.0" />
 </board>
 <speech></speech>
+<note>QUEST 9 NOTES continued:</note>
+<note>F  This is Sinestra’s inner sanctum. Place the inner sanctum room
+and wall on the gameboard when a Hero enters this room. Use
+the Elven Archmage figure to represent Sinestra and place her on
+the square marked “SIN.” Sinestra’s stats are as follows:</note>
+<note>MOVEMENT 8 ATTACK 4 DEFEND 4 BODY 4 MIND 9</note>
+<note>Sinestra knows the following Chaos spells: Dispel, Firestorm,
+Mind Blast, Mirror Magic, Reanimation, Restore Chaos, Summon
+Wolves and Werewolf’s Curse.</note>
+<note>Once Sinestra has been killed and Millandriell found, this Quest
+is over. Go to the conclusion on the next page.</note>
+<note>QUEST 10 NOTES:</note>
+<note>G  Millandriell is in this cell. Hand the Millandriell tile to the first
+Hero into the cell. She is overjoyed to see the Heroes, as you
+might expect. The brass key will open the portcullis, but if the
+Heroes don’t have the key, a Hero must roll less than his Body
+Points on 2 red dice to force the portcullis open. Each Hero may
+try once per turn until the portcullis opens.</note>
+<note>H  The first Hero to search for treasure in this room finds a large
+ruby worth 800 gold coins in the chest.</note>
+<note>I  This chest has a poison needle trap on it. If a Hero searches for
+treasure before the trap is disarmed, the Hero loses 3 Body
+Points. The chest contains a Potion of Speed. This potion grants
+the Elf 12 squares of movement and 2 attacks per turn until the
+Elf suffers at least 1 Body Point of damage.</note>
+<note>J  The mirror in this room has the image of the Bow of Vindication.
+If the Hero with the Moonsilver moves next to the mirror, the
+Hero can reach into the mirror and grab the bow. Hand the player
+the Bow of Vindication card. (At the end of this Quest, Queen
+Terrellia takes the bow, as it is a treasure of the Elven kingdom.)</note>
+<note>K   The trap door is linked by a tunnel to the trap door in room “E"
+on Quest map 9. Any Hero or monster landing on one of these
+squares immediately moves to the other trap door square. The
+connecting tunnel is dangerous. After a Hero moves through it,
+the player rolls 1 combat die. If a skull is rolled, the Hero loses 1
+Body Point. After moving from one trap door square to the other,
+the Hero’s or monster’s turn is over.</note>
+<note>Wandering Monsters in these Quests: 2 Chaos Warriors</note>
 </quest>

@@ -356,5 +356,42 @@
 <object id="LetterC" left="27.0" top="6.0" rotation="downward" zorder="0.0" />
 <object id="Door" left="7.0" top="13.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"These passages have been silent for over a thousand
+years. The last voices that echoed through these
+hallowed halls were those of King Agrain and his subjects
+as they rushed to defend the city. It is said that
+ancient and terrible magic is at work here. Tread
+carefully, my friends, as you search for the wooden
+exit door that leads to safety!"
+</speech>
+<note>A  At the beginning of the Quest, the Death Mist tile is placed 
+on the gameboard as shown next to the square marked "A."
+This mist is a breath of Chaos which will harm all who are not
+evil. The Death Mist tile moves up to 6 squares on each of
+your (Zargon’s) turns and can only move within the shaded
+corridors.</note>
+<note>When the Death Mist tile passes over a Hero, he loses 1 Body
+Point. The mist may affect 1 or more Heroes each time it is
+moved on your (Zargon’s) turn. It will not affect monsters.</note>
+<note>The mist cannot move onto the same square twice in 1 turn.
+It also cannot end its turn on the same square with a Hero.
+(If this happens, the Death Mist tile must stop short on the
+square in front of the Hero.)</note>
+<note>The mist is not affected by normal weapons. It can only be -
+destroyed by a Tempest spell or by the Spirit Blade. (Don’t
+tell this to the Heroes!) </note>
+<note>B  The chest has a trap on it. If a Hero searches for treasure in
+this room before the trap has been disarmed, he will lose
+Body Point from a dart that shoots out from the wall. This
+chest contains 2 Magical Throwing Daggers. (See the new
+artifact card.) The daggers may be divided between 2 Heroes.</note>
+<note>C  The first Hero to search for treasure in this room will find 100
+gold coins in the chest. He will also find a Potion of Healing
+which will restore up to 4 lost Body Points.</note>
+<note>D  If the Spirit Blade was lost in a previous Quest, then it can be
+found in the tomb. (See artifact card in the Game System.) If
+one of the Heroes already carries the Spirit Blade, then the
+tomb is empty.</note>
+<note>Wandering Monster in this Quest: Skeleton</note>
 </quest>

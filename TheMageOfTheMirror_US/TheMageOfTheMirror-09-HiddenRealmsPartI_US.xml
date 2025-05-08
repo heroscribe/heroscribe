@@ -332,5 +332,53 @@
 <object id="LetterE" left="19.0" top="15.0" rotation="downward" zorder="5.0" />
 <object id="LetterC" left="22.0" top="11.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<note>Zargon, Quests 9 and 10 are actually one double-sized Quest. Notes A
+through F refer to the Quest 9 map; notes G through K refer to the
+Quest 10 map. The Heroes will be moving back and forth between
+these two Quests. Mind and Body Points are not restored when the
+Heroes cross between Quests 9 and 10. Since the two Quests use different
+parts of the gameboard, leave the Quest 9 rooms set up when
+the Heroes enter the mirror and cross over to Quest 10.
+</note>
+<speech>
+You have reached the depths of Sinestra’s
+fortress. Look for a large mirror. It’s the entry to
+the Realm of Reflection where Millandriell is imprisoned.
+Rub the Moonsilver on the mirror’s
+surface to gain entry. Then enter the Realm to
+rescue Millandriell. But Sinestra must be dealt
+with also. Find the Elven Bow of Vindication, a
+magical weapon that will help you destroy her.
+Start at the spiral stairway and search for
+Millandriell and Sinestra.
+</speech>
+<note>A  The first Hero to search for treasure in this room finds a brass
+key among the weapons on the rack. Hand the player the brass
+key tile. (This key is used in room “G” in Quest 10.)</note>
+<note>B  Place the mirror with the image of Millandriell on the square-
+marked “MIR”, with Millandriell’s side facing the Heroes. When
+the Hero with Moonsilver moves adjacent to the mirror, the mirror
+turns black. Turn the mirror tile so the dark side is facing the
+Heroes. Tell the players that any Hero can now pass through the mirror
+into the Realm of Reflection. (A Hero who enters the mirror
+is placed on the square marked “G” in Quest 10. That Hero
+can continue to move if he has movement left.) Heroes cannot
+return to room “B” via the mirror.</note>
+<note>C  The first Hero to search for treasure in this room finds an Elven
+Potion of Speed on the bench. This potion grants the Elf 12
+squares of movement and 2 attacks per turn until the Elf suffers
+at least 1 Body Point of damage.</note>
+<note>D  The first Hero to search for treasure in this room finds an Elven
+Potion of Vision hidden in the bookcase. This potion enables the Elf
+to see all secret doors and gold-coded traps within his line of sight.
+This effect lasts until the Elf suffers at least 1 Body Point of damage.
+</note>
+<note>E  The trap door is linked by a tunnel to the trap door in room “K”
+in Quest 10. Any Hero or monster landing on one of these
+squares immediately moves to the other trap door square. The
+connecting tunnel is dangerous. After a Hero moves through it,
+he rolls 1 combat die. If a skull is rolled, the Hero loses 1 Body
+Point. After moving from one trap door square to the other, the
+Hero’s or monster’s turn is over.</note>
+<note>(QUEST 9 NOTES continue on next page)</note>
 </quest>

@@ -318,5 +318,30 @@
 <object id="Fimir" left="13.0" top="12.0" rotation="downward" zorder="1.0" />
 <object id="Gargoyle" left="20.0" top="8.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"I shall guide you as far as the Great Gate. Beyond,
+fearsome foes await you. I shall watch over your
+progress and aid you when I can. Your first task
+is to find the wooden exit door that leads into the
+Warrior Halls."
+</speech>
+<note>In each Quest, notes prefaced with a capital letter cor-
+respond to a matching letter location on the Quest map.</note>
+<note>A  The treasure chest is empty.</note>
+<note>B  These 3 secret doors are magically controlled and cannot
+e found by normal searching. You (as Zargon) may place
+one or more of these door(s) on the gameboard at the
+beginning of any of your turns. When you do so, you must
+immediately declare the door(s) open. Then place any
+monsters on either side of the doors onto the gameboard.
+You may move those’ monsters during your turn.</note>
+<note>C  The Gargoyle appears to be a stone statue that does not move.
+The chest contains 200 gold coins, but it has a trap on it. If
+a Hero searches for treasure before the trap has been
+disarmed, the Gargoyle will spring to life and immediately
+attack. If a Hero disarms the trap first, he will discover (be
+told by you) what would have happened if he had searched for
+treasure before disarming the trap. The Gargoyle cannot be
+harmed until it has either moved or attacked a Hero.</note>
+<note>Wandering Monster in this Quest: Orc</note>
 </quest>

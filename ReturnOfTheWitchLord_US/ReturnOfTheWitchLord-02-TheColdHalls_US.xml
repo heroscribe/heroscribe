@@ -324,5 +324,39 @@
 <object id="LetterA" left="7.5" top="12.5" rotation="downward" zorder="0.0" />
 <object id="Zombie" left="17.0" top="13.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"These icy passages are the resting place of the dread
+Spirit Riders who once led the Witch Lord’s skeletal
+cavalry into battle. They now lie dreaming of past
+glories, waiting to be summoned to the Black Banner
+once more. You must find your way to the Spiral Stairway 
+to reach safety and continue on your Quests."
+</speech>
+<note>A  Place the Revolving Room tile on the gameboard as soon as
+one of the doors numbered 1-4 has been opened. This tile
+covers 2 rooms and overlaps a third room to make one large
+room. When a Hero attempts to leave this room, he must
+first roll 1 red die to see which door he will use to exit.</note>
+<note>If he rolls a 1 or 2, he exits through door 1. If he rolls a 3, he
+exits through door 2. If he rolls a 4 or 5, he exits through door
+3. If he rolls a 6, he exits through door 4.</note>
+<note>The first Hero to search for treasure in this room will find a
+vial of Sacred Water behind a large book in the cupboard.
+This liquid may be used to destroy one regular Skeleton,
+Zombie or Mummy.</note>
+<note>This chest contains 300 gold coins. It also has a poison needle
+trap on it. If a Hero searches for treasure in this special room
+before the trap has been disarmed, he will lose 3 Body Points.</note>
+<note>If a Hero searches for treasure in this room, ask him if he
+wishes to pry open the tomb of a great warrior. If he says yes,
+a sparkling mist fills the room as the tomb is opened. No
+Body Points are lost, but any Hero in this room (or any Hero
+who later enters) with Borin’s Armor or the Orc’s Bane will
+see those weapons crumble into powder. (Of course, don’t tell
+the Heroes this until after it happens.) There is no treasure in
+the tomb.</note>
+<note>The Skeletons in these 4 rooms are the Spirit Riders. Their
+stats are as follows:</note>
+<note>MOVEMENT 8 ATTACK 4 DEFEND 4 BODY 3 MIND 3</note>
+<note>Wandering Monster in this Quest: Zombie</note>
 </quest>

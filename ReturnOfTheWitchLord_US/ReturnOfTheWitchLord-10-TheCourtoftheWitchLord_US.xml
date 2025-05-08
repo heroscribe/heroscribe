@@ -269,5 +269,40 @@
 <object id="Zombie" left="7.0" top="13.0" rotation="downward" zorder="1.0" />
 <object id="Door" left="5.0" top="10.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"The Witch Lord has watched your progress. He has
+tried repeatedly to destroy you but you have thwarted
+him every time. Now he has fled to his throne room.
+There you must do battle with him. This time there
+must be no escape for him."
+</speech>
+<note>The Heroes enter on the spiral stairway.</note>
+<note>A  These 4 Orcs are magical statues which do not move and cannot
+attack or be harmed. They completely block the corridors.
+They cannot be climbed over or passed. If a Hero attacks any
+of these statues, his weapon will break (even a magical throwing
+dagger or crossbow will break). He then loses that weapon
+and must cross it off his Character Sheet. The only exception
+to this rule is the Spirit Blade, which is so powerful that it will
+not break. However, it still will not harm the statue.</note>
+<note>B  The first Hero to search for treasure in this room will find 2
+Potions of Healing in the chest. Each potion will restore up to
+4 lost Body Points.</note>
+<note>C  Here the Witch Lord awaits the final conflict. Place the large
+Throne Room tile in this room only after a Hero opens the
+door to the room. Use the Chaos Warlock figure to represent
+the Witch Lord and place him on the square marked "C."</note>
+<note>The 2 Chaos Warriors in this room are members of the
+Doomguard and their stats are listed in the previous Quest.
+The first Hero to search for treasure in this room will find
+500 gold coins in a secret compartment under the throne.</note>
+<note>The Witch Lord’s new stats are as follows:</note>
+<note>MOVEMENT 10 ATTACK 5 DEFEND 6 BODY 4 MIND 5</note>
+<note>The Witch Lord can only be harmed by 4 things at this time:
+the Spirit Blade, the Fire of Wrath spell, the Ball of Flame
+spell and the Magical Throwing Dagger. The Witch Lord
+knows the following Chaos spells: Summon Undead,
+Firestorm, Tempest, Lightning Bolt, Fear and Command. If
+the Witch Lord is killed, read aloud the text on the next page.</note>
+<note>Wandering Monster in this Quest: Mummy</note>
 </quest>

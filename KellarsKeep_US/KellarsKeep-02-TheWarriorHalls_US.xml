@@ -355,5 +355,24 @@
 <object id="Skeleton" left="24.0" top="10.0" rotation="downward" zorder="1.0" />
 <object id="Skeleton" left="3.0" top="10.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"Another great iron door lies before you. Beyond,
+you will find the Warrior Halls, ancient passageways
+where all of the great Dwarven warriors were
+honored. Testimony to their great deeds is carved into
+the wall so that none may forget their valor. Tread
+carefully, for these halls were also designed to test
+the bravest and most cunning of the Dwarves. Beware
+of traps and deadly opponents as you search for the
+wooden exit door that leads to safety."
+</speech>
+<note>A  Zargon, you may tell the Heroes that these 4 Chaos Warriors
+are actually enchanted suits of armor. They were used
+centuries ago to test the fighting skills of Dwarven Warriors.
+They have the same stats as real Chaos Warriors.</note>
+<note>B  This is the secret armory of the Dwarves. The first Hero to
+search for treasure in this room will find 2 Magical Throwing
+Daggers. (See the new artifact card.) The daggers may be
+divided between 2 Heroes.</note>
+<note>Wandering Monster in this Quest: Fimir</note>
 </quest>

@@ -278,5 +278,40 @@
 <object id="Door" left="16.0" top="10.0" rotation="rightward" zorder="1.0" />
 <object id="Zombie" left="20.0" top="6.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"This, my friends, is the last gate before you reach
+the Court of the Witch Lord. The passages beyond the
+gate are guarded by Chaos Warriors from the Doomguard.
+Beware! They are more powerful than other
+Chaos Warriors that you have already defeated. They
+stand guard here in the chambers of Kessandria, the
+Witch Queen. You must find the spiral stairway which
+leads directly to the Witch Lord."
+</speech>
+<note>A  This is the abode of 3 Doomguard Chaos Warriors who have
+the following stats:</note>
+<note>MOVEMENT 8 ATTACK 4 DEFEND 6 BODY 3 MIND 3</note>
+<note>The first Hero to search for treasure in this room will find 240
+gold coins in the chest. He will also find an Arm Band of
+Healing. (See the new artifact card.)</note>
+<note>B  The Chaos Warrior in this room has the same stats as the ones
+in the room marked "A." The first Hero to search for treasure
+in this room will find 2 Magical Throwing Daggers on the
+weapons rack. (See the new artifact card.) The daggers may
+be divided between 2 Heroes.</note>
+<note>C  This is the chamber of Kessandria, the Witch Queen. She
+stands on the square marked "C." Use the Chaos Warlock
+figure to represent her. She is immune to all spells except fire
+spells. She has the following stats:</note>
+<note>MOVEMENT 8 ATTACK 4 DEFEND 6 BODY 3 MIND 4</note>
+<note>Kessandria also knows the following Chaos spells: Lightning
+Bolt, Tempest, Fear, Sleep and Cloud of Chaos. She has a Potion
+of Speed which will allow her to move 12 squares on the turn in
+which she drinks it. If Kessandria’s Body Points are greatly re-
+duced, she should attempt to escape by going through the secret
+door (which she can open) and by trying to reach the spiral stair-
+way. As Kessandria retreats, she may place open doors as needed
+on the gameboard (as shown on the Quest map). If she succeeds
+in escaping, remove her from the gameboard.</note>
+<note>Wandering Monster in this Quest: Chaos Warrior</note>
 </quest>

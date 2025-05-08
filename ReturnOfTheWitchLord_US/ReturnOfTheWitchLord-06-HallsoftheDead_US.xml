@@ -242,5 +242,46 @@
 <object id="LetterB" left="14.0" top="10.0" rotation="downward" zorder="0.0" />
 <object id="Door" left="11.0" top="13.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+The Wizard and Dwarf wake up in a prison cell.
+Shaking off the effects of the poisonous gas, they
+hear Mentor’s voice deep within themselves...
+"A terrible fate has befallen you! You have become
+prisoners of the Witch Lord. Your companions, the
+lf and Barbarian, have been taken to a secret place
+where the Witch Lord plans to feed them to his pets.
+You must rescue your companions and escape to the
+spiral stairway!"
+</speech>
+<note>Tell the Heroes that the Wizard and Dwarf will be the only
+Heroes taking turns and moving on the gameboard until the Elf
+and Barbarian are found.</note>
+<note>A  Place the Wizard and Dwarf in this room at the beginning
+of the Quest. Place a closed door where shown. Explain to the
+2 Heroes that this is their prison cell. Tell them that Mentor
+has just cast a powerful spell and the cell door has burst open.
+Then replace the closed door with an open door. Tell the
+Wizard and Dwarf that any weapons, artifacts, spells and
+potions that they owned are on the floor outside the door, but
+their gold and gems are gone. They must cross off any gold or
+gems that are on their Character Sheets. Both Heroes start
+with full Body Points.</note>
+<note>B  This is the Hall of the Witch Lord. Use the Chaos Warlock
+figure to represent the Witch Lord and place him on the
+square marked "B." The Barbarian and Elf start in this room
+n the spaces marked "X." <em>They should not be placed on the
+gameboard until either the Wizard or Dwarf opens the door to
+this room.</em> The Barbarian and Elf are chained up and all of their
+weapons, artifacts, potions, gold and gems have been taken.
+Both Heroes start with full Body Points and the Elf has his
+spells. As soon as the Wizard or Dwarf enters this room, the
+Witch Lord curses them and disappears amidst a howling storm.
+The Barbarian and Elf are then free and may move normally.</note>
+<note>C  The first Hero to search this room will find the Barbarian’s
+and Elf’s weapons, artifacts and potions in this chest.
+However, their gold and gems have been stolen and should be
+crossed off their Character Sheets.</note>
+<note>D  Do not place the spiral stairway on the gameboard until one
+of the Heroes looks into this room.</note>
+<note>Wandering Monster in this Quest: Skeleton</note>
 </quest>

@@ -309,5 +309,41 @@
 <object id="LetterE" left="6.0" top="12.0" rotation="downward" zorder="5.0" />
 <object id="LetterF" left="11.0" top="16.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+As your final test, Terrellia has decreed that you
+must traverse a dangerous maze of her own devising.
+She has placed captured monsters within
+this maze, promising them their freedom if they
+can kill you. You will pass the test only if you
+find a golden book and leave the maze to tell of
+it. Terrellia’s guards will bring you to the iron
+door that leads into the maze. Return to the iron
+door to leave the maze and end the test.
+</speech>
+<note>Tell the Elf that the treasure cards are not used in this Quest and that
+there are no wandering monsters in this Quest.</note>
+<note>A  If the Elf searches for treasure in this room, a note on the table is
+found that says, “All is not as it seems.”</note>
+<note>B  Both of the trap doors are linked by a tunnel. Any Hero or monster
+landing on one of these squares immediately moves to the other
+trap door square. The connecting tunnel is dangerous. After the Elf
+moves through it, he rolls 1 combat die. If a skull is rolled, the Elf
+loses 1 Body Point. After moving from one trap door square to the
+other, the Elf or monster’s turn is over.</note>
+<note>C  This chest has a poison needle trap on it. If the Elf searches for
+treasure before the trap is disarmed, he loses 1 Body Point. The
+chest contains 200 gold coins.</note>
+<note>D  If the Elf searches for treasure in this room, a secret compartment
+in the bookcase opens to reveal a Potion of Healing. This
+potion restores up to 4 lost Body Points.</note>
+<note>E  If the Elf searches for treasure in this room, the golden book
+you've been looking for is in the bookcase. The book tilts forward,
+causing the bookcase to move up. This reveals a secret door. The
+room beyond this door holds a weapons rack. A sign above the
+rack says, “Choose one.” If the Elf moves next to the weapons
+rack, he may choose any one of the weapons from the Armory on
+the cardboard platform in the Game System.</note>
+<note>F  This chest has an explosive trap on it. If the Elf searches for treasure
+before the trap is disarmed, the Elf loses 2 Body Points. The
+chest contains 300 gold coins.</note>
 </quest>

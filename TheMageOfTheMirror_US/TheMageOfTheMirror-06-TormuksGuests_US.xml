@@ -315,5 +315,40 @@
 <object id="LetterX" left="16.0" top="5.0" rotation="downward" zorder="5.0" />
 <object id="LetterD" left="8.0" top="2.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+Sinestra has struck again! One of her servants,
+Tormuk the Necromancer, cast a spell upon two
+of Queen Terrellia’s bodyguards, the finest
+Elven Archers in the kingdom. The Archers now
+fight alongside Tormuk. The Queen wants you to
+find the Archers. Once they are alone with you,
+the spell will be broken. Scouts say that
+Tormuk’s base is in an old castle south of the
+Elven lands. Enter the castle through the iron
+door and leave through the wooden exit door.
+</speech>
+<note>A  The first Hero to search for treasure in this room finds 2 Potions
+of Healing in the cupboard. Each potion restores up to 4 lost
+Body Points.</note>
+<note>B  Each chest in this room has a trap on it. If a Hero searches for
+treasure in this room before all three traps are disarmed, the
+Hero loses 2 Body Points for each trap that hasn’t been disarmed.
+The first Hero to search for treasure finds 1,000 gold coins and
+the Ancient Staff. (See the new artifact card for this item.)</note>
+<note>C  Tormuk is in this room. Use the Chaos Warlock figure for him;
+place it in the square marked “TOR.” His stats are as follows:</note>
+<note>MOVEMENT 8 ATTACk 4 DEFEND 4 BODY 6 MIND 6</note>
+<note>Tormuk knows the following Chaos spells: Command, Mirror
+Magic, Mind Blast, Reanimation, Summon Wolves and Werewolf’s
+Curse.</note>
+<note>The first Hero to search for treasure in this room finds a Treasure
+Without Doom spell scroll on the table. (See the new artifact card
+for this spell scroll.)</note>
+<note>D  The Elven Archers fight the Heroes to the best of their ability as
+long as the other monsters in this room are alive. Once the
+Heroes have killed the other monsters in this room, Tormuk's
+spell is broken. If the Elven Archers are still alive, they fight on
+the Heroes' side for the remainder of this Quest only. They are
+under the control of the Elf, and they move and attack after him.</note>
+<note>Wandering Monsters in this Quest: Fimir</note>
 </quest>

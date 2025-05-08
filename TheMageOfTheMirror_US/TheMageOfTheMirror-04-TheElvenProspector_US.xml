@@ -306,5 +306,38 @@
 <object id="LetterD" left="21.0" top="8.0" rotation="downward" zorder="5.0" />
 <object id="LetterX" left="11.0" top="18.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+Your compaions now join you as you begin
+the first part of your mission to rescue
+Millandriell. The Queen wants you to free the
+royal Prospector, who has been imprisoned inside
+an old mine by Zargon's minions. Only this
+Prospector can identify Moonsilver, a magical
+substance that is critical to rescuing the
+Princess. You must enter the mine through the
+iron door, find the Prospector, and then leave
+through the wooden exit door with the
+Prospector.
+</speech>
+<note>A  The door marked “A” has a trap on it. Ifa Hero opens this door
+before the trap is disarmed, the portcullis in this room rises and
+the Ogres attack on Zargon’s turn (along with the monsters in
+the next room).</note>
+<note>B  The Prospector is behind a locked portcullis. Place the
+Prospector tile on the square marked "PRO." He tells the Heroes
+that they must find the brass key to free him. Once the Heroes
+return here with the brass key, they can open the portcullis.
+Hand the Prospector tile to the Hero who had the brass key (and
+take the brass key tile back). If that Hero gets killed, the
+Prospector and brass key are returned to their original locations.
+If the Heroes need to retrieve the Prospector, two more Chaos
+Warriors are guarding him.</note>
+<note>C  The first Hero to search for treasure in this room finds a Treasure
+Without Doom spell scroll, a brass key, and 800 gold coins in the
+chest. (See the new artifact card for the spell scroll.) Hand the
+player the brass key tile. Only one scroll is found, even if the
+Heroes must return to this room to regain the key.</note>
+<note>D  The weapons on this rack are rusted beyond repair. There is
+nothing here the Heroes would want.</note>
+<note>Wandering Monsters in this Quest: 2 Chaos Warriors</note>
 </quest>

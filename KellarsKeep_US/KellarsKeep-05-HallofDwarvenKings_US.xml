@@ -401,5 +401,43 @@
 <object id="Skeleton" left="10.0" top="12.0" rotation="downward" zorder="2.0" />
 <object id="Skeleton" left="17.0" top="12.0" rotation="downward" zorder="2.0" />
 </board>
-<speech></speech>
+<speech>
+"The Dwarves had many great kings. King Belorn
+built the Great Citadel and was honored with a
+magnificent burial hall. His descendants have all
+proven themselves and each is buried alongside
+his forefathers. Let no man say that the Dwarves
+are without courage for their valor has no equal.
+You must find another part of Grin's stone map and
+then escape through the wooden exit door to
+continue your journey."
+</speech>
+<note>A  When the first Hero passes the square marked "A," read the
+following sentence aloud:</note>
+<note><em>"The distant sound of warriors echoes down the passage.
+There can be no doubt that a war party has been sent after
+you. Hurry, for time is short!"</em></note>
+<note>Zargon, beginning on your turn (and on each of your future
+turns), roll 1 red die to see how many monsters enter the corridor
+through the iron door. You may choose any monsters
+except the following: the Chaos Warlock, the Gargoyle, 1 of
+the Zombies, 4 of the Skeletons and 3 of the Goblins. After
+moving the new monsters into the corridor (refer to Monster
+Chart in Game System for movement), you may then move
+any other monsters present on the gameboard, as usual.</note>
+<note>B  When one of the doors (with a skeleton behind it) is opened,
+all of the other doors in this room will open at the same time.
+All of the monsters behind the doors are then placed on the
+gameboard. The Zombie will move and attack as usual on
+your (Zargon’s) next turn. However, the Skeletons will not
+move or attack until one of the Skeletons has been attacked.
+Then on Zargon’s next turn, they will all attack. These
+Skeletons are those of ancient Dwarven Kings and are more
+powerful than "regular" Skeletons. If they are attacked, they
+will fight and move as follows:</note>
+<note>MOVEMENT 6 ATTACK 3 DEFEND 4 BODY 2 MIND 0</note>
+<note>C  The first Hero to search for treasure in this room will find the
+second part of Grin’s stone map in the chest. This Hero should
+take another of the remaining map tokens.</note>
+<note>Wandering Monster in this Quest: Fimir</note>
 </quest>

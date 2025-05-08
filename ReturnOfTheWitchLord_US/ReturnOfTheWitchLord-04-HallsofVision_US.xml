@@ -336,5 +336,30 @@
 <object id="Mummy" left="9.0" top="15.0" rotation="downward" zorder="0.0" />
 <object id="SecretDoor" left="17.0" top="7.0" rotation="downward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+"King Agrain was one of the greatest of all rulers
+in a time before Chaos. Although he wasa powerful
+and feared warrior, he was also known for his
+fairness. Agrain dabbled in magic and created the
+Halls of Vision, amaze of magical rooms. The secret
+of the Halls lies in the Keys of Agrain. You must find
+these valuable Keys and reach the safety of the
+wooden exit door."
+</speech>
+<note>A  The 4 magical rooms marked with an "A" were built to
+protect King Agrain’s secret laboratory. Each room is guarded
+by a Mummy. If one of these Mummies is killed, immediately
+remove the door that’s marked with the arrow (from the
+same room as the Mummy just killed).
+</note>
+<note>B  This is the magical laboratory of King Agrain. The first Hero
+to search for treasure in this room will find 2 spell scrolls:
+Fire of Wrath and Ball of Flame. He will also find 4 gold keys
+on the bench. They are the Keys of Agrain. If these keys are
+found by a Hero, Zargon must immediately replace any doors
+that were removed when Mummies were killed. The 4 keys
+are each worth 200 gold coins. They may be divided among
+the Heroes. The Mummies in this Quest will not attack anyone
+holding one of the keys. Skeletons and Zombies will still attack.</note>
+<note>Wandering Monster in this Quest: Mummy</note>
 </quest>

@@ -260,7 +260,7 @@
 <object id="Door" left="13.0" top="12.0" rotation="downward" zorder="-1.0" />
 <object id="Door" left="18.0" top="18.0" rotation="downward" zorder="-1.0" />
 <object id="Door" left="24.0" top="14.0" rotation="downward" zorder="-1.0" />
-<object id="Door" left="24.0" top="11.0" rotation="downward" zorder="-1.0" />
+<object id="Door" left="24.0" top="10.0" rotation="downward" zorder="-1.0" />
 <object id="Door" left="17.0" top="7.0" rotation="rightward" zorder="-1.0" />
 <object id="Door" left="21.0" top="8.0" rotation="rightward" zorder="-1.0" />
 <object id="Door" left="25.0" top="8.0" rotation="rightward" zorder="-1.0" />
@@ -290,5 +290,37 @@
 <object id="LetterC" left="24.0" top="8.0" rotation="downward" zorder="5.0" />
 <object id="LetterD" left="20.0" top="16.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+Your second trial requires that you rescue two
+of the Queen's attendants who were kidnapped
+recently. Foul creatures of Chaos have taken
+these two women to an underground cavern
+south of the Elven Kindom. The only entrance
+to this stronghold of Chaos is a spiral stairway
+that descends far underground. Starting from
+this stairway, you must fight your way to the
+women, free them, and then bring them back out
+through the stairway.
+</speech>
+<note>A  If the Elf searches for treasure in this room, 300 gold coins are
+found in the chest. Tell the Elf that several dresses and smashed
+pieces of jewelry are strewn about on the floor. Neither the dresses
+nor the jewelry have any value.
+</note>
+<note>B  If the Elf searches for treasure in this room, a protective helmet
+is found. Add this to the Elf's Character Sheet. (See the Armory
+on the cardboard platform in the Game System for this item.)
+</note>
+<note>C  If the Elf searches for treasure in this room, a Potion of Healing
+is found in the bookcase. This potion restores up to 4 lost Body
+Points.
+</note>
+<note>D  The Elf finds the two attendants in this room. After the monster
+in the room is killed, the Elf may lead the women to the spiral
+stairway.
+</note>
+<note>After the Elf returns to the stairway, tell him that Queen Terrellia
+as a special reward of 150 gold coins for him.
+</note>
+<note>Wandering Monsters in this Quest: 2 Orcs</note>
 </quest>

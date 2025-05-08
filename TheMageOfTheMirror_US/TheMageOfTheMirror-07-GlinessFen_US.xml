@@ -206,6 +206,7 @@
 <object id="Door" left="12.0" top="17.0" rotation="rightward" zorder="-1.0" />
 <object id="Door" left="9.0" top="17.0" rotation="rightward" zorder="-1.0" />
 <object id="Door" left="6.0" top="13.0" rotation="downward" zorder="-1.0" />
+<object id="Door" left="21.0" top="13.0" rotation="rightward" zorder="-1.0" />
 <object id="Goblin" left="24.0" top="3.0" rotation="downward" zorder="0.0" />
 <object id="Goblin" left="25.0" top="3.0" rotation="downward" zorder="0.0" />
 <object id="GiantWolf" left="18.0" top="4.0" rotation="downward" zorder="0.0" />
@@ -268,5 +269,42 @@
 <object id="LetterB" left="9.0" top="12.0" rotation="downward" zorder="5.0" />
 <object id="LetterA" left="6.0" top="13.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+The time has come to assault Sinestra’s stronghold.
+She lives deep within the marshes of
+Gliness Fen. You must enter her castle to begin
+your search for Princess Millandriell. Spies report
+that the gateway to the Realm of Reflection
+is in the castle’s deepest dungeon. A spiral stairway
+winds down to the first level of the castle.
+Search for another spiral stairway to reach the
+next lower level. Millandriell’s life is in your
+hands, my friends.
+</speech>
+<note>A  The Heroes begin the Quest on this spiral stairway.</note>
+<note>B  This chest has a poisonous gas trap on it. If a Hero searches for
+treasure in this room before the trap is disarmed, each Hero in
+the room loses 1 Body Point. The chest contains 650 gold coins.</note>
+<note>C  The first Hero to search for treasure in this room finds a tool kit
+in the weapons rack. (See the Armory on the cardboard platform
+in the Game System.) This Hero also finds a brass key. Hand the
+player the brass key tile.</note>
+<note>D  The portcullis will not open unless a Hero has the brass key from
+room “C.” The first Hero to search for treasure in this room finds
+2 Potions of Healing in the chest. Each potion restores up to 4
+lost Body Points.</note>
+<note>E  The first Hero to search for treasure in this room finds 2 Wolfsbane
+Potions. (See the new treasure card for these potions.)</note>
+<note>F  The trap door is linked by a tunnel to the trap door in the
+other room “F.” Any Hero or monster landing on one of these
+squares immediately moves to the other trap door square. The
+connecting tunnel is dangerous. After a Hero moves through
+it, he rolls 1 combat die. If a skull is rolled, the Hero loses 1
+Body Point. After moving from one trap door square to the
+other, the Hero’s or monster’s turn is over.</note>
+<note>G  The first Hero to search for treasure in this room finds the Sky
+Orb under the table. (See Page 4.) Give the Hero the Sky Orb
+artifact card, tile and tokens. The spiral stairway leads down to
+the second level of Sinestra’s castle.</note>
+<note>Wandering Monsters in this Quest: Werewolf</note>
 </quest>

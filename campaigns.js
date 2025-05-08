@@ -240,7 +240,7 @@ intro_rotwl_eu = `
 <p>Mentor's head hung low as he entered the room. There
 was a sadness in his voice when he spoke.</p>
 <p>"Worthy companions, the Witch Lord is not
-dead. We must act fast. for his power grows with the
+dead. We must act fast, for his power grows with the
 passing of each day. It will not be long before he has
 recovered from his imprisonment. Once his power has
 fully awoken he will raise again the legions of the dead.
@@ -742,6 +742,1006 @@ and only scouts may search for and attempt to disarm traps.</li>
 </ul>
 `
 
+alchemistsshop = `
+<p>These potions may be purchased only between Quests.</p>
+<h1>Alchemist's Shop</h1>
+<h3>Potion of Restoration</h3>
+<img src="Images/Rules/potionofrestoration.jpg"></img>
+<p><b>Cost: 500 Gold Coins</b></p>
+<p>Drink this brown, frothy liquid to
+restore 1 lost Body Point and 1 lost
+Mind Point. It’s refreshing after a
+tough battle!</p>
+<h3>Potion of Dexterity</h3>
+<img src="Images/Rules/potionofdexterity.jpg"></img>
+<p><b>Cost: 100 Gold Coins</b></p>
+<p>This sparkling liquid adds 5 move-
+ment squares to your next die roll
+or guarantees 1 successful pit
+jump. If you purchase more than
+one of these potions, you may use
+only 1 potion per turn.</p>
+<h3>Venom Antidote</h3>
+<img src="Images/Rules/venomantidote.jpg"></img>
+<p><b>Cost: 300 Gold Coins</b></p>
+<p>This bubbling brew tastes foul, but
+heals up to 2 Body Points of damage
+caused by poison needles or poison
+darts only.</p>
+<h3>Potion of Battle</h3>
+<img src="Images/Rules/potionofbattle.jpg"></img>
+<p><b>Cost: 200 Gold Coins</b></p>
+<p>If you have a really "weak" roll of
+the attack dice, you may drink this
+blood-red potion. It allows you 1
+<em>re-roll</em> of your attack dice.</p>
+`
+
+intro_kk_us = `
+<p>My friends, I have alarming news. The Emperor
+and his army are trapped in Kellar’s Keep, the
+underground bastion of the fortress Karak Varn.
+This great Dwarven stronghold lies deep within the heart of
+the World’s Edge Mountains. The fortress is well defended,
+but I fear that time is against us. The Emperor’s army
+weakens with starvation while the enemy grows stronger by
+the day.</p>
+<p>It is up to you, brave Heroes, to rescue the Emperor.
+The great book Loretome has revealed much useful information
+to me.</p>
+<p>Many thousands of years ago, the Dwarves made their
+home in the World’s Edge Mountains. With their great
+engineering skills, they built vast cities that cut deep into the
+rock. The cities were connected by tunnels that stretched for
+miles beneath the mountains. On the eastern side of the
+mountains, the Dwarves constructed huge fortresses to guard
+against the evil legions of Chaos. The greatest of these
+fortresses was Karak Varn.</p>
+<p>The Dwarves lived for many years in peace, for the
+Orcs and Goblins did not dare attack the well-defended
+cities. But during this time of peace, the Dwarves became
+careless. Their army grew smaller and their guards less
+vigilant.</p>
+<p>Then came Zargon, the Evil Sorcerer and commander of all
+that is evil. Zargon spent years raising a vast army of Orcs,
+Goblins and monsters beyond description. When the attack
+came, there was no warning. The Dwarves fought with great
+valor, but their enemy was too strong. One by one the
+fortresses fell. Only Karak Varn held.</p>
+<p>Most of the hidden tunnels near Karak Varn have long
+been forgotten. However, Loretome has revealed to me a
+hidden passage known as Grin’s Crag. This secret walkway
+is named after the Dwarf who first discovered it. While searching
+for a rich vein of gold, Grin found a narrow footpath running
+along the edge of an abyss. He explored beyond and found
+himself in the lower caverns of Keller’s Keep. Grin carved a
+map onto a stone tablet so that he might find the path
+again. He then broke the tablet into pieces and hid the
+fragments throughout the Halls of Belorn, ancient chambers
+that lie deep beneath the World’s Edge Mountains.</p>
+<p>First, you must journey through the Halls of Belorn.
+These hallowed halls have been stripped of many of the
+riches that once adorned them. Yet a treasure or two may be
+found by a Hero with a keen eye. But beware! Orcs and
+Goblins now dwell here. You must make them pay dearly for
+their trespass.</p>
+<p>Even Loretome does not reveal the exact location of
+Grin’s Crag. You must find the four pieces of Grin’s stone
+map that are scattered throughout the halls. Only then can
+you travel the path to Kellar’s Keep and lead the Emperor to
+safety.</p>
+<p>I shall take you to the Great Gate, but from there you
+will be on your own. Good luck, my friends. When you need
+my guidance, listen deep within yourselves.</p>
+`
+
+outro_kk_us = `
+<h1>Conclusion</h1>
+<p>The door opened into the darkness of Kellar's Keep.
+From far above came the thunder of battle. The forces of
+Zargon were making their final assault. This time
+there could be no holding them. The Emperor assembled his
+force of Guardian Knights, determined to organise one last line of defense. Then
+came the news - a group of Heroes had found a secret passage into Kellar's Keep.
+Escape was now possible!</p>
+<p>Without hesitation the Emperor ordered his army
+to fall back towards the secret passage. The guard would take
+the rear and fight their way back to the passage.
+Kenaron, the Captian of the Emperor's Guardian Knigths, stod bravely
+ate the gate, giving his fellow soldiers and wounded time to escape.</p>
+<p>Zargon and his fould forces could not be permitted
+to follow. Time and time again the evil Doomguard surged forward,
+only to be felled by Kenaron's sword.</p
+<p>Zargon watched for a while and smiled wryly at Kenaron's courage
+and skill-at-arms. A moment later Zargon's patience was spent.
+Kenaron fell before a searing storm of flame that burst against the
+gate.</p>
+<p>But it was too late. Zargon's warriors howled in anger,
+for the escape passage had been destroyed.
+The Emperor and his army were safe.</p>
+<p>“You have done well, brave Heroes. The Emperor has asked me to
+express his gratitude. Each of you will receive 500 gold coins for
+your efforts. But do not let victory deceive you. A dark
+cloud still hangs over the Empire as the forces of Chaos grow stronger.
+I shall look for ways to delay Zargon's advance. For now, rest well my friends.
+we might delay Morcar's advance. Rest well my friends.
+Once I have consulted Loretome, I shall summon you."</p>
+`
+instructions_kk_us = alchemistsshop + `
+<h1>Kellar's Keep™</h1>
+<p>The adventure continues! Kellar's Keep is an expansion set used with
+your original Hero Quest Game System. You must have the Game System
+in order to play the adventures in this booklet.</p>
+<h3>Contents:</h3>
+<p>8 Orcs, 6 Goblins, 3 Fimir, cardboard tile sheet</p>
+<h4>Carboard sheet includes:</p>
+<p>1 Two-sided Iron Door</p>
+<p>1 Two-sided Wooden Door</p>
+<p>4 Short Stairway Tile</p>
+<p>2 Long Stairway Tiles</p>
+<p>1 Cliff Corridor Tile</p>
+<p>1 Giant Stone Boulder Tile</p>
+<p>2 Trap Door Tiles</p>
+<p>2 Pit Trap Tiles</p>
+<p>12 Blocked Square Tiles</p>
+<p>1 Weapons Forge Tile</p>
+<p>1 Cloud of Chaos Tile</p>
+<p>1 Four-part Stone Map Tile</p>
+<p>All components should be carefully removed from the cardboard
+sheet. New game components are described below, at right and
+on the following page.</p>
+<h3>New Components</h3>
+<h4>Door Assembly</h4>
+<img src="Images/Rules/assembly_inoutdoor.jpg"></img>
+<p>Take 2 plastic door stands from
+the Game System. The 2 new
+doors in this Quest Pack should
+be folded and fitted into the door
+bases as shown at right. These
+doors are described above right.</p>
+<h4>Iron Entrance Door</h4>
+<img src="Images/Rules/irondoor.jpg"></img>
+<img src="Icons/Raster/USA/Base/DoorIn_US.png"></img>
+<p>This iron door is placed on the
+edge of the gameboard in each
+Quest. Heroes line up outside
+the door to begin each Quest.</p>
+<h4>Wooden Exit Door</h4>
+<img src="Images/Rules/woodendoor.jpg"></img>
+<img src="Icons/Raster/USA/Base/DoorOut_US.png"></img>
+<p>In most Quests, this special wooden
+door is used to exit the gameboard
+at the end of a Quest.</p>
+<h4>Cloud of Chaos</h4>
+<img src="Images/Rules/cloudofchaos.jpg"></img>
+<img src="Icons/Raster/USA/KellarsKeep/KellarsKeep.CloudOfChaos_US.png"></img>
+<p>When surrounded by this
+mysterious, purple cloud,
+Heroes cannot "see" anything.</p>
+<h4>Giant Stone Boulder</h4>
+<img src="Images/Rules/boulder.jpg"></img>
+<img src="Icons/Raster/USA/KellarsKeep/KellarsKeep.GiantStoneBoulder_US.png"></img>
+<p>The giant stone boulder rolls down
+a corridor, doing great damage to
+anything in its path.</p>
+<h4>The Weapons Forge</h4>
+<img src="Images/Rules/weaponsforge.jpg"></img>
+<img src="Icons/Raster/USA/KellarsKeep/KellarsKeep.WeaponsForge_US.png"></img>
+<p>The forge is a place where Dwarven
+blacksmiths once created the finest
+and sturdiest weapons in the land.</p>
+<h4>Four-part Stone Map</h4>
+<img src="Images/Rules/stonemap.jpg"></img>
+<p>These pieces fit together to
+form a stone map. Finding
+the map pieces is a major
+objective in this Quest Pack.</p>
+<h4>Trap Doors</h4>
+<img src="Images/Rules/trapdoor.jpg"></img>
+<img src="Images/Rules/trapdoor.jpg"></img>
+<img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.TrapDoor_US.png"></img>
+<img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.TrapDoor_US.png"></img>
+<p>The 2 trap doors are used to link 2
+visually unconnected rooms via
+an unseen "tunnel." When landing
+on 1 trap door, a Hero moves
+instantly to the other trap door.</p>
+<h4>Cliff Corridor</h4>
+<img src="Images/Rules/cliffcorridor.jpg"></img>
+<img src="Icons/Raster/USA/KellarsKeep/KellarsKeep.CliffCorridor_US.png"></img>
+<p>he cliff corridor is used as Grin’s Crag, a dangerous walk-
+way near the entrance into Kellar’s Keep. Each square on
+this tile counts as one space.</p>
+<h4>Short Stairway</h4>
+<img src="Images/Rules/shortstairway.jpg"></img>
+<img src="Icons/Raster/USA/KellarsKeep/KellarsKeep.ShortStairway_US.png"></img>
+<p>There are 3 movement squares on the short stairway. These
+tiles are used to create the effect of climbing up or down stairs.</p>
+<h4>Long Stairway</h4>
+<img src="Images/Rules/longstairway.jpg"></img>
+<img src="Icons/Raster/USA/KellarsKeep/KellarsKeep.LongStairway_US.png"></img>
+<p>here are 5 movement squares on the long stairway. These tiles
+are used to create the effect of climbing up or down stairs.</p>
+<hr/>
+<p><b>Note:</b> he small illustrations shown with each component
+above are Quest map symbol references. These symbols are
+also the exact size needed for the blank create your own"
+Quest map provided in the Game System Quest Book. All
+you have to do is photocopy the symbols and cut them out.
+When creating your own Quest adventures, you may use
+these components in any way that you can imagine. For
+example, the stairs could be used to link several levels of a
+multi-map Quest.</p>
+<h1>Playing Kellar's Keep™</h2>
+<p>The Quests in Kellar's Keep are generally
+played the same way as the Quests in the Game System.
+It is especially important that these Quests <em>be played
+in order</em>. As in the Game System, Heroes are returned
+to full strength (all Body and Mind Points are restored)
+between Quests.</p>
+<p>There are a few game play differences in Kellar's Keep:</p>
+<h4>1. Starting a Quest</h4>
+<p>The Heroes <em>do not</em> start their adventures on the spiral
+stairway tile used in the Game System. Often, they enter
+through an iron door on the edge of the gameboard. This
+door is shown on the Quest map with an arrow pointing
+inward toward the gameboard. This door is placed on the
+gameboard in its specified location before the Quest begins.
+At the start of an adventure, the Heroes line up outside the
+door and ask Zargon to open it.</p>
+<h4>2. Ending a Quest</h4>
+<p>Players may leave the gameboard only by locating the
+wooden exit door on the edge of the board, or by the finding
+the spiral stairway that exists in one of the Quests. The exit
+door is shown on the Quest map with an arrow pointing outward
+from the gameboard.</p>
+<p><b>Note:</b> As with regular doors, an exit door will not be put on
+the gameboard by Zargon until a Hero looks down the
+appropriate corridor. An exit door is usually opened in the
+same way as a regular door, unless specified otherwise in the
+Quest notes.</p>
+<h4>3. Treasures</h4>
+<p>To eliminate conflicts among the Heroes, large gold coin
+treasures found in treasure chests should be divided among
+all surviving Heros.<p>
+<h4>4. New Artifact Cards</h4>
+<p>These new cards are found on the inside back cover of this
+Quest Book. Cut out the cards from the cover or, if you
+prefer, photocopy the inside cover and then cut them out.</p>
+<ul>
+<li><em>Fire Ring and the Magical Throwing Dagger:</em> These artifacts
+are similar to the artifacts in the Game System. When a
+Hero finds one of these artifacts, he should record it on his
+Character Sheet. Unlike most artifacts in the Game System,
+however, these artifacts must be crossed off a Hero’s
+Character Sheet after they are used.</li>
+<li><em>Dust of Disappearance:</em> If a handful of this dust is tossed on
+any Hero, that Hero may move past any monsters
+encountered on his next turn. The dust must be crossed off
+the Hero’s Character Sheet after it is used.</li>
+<li><em>Spell Scrolls</em> The 8 remaining artifact cards are called spell
+scrolls. They are used just like the spell cards in the Game
+System. However, a spell scroll can be used by ANY Hero
+(not just the Wizard and Elf) who finds one.</li>
+When a Hero finds a spell scroll, Zargon should turn all of
+the spell scroll cards facedown, mix them up and let the
+Hero draw one at random. The Hero should then record
+the spell scroll on his Character Sheet and return the scroll
+facedown to the scroll deck. After a spell scroll has been
+used, it must be crossed off the Hero’s Character Sheet.
+</ul>
+<p><b>Note:</b> On his turn, any Hero who has artifacts may give them
+to other Heroes.</p>
+`
+
+intro_rotwl_us = `
+<h1>A Message From Mentor</h1>
+<p>Worthy companions, we must act fast.
+f The Witch Lord is not dead! He managed
+& to escape to the fallen city of Kalos. Many
+years ago, this beautiful city was destroyed by
+Zargon and given to the Witch Lord to rule.
+Beneath the ruins, he built a great stronghold, for
+the light of day was too pure for his foul creatures
+to endure. Once the Witch Lord’s strength has fully
+returned, he will gather his army of the undead
+and attack the Empire. Only Heroes with great
+courage dare stand against the Witch Lord. His vile
+warriors know no fear and will fight relentlessly
+until they are destroyed.</p>
+<p>Many days of travel have brought you across
+the parched Plains of Death. The journey has been
+hard, for the land here is scorched and barren.
+Finally, you have reached the great ruins of Kalos.
+Throughout your trek, you have felt an uneasy
+presence. The Witch Lord has been watching your
+progress, awaiting your arrival. As he sits upon the
+High Throne of Kalos, he can see all who approach.
+No one can escape his gaze.</p>
+<p>If the Witch Lord is not stopped soon, he will
+be joined by Skulmar, Captain of the Forgotten
+Legion and by Kessandria, the Witch Queen. If
+these two sit alongside the Witch Lord, it is said
+that the bones of all fallen warriors will be summoned
+together under the Black Banner.</p>
+<p>It is up to you, brave Heroes, to destroy the
+Witch Lord once and for all. When you need my
+guidance, listen deep within yourselves.</p>
+`
+
+outro_rotwl_us = `
+<h1>Conclusion</h1>
+<p>My friends, we have much to be
+thankful for. The Witch Lord has
+been defeated and his army of
+undead remains asleep under the earth. The
+magic that controlled them has now been
+weakened. Yet this victory could herald our
+downfall if we relax our efforts.</p>
+<p>Now that the enemy is weaker, we must
+be all the stronger. The minions of the Witch
+Lord who escaped will surely seek revenge on
+those who defeated their master.</p>
+<p>Loretome has shown me that Skulmar,
+who we believed to be slain, has escaped from
+the ruins of Kalos with many of the Witch Lord’s
+most powerful spell books. I fear that it will
+not be long before you will have to confront
+Skulmar and attempt to end his threat forever.</p>
+<p>But for the present you have earned
+yourselves a rest. So come, my brave Heroes!
+The Emperor awaits you in the Grand Palace.
+Tonight you are to be honored for your
+incredible feats of heroism.</p>
+`
+
+instructions_rotwl_us = alchemistsshop + `
+<h1>Return of the Witch Lord</h1>
+<p>The adventure continues! Return of the Witch Lord is an expansion set
+used with your original Hero Quest Game System. You must have the
+Game System in order to play the adventures in this booklet.</p>
+<h3>Contents:</h3>
+<p>8 Skeletons, 4 Mummies, 4 Zombies, cardboard tile sheet</p>
+<h4>Cardboard sheet includes:</h4>
+<p>1 Two-sided Iron Door</p>
+<p>1 Two-sided Wooden Door</p>
+<p>1 Throne Room Tile</p>
+<p>4 Coffin Tiles</p>
+<p>6 Blocked Square Tiles</p>
+<p>2 Pit Trap Tiles</p>
+<p>4 Secret Door Tiles</p>
+<p>1 Revolving Room Tile</p>
+<p>1 Death Mist Tile</p>
+<p>All components should be carefully removed from the cardboard
+sheet. New game components are described at right and below.</p>
+<h3>New Components:</h3>
+<h4>Door Assembly</h4>
+<img src="Images/Rules/assembly_inoutdoor.jpg"></img>
+<p>Take 2 plastic door stands from
+the Game System. The 2 new
+doors in this Quest Pack should
+be folded and fitted into the door
+bases as shown at right. These
+doors are described below.</p>
+<h4>Iron Entrance Door</h4>
+<img src="Images/Rules/irondoor.jpg"></img>
+<img src="Icons/Raster/USA/Base/DoorIn_US.png"></img>
+<p>This iron door is placed on the
+edge of the gameboard in many
+of the Quests. Heroes line up outside
+the door to begin these Quests.</p>
+<h4>Wooden Exit Door</h4>
+<img src="Images/Rules/woodendoor.jpg"></img>
+<img src="Icons/Raster/USA/Base/DoorOut_US.png"></img>
+<p>In many Quests, this special wooden
+door is used to exit the gameboard
+at the end of a Quest.</p>
+<h4>Deat Mist</h4>
+<img src="Images/Rules/deathmist.jpg"></img>
+<img src="Icons/Raster/USA/ReturnOfTheWitchLord/ReturnOfTheWitchLord.DeathMist_US.png"></img>
+<p>This mist is a deadly breath
+of Chaos which will harm all
+who are not evil.</p>
+<h4>Coffins</h4>
+<img src="Images/Rules/coffins.jpg"></img>
+<img src="Icons/Raster/USA/ReturnOfTheWitchLord/ReturnOfTheWitchLord.Coffin_US.png"></img>
+<p>The 4 coffins may be used
+as tombs. They may contain
+an undead creature and/or a
+treasure. They may also have
+traps on them.</p>
+<h4>Revolving Room</h4>
+<img src="Images/Rules/revolvingroom.jpg"></img>
+<img src="Icons/Raster/USA/ReturnOfTheWitchLord/ReturnOfTheWitchLord.RevolvingRoom_US.png"></img>
+<p>The revolving room is used to disorient the Heroes.
+You never know which door you'll be using to leave
+this room.</p>
+<h4>Throne Room</h4>
+<img src="Images/Rules/throneroom.jpg"></img>
+<img src="Icons/Raster/USA/ReturnOfTheWitchLord/ReturnOfTheWitchLord.ThroneRoom_US.png"></img>
+<p>The large throne room is used by evil
+rulers such as the Witch Lord.</p>
+<p><b>Note:</b> The smaller illustrations shown with each component
+above are Quest map symbol references. These symbols are
+also the exact size needed for the blank "create your own"
+Quest map provided in the Game System Quest Book. All
+you have to do is photocopy the symbols and cut them out.</p>
+<p>When creating your own Quest adventures, you may use
+these components in any way that you can imagine.</p>
+<h1>Playing Return of the Witch Lord™</h2>
+<p>The Quests in Return of the Witch Lord are generally
+played the same way as the Quests in the Game System.
+It is especially important that these Quests be played
+in order. As in the Game System, Heroes are returned
+to full strength (all Body and Mind Points are restored)
+between Quests.</p>
+<p>There are a few game play differences in Return of the
+Witch Lord:</p>
+<h4>1. Starting a Quest</h4>
+<p>The Heroes do not always start their adventures on the spiral
+stairway tile used in the Game System. Often, they enter
+through an iron door on the edge of the gameboard. This
+door is shown on the Quest map with an arrow pointing
+inward toward the gameboard. This door is placed on the
+gameboard in its specified location before the Quest begins.
+At the start of an adventure, the Heroes line up outside the
+door and ask Zargon to open it.</p>
+<h4>2. Ending a Quest</h4>
+<p>Players may only leave the gameboard by locating the
+wooden exit door on the edge of the board, or by the finding
+the spiral stairway that exists in some of the Quests. The exit
+door is shown on the Quest map with an arrow pointing outward
+from the gameboard.</p>
+<p><b>Note:</b> As with regular doors, an exit door will not be put on
+the gameboard by Zargon until a Hero looks down the
+appropriate corridor. An exit door is usually opened in the
+same way as a regular door, unless specified otherwise in the
+Quest notes.</p>
+<h4>3. Treasures</h4>
+<p>To eliminate conflicts among the Heroes, large gold coin
+treasures found in treasure chests should be divided among
+all surviving Heros.<p>
+<h4>4. New Artifact Cards</h4>
+<p>These new cards are found on the inside back cover of this
+Quest Book. Cut out the cards from the cover or, if you
+prefer, photocopy the inside cover and then cut them out.</p>
+<p>The following 5 artifact cards are used just like the artifacts
+in the Game System. When a Hero finds an artifact, he should
+record it on his Character Sheet. Unlike most artifacts in the
+Game System, however, some of these artifacts must be
+crossed off the Hero’s Character Sheet after they are used.</p>
+<ul>
+<li><em>Magical Throwing Dagger:</em> When thrown at a monster that a
+Hero can see, this dagger always hits and inflicts 1 Body
+Point of damage. The monster cannot defend. The dagger
+must be crossed off the Hero’s Character Sheet after it
+is used.</li>
+<li><em>Dust of Disappearance:</em> If a handful of this dust is tossed on
+any Hero, that Hero may move past any monsters
+encountered on his next turn. The dust must be crossed off
+the Hero’s Character Sheet after it is used.</li>
+</ul>
+<h4>New Artifact Cards (continued)</h4>
+<ul>
+<li><em>Anti-poison Quill:</em> This rare, hollow quill contains a mysterious
+substance that counteracts any type of poison. This
+antidote will restore Body Points lost by poisoning if used
+immediately by the owner. The quill must be crossed off
+the Hero’s Character Sheet after it is used.</li>
+<li><em>Rabbit Boots:</em> These magical boots give their wearer a
+greater chance to jump over 1 discovered trap <em>per turn</em>. A
+Hero can successfully jump a trap by rolling anything but a
+black shield on 1 combat die. (However, if a black shield is
+rolled, the trap will be sprung, and the Hero will suffer the
+body damage caused by that particular type of trap.)</li>
+<li><em>Arm Band of Healing:</em> The wearer of this magical arm band
+can restore two of his lost Body Points <em>once per Quest</em>. If
+the wearer’s Body Points are reduced to zero, this artifact
+can be used immediately to restore 2 Body Points as long as
+it has not already been used in that Quest.</li>
+</ul>
+<p>The 5 remaining artifact cards on the inside back cover are
+spell scrolls. These scrolls are used just like the spell cards in
+the Game System. However, a spell scroll can be used by ANY
+Hero (not just the Wizard and Elf) who finds one.</p>
+<p>When a spell scroll is found, the Hero should record it on
+his Character Sheet. After the scroll has been used, it must be
+crossed off the Hero’s Character Sheet.</p>
+<p><b>Note:</b> Heroes who have artifacts are allowed to give them to
+other Heroes.</p>
+<img src="Images/Rules/barbarian.jpg"></img>
+`
+
+intro_motm = `
+<h1>A Message From Mentor</h1>
+<p>Ah, you're here at last, my Elven friend. Our
+time together must be brief, for your skills
+are needed urgently. The Elven kingdom is in
+turmoil, as you may have heard. Queen
+Terrellia’s five-year-old daughter, Millandriell, has been
+kidnapped. The Queen has secretly informed me that she
+has received a ransom note from her evil sister, the
+Archmage Sinestra. Sinestra has always been vain and
+proud, paying more attention to her mirrors than to the
+advice of the wise. Her vanity has led her to a diabolical
+plan. The note demands that the Queen abdicate the
+throne and turn all power over to Sinestra. Only then will
+Millandriell be returned unharmed.</p>
+<p>The Queen has asked me to find an Elven Hero who has
+the strength and courage to lead a small band of Heroes
+into Sinestra’s stronghold to rescue Millandriell. Because
+the girl’s life would be forfeit if such a rescue mission
+failed, Queen Terrellia insists that the chosen Hero first
+prove his worth. The Queen has decided upon three
+Quests for this Elf to undertake on his own before she will
+agree to the rescue attempt.</p>
+<p>I have chosen you to lead the rescue party. If you survive
+the three solo Quests the Queen proposes, your heroic
+companions will rejoin you and you will all embark on the
+mission to rescue Princess Millandriell.</p>
+<p>You must succeed in this mission, for your entire race is
+in danger should Sinestra gain the throne. The safety of
+the Empire is also at stake, if what I fear is true. I suspect
+that Zargon is lurking behind Sinestra’s schemes. As a
+willing servant of Zargon, she may call upon the forces
+of Chaos to thwart your mission.</p>
+<p>Do not underestimate the importance of the tasks before
+you, brave Elf. If you fail, the Emperor will lose the power
+and strength of the Elven people to Zargon. That will surely
+mean the end of the Empire!</p>
+`
+
+outro_motm = `
+<h1>Conclusion</h1>
+<p>Fearless Heroes, a great celebration is
+about to be held in your honor. Queen
+Terrellia wishes to thank you for rescuing
+the Princess of the Elven people from a
+horrible fate.</p>
+<p>Because of your valiant efforts, peace and order have
+been restored to the kingdom. You have ended a dire
+threat to the Elven people, at great risk to yourselves.
+You fought a mighty battle against the forces of Chaos
+and emerged victorious.</p>
+<p>Queen Terrellia has decreed that your names be written
+down in the ancient Book of Elven Heroes, for your deeds
+have truly earned you a place among the most famous in
+their long history. Your names shall become synonymous
+with heroism and justice. Legends and songs will praise
+you for as long as Elves have voices to tell of your deeds.</p>
+<p>The Queen is also thankful that you have returned the
+sacred Elven Bow of Vindication. As a token of her kingdom's
+gratitude, she has asked me to give you this ancient
+chest. Inside, you will find 2,000 gold coins. Take this
+treasure and divide it among you.</p>
+<p>Go now, and join in the celebration. Until we meet again,
+take care my friends.</p>
+`
+
+instructions_motm = `
+<p>These potions may be purchased only between Quests</p>
+<h2>Alchemist's Shop</h2>
+<h3>Potion of Recall</h3>
+<img src="Images/Rules/potionofrecall.jpg"></img>
+<p><b>Cost: 400 Gold Coins</b></p>
+<p>An Elf who drinks this greenish mixture
+regains a spell which was cast earlier during
+the current Quest. Choose wisely which spell
+to recall!</p>
+<h3>Potion of Speed</h3>
+<img src="Images/Rules/potionofspeed.jpg"></img>
+<p><b>Cost: 500 Gold Coins</b></p>
+<p>When an Elf drinks this syrupy brew, he can
+move up to 12 squares per turn instead of
+rolling the red dice. The Elf also gets 2 attacks
+per turn. These effects end as soon as the Elf
+suffers at least 1 Body Point of damage.</p>
+<h3>Potion of Vision</h3>
+<img src="Images/Rules/potionofvision.jpg"></img>
+<p><b>Cost: 500 Gold Coins</b></p>
+<p>Drinking the contents of this clear bottle enables
+an Elf to see all secret doors and regular
+traps (coded in gold on Quest map) within his
+line of sight. This effect lasts until the Elf suffers
+at least 1 Body Point of damage.</p>
+<h3>Potion of Restoration</h3>
+<img src="Images/Rules/potionofrestoration.jpg"></img>
+<p><b>Cost: 800 Gold Coins</b></p>
+<p>This refreshing concoction restores any Hero’s
+Body and Mind Points to the level they were at
+when the Hero started the Quest. This potion
+may also be used to cure a Hero who has been
+turned into a Werewolf.</p>
+<p><b>Three of the above potions can be used only
+by the Elf. Different potions may also be purchased
+from the Alchemist’s Shop in other
+Quest Packs.</b></p>
+<h2>Monster Chart</h2>
+<table>
+<tr><th>Monster</th><th>Map Symbol</th><th>Movement Squares</th><th>Attack Dice</th>
+<th>Defend Dice</th><th>Body Points</th><th>Mind Points</th></tr>
+<tr><td>Elven Archer*</td><td><img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.ElvenArcher_US.png"></img></td><td>6</td><td>4(1)</td><td>2</td><td>3</td><td>2</td></tr>
+<tr><td>Elven Warrior</td><td><img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.ElvenWarrior_US.png"></img></td><td>6</td><td>4</td><td>3</td><td>3</td><td>2</td></tr>
+<tr><td>Ogre</td><td><img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.OgreWarrior_US.png"></img></td><td>4</td><td>6</td><td>4</td><td>10</td><td>2</td></tr>
+<tr><td>Giant Wolf</td><td><img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.GiantWolf_US.png"></img></td><td>9</td><td>6</td><td>3</td><td>5</td><td>1</td></tr>
+</table>
+<p>* Elven Archers attack with 4 combat dice against non-adjacent targets, but with only 1 die against adjacent targets.</p>
+<h2>The EIf Quest Pack</h2>
+<p>The adventure continues! The Elf Quest Pack is an expansion set used
+with your original Hero Quest Game System. You must have the
+Game System in order to play the adventures in this booklet.</p>
+<h3>Contents:</h3>
+Plastic Figures: 1 Female Elf, 1 Elven Archmage, 2 Elven Warriors,
+2 Elven Archers, 3 Giant Wolves, 4 Ogres; 30 Game Cards, Cardboard
+Tile Sheet.
+<h4>Cardboard tile sheet includes:</h4>
+1 Iron Door
+1 Wooden Door
+4 Portcullis Tiles
+2 Mirror Tiles
+1 Sky Orb Tile
+4 Sky Orb Tokens
+14 Skull Tiles
+2 Trap Door Tiles
+4 Secret Door Tiles
+6 Blocked Square Tiles
+3 Double Blocked Square Tiles
+4 Pit Trap Tiles
+3 Long Pit Trap Tiles
+4 Wolf Tokens
+4 Weapon Pack Tiles
+1 Moonsilver Flask Tile
+1 Brass Key Tile
+1 Prospector Tile
+1 Princess Millandriell Tile
+1 Inner Sanctum Room
+1 Inner Sanctum Wall
+1 Quicksand Room
+1 Spiral Stairway Tile
+<p>All cardboard components should be carefully removed from the cardboard
+sheet. The plastic figures should be removed from their runners.
+Discard waste cardboard and plastic. New game components are
+described at right and on the following pages.</p>
+<p><b>Note:</b> The cardboard tiles listed above are two-sided. The front and
+back of many tiles are different.</p>
+<h3>New Components:</h3>
+<h4>Monster Assembly</h4>
+<p>The Archmage and Ogres require assembly before they can be used.
+Assemble these monsters as shown below.</p>
+<img src="Images/Rules/assembly_archmage.jpg"></img>
+Archmage
+<img src="Images/Rules/assembly_ogre_us.jpg"></img>
+Ogre
+<p>Take the front half of the Ogre and place
+the left and right arms into the shoulder
+sockets. Next, push the back of the Ogre
+into place, squeezing firmly. Finally,
+push the Ogre's head into its socket.</p>
+<h4>New Monsters</h4>
+<p>To learn more about the new monster figures, see the Monster
+cards in this Quest Pack as well as the Monster Chart on the inside
+back cover of this book.</p>
+<p><b>Note:</b> The new cardboard components are shown here and on
+the following pages. Next to most components is a matching
+Quest map symbol. These symbols appear on each map to show
+you where to place components on the gameboard. For example,
+the iron entrance door shown below is represented on the
+Quest map by the symbol shown to the right of the door.</p>
+<p>These symbols are also the exact size needed for the blank,
+“create your own” Quest map provided in the Game System
+Quest Book. All you have to do is photocopy the symbols and
+cut them out.</p>
+<h4>Door Assembly</h4>
+<img src="Images/Rules/assembly_inoutdoor_us.jpg"></img>
+<p>Take 2 plastic door stands from the Game
+System. The 2 new doors in this Quest Pack
+should be fitted into the bases as shown.
+These doors are described above right.</p>
+<h4>Iron Entrance Door</h4>
+<img src="Images/Rules/irondoor.jpg"></img>
+<img src="Icons/Raster/USA//Base/DoorIn_US.png"></img>
+<p>This iron door is placed on the edge of the
+gameboard in many of the Quests. Heroes
+line up outside the door to begin these
+Quests. In some Quests, this door also
+serves as an exit door.</p>
+<h4>Wooden Exit Door</h4>
+<img src="Images/Rules/woodendoor.jpg"></img>
+<img src="Icons/Raster/USA/Base/DoorOut_US.png"></img>
+<p>In many Quests, this special
+wooden door is used to exit the
+gameboard at the end of the
+Quest.</p>
+<h4>Trap Doors</h4>
+<img src="Images/Rules/trapdoor.jpg"></img>
+<img src="Images/Rules/trapdoor.jpg"></img>
+<img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.TrapDoor_US.png"></img>
+<img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.TrapDoor_US.png"></img>
+<p>The two trap doors link
+apparently unconnected
+rooms via an unseen tunnel.
+When a Hero or
+monster steps on a trap
+door square, he moves
+instantly to the other
+trap door square.</p>
+<h4>Sky Orb and Sky Orb Tokens</h4>
+<img src="Images/Rules/skyorb.jpg"></img>
+<img src="Images/Rules/skyorbtokens.jpg"></img>
+<p>This artifact is a mystical crystal
+orb that protects the Hero who is
+carrying it from Mind Point damage.
+It can absorb up to 4 Mind
+Points of damage before it becomes
+useless. When a Hero finds
+the Sky Orb, he takes it and the 4
+Sky Orb tokens. Whenever the
+Hero suffers Mind Point damage,
+he gives up one Sky Orb token for each Mind Point of
+damage. (Give up the token with 4 points of light first,
+then the one with 3 points, etc.) When the Hero has no
+more tokens, the Sky Orb is useless.</p>
+<h4>Mirrors</h4>
+<img src="Images/Rules/mirrorbow.jpg"></img>
+<img src="Images/Rules/mirrorprincess.jpg"></img>
+<p>These stand-up mirrors are secret Room
+portals that lead to great treasure
+and hidden rooms. Fit these into
+the plastic door stands from the
+Game System when they are
+called for in a Quest.</p>
+<h4>Inner Sanctum and Sanctum Wall</h4>
+<img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.InnerSanctum_US.png"></img>
+<img src="Images/Rules/sanctum.jpg"></img>
+<p>This room is the Archmage Sinestra’s
+center of power, the room from which
+she commands her minions to carry
+out her evil plans. The wall should be
+erected at the back of the sanctum, as
+shown below.</p>
+<p>When a Hero has opened the appropriate door, place the sanctum room and
+wall on the gameboard as shown.</p>
+<h4>Quicksand</h4>
+<img src="Images/Rules/quicksand.jpg"></img>
+<img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.Quicksand_US.png"></img>
+<p>This area contains a bottomless pit filled with quicksand that threatens
+to suck in careless or unlucky Heroes.</p>
+<h4>Moonsilver Flask</h4>
+<img src="Images/Rules/moonsilver.jpg"></img>
+<p>The glittering, silver liquid in this flask is
+the only means of opening a mirror entry
+into the Realm of Reflection, where
+Princess Millandriell is held captive. Only
+the Prospector can identify true
+Moonsilver.</p>
+<h4>Long Pit Trap</h4>
+<img src="Images/Rules/longpittrap.jpg"></img>
+<img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.LongPitTrap_US.png"></img>
+<p>If a Hero wants to jump over this pit the long way, he must have at
+least 3 squares of movement left after he moves next to the pit. The
+Hero then rolls 1 combat die. A black shield means the Hero has
+jumped across safely, using up 3 squares of movement. The Hero can
+continue to move if he has more movement left. Any result other
+than a black shield means the Hero falls into the pit, suffering 2
+Body Points of damage. The Hero must roll a 5 or 6 on a red die on a
+subsequent turn to climb out of the pit. While in the pit, the Hero
+rolls 1 less combat die when attacking or defending (but never less
+than 1 die).</p>
+<p><b>Note:</b> These traps can be jumped the short way, the same as regular
+pit traps.</p>
+<h4>Weapon Packs</h4>
+<img src="Images/Rules/weaponspacks.jpg"></img>
+<p>These tiles represent
+weapons and other items
+dropped by the Heroes
+when they are transformed
+into Wolves.</p>
+<h4>Wolf Tokens</h4>
+<img src="Images/Rules/wolftoken.jpg"></img>
+<p>These represent Heroes in Wolf form.</p>
+<h4>Prospector</h4>
+<img src="Images/Rules/prospector.jpg"></img>
+<p>This tile represents the old Prospector who
+appears in several Quests. The Prospector’s tile
+is given to the Hero who finds him.</p>
+<h4>Portcullis</h4>
+<img src="Images/Rules/portcullis.jpg"></img>
+<img src="Icons/Raster/USA/TheMageOfTheMirror/TheMageOfTheMirror.Portcullis_US.png"></img>
+<p>Some of these massive iron gates open when the Heroes spring a
+certain trap, while others are unlocked by the brass key or forced up
+by brute strength. Heroes and Monsters <em>cannot</em> “see” through a
+portcullis until it is opened.</p>
+<h4>Brass Key</h4>
+<img src="Images/Rules/brasskey.jpg"></img>
+<p>This key is used to open a portcullis in several Quests. The brass key
+tile is given to the Hero who finds the key.</p>
+<h4>Princess Millandriell</h4>
+<img src="Images/Rules/princess.jpg"></img>
+<p>This tile represents the kidnapped daughter of Queen Terrellia.
+Princess Millandriell’s tile is given to the Hero who first finds her.</p>
+<h2>Playing the Elf Quest Pack</h2>
+<p>These ten new Quests are generally played the same way as the Quests
+in the Game System. As in the Game System, Heroes are returned to
+full strength between Quests. (All Body and Mind Points are restored.)</p>
+<p>There are a few gameplay differences in the Elf Quest Pack.</p>
+<h4>1. The Quests</h4>
+<p>The first three Quests are solo adventures, designed for play by an Elf
+alone. These can be used as an introduction to Hero Quest for a new
+player or as fun Quests to play when only two players are available.
+Also, if a new Elf is to join a party of experienced characters, these
+three Quests will enable the Elf to catch up with the other Heroes by
+gaining gold, equipment and magical items.</p>
+<p>The next five Quests are all group Quests. The last two Quests are also
+group Quests, but they are played as a single, double-sized Quest, as the
+Heroes must cross between the two Quests to achieve ultimate victory.</p>
+<h4>2. Female Elf</h4>
+<img src="Images/Rules/femaleelf.jpg"></img>
+<p>This Quest Pack includes a figure for a female Elf. Her
+statistics are the same as the Elf in the Game System.
+She can be used to replace the male Elf, if the player
+prefers to play a female character. Any reference to
+“Elf” in Quest Packs also applies to the female Elf. <em>A
+group of Heroes can contain only one Elf at a time.</em></p>
+<h4>3. Starting and Ending a Quest</h4>
+<p>The Heroes do not always start and end their Quests on the spiral
+stairway. The message from Mentor at the beginning of each Quest
+tells where the Heroes start and end the Quest. When there is an iron
+entry or wooden exit door, it is indicated on the Quest map by an
+arrow (pointing into the map for the entry door, and out of the map
+for the exit door). When there is an entry door, it is always placed on
+the gameboard in its specified location before each Quest begins. At
+the start of an adventure, the Heroes line up outside the door and ask
+Zargon to open it.</p>
+<p><b>Note:</b> As with regular doors, an exit door is not placed on the gameboard
+by Zargon until a Hero looks down the appropriate corridor.</p>
+<h4>4. Mind Points</h4>
+<ul>
+<li>When a Hero reaches zero Mind Points, he is not dead but in <em>shock</em>.
+(A Hero cannot go below zero Mind Points.) He rolls only 1 red die to
+move, attacks with only 1 combat die, and defends with only 2 combat
+dice. (Armor, weapons and most artifacts do <em>not</em> increase the attack or
+defend dice when a Hero is in shock.) The Hero’s attack and defend
+dice can be temporarily increased by some spells and spell scrolls.</li>
+<li>The extra Mind Points gained from certain artifacts (such as the
+Talisman of Lore) <em>can</em> be lost in battle. For example, a Barbarian with
+the Talisman of Lore (for a total of 3 Mind Points) goes into shock after
+he accumulates 3 Mind Points of damage.</li>
+<li>In this and other Quest Packs, it is important to keep track of
+Heroes’ current Mind Points. Tell the players to use the bottom row
+of “Body Point” boxes on their Character Sheets to record Mind
+Point damage.</li>
+</ul>
+<h4>5. New Spell System</h4>
+<p>The Elven spell cards introduced in this Quest Pack are a new spell
+group for the <em>Elf's use only</em>. The Elf may choose either this spell group
+or any other after the Wizard chooses his first spell group. If the Elf
+does not choose the new Elven spell cards, they are removed from play.</p>
+<p>If the Elf does choose the new Elven spell cards, he must pick only 3 of
+the 8 Elven spells to use in each Quest.</p>
+<p><b>Note:</b> The Wizard can choose a total of 3 spell groups. The remaining
+group(s) of spell cards are removed from play.</p>
+<h4>6. Rule Clarifications</h4>
+<ul>
+<li><em>Passing Items:</em> A Hero can pass a potion, artifact, weapon, or any
+other item to another Hero only if the 2 Heroes are in adjacent
+squares and neither Hero is adjacent to a monster.</li>
+<li><em>Spiral Stairway:</em> During a Quest, if a Hero stands on a spiral stairway
+and attacks monsters, the monsters can attack back on Zargon's turn.
+When a spiral stairway is used as the exit at the end of a Quest, any
+Hero who moves onto that spiral stairway is immediately removed
+from the gameboard.</li>
+</ul>
+<h4>7. Wandering Monsters</h4>
+<p>Several Quests in this Quest Pack have multiple wandering monsters.
+These monsters may appear if a Hero draws a Wandering Monster card
+from the Treasure card deck or if a Hero moves onto a Wandering
+Monster trap as described above right. For example, if the Quest notes
+say, “Wandering Monsters in this Quest: 3 Goblins,” place 3 Goblins
+adjacent to the Hero who initiated the wandering monster encounter.
+If fewer than 3 adjacent squares are available, place the remaining
+monsters as close to the Hero as possible.</p>
+<h4>8. New Wandering Monster Trap</h4>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.WanderingMonster_US.png"></img>
+<p>When a Hero moves onto a square with the trap symbol
+shown at right, tell the player that the Hero must
+stop on that square. The monster or monsters listed
+as wandering monsters for that Quest appear on any
+square or squares adjacent to the Hero or as close as
+possible. The monsters immediately attack and the Hero defends. (If
+the Hero has not already taken an action that turn, he may do so after
+he defends.) Otherwise the turn passes to the next player (or to
+Zargon). Each wandering monster trap can be activated only once.
+Monsters cannot activate it. Ignore the trap after the first time a Hero
+springs it. Wandering monster traps are so well concealed that they
+are not detected when a Hero searches for traps. There are no tiles for
+wandering monster traps.</p>
+<h4>9. Large Monsters</h4>
+<p>When a monster takes up more than one square (the Giant Wolf in
+this Quest Pack, for instance), that monster can attack anyone in any
+adjacent square (including diagonally), even if the monster’s figure is
+facing away from the target.</p>
+<h4>10. Selling Excess Items</h4>
+<p>As the Heroes gain better equipment, they can sell some of their old
+items to the Armory. Only items that are listed for sale in the Armory
+(on the cardboard platform in the Game System) can be sold back to
+the Armory. The Hero receives gold coins equal to half of the Armory’s
+price when selling items to the Armory. Thus, a Hero who sells a
+longsword (which costs 350 gold coins) back to the Armory receives
+175 gold coins. Items sold at the Armory for odd sums (the dagger at
+25 gold coins, for example) can be sold back for half price, rounded
+down (12 gold coins for the dagger).</p>
+<h4>11. Treasure</h4>
+<p>To eliminate conflicts among the Heroes, large gold coin treasures
+found in treasure chests should be divided among all surviving Heroes.</p>
+<h4>12. New Artifact Cards</h4>
+<ul>
+<li><em>Elven Boots, Elven Bracers, Elven Bow of Vindication, Bone Wand,
+Ancient Staff and Sky Orb:</em> These artifacts are similar to the artifacts in
+the Game System. When a Hero finds one of these artifacts, he should
+record it on his Character Sheet.</li>
+<li><em>Spell Scroll:</em> The Treasure Without Doom artifact card in this Quest Pack
+is a spell scroll. It is used just like the spell cards in the Game System.
+However, a spell scroll can be used by ANY Hero (not just the Wizard and
+Elf) who finds one. Note that a spell scroll can be used only once.</li>
+</ul>
+<p>The Hero should record the spell scroll on his Character Sheet and return
+the scroll to the deck. After a spell scroll has been used, it must be crossed
+off the Hero’s Character Sheet.</p>
+<h4>13. New Treasure Cards</h4>
+<p>The 4 new treasure cards should be mixed into the Game System’s deck
+of treasure cards before play begins. Draw from this deck when a Hero
+searches for treasure.</p>
+<h4>14. Turning Heroes into Werewolves</h4>
+<p>In Quest 7, the Heroes may meet Werewolves. Use the Giant Wolf figures
+for these accursed monsters.</p>
+<p><b>Note:</b> Giant Wolves are considered Werewolves only in Quest 7.</p>
+<p>If a Hero is affected by a Werewolf’s Curse spell or injured by the attack
+of a Werewolf, the Hero becomes a Werewolf, cursed to switch between
+Hero form and Wolf form. At the start of every turn, the Hero must roll 2
+red dice to see if he transforms into a Wolf. A roll of 2 through 9 means
+the Hero remains in Hero form and under the control of the player; the
+Hero may move and act normally. A roll of 10 through 12 means the
+Hero transforms into Wolf form and Zargon controls him as a monster
+for 1 turn (on Zargon’s next turn).</p>
+<p>When a Hero transforms into a Wolf, replace his figure with a Wolf tile.
+All of his possessions are left in the square in which he transformed. Place
+a Weapon Pack tile in the square to represent the Hero’s former possessions.
+The Weapon Pack tile stays on this space until the Hero returns to
+pick up his possessions. (Monsters cannot take the Weapon Pack.)</p>
+<p>This Wolf is a true monster, with no Hero abilities and all the abilities of
+monsters (moves on Zargon’s turn, attacks as a Giant Wolf, unaffected
+by traps or pits, cannot open doors, etc.).</p>
+<p>At the end of Zargon’s turn, the Wolf transforms back into the Hero and
+returns to the player's control. The Hero figure replaces the Wolf tile.</p>
+<p>The Hero must roll for this transformation each turn until he is cured by
+drinking a Wolfsbane Potion (or the Potion of Restoration from the
+Alchemist’s Shop).</p>
+<h4>15. Elven Archers</h4>
+<p>These monsters appear in several Quests and are under Zargon’s control.
+Elven Archers may attack with 4 combat dice against any non-adjacent
+target in their line of sight. They attack with only 1 combat die if the target
+is adjacent. If an Elven Archer's bow becomes warped (from the Twist
+Wood spell, for instance), he rolls only 1 combat die to attack.<y/p>
+<p>The Elven Archer’s statistics are detailed on the cards that come in this
+Quest Pack, as well as in the Monster Chart on the inside back cover of
+this book.</p>
+<p><b>Zargon, study this book carefully! While it is your guide to
+running these adventures, it may not answer every question
+you have during play. When in doubt, use your experience
+and imagination to make the best choice. Remember that you
+are the ultimate authority in your HERO QUEST world!</b></p>
+<h2>Quest Map Guide</h2>
+<p>The Quest map symbols are color-coded to help you guide the Heroes through these Quests.
+Here’s what the various map symbol colors mean.<y/p>
+<p><b>Gold</b> This color is used to highlight traps that the Heroes can detect by searching.</p>
+<p><b>Light Green</b> This color is used to highlight traps and other hazards that the Heroes
+can neither see nor detect by searching.</p>
+<p><b>Dark Green</b> This color is used to highlight monster symbols. See the Monster Chart
+on the inside back cover for actual symbols.</p>
+<p><b>In each Quest, notes prefaced with a capital letter correspond to a matching letter location on
+the Quest map.</b></p>
+`
+
 campaigns = {
   "EU": {
     "ADC": {name: "Adventure Design Kit", quests: custom},
@@ -756,10 +1756,10 @@ campaigns = {
   "US": {
     "ADC": {name: "Adventure Design Kit", quests: custom},
     "GS": {name: "HQBase", quests: gs_us, intro: intro_gs_eu.replaceAll("Morcar", "Zargon") , outro: outro_gs_eu.replaceAll("Morcar", "Zargon")},
-    "KK": {name: "Kellar's Keep", quests: kk},
-    "RotWL": {name: "Return Of The Witch Lord", quests: rotwl},
+    "KK": {name: "Kellar's Keep", quests: kk, intro: intro_kk_us, outro: outro_kk_us, instructions: instructions_kk_us},
+    "RotWL": {name: "Return Of The Witch Lord", quests: rotwl, intro: intro_rotwl_us, outro: outro_rotwl_us, instructions: instructions_rotwl_us},
     "FH": {name: "The Frozen Horror", quests: fh},
-    "MM": {name: "The Mage Of The Mirror", quests: mm},
+    "MM": {name: "The Mage Of The Mirror", quests: mm, intro: intro_motm, outro: outro_motm, instructions: instructions_motm},
   },
 }
 

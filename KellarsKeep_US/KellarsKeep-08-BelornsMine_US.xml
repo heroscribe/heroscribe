@@ -344,7 +344,30 @@
 <object id="Orc" left="15.0" top="6.0" rotation="downward" zorder="0.0" />
 <object id="Orc" left="16.0" top="5.0" rotation="downward" zorder="0.0" />
 </board>
-<speech>&quot;Introduction.&quot;</speech>
-<note>Text.</note>
-<note>Wandering monster: </note>
+<speech>
+"Zargon has blocked the main passage to the East
+Gate. It is written in Loretome that another passage
+leads through Belorn's mine to the Gate. This mine
+was once the richest of all. The tunnels have long
+since been abandoned and are likely to collapse.
+Monsters often wander through the mine, searching
+for the gold that was hidden there. You must find the
+wooden exit door leading out of the mine."
+</speech>
+<note>A  The Gargoyle in this room is alive and ready for battle. The
+3 chests in this room have poisonous gas traps on them. If a
+Hero searches for treasure before all 3 traps have been
+disarmed (one at a time), all of the Heroes in the room will lose
+2 Body Points. Each chest contains 200 gold coins.</note>
+<note>B  This group of monsters is looking for the gold.</note>
+<note>C  Both of the trap doors are linked by a tunnel. Any Hero or
+monster landing on one of these squares immediately moves
+to the other trap door square. The connecting tunnel is
+dangerous and any Hero moving through it must roll 1
+combat die. If he rolls a skull, he loses 1 Body Point. After
+moving from one trap door square to the other, the Hero’s or
+monster’s turn is over.</note>
+<note>D  Dwarven symbols on this door indicate that it leads to the
+East Gate!</note>
+<note>Wandering Monster in this Quest: Chaos Warrior</note>
 </quest>

@@ -329,5 +329,39 @@
 <object id="Door" left="19.0" top="18.0" rotation="downward" zorder="1.0" />
 <object id="Goblin" left="1.0" top="12.0" rotation="downward" zorder="2.0" />
 </board>
-<speech></speech>
+<speech>
+"Another giant iron door stands before you. Beyond,
+a series of staircases will eventually lead to the Great
+Citadel. It seems that those who journey through
+these passages are forever going down and around
+into the very heart of the moutain. Your goal is
+to find the spiral stairway. It will bring you deeper
+into the heart of the mountain—and closer to the
+Great Citadel. Beware! The Orcs may have laid traps
+to guard against attack."
+</speech>
+<note>A  When the last Hero passes the square marked "A," a giant
+stone boulder will fall from the ceiling. Place the round
+boulder tile on the square marked "A." On your (Zargon’s)
+next turn and subsequent turns, roll 2 red dice to see how far
+down the corridor the boulder rolls (to the right, toward the
+Heroes.) The boulder will eventually crash into the wall at the
+end of the passage, on the corner square marked with a starburst.
+<img src="Icons/Raster/USA/KellarsKeep/KellarsKeep.StarBurst_US.png"></img>
+The passage will then be blocked for the rest of the
+Quest. Tell each Hero hit by the boulder to roll 5 combat
+dice. For each skull rolled, a Hero loses 1 Body Point. (No
+defend dice are rolled.) The boulder trap cannot be searched
+for or disarmed.</note>
+<note>B  All of the traps in the corridors marked "B" are so well
+hidden that any Hero who searches for traps will find only
+1 trap—the one closest to him. After a discovered trap has
+been sprung or disarmed, the next trap can be found if searched
+for. (The Heroes will have to discover this on their own.)</note>
+<note>C  Place the wooden exit door here to fool the Heroes into
+thinking that this is an exit.</note>
+<note>D  Use the the spiral stairway tile from the Game System in this
+Quest. When a Hero steps onto this stairway, tell him that he
+has made it through the Spiral Passage.</note>
+<note>Wandering Monster in this Quest: Orc</note>
 </quest>

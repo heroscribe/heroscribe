@@ -243,5 +243,47 @@
 <object id="Goblin" left="1.0" top="13.0" rotation="downward" zorder="1.0" />
 <object id="Door" left="23.0" top="18.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"The Great Citadel lies at the center of the Halls of
+Belorn. This is where most of the Orcs now dwell.
+You will find them here in great numbers, as they
+amass for their attack on the Empire. They are led
+by Gragor, an evil magician. The third part of Grin's
+stone map lies hidden within the Great Citadel. You
+must find the map piece and then escape through the
+wooden exit door ton continue your Quests."
+</speech>
+<note>A  This door has been locked for many years. To open the door,
+a Hero must stand next to it and roll 2 red dice. If he rolls
+LESS than his starting number of Body Points, the door will
+open. If he fails to open the door, his turn ends.</note>
+<note>B  The first Hero to search for treasure in this room will find
+2 Potions of Healing in the chest. Each potion will restore up
+to 4 lost Body Points.</note>
+<note>The first Hero to search for treasure in this room will find the
+third part of Grin’s stone map, as well as a spell scroll and a
+Magical Throwing Dagger! The Hero who finds these items
+should do the following:
+<ul>
+<li>Take another one of the remaining map tokens.</li>
+<li>Draw a spell scroll at random from the scroll cards and list
+it on his Character Sheet.</li>
+<li>List the dagger on his Character Sheet. (See the new
+artifact card.)</li>
+</ul>
+</note>
+<note>D  The tomb in this room contains the skeletal remains of a great
+Hero. The first person to search for treasure in this room will
+discover a sturdy crossbow among the bones. The crossbow
+is described in the Game System Armory.</note>
+<note>E  Use the Chaos Warlock figure to represent Gragor. Place him
+on the square marked with his name. His stats are the same
+as a Chaos Warrior, but he also knows the following spells:
+Summon Orcs, Fear, Rust, Ball of Flame and Lightning Bolt.
+(Refer to the Chaos Spell Cards in the Game System.) The
+first Hero to search for treasure in this room will find 2 spell
+scrolls on Gragor’s table. This Hero should draw 2 spell
+scrolls at random from the scroll cards and list them on his
+Character Sheet.</note>
+<note>Wandering Monster in this Quest: Fimir</note>
 </quest>

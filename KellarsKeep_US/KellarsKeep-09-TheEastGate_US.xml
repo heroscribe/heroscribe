@@ -317,5 +317,40 @@
 <object id="Orc" left="7.0" top="10.0" rotation="downward" zorder="1.0" />
 <object id="Orc" left="20.0" top="10.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"You have done well and journeyed far to reach this
+point! Now you must find the East Gate if you are to
+reach Grin's Grag and the Emperor. The Gate will
+undoubtedly be guarded, for you are now closer to
+Kellar's Keep than you have ever been. Beyond the
+East Gate, you will need the stone map, so protect
+the 4 pieces with your lives!"
+</speech>
+<note>A  This monster is a shape changer and is currently in the shape
+of a Fimir. Every time it is killed, shuffle all the monster
+cards and take the top card. This is the new shape the
+monster takes. Place the new monster in the space where the
+old one was killed. <em>The monster can be permanently killed only if
+the new card drawn matches the monster’s most recent form.</em> Of
+course, don’t reveal this information to the Heroes until after
+it happens.</note>
+<note>B  Place Borokk, an evil Chaos Warlock, on the square marked
+with his name. Borokk has the same stats as a Chaos Warrior,
+but he also has a very special and deadly magical power. On
+each of his turns, he attacks the "mind" of any Hero in the
+same room or corridor and in his line of sight. To do this,
+Borokk rolls 2 combat dice. For each skull he rolls, the victim
+of the attack loses 1 Mind Point. If a Hero reaches zero Mind
+Points, he is dead forever, unless he has an Elixir of Life. (See
+matching artifact card in the Game System.)</note>
+<note>C This treasure chest is empty.</note>
+<note>D  The East Gate was locked many years ago by special Dwarven
+magic. It is not easily opened. When either the Barbarian, Elf
+or Wizard attempts to pass through the Gate, tell him to roll 2
+red dice. That Hero may pass through the gate <em>only</em> if the
+total number rolled is equal to or less than his current
+number of Mind Points. If the Hero fails to open the gate, his
+turn ends. The Dwarf needs to roll only 1 die as he has some
+knowledge of the magic used to lock the door.</note>
+<note>Wandering Monster in this Quest: Fimir</note>
 </quest>

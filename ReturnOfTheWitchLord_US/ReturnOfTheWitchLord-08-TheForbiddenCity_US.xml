@@ -3,7 +3,7 @@
 "-//org.lightless//HeroScribe Quest 1.4//EN"
 "http://lightless.org/files/xml/quest-1.4.dtd">
 
-<quest name="The Forbidden City" region="USA" version="1.0" width="1" height="1">
+<quest name="The Forbidden Caverns" region="USA" version="1.0" width="1" height="1">
 <board>
 <dark left="6" top="11" width="1" height="1" />
 <dark left="6" top="12" width="1" height="1" />
@@ -183,5 +183,32 @@
 <object id="Door" left="20.0" top="14.0" rotation="downward" zorder="1.0" />
 <object id="Door" left="9.0" top="16.0" rotation="rightward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"No man has ever entered the Forbidden Caverns
+before. Even Loretome can tell little of what lies before
+you. It is said that the passages are filled with the
+walking dead, mindless servants of Zargon. You must
+also be wary of the caverns themselves, for they are
+ready to collapse at any time. You must find the
+wooden exit door to continue your Quests."
+</speech>
+<note>The Heroes enter on the spiral stairway.</note>
+<note>At the beginning of each of your (Zargon’s) turns, you may pick
+2 Skeletons, Zombies, or Mummies that are available and place
+them on any two of the spaces marked with an "X."</note>
+<note>A  The first Hero to search for treasure in this room will find
+360 gold coins in this chest. He will also find 2 Anti-poison
+Quills. (See the new artifact card.) The quills may be divided
+between 2 Heroes.</note>
+<note>B  This chest is empty.</note>
+<note>C  The first Hero to search for treasure in this room will find the
+Heal Body and Courage spell scrolls on the sorcerer’s table.
+The scrolls may be divided between 2 Heroes.</note>
+<note>D  This chest is trapped with a poison needle. If a Hero searches
+for treasure in this room before the trap has been disarmed,
+he will lose 3 Body Points. The chest contains 2 shortswords
+and 2 longswords. These weapons are exactly like the ones
+described in the Game System Armory. They may be divided
+among the Heroes.</note>
+<note>Wandering Monster in this Quest: Chaos Warrior</note>
 </quest>

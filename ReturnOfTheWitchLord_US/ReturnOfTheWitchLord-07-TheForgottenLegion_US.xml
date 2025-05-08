@@ -243,5 +243,33 @@
 <object id="Door" left="1.0" top="16.0" rotation="rightward" zorder="1.0" />
 <object id="LetterB" left="16.0" top="10.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"You have escaped from the Witch Lord, but it will
+not be long before he pursues you. The halls through
+which you now pass are guarded by the Forgotten
+Legion, the elite of the Witch Lord’s army. They are
+led by Skulmar. In combat they are to be feared, for
+they bear the scars of a thousand battles, each one
+a victory for Chaos. You will be safe only when you
+find the wooden exit door."
+</speech>
+<note>The Heroes enter on the spiral stairway.</note>
+<note>A  When a Hero opens this door, place monsters where shown in
+the room. Explain to the Heroes that these monsters are the
+Forgotten Legion, encased in a magical ice that cannot be
+broken with any weapon.</note>
+<note>B  When a Hero opens this door, the magical ice will shatter and
+the Forgotten Legion will move to attack on your (Zargon’s)
+turn. (Don’t tell the Heroes this until after the door has been
+opened.)</note>
+<note>C  Skulmar stands on the space marked "C." Use the Chaos
+Warlock to represent Skulmar. His stats are as follows:</note>
+<note>MOVEMENT 8 ATTACK 5 DEFEND 6 BODY 3 MIND 4</note>
+<note>If the Heroes are destroying a lot of the monsters, Skulmar
+should try to escape. To do this, he must reach the spiral stairway,
+at which point he is removed from the gameboard. If
+Skulmar is killed, the Heroes will find his treasures: the
+Rabbit Boots (new artifact card) and the Pass Through Rock
+spell scroll.</note>
+<note>Wandering Monster in this Quest: Chaos Warrior</note>
 </quest>

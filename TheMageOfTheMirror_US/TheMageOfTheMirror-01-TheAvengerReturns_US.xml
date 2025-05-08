@@ -273,5 +273,49 @@
 <object id="LetterB" left="12.0" top="16.0" rotation="downward" zorder="5.0" />
 <object id="LetterA" left="14.0" top="17.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<note>At the beginning of each Quest, read aloud the parchment message
+from Mentor. The Quest notes that follow the message are for
+Zargon’s eyes only!</note>
+<speech>
+As a test of your abilities, Queen Terrellia
+wants you to retrieve a family heirloom that
+was recently stolen. No ordinary heirloom, this
+is the legendary sword known as The Avenger.
+The sword was stolen by agents of Zargon and
+taken to a small fortress along the southern
+border of the Empire. The iron door is the only
+way in or out of the fortress. Once you have
+found The Avenger, leave through the iron
+door and bring the sword to Queen Terrellia.
+</speech>
+<note>A  Both of the trap doors are linked by a tunnel. Any Hero or monster
+landing on one of these squares immediately moves to the
+other trap door square. The connecting tunnel is dangerous.
+After the Elf moves through it, he rolls 1 combat die. If a skull is
+rolled, the Elf loses 1 Body Point. After moving from one trap
+door square to the other, the Elf's or monster's turn is over.
+</note>
+<note>B  If the Elf searches for treasure in this room, there is an Elixir of
+Life hidden in one of the bookcases. (See the matching artifact
+card in the Game System.)
+</note>
+<note>C  When the Elf enters this room, tell the player that the monsters
+here are immobile and are unaffected by the Elf’s actions. (The
+room may be searched for treasure as long as the monsters aren't
+activated — see note D.)
+</note>
+<note>D  This chest has a trap on it. If the Elf searches for treasure before
+the trap is disarmed, the monsters in room C become activated
+and enter room D on Zargon’s next turn. If the Elf searches for
+treasure after the trap is disarmed or the monsters are defeated,
+the chest is empty but the tomb holds The Avenger sword. Tell the
+Elf he has found what he sought, and that he may now return to
+Queen Terrellia.
+</note>
+<note>
+After the Quest has been completed, tell the Elf that Queen
+Terrellia rewards his success with a set of magical Elven Chain
+Mail armor. This armor gives the Elf 2 extra defend dice. It may
+be combined with a helmet and shield.</note>
+<note>Wandering Monsters in this Quest: Mummy</note>
 </quest>

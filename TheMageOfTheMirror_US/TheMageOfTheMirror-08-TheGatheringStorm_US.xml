@@ -232,7 +232,8 @@
 <object id="Mummy" left="6.0" top="10.0" rotation="downward" zorder="0.0" />
 <object id="Mummy" left="7.0" top="10.0" rotation="downward" zorder="0.0" />
 <object id="Mummy" left="26.0" top="16.0" rotation="downward" zorder="0.0" />
-<object id="Mummy" left="26.0" top="17.0" rotation="downward" zorder="0.0" />
+<object id="Mummy" left="8.0" top="15.0" rotation="downward" zorder="0.0" />
+<object id="Skeleton" left="26.0" top="17.0" rotation="downward" zorder="0.0" />
 <object id="Zombie" left="26.0" top="14.0" rotation="downward" zorder="0.0" />
 <object id="Zombie" left="26.0" top="15.0" rotation="downward" zorder="0.0" />
 <object id="Skeleton" left="26.0" top="13.0" rotation="downward" zorder="0.0" />
@@ -266,5 +267,41 @@
 <object id="LetterB" left="20.0" top="7.0" rotation="downward" zorder="5.0" />
 <object id="LetterA" left="23.0" top="3.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+Sinestra now knows of your mission. She is
+gathering her evil servants to oppose you. You
+must hurry on despite her efforts. The closer
+you get to the lowest level of the castle, the
+greater the danger to Millandriell. Speed is your
+only ally now. From the spiral stairway that
+brought you down from the first level, search
+this second level for another spiral stairway
+leading lower still.
+</speech>
+<note>A  The Heroes begin the Quest on this spiral stairway. As the Heroes
+step off the stairway, read the following aloud: “As you enter
+this subterranean level, your feet sink slightly into the soggy
+ground. A wet, moldy smell permeates the air.”</note>
+<note>B  The first Hero to search for treasure in this room finds a Bone
+Wand and 500 gold coins in the chest. (See the new artifact card.)</note>
+<note>C  The Gargoyle in this room can cast spells. It knows the Chaos
+spells Command and Firestorm.</note>
+<note>Dividing the room is a quicksand pit. To reach the other side of
+the quicksand pit, a Hero must stand adjacent to it and try to
+jump over the quicksand. The Hero rolls 1 combat die in the
+attempt. If a black shield is rolled, the Hero successfully lands on
+the square directly across from the square he left. Any other
+result means the Hero lands in the quicksand and starts to sink.
+To avoid a messy death, tell the Hero to immediately discard any
+2 items (weapons, armor, potions, scrolls, etc.). This ends the
+Hero’s turn. On the Hero’s next turn, the Hero climbs out of the
+quicksand onto the square across from the square he left. This
+ends the Hero’s turn.</note>
+<note>The first Hero to search for treasure in this room finds a gem
+worth 900 gold coins in the chest.</note>
+<note>D  The first Hero to search for treasure in this room finds a bag of
+Heroic Brew. (See the matching treasure card from the Game
+System.)</note>
+<note>E  This spiral stairway leads down to the next level.</note>
+<note>Wandering Monsters in this Quest: Chaos Warrior</note>
 </quest>

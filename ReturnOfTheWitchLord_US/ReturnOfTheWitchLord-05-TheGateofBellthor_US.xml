@@ -240,5 +240,34 @@
 <object id="Zombie" left="6.0" top="9.0" rotation="downward" zorder="1.0" />
 <object id="Skeleton" left="13.0" top="4.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"Here begins the true domain of the Witch Lord. In
+these deep caverns, he has created his own subterranean
+fortress from which he plans the destruction
+of the Empire. Loretome has told me of aterrible guardian,
+Bellthor, who watches over the Gate. If Bellthor
+isto be defeated, you must all confront him together."
+</speech>
+<note>A  The first Hero to search for treasure in this room will find 500
+gold pieces in each chest.</note>
+<note>B  Once all Heroes have entered this room, the door will disap-
+pear, trapping them inside with Bellthor, a foul Gargoyle.
+Bellthor will not move or attack on his turn until all of the
+Heroes are in the room together. Bellthor cannot be harmed
+until after he attacks. His stats are as follows:</note>
+<note>MOVEMENT 6 ATTACK 4 DEFEND 6 BODY 3 MIND 3</note>
+<note>Bellthor also has poisonous breath and can breathe on any 1 Hero
+in the room (once per turn) after he has attacked. To do this,
+he rolls 6 combat dice. For each skull rolled, the defender
+loses 1 Mind Point. If a Hero is reduced to zero Mind Points
+in this situation, he is not killed but knocked unconscious.
+The Hero should then be removed from the gameboard
+until the next Quest.</note>
+<note>If Bellthor is killed, he will explode, filling the room with
+poisonous gas which will knock everyone in the room
+unconscious.</note>
+<note>All of the Heroes have now been captured by the Witch Lord!
+There is no successful way to exit from this adventure. (A
+Ring of Return will not work here.) Turn to the next Quest.</note>
+<note>Wandering Monster in this Quest: Skeleton</note>
 </quest>

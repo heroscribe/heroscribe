@@ -294,5 +294,41 @@
 <object id="LetterX" left="13.0" top="10.0" rotation="downward" zorder="5.0" />
 <object id="LetterB" left="21.0" top="7.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+The evil High Alchemist's laboratory on the
+western border of the Elven lands contains the
+only known supply of Moonsilver. You must
+take the Prospector to the laboratory and find a
+flask of Moonsilver. Only Moonsilver can open
+an entry into the Realm of Reflection where the
+Princess is held captive. Enter the laboratory
+through the iron door and find the wooden exit
+door to leave once you have located the flask of
+Moonsilver.
+</speech>
+<note>If the Hero who holds the Prospector’s tile is killed during this
+Quest, monsters will take the Prospector to room “D.” Don’t reveal
+this information to the Heros until they enter room "D."</note>
+<note>A  The High Alchemist is in this room. Use the Chaos Warlock figure for
+him; place it on the square marked “ALC.” His stats are as follows:</note>
+<note>MOVEMENT 8 ATTACK 3 DEFEND 3 BODY 4 MIND 4</note>
+<note>The High Alchemist knows the following Chaos spells: Mind Blast,
+Restore Chaos, Summon Wolves and Werewolf’s Curse.</note>
+<note>The first Hero to search for treasure in this room sees hundreds
+of bottles containing silver liquids. Only the Prospector can tell
+which bottle contains true Moonsilver. If the Prospector is with
+the Heroes, hand the Moonsilver tile to the first Hero to search
+for treasure.</note>
+<note>B  This chest has a poison dart trap on it. If a Hero searches for treasure
+before the trap is disarmed, that Hero loses 2 Body Points.
+The chest contains a brass key and Elven Boots. (See the new
+artifact card for this item.) Hand the player the brass key tile.</note>
+<note>C  The first Hero to search for treasure in this room finds 2 Potions
+of Healing and 750 gold coins inside the chest. Each potion re-
+stores up to 4 lost Body Points.</note>
+<note>D  If the Prospector has been captured, he will be imprisoned here.
+The Heroes must have the brass key (from room “B”) to open the
+portcullis. If the Heroes need to rescue the Prospector more than
+once, there are always 2 new Chaos Warriors on guard here.</note>
+<note>Wandering Monsters in this Quest: 3 Zombies</note>
 </quest>

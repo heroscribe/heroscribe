@@ -299,5 +299,26 @@
 <object id="Skeleton" left="1.0" top="14.0" rotation="downward" zorder="0.0" />
 <object id="Door" left="9.0" top="12.0" rotation="rightward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"The entrance to the stronghold is not
+hard to find, for no attempt has been mave to disguise
+it. The outer gate lies open and You see evidence that
+many creatures have passed through in the last
+few days. You must work your way through
+treacherous tunnels to find the Gate of Doom. Your
+destiny lies beyond. Tread carefully, my friends. The
+enemy has had many days to prepare your welcome."
+</speech>
+<note>A  The 2 doors marked "A" are false doors. They cannot be opened.</note>
+<note>B  The first Hero to search for treasure in this room will find
+200 gold coins in the chest.</note>
+<note>C  The monsters in these 4 rooms have been warned of the
+Heroes’ arrival and have prepared an ambush. When a Hero
+first enters any of these rooms, all monsters in all 4 rooms will
+be activated and all doors in the 4 rooms will open immediately.</note>
+<note>D  The first player to search for treasure in this room will find
+2 pouches on the mantle above the fireplace. Each pouch
+contains a handful of the Dust of Disappearance. (See the new
+artifact card.) The pouches may be divided between 2 Heroes.</note>
+<note>Wandering Monster in this Quest: Chaos Warrior</note>
 </quest>

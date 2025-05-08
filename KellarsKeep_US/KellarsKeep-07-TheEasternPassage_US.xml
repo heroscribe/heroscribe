@@ -331,5 +331,36 @@
 <object id="Door" left="23.0" top="5.0" rotation="downward" zorder="1.0" />
 <object id="Door" left="16.0" top="18.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"The East Gate marks the end of the Halls of Belorn.
+To get to the Gate, you must make your way through
+several Quests. Your first goal is to negotiate the
+Eastern Passage. This passage is guarded by many
+foes, so take care! Along the way, you must locate
+the last part of Grin's map and then escape through
+the wooden exit door."
+</speech>
+<note>A  The leader of these Orcs is Ograk, the infamous Ore Captain
+who led his evil marauders into the border provinces of the
+Empire. Use the Orc with the large notched sword to
+represent Ograk. Place Ograk on the square marked with his
+name. He is a mighty warrior whose stats are the same as a
+Chaos Warrior. On any one of your (Zargon’s) turns, you may
+place the secret door tile on the gameboard and move Ograk
+through the secret door.</note>
+<note>B  When a Hero tries to open this door, tell him that the door
+just won’t budge.</note>
+<note>C  The first Hero to search for treasure in this room will find an
+Elixir of Life in the table drawer. The Elixir is described on
+its matching artifact card in the Game System.</note>
+<note>D  The Gargoyle in this room is a stone statue that cannot harm
+anyone and cannot be harmed. Of course, don’t reveal this
+information right away. Sit back and watch the Heroes try to
+figure it out.</note>
+<note>E  The first Hero to search for treasure in this room will find the
+last part of Grin’s stone map in the chest. This Hero should
+take the remaining map token.</note>
+<note>F  his wooden exit door leads to Belorn’s mine. Tell the Heroes
+that there are Dwarven danger symbols on the door.</note>
+<note>Wandering Monster in this Quest: Chaos Warrior</note>
 </quest>

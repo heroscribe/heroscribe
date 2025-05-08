@@ -319,5 +319,45 @@
 <object id="Fimir" left="10.0" top="16.0" rotation="downward" zorder="1.0" />
 <object id="LetterC" left="17.0" top="1.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"Now you must find your way to Grin’s Crag.
+Remember your task. Do hot stray from it, for your
+enemies are too numerous. When you have passed
+Grin’s Crag you will reach a giant wooden door
+leading to Kellar’s Keep. Once opened, you will be
+able to lead the Emperor and his army back to
+safety. Beware! Grin’s Crag is spade You must
+tread carefully!"
+</speech>
+<note>A  This room is filled with the blinding Cloud of Chaos. Any
+Hero who enters this room cannot see the other doors in the
+room, so do not place them on the gameboard at this time.
+(Monsters may not enter this room.) If a Hero enters the
+room, he must stop and roll 1 red die:
+<ul>
+<li>If a Hero rolls a "1" or "2" on the die, he ends up back in
+the corridor on the square marked 1/2.</li>
+<li>If a Hero rolls a "3," "4," or "5," place one door in the
+position shown next to the square with the corresponding
+number rolled. Then, move the Hero through the door to the
+corresponding number. If the square is occupied, the Hero
+moves back into the room and treats his roll as a "6." See
+directions that follow.</li>
+<li>If a Hero rolls a "6," the Cloud of Chaos attacks and the
+Hero must roll 1 combat die. If a skull is rolled, he and
+any other Hero in the room lose 1 Body Point.</li>
+</ul></note>
+<note>B  This chest contains 250 gold coins. It also has a trap with an
+exploding lock. If a Hero searches for treasure before the trap
+has been disarmed, he will lose 3 Body Points.</note>
+<note>C  This cliff corridor is Grin’s Crag. The first player who moves
+onto the square marked "C" will activate the Guardian of
+Grin’s Crag. Place the Gargoyle on the square marked "X."
+On your (Zargon’s) next turn, the Gargoyle moves, attacks
+and defends as a normal Gargoyle would, but it is also
+immune to all spells and has 4 Body Points.</note>
+<note>D  This wooden exit door is magically locked and will not open
+until the Gargoyle is dead. After the last Hero passes through
+the door, read aloud the conclusion on the following page.</note>
+<note>Wandering Monster in this Quest: Fimir</note>
 </quest>
