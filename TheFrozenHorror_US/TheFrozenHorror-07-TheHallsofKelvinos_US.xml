@@ -191,15 +191,15 @@
 <object id="LetterC" left="16.0" top="14.0" rotation="downward" zorder="5.0" />
 </board>
 <speech>
-“Know Mighty Heroes, that Keiviigass was a
-Barbarian of great power and fame. Centuries ago, —
+“Know Mighty Heroes, that Kelvinos was a
+Barbarian of great power and fame. Centuries ago,
 he drove the Frozen Horror from Ice Mountain,
-ending the reign of terror. Sadly, Kelvinos did not |
+ending the reign of terror. Sadly, Kelvinos did not
 return from that final battle; his body was never
-found. Some say that he walks again, but as an un-
-dead servant of Chaos. You shall start at the iiron
-door and explore until. you find the wooden exit
-ae that leads you closer to the Frozen Horror.”
+found. Some say that he walks again, but as an undead
+servant of Chaos. You shall start at the iron
+door and explore until you find the wooden exit
+door that leads you closer to the Frozen Horror.”
 </speech>
 <note>A  The first Hero to search for treasure in this ice vault finds 500
 gold coins in the chest.</note>
@@ -216,9 +216,9 @@ Amulet of the North in the chest. (See the new artifact card.)</note>
 <note>D  Few things are as they appear in the living fog room. Monsters
 and fog likenesses of monsters are all over this room. Whenever
 a Hero attacks a monster, the Hero first rolls a combat die to
-see if he attacks a fog likeness instead of a real monster. Ona
+see if he attacks a fog likeness instead of a real monster. On a
 roll of a black shield or skull, the Hero is confused and attacks
-a fog likeness. (The Hero wastes his attack.) Only ona roll of a
+a fog likeness. (The Hero wastes his attack.) Only o na roll of a
 white shield does the Hero see a real monster. The Hero may
 then roll his normal attack and the monster defends as usual.
 The monsters always see the Heroes correctly.</note>

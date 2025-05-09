@@ -160,6 +160,7 @@ class UI {
     div.obj.reveal(state);
   }
   addObject(obj, category) {
+console.log(obj, category)
     let div = this.addElement(obj.id, category);
     div.obj = obj.proxy;
     obj.div = div;

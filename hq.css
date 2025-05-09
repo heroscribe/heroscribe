@@ -106,6 +106,9 @@ html {
 .selected .object.selected {
   pointer-events: auto;
 }
+.board[region="USA"] .trap {
+  background: #fe6601;
+}
 .board button {
   position: absolute;
   left: 102%;

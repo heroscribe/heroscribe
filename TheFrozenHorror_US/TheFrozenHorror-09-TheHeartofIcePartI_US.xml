@@ -70,6 +70,7 @@
 <dark left="25" top="18" width="1" height="1" />
 <object id="SeatOfPower" left="11.0" top="8.0" rotation="rightward" zorder="-10.0" />
 <object id="LivingFogRoom" left="2.0" top="11.0" rotation="upward" zorder="-10.0" />
+<object id="IceVault3x4" left="19.0" top="15.0" rotation="upward" zorder="-10.0" />
 <object id="SingleBlockedSquare" left="26.0" top="2.0" rotation="downward" zorder="-5.0" />
 <object id="SingleBlockedSquare" left="15.0" top="7.0" rotation="downward" zorder="-5.0" />
 <object id="DoubleBlockedSquare" left="13.0" top="2.0" rotation="downward" zorder="-5.0" />
@@ -202,9 +203,9 @@ described in Note A at right) when the Heroes cross between Quests.</note>
 <speech>
 “Now that the Scepter of Glacial Majesty has been
 destroyed, the Frozen Horror is vulnerable. The
-time to destroy it is now! Start from the iron en-
-trance door. First, you must find the spiral stairway 4
-that leads to the Frozen Catacombs. There you will :
+time to destroy it is now! Start from the iron entrance
+door. First, you must find the spiral stairway 4
+that leads to the Frozen Catacombs. There you will
 find the Crystal Key. This key will open the final
 door, the door to the Seat of Power, where the
 Frozen Horror awaits. Be sure to take Mercenaries
@@ -224,7 +225,7 @@ fog room.</note>
 “C.” Any Hero or monster landing on one of these squares
 immediately moves to the other ice tunnel square.</note>
 <note>D  In the ice vault room, this chest has an exploding latch trap on
-it. Ifa Hero searches for treasure before the trap is disarmed,
+it. If a Hero searches for treasure before the trap is disarmed,
 that Hero loses 1 Body Point. The chest contains 400 gold coins
 and 2 Potions of Healing. Each potion restores up to 4 lost
 Body Points.</note>
