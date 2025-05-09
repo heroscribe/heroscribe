@@ -173,5 +173,28 @@
 <object id="SecretDoorAlternate" left="9.0" top="16.0" rotation="leftward" zorder="0.0" />
 <object id="Zombie" left="4.0" top="13.0" rotation="downward" zorder="1.0" />
 </board>
-<speech></speech>
+<speech>
+"Xanon Pass leads to an underground outpost on
+the slopes of the Cyberian Range. This outpost is a
+base of operations for minions of the Frozen
+Horror. It threatens several nearby villages. You
+must enter the outpost and slay one of the Frozen
+Horror's lieutenants, a Chaos Warrior named Krag.
+The only way in or out is through the ice cave entrance.
+Your Quest begins and ends here."
+</speech>
+<note>A  This ice tunnel is connected to the ice tunnel in the other
+room "A." The Barbarian or any monster landing on one of
+these squares immediately moves to the other ice tunnel
+square.</note>
+<note>B  This treasure chest is empty.</note>
+<note>C  If the Barbarian searches for treasure in this room, a Potion
+of Warmth is discovered atop the sorcerer’s table. (See the
+matching treasure card in this Quest Pack.)</note>
+<note>D  If the Barbarian searches for treasure in this room, 120 gold
+coins are found in the chest.</note>
+<note>E  The Chaos Warrior Krag is in this room. His stats are as
+follows:</note>
+<note>MOVEMENT 7 ATTACK 5 DEFEND 5 BODY 4 MIND 3</note>
+<note>Wandering Monsters in this Quest: 2 Goblins</note>
 </quest>

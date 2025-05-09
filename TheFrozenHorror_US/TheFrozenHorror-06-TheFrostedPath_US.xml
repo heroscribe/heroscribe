@@ -264,5 +264,38 @@
 <object id="LetterF" left="9.0" top="13.0" rotation="downward" zorder="5.0" />
 <object id="LetterE" left="5.0" top="17.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+“The iron door leads you into hallways that have
+lain empty for many centuries. Now the hallways
+are inhabited once again with the foul creatures of
+Chaos. The Frozen Horror’s minions are gathering
+to stop you from finding the wooden exit door. But
+find it you must if you are to venture deeper into
+the heart of Ice Mountain.”
+</speech>
+<note>A  The first Hero to search for treasure in this room finds 120
+gold coins, a longsword and a spell scroll. (See the Armory on
+the cardboard platform in the Game System for the long-
+sword.) For the spell scroll, the Hero draws a spell scroll card
+at random and lists it on his Character Sheet. This Hero also
+finds any items previously stolen by the Ice Gremlins.</note>
+<note>B  The first Hero to search for treasure in this room finds a set of
+plate mail armor in the weapons rack. (See the Armory on the
+cardboard platform in the Game System for this item.)</note>
+<note>C  The first Hero to search for treasure in this room finds 250
+gold coins and a Potion of Healing in the chest. The potion
+restores up to 4 lost Body Points.</note>
+<note>D  The first Hero to search for treasure in this room finds a
+crossbow and a gem worth 300 gold coins. (See the Armory
+on the cardboard platform in the Game System for this
+weapon.)</note>
+<note>E  The first Hero to search for treasure in this room finds 2 spell
+scrolls. For each spell scroll, the Hero draws a spell scroll card
+at random and lists it on his Character Sheet.</note>
+<note>F  The chest in this ice vault room has a poison gas trap on it.
+If a Hero searches for treasure before the trap is disarmed, all
+Heroes in the room lose 2 Body Points. The chest is empty.</note>
+<note>G  See room E of Quest 4 for information on moving along the
+ice ledge.</note>
+<note>Wandering Monsters in this Quest: 2 Chaos Warriors</note>
 </quest>

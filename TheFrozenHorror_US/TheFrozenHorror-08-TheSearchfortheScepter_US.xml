@@ -172,5 +172,42 @@
 <object id="LetterA" left="12.0" top="15.0" rotation="downward" zorder="5.0" />
 <object id="LetterA" left="15.0" top="15.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+“You have come far, Heroes, but there is still far to
+go. Nearby is the resting place of the Scepter of ¥
+Glacial Majesty, the source of much of the Frozen
+Horror’s power. You must findit and destroy it.
+After you enter through the iron door, search for
+the scepter. As long as it exists, the Frozen Horror
+cannot be killed. Once you have destroyed the
+scepter, find the wooden exit door and go through
+it to reach the final battle against the Frozen
+Horror.”
+</speech>
+<note>A  This ice tunnel is connected to the ice tunnel in the other
+room “A.” Any Hero or monster landing on one of these
+squares immediately moves to the other ice tunnel square.</note>
+<note>B  The first Hero to search for treasure in this room finds a spell
+scroll hidden in the bookcase. The Hero draws a spell scroll
+card at random and lists it on his Character Sheet.</note>
+<note>C  This chest has a poison needle trap on it. If a Hero searches for
+treasure before the trap is disarmed, that Hero loses 2 Body
+Points. The chest contains 200 gold coins and 2 Potions of
+Healing. Each potion restores up to 4 lost Body Points.</note>
+<note>D  This ice tunnel is connected to the ice tunnel in the other
+room “D.” Any Hero or monster landing on one of these
+squares immediately moves to the other ice tunnel square.</note>
+<note>E  This ice tunnel is connected to the ice tunnel in the other
+room “E.” Any Hero or monster landing on one of these
+squares immediately moves to the other ice tunnel square.</note>
+<note>F  See room “E” of Quest 4 for information on moving along the
+ice ledge.</note>
+<note>G  The Scepter of Glacial Majesty rests in the upper right corner
+square. The scepter is frozen into the wall. The Heroes can
+neither move it nor use it. Zargon, tell the Heroes that to
+destroy the scepter, a Hero must be adjacent to it, attack it, and
+roll at least one skull on the combat dice. The scepter explodes
+when it is destroyed, inflicting 2 Body Points of damage to all
+in the room. (Do not tell the Heroes this until it happens.)</note>
+<note>Wandering Monsters in this Quest: 3 Ice Gremlins</note>
 </quest>

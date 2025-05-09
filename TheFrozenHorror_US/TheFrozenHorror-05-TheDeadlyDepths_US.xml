@@ -148,5 +148,42 @@
 <object id="LetterF" left="9.0" top="12.0" rotation="downward" zorder="5.0" />
 <object id="LetterE" left="2.0" top="18.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+"Throughout Ice Mountain, alarms are sounding
+and the evil servants of the Frozen Horror are
+awakening. Your way into the stronghold becomes
+harder after this. The Chaos Warlock knwon as
+Vilor awaits you in this Quest. Enter through the
+iron door and search for the wooden exit door.
+You have far to go before you confront the Frozen
+Horro itself. Consider hiring Mercenaries on teh
+rest of the Quests, for the dangers may be too
+great for you to survive without help."
+</speech>
+<note>A  This ice tunnel is connected to the ice tunnel in the other room
+“A.” Any Hero or monster landing on one of these squares
+immediately moves to the other ice tunnel square.</note>
+<note>B  As soon as all the Heroes enter this room, the 2 doors marked
+“B” close and disappear. Remove the doors from the gameboard.</note>
+<note>C  This door does not appear until the doors marked “B” have
+disappeared. Leave it off the gameboard until then, even if the
+Heroes walk right past it. When a Hero opens this door, the ice
+encasing the monsters cracks and they leap out to attack on
+Zargon’s turn. The tile squares with monster images on them
+are considered empty spaces once the monsters move off those
+squares.</note>
+<note>D  The first Hero to search for treasure in this room finds 400
+gold coins and a spell scroll. The Hero draws a spell scroll card
+at random and lists it on his Character Sheet.</note>
+<note>E  The first Hero to search for treasure in this room finds the
+Ring of Warmth. (See the new artifact card.)</note>
+<note>F  The first Hero to search for treasure in this room finds 2
+Potions of Healing. Each potion restores up to 4 lost Body
+Points.</note>
+<note>G  The Chaos Warlock, Vilor, guards this room. Vilor stands in the
+square marked “VIL.” Vilor’s stats are as follows:</note>
+<note>MOVEMENT 8 ATTACK 4 DEFEND 3 BODY 4 MIND 5</note>
+<note>Vilor knows the following Chaos spells: Chill, Ice Storm,
+Lightning Bolt, Sleep and Tempest.</note>
+<note>Wandering Monsters in this Quest: 2 Mummies</note>
 </quest>

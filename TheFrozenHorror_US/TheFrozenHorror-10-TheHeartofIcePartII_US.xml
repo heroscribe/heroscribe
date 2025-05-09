@@ -190,4 +190,32 @@
 <object id="LetterI" left="16.0" top="11.0" rotation="downward" zorder="5.0" />
 </board>
 <speech></speech>
+<note>G  This stairway is also the way back to Quest 9. The Heroes must
+return here once they find the crystal key.</note>
+<note>H  This ice tunnel is connected to the ice tunnel in the other room
+“H.” Any Hero or monster landing on one of these squares
+immediately moves to the other ice tunnel square.</note>
+<note>I  This ice tunnel is connected to the ice tunnel in the other room
+“I.” Any Hero or monster landing on one of these squares
+immediately moves to the other ice tunnel square.</note>
+<note>J  The first Hero to search for treasure in this room finds a spell
+scroll and 2 Potions of Healing hidden behind the bookcase.
+Each potion restores up to 4 lost Body Points. For the spell
+scroll, the Hero draws a spell scroll card at random and lists it
+on his Character Sheet.</note>
+<note>K  The Ice Gremlin treasure room tile is placed over the two small
+rooms to make one larger room. If the crystal key was stolen
+from the Heroes by Ice Gremlins, the key will be here and can
+be reclaimed by the Heroes.</note>
+<note>L  This ice tunnel is connected to the ice tunnel in the other room
+“L.” Any Hero or monster landing on one of these squares
+immediately moves to the other ice tunnel square.</note>
+<note>M  his chest has a poison needle trap on it. If a Hero searches for
+treasure before the trap is disarmed, that Hero loses 2 Body
+Points. The chest contains the crystal key and a Potion of
+Healing. The potion restores up to 4 lost Body Points. Give the
+crystal key tile to the Hero who found it.</note>
+<note><b>Note:</b> Once the Frozen Horror has been destroyed, this Quest is
+over. Go to the Conclusion on the next page.</note>
+<note>Wandering Monsters in these Quests: 2 Polar Warbears</note>
 </quest>

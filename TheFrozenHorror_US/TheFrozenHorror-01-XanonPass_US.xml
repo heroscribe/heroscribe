@@ -228,5 +228,34 @@
 <object id="Door" left="5.0" top="18.0" rotation="rightward" zorder="0.0" />
 <object id="Door" left="1.0" top="16.0" rotation="rightward" zorder="0.0" />
 </board>
-<speech></speech>
+<note>At the beginning of each Quest, read aloud the parchment message
+from Mentor. The Quest notes that follow the message are for
+Zargon’s eyes only!</note>
+<speech>
+“Good luck, Barbarian, on this, your first of three
+trials! Servants of the Frozen Horror have overrun
+the fortress that guards Xanon Pass. This is the
+only pass over the Cyberian Range, which you
+must cross to reach Ice Mountain. An iron door is
+your entry into the fortress. You must find the
+wooden exit door that leads out to the far side of
+the pass.”
+</speech>
+<note>A  If the Barbarian searches for treasure in this room,
+75 gold coins are found in the chest.</note>
+<note>B  The evil Crossbowman does not move but fires his crossbow
+at the Barbarian once during each of Zargon’s turns until the
+Barbarian reaches him. If the Barbarian moves next to the
+Crossbowman and attacks, the Crossbowman surrenders
+immediately, offering his crossbow in exchange for his life.
+The Crossbowman then runs away. The Barbarian should add
+the crossbow to his Character Sheet. (See the Armory on the
+cardboard platform in the Game System for this weapon.)</note>
+<note>C  If the Barbarian searches for treasure in this room, a shield is
+found in the tomb. (See the Armory on the cardboard platform
+in the Game System for this item.)</note>
+<note>D  If the Barbarian searches for treasure in this room, a long-
+sword is found in the weapons rack. (See the Armory on the
+cardboard platform in the Game System for this weapon.)</note>
+<note>Wandering Monsters in this Quest: 2 Skeletons</note>
 </quest>

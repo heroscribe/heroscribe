@@ -778,6 +778,7 @@ blood-red potion. It allows you 1
 `
 
 intro_kk_us = `
+<h1>A Message From Mentor</h1>
 <p>My friends, I have alarming news. The Emperor
 and his army are trapped in Kellar’s Keep, the
 underground bastion of the fortress Karak Varn.
@@ -1250,6 +1251,615 @@ crossed off the Hero’s Character Sheet.</p>
 <p><b>Note:</b> Heroes who have artifacts are allowed to give them to
 other Heroes.</p>
 <img src="Images/Rules/barbarian.jpg"></img>
+`
+
+intro_fh = `
+<h1>A Message From Mentor</h1>
+<p>Welcome, mighty Barbarian, to the land of
+your youth! It seems only yesterday that the
+tribal elders gave you leave to explore the
+many wonders of the warm lands to the south. You
+return now as a renowned warrior, tall and strong, well-versed
+in the skills of battle.</p>
+<p>Happy though your homecoming is, bitter tidings are on
+the minds of the tribal elders. They wearily tell you why
+you have been summoned back to aid your people in
+their time of need.</p>
+<p>An ancient evil, long thought banished, has arisen to
+threaten the Northlands once more. The Frozen Horror
+has burst forth from the icy tomb where it has rested
+these last centuries, recovering its strength and awaiting
+Zargon’s signal. At last, its master has called it, and the
+Frozen Horror has returned to its ancient Seat of Power
+deep within Ice Mountain. It has regained the Scepter of
+Glacial Majesty, an evil artifact of vast power. As we
+speak, the Frozen Horror is reviving its minions and
+enacting its plans to cover the Northlands and the
+Empire in a shroud of deadly ice.</p>
+<p>Your people seek a champion to oppose the evil of the
+Frozen Horror. You have been called in hopes that you
+might prove to be that champion. To determine your
+worthiness, the elders have set before you three
+dangerous Quests. These must be undertaken by you
+alone. If you survive this test, lead your companions into
+the depths of Ice Mountain. There you must find and
+destroy the Scepter of Glacial Majesty before it achieves
+its full power. Only when the Scepter is no more can you
+confront the Frozen Horror and destroy it forever.</p>
+<p>You must call upon all your courage and skill, Barbarian!
+The greatest perils you have ever faced await within Ice
+Mountain. Great, too, is the treasure that will be yours if
+you succeed. Among the many riches to be found is the
+Amulet of the North, an ancient artifact that is said to
+grant its wearer marvelous powers. Good Iuck, mighty
+warrior. The fates of many depend on you!</p>
+`
+
+outro_fh = `
+<h1>Conclusion</h1>
+<p>Congratulations, mighty
+Barbarian! You and your
+companions have destroyed the
+Frozen Horror, saving the
+Empire from an ice-shrouded doom.
+Zargon’s plans in the Northlands have
+been thwarted, thanks to your cunning,
+bravery and skill.</p>
+<p>In appreciation of your heroism, the
+tribal elders have awarded you and your
+fellow Heroes 1,000 gold coins each.</p>
+<p>We have won this battle, but we must
+remain vigilant. Zargon’s power grows
+still. The Frozen Horror returned once
+before when the Forces of Good thought
+it dead, and it may well return again. For
+now, though, the danger has passed.</p>
+<p>Your people will sing your praises
+forever, Barbarian! Centuries from now,
+your descendants may have to find
+another champion to defend them
+against the agents of Chaos. May they find
+a Hero as worthy as you!</p>
+<p>Zargon’s plans in other regions remain
+unchecked. The Empire is sorely pressed
+on many fronts. Soon your services will
+be needed again. I fear that many
+dangerous tasks still lie ahead of you.</p>
+<p>But for tonight, you and your
+companions are honored guests at a
+great feast. Tales of valor will be told, and
+there will be much rejoicing. Come
+receive the thanks of your kinsmen!</p>
+`
+
+instructions_fh = `
+<p>These potions may be purchased only between Quests.</p>
+<h1>Alchemist's Shop</h1>
+<h3>Potion of Battle Rage</h3>
+<img src="Images/Rules/potionofbattlerage.jpg"></img>
+<p><b>Cost: 400 Gold Coins</b></p>
+<p>Only the Barbarian can drink this purple-red
+concoction. It grants him 2 attacks per turn
+as long as there are monsters in sight. As soon
+as there are no monsters in the Barbarian's
+line of sight, this potion's effect wears off.</p>
+<h3>Potion of Rejuvenation</h3>
+<img src="Images/Rules/potionofrejuvenation.jpg"></img>
+<p><b>Cost: 500 Gold Coins</b></p>
+<p>Any Hero who drinks this bright yellow liquid
+regains up to 6 lost Body Points. Roll 1 red die
+to see how many Body Points the Hero gets
+back. This potion cannot give the Hero more
+than his starting number of Body Points.</p>
+<h3>Potion of Icy Strength</h3>
+<img src="Images/Rules/potionoficystrength.jpg"></img>
+<p><b>Cost: 200 Gold Coins</b></p>
+<p>This bubbling, orange mixture grants the
+Barbarian superhuman strength for one turn.
+After the Barbarian drinks this potion, his next
+attack causes twice as many Body Points of
+damage as are rolled on the combat dice. No
+other Hero can use this potion.</p>
+<h3>Potion of Frost Skin</h3>
+<img src="Images/Rules/potionoffrostskin.jpg"></img>
+<p><b>Cost: 300 Gold Coins</b></p>
+<p>Only the Barbarian is affected by this slushy
+drink. It enables the Barbarian to roll 2 extra
+combat dice when defending against attacks. As
+soon as there are no monsters in the Barbarian’s
+line of sight, this potion’s effect wears off.</p>
+<p><b>Three of the above potions can be used only
+by the Barbarian. Different potions may also
+be purchased from the Alchemist’s Shop in
+other Quest Packs.</b></p>
+<h2>Monster Chart</h2>
+<table>
+<tr><th>Monster</th><th>Map Symbol</th><th>Movement Squares</th><th>Attack Dice</th>
+<th>Defend Dice</th><th>Body Points</th><th>Mind Points</th></tr>
+<tr><td>Frozen Horror</td><td><img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.FrozenHorror_US.png"></img></td><td>8</td><td>5</td><td>4</td><td>6</td><td>4</td></tr>
+<tr><td>Ice Gremlin</td><td><img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceGremlin_US.png"></img></td><td>10</td><td>2</td><td>3</td><td>3</td><td>3</td></tr>
+<tr><td>Polar Warbearn</td><td><img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.PolarWarbear_US.png"></img></td><td>6</td><td>4/4</td><td>3</td><td>6</td><td>2</td></tr>
+<tr><td>Yeti</td><td><img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.Yeti_US.png"></img></td><td>8</td><td>3</td><td>3</td><td>5</td><td>2</td></tr>
+</table>
+<p>The Frozen Horror can cast the following Chaos spells: Chill, Ice Storm,
+Ice Wall, Mind Freeze, Skate and Soothe.  Zargon can choose an
+additional 6 Chaos spells for the Frozen Horror from any of the Chaos
+spells in the Game System, with the exception of the Escape spell.</p>
+<p>During Zargon’s turn, each Ice Gremlin can either attack a Hero or
+Mercenary, or it can steal one item from one Hero (Zargon's choice).
+The item stolen cannot be the armor or shield a Hero is using, nor the
+weapon he is wielding.  As soon as an Ice Gremlin has stolen an item, it
+runs away at full speed.  The Heroes can chase the Ice Gremlin on their
+turn. If they catch it and destroy it, they regain the stolen item. If no
+Hero can see the Ice Gremlin at the start of Zargon’s turn, the Ice
+Gremlin has escaped with the item.  The item should be crossed off the
+Hero's Character Sheet.  Remove the Ice Gremlin figure from the
+gameboard.</p>
+<p>The Polar Warbear attacks once with its mighty paw and once with its
+spiked mace.  Two attacks can be made against one opponent or one
+attack can be made against each of two different opponents.</p>
+<p>Whenever the Yeti’s attack causes a Hero to lose at least 1 Body Point,
+the Yeti grabs the Hero in a powerful hug.  This hug inflicts 2 Body
+Points of damage to the Hero at the start of each subsequent Zargon
+turn. The Hero cannot defend against this attack, nor can he take any
+actions. The Yeti can make no other attacks while hugging.  This
+continues until either the Hero dies or the Yeti is killed by the Hero’s
+companions.</p>
+<h2>Mercenaries Chart</h2>
+<table>
+<tr><th>Mercenary</th><th>Map Symbol</th><th>Cost Per Quest (GOLD COINS)</th><th>Movement Squares</th><th>Attack Dice</th>
+<th>Defend Dice</th><th>Body Points</th><th>Mind Points</th></tr>
+<tr><td>Crossbowman</td><td><img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.Crossbowman_US.png"><td>75</td></img></td><td>6</td><td>3</td><td>3</td><td>2</td><td>2</td></tr>
+<tr><td>Halberdier</td><td><img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.Halberdier_US.png"><td>75</td></img></td><td>6</td><td>3</td><td>3</td><td>2</td><td>2</td></tr>
+<tr><td>Scout</td><td><img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.Scout_US.png"><td>50</td></img></td><td>9</td><td>2</td><td>3</td><td>2</td><td>2</td></tr>
+<tr><td>Swordsman</td><td><img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.Swordsman_US.png"><td>50</td></img></td><td>5</td><td>4</td><td>5</td><td>2</td><td>2</td></tr>
+</table>
+<h1>The Barbarian Quest Pack™</h1>
+<p>The adventure continues! The Barbarian Quest Pack is an expansion
+set used with your original Hero Quest Game System. You must have
+the Game System in order to play the adventures in this booklet.</p>
+<h3Contents:</h3>
+<p>Plastic Figures: 1 Female Barbarian, 6 Mercenaries,
+3 Ice Gremlins, 2 Polar Warbears, 2 Yeti, 1 Frozen Horror;
+30 Game Cards, Cardboard Tile Sheet.</b>
+<h4>Cardboard tile sheet includes:</h4>
+<p>1 Iron Door</p>
+<p>1 Wooden Door</p>
+<p>11 Slippery Ice Tiles (4 sizes)</p>
+<p>1 Bottomless Chasm Tile</p>
+<p>6 Ice Tunnel Tiles</p>
+<p>1 Ice Cave Entrance Tile</p>
+<p>6 Blocked Square Tiles</p>
+<p>2 Ice Vault Tiles (2 sizes)</p>
+<p>2 Icy River Tiles (2 sizes)</p>
+<p>1 Ice Slide Tile</p>
+<p>6 Magic Ice Tiles</p>
+<p>1 Living Fog Room Tile</p>
+<p>1 Ice Ledge Tile</p>
+<p>1 Cage Room Tile</p>
+<p>1 Scepter Room Tile</p>
+<p>1 Frozen Crypt Tile</p>
+<p>1 Crystal Key Tile</p>
+<p>1 Seat of Power Tile</p>
+<p>1 Ice Gremlin Treasure Room Tile</p>
+<p>8 Skull Tiles</p>
+<p>All cardboard components should be carefully removed from the
+cardboard sheet. The plastic figures and weapons should be removed
+from their runners. Discard waste cardboard and plastic. New game
+components are described at right and on the following pages.</p>
+<p><b>Note:</b>The cardboard tiles listed above are two-sided. The front and
+back of many tiles are different.</p>
+<h3>New Components:</h3>
+<h4>Monster Assembly</h4>
+<p>The Frozen Horror, Polar Warbear and Yeti require assembly before
+they can be used. Assemble these monsters as shown below. There are
+also 6 Mercenaries that sometimes serve as monsters. See page 9 for
+more about Mercenaries and how to assemble them.</p>
+<img src="Images/Rules/frozenhorror.jpg"></img>
+Frozen Horror
+<img src="Images/Rules/polarwarbear.jpg"></img>
+Polar Warbear
+<img src="Images/Rules/yeti.jpg"></img>
+Yeti
+<h4>New Monsters</h4>
+<p>To learn more about the new monster figures, see the monster
+cards that come with this Quest Pack, as well as the Monster Chart
+on the back cover of this book.</p>
+<p><b>Note:</b> The new cardboard components are shown below. Next to most
+components is a matching Quest map symbol. These symbols appear on
+each map to show you where to place components on the gameboard.
+For example, the iron entrance door shown below is represented on the
+Quest map by the symbol shown to the right of the door.</p>
+<p>These symbols are also the exact size needed for the blank, “create your
+own” Quest map provided in the Game System Quest Book. All you
+have to do is photocopy the symbols and cut them out.</p>
+<h4>Door Assembly</h4>
+<img src="Images/Rules/assembly_inoutdoor_us.jpg"></img>
+<p>Take 2 plastic door stands from the Game
+System. The 2 new doors in this Quest Pack
+should be fitted into the door bases as shown at right.
+These doors are described below.</p>
+<h4>Iron Entrance Door</h4>
+<img src="Images/Rules/irondoor.jpg"></img>
+<img src="Icons/Raster/USA//Base/DoorIn_US.png"></img>
+<p>This iron door is placed on the edge of the
+gameboard in many of the Quests. Heroes
+line up outside the iron door to begin these
+Quests.</p>
+<h4>Wooden Exit Door</h4>
+<img src="Images/Rules/woodendoor.jpg"></img>
+<img src="Icons/Raster/USA/Base/DoorOut_US.png"></img>
+<p>In many Quests, this special
+wooden door is used to exit the
+gameboard at the end of the
+Quest.</p>
+<h4>Slippery Ice</h4>
+<p>Do not place a slippery ice tile
+on the gameboard until a Hero
+steps on the appropriate square.
+Whenever a Hero moves onto a
+slippery ice square, the Hero
+rolls 1 combat die. If a white
+shield is rolled, the Hero falls
+and his turn ends immediately.
+Any other roll means the Hero
+can continue moving (if he has
+moves left). The Hero must roll
+for each slippery ice square
+moved onto. A fallen Hero
+cannot take any actions or
+defend against attacks until his
+next turn. Monsters are not
+affected by slippery ice.
+A slippery ice square cannot be
+found by searching, nor can it
+be disarmed. Once it is placed
+on the gameboard, it can be
+jumped over as a pit.</p>
+<img src="Images/Rules/slipperyice.jpg"></img>
+<p>Four sizes:
+1 square
+1x2 squares
+1x3 squares
+2x3 squares</p>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.SlipperyIce1x1_US.png"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.SlipperyIce2x1_US.png"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.SlipperyIce2x3_US.png"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.SlipperyIce3x1_US.png"></img>
+<h4>Magic Ice</h4>
+<p>These tiles are used with the Ice
+Bridge spell scroll and the Ice
+Wall Chaos spell.</p>
+<img src="Images/Rules/magicice.jpg"></img>
+<h4>Ice Ledge</h4>
+<p>This slippery ledge surrounds a deep crevasse in the icy mountain.
+The Heroes must walk around the crevasse on the ledge, inches from
+a fall to the death.</p>
+<img src="Images/Rules/iceledge.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceLedge_US.png"></img>
+<h4>Ice Vault</h4>
+<p>This frigid room drains heat from Heroes. For each turn in which a
+Hero enters or remains in this room, the Hero rolls 1 combat die. He
+loses 1 Body Point if he rolls a skull. Monsters are not affected by the
+heat-draining property of this room.</p>
+<img src="Images/Rules/icevault.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceVault2x3_US.png"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceVault3x4_US.png"></img>
+<p>Two sizes:
+2x3 squares
+3x4 squares</p>
+<h4>Ice Tunnels</h4>
+<p>A pair of tunnel entrances
+connect two apparently
+unconnected rooms via an
+unseen tunnel. Any Hero or
+monster landing on one of
+these entrances immediately
+moves to the other entrance.
+After moving from one
+tunnel entrance to the other,
+the Hero’s or monster’s turn
+is over.</p> 
+<img src="Images/Rules/icetunnels.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceTunnelA_US.png"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceTunnelA_US.png"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceTunnelB_US.png"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceTunnelB_US.png"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceTunnelC_US.png"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceTunnelC_US.png"></img>
+<h4>Ice Slide</h4>
+<p>Do not place the ice slide tile on the gameboard until a Hero steps on
+the first square of the slide. Any Hero who does step onto this slippery
+chute of ice is whisked away in the direction indicated by the arrow.
+The Hero immediately moves to the last square of the slide. (More than
+one Hero may occupy the exit square.) This ends the Hero’s turn.</p>
+<p>The slide is hidden and it cannot be searched for as a trap, nor can it be
+disarmed. When a Hero slips down an ice slide, he rolls 1 combat die.
+He loses 1 Body Point if he rolls a white shield. Monsters cannot move
+onto ice slide squares. Heroes cannot climb up an ice slide in the
+direction opposite to that indicated by the arrow.</p>
+<img src="Images/Rules/iceslide.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceSlide_US.png"></img>
+<h4>Ice Cave Entrance</h4>
+<p>This special tile is used as an entrance or exit.</p>
+<img src="Images/Rules/icecaveentrance.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceCaveEntrance_US.png"></img>
+<h4>Scepter Room</h4>
+<p>The Frozen Horror has hidden the Scepter of Glacial Majesty, an
+artifact of great power, in this room.</p>
+<img src="Images/Rules/scepterroom.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.ScepterRoom_US.png"></img>
+<h4>Crystal Key Tile</h4>
+<p>Use this magical key to open the door to the Seat of Power
+Room, where the Frozen Horror awaits.</p>
+<img src="Images/Rules/crystalkeytile.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.CrystalKey_US.png"></img>
+<h4>Living Fog Room</h4>
+<p>This room is filled with an eerie, swirling fog. Monsters seem to
+appear on all sides of the Heroes, only to disappear into the fog when
+attacked.</p>
+<img src="Images/Rules/livingfogroom.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.LivingFogRoom_US.png"></img>
+<h4>Cage Room</h4>
+<p>This room serves as a prison for servants who have displeased the
+Frozen Horror.</p>
+<img src="Images/Rules/cageroom.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.CageRoom_US.png"></img>
+<h4>Bottomless Chams Room</h4>
+<p>The crevasse that divides this room can be jumped over as a pit, but
+any Hero who falls into it is lost “forever.”</p>
+<img src="Images/Rules/bottomlesschasmroom.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.BottomlessChasm_US.png"></img>
+<h4>Frozen Crypt Room</h4>
+<p>Monstrous servants of the Frozen Horror are encased in thick ice
+within this room. These monsters are freed when a Hero opens the
+appropriate door.</p>
+<img src="Images/Rules/frozencryptroom.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.FrozenCryptRoom_US.png"></img>
+<h4>Ice Gremlin Treasure Room</h4>
+<p>Ice Gremlins steal anything they can get their cold hands on. Their
+booty is all stored in this room.</p>
+<img src="Images/Rules/icegremlintreasureroom.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IceGremlinTreasureRoom_US.png"></img>
+<h4>The Seat of Power Room</h4>
+<p>The Frozen Horror rules from this room, devising evil plans for the
+conquest of the Empire.</p>
+<img src="Images/Rules/theseatofpowerroom.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.SeatOfPower_US.png"></img>
+<h4>Icy River</h4>
+<p>Each square of these underground streams counts as 2 squares for
+movement purposes. Each time a Hero enters an icy river square, he
+rolls 1 combat die. He loses 1 Body Point to the cold if he rolls a
+white shield. Monsters suffer neither movement penalties nor
+damage from the icy river.</p>
+<p>Two sizes:
+1x3 squares
+1x8 squares</p>
+<img src="Images/Rules/icyriver.jpg"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IcyRiver1x3_US.png"></img>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.IcyRiver1x8_US.png"></img>
+<h1>Playing the Barbarian Quest Pack</h1>
+<p>These ten new Quests are generally played the same way as the
+Quests in the Game System. As in the Game System, Heroes are
+returned to full strength between Quests. (All Body and Mind Points
+are restored.)</p>
+<p>There are a few gameplay differences in the Barbarian Quest Pack.</p>
+<h4>1. The Quests</h4>
+<p>The first three Quests are solo adventures, designed for play by a
+Barbarian alone. These can be used as an introduction to Hero
+Quest for a new player or as fun Quests to play when only two
+players are available. Also, if a new Barbarian is to join a party of
+experienced characters, these three Quests will enable the Barbarian
+to catch up with the other Heroes by gaining gold, equipment and
+magical items.</p>
+<p>The next five Quests are all group Quests. The last two Quests are
+also group Quests, but they are played as a single, double-sized
+Quest, as the Heroes must cross between the two Quests to achieve
+ultimate victory.</p>
+<h4>Female Barbarian</h4>
+<p>This Quest Pack includes a figure for a female
+Barbarian. Her statistics are the same as the male
+Barbarian in the Game System. She can be used to
+replace the male Barbarian figure, if the player
+prefers to play a female character. Any reference to
+“Barbarian” in Quest Packs also applies to the
+female Barbarian. A group of Heroes can contain
+only one Barbarian at a time.</p>
+<img src="Images/Rules/femalebarbarian.jpg"></img>
+<h4>3. Starting and Ending a Quest</h4>
+<p>The Heroes do not always start and end their Quests on the spiral
+stairway. The message from Mentor at the beginning of each Quest
+tells where the Heroes start and end the Quest. When there is an
+iron entry or wooden exit door, it is indicated on the Quest map by
+an arrow (pointing into the gameboard for the entry door, and out
+of the gameboard for the exit door). When there is an entry door, it
+is always placed on the gameboard in its specified location before
+each Quest begins. At the start of an adventure, the Heroes line up
+outside the door and ask Zargon to open it.</p>
+<p><b>Note:</b> As with a regular door, an exit door is not placed on the
+gameboard by Zargon until a Hero looks down the appropriate
+corridor.</p>
+<h4>4. Mind Points</h4>
+<ul>
+<li>When a Hero reaches zero Mind Points, he is not dead but in
+<em>shock</em>. (A Hero cannot go below zero Mind Points.) He rolls only 1
+red die to move, attacks with only 1 combat die, and defends with
+only 2 combat dice. (Armor, weapons and most artifacts do not
+increase the attack or defend dice when a Hero is in shock.) The
+Hero’s attack and defend dice can be temporarily increased by some
+spells and spell scrolls.</li>
+<li>The extra Mind Points gained from certain artifacts (such as the
+Talisman of Lore), can be lost in battle. For example, a Barbarian
+with the Talisman of Lore (for a total of 3 Mind Points) goes into
+shock after he accumulates 3 Mind Points of damage.</li>
+<li>In this and other Quest Packs, it is important to keep track of
+Heroes’ current Mind Points. Tell the players to use the bottom row
+of “Body Point” boxes on their Character Sheets to record Mind
+Point damage.</li>
+</ul>
+<h4>5. Rule Clarifications</h4>
+<ul>
+<li><em>Passing Items:</em> A Hero can pass a potion, artifact, weapon, or any
+other item to another Hero only if the 2 Heroes are in adjacent
+squares and neither Hero is adjacent to a monster.</li>
+<li><em>Spiral Stairway:</em> During a Quest, if a Hero stands on a spiral
+stairway and attacks monsters, the monsters can attack back on
+Zargon’s turn. When a spiral stairway is used as the exit at the end
+of a Quest, any Hero who moves onto that spiral stairway is
+immediately removed from the gameboard.</li>
+<li><em>Multiple Attacks:</em> A Hero rolls defend dice once for each attacking
+monster. For example, a Hero attacked by 3 Zombies gets 3 separate
+defend rolls. A Hero attacked by a monster with multiple attacks
+(such as the Polar Warbear), however, gets only 1 defend roll against
+that monster per turn, no matter how many of the monster's attacks
+are directed at the Hero.</li>
+</ul>
+<h4>6. Wandering Monsters</h4>
+<p>Several Quests in this Quest Pack have multiple wandering
+monsters. These monsters may appear if a Hero draws a Wandering
+Monster card from the Treasure card deck or if a Hero moves onto
+a Wandering Monster trap as described above right. For example,
+when the Quest notes say, “Wandering monsters in this Quest:
+3 Goblins,” place 3 Goblins adjacent to the Hero who initiated the
+wandering monster encounter. If fewer than 3 adjacent squares are
+available, place the remaining monsters as close to the Hero as
+possible.</p>
+<p><b>Note:</b> If you run out of the monsters called for, substitute other
+monsters of similar strength.</p>
+<h4>7. New Traps</h4>
+<p>The Wandering Monster trap, the Stalactite trap and the Swinging Axe
+trap do not have tiles.</p>
+<ul>
+<li>
+<img src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.WanderingMonster_US.png"></img>
+<em>Wandering Monster Trap:</em> When a Hero moves onto a square
+with the trap symbol shown at left, tell the player that the
+Hero must stop on that square. The monster or monsters
+listed as wandering monsters for that Quest appear on any
+square or squares adjacent to the Hero or as close as
+possible. The monsters immediately attack and the Hero
+defends. (If the Hero has not already taken an action that
+turn, he may do so after he defends.) Otherwise the turn
+passes to the next player (or to Zargon). Each Wandering
+Monster trap can be activated only once. Monsters cannot
+activate it. Ignore the trap after the first time a Hero springs
+it. Wandering Monster traps are so well concealed that they
+are not detected when a Hero searches for traps.</li>
+<li>
+<img style="background: #fe6601" src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.Stalactite_US.png"></img>
+<em>Stalactite Trap:</em> This deadly spear of ice clings to the ceiling
+of ice caverns. Unless searched for and disarmed, the
+stalactite falls upon the first Hero to move onto the trap
+square, causing 1 Body Point of damage. Monsters do not
+spring Stalactite traps.</li>
+<li>
+<img style="background: #fe6601" src="Icons/Raster/USA/TheFrozenHorror/TheFrozenHorror.SwingingAxe_US.png"></img>
+<em>Swinging Axe Trap:</em> When a Hero moves onto this square,
+a huge axe swings out from a hidden alcove in the ceiling.
+The Hero then rolls 2 combat dice and loses 1 Body Point
+for each skull rolled. The Hero does not get to roll defend
+dice. A Swinging Axe trap can be searched for and disarmed.
+Until it is disarmed, a Swinging Axe trap affects every Hero
+who steps onto the square. Monsters do not spring
+Swinging Axe traps.</li>
+</ul>
+<h4>8. Large Monsters</h4>
+<p>When a monster takes up more than one square (the Frozen Horror
+in this Quest Pack, for instance), that monster can attack anyone on
+any adjacent square (including diagonally), even if the monster’s
+figure is facing away from the target.</p>
+<h4>9. Selling Excess Items</h4>
+<p>As the Heroes gain better equipment, they can sell some of their old
+items to the Armory. Only items that are listed for sale in the
+Armory (on the cardboard platform in the Game System) can be sold
+back to the Armory. The Hero receives gold coins equal to half of the
+Armory’s price when selling items to the Armory. Thus a Hero who
+sells a longsword (which costs 350 gold coins) back to the Armory
+receives 175 gold coins. Items sold at the Armory for odd sums (the
+dagger at 25 gold coins, for example) can be sold back for half price,
+rounded down (12 gold coins for the dagger).</p>
+<h4>10. Treasure</h4>
+<p>To eliminate conflicts among the Heroes, large gold coin treasures
+found in treasure chests should be divided among all surviving
+Heroes.</p>
+<h4>11. New Treasure Cards</h4>
+<p>The 6 new treasure cards should be mixed into the Game System’s
+deck of treasure cards before play begins. Draw from this deck when
+a Hero searches for treasure.</p>
+<h4>12. New Artifact Cards</h4>
+<ul>
+<li><em>Amulet of the North, Ring of Warmth and Snowshoes of Speed:</em>
+These artifacts are similar to the artifacts in the Game System. When
+a Hero finds one of these artifacts, he should record it on his
+Character Sheet.</li>
+<li><em>Spell Scrolls:</em> Six of the artifact cards in this Quest Pack are spell
+scrolls. These are used just like the spell cards in the Game System.
+However, a spell scroll can be used by ANY Hero (not just the Wizard
+and Elf) who finds one. Note that spell scrolls can be used only once.</li>
+</ul>
+<p>When a Hero finds an unnamed spell scroll, Zargon should turn all
+of the spell scroll cards in this Quest Pack facedown, mix them up,
+and let the Hero draw one at random. The Hero should then record
+the spell scroll on his Character Sheet and return the scroll card to
+the scroll deck. After a spell scroll has been used, it must be crossed
+off the Hero’s Character Sheet.</p>
+<h4>13. Mercenaries</h4>
+<p>This Quest Pack contains 6 Mercenary figures, with 12
+interchangeable weapons that enable you to put together the 4
+different types of Mercenaries (the Scout, the Swordsman, the
+Crossbowman and the Halberdier).</p>
+<p><em>In some Quests, Mercenaries serve as evil monsters who oppose
+the Heroes.</em> Whenever a Mercenary is shown on a Quest map, it
+should be considered a monster controlled by Zargon.</p>
+<p>Mercenaries are also soldiers who can be hired by a Hero before a
+Quest begins. They will accompany any Hero on a Quest, if the
+Hero pays their fee. The fee for each type of Mercenary is given on
+the Mercenary’s card, as well as on the Mercenaries Chart on page
+33 of this book. The gold must be paid before the Quest begins.
+Mercenaries may be hired for any group Quest in this Quest Pack,
+but not for the solo Quests.</p>
+<p>A Mercenary is controlled by the Hero who hired him. The
+Mercenary moves and attacks immediately after that Hero’s turn.
+A Hero can control as many Mercenaries as he can afford to hire.
+A Mercenary can move, open doors, attack and defend as a Hero, but
+he can take no other actions (except for the Scout, who can search
+for and disarm traps). A Mercenary does not receive any treasure. If
+a Hero dies on a Quest, any Mercenary hired by that Hero continues
+on the Quest, controlled by the fallen Hero’s player.</p>
+<p>The Scout, Swordsman, Crossbowman and Halberdier each have
+different statistics and abilities. These are detailed on the cards
+that come in this Quest Pack, as well as on the Mercenaries Chart
+on page 33 of this book.</p>
+<p>If a Quest map calls for a type of Mercenary that is not available
+because they've all been hired by Heroes, Zargon may substitute
+a different type of Mercenary, or another monster altogether.</p>
+<img src="Images/Rules/crossbowman.jpg"></img>
+<p>Crossbowman</p>
+<img src="Images/Rules/scout.jpg"></img>
+<p>Scout</p>
+<img src="Images/Rules/swordsman.jpg"></img>
+<p>Swordsman</p>
+<img src="Images/Rules/halberdier.jpg"></img>
+<p>Halberdier</p>
+<p>Attach one of the plastic weapons to each Mercenary as shown.</p>
+<p><b>Zargon, study this book carefully! Although it is your
+guide to running these adventures, it may not answer
+every question you have during play. When in doubt, use
+your experience and imagination to make the best choice.
+Remember that you are the ultimate authority in your
+HERO QUEST world!</b></p>
+<h1>Quest Map Guide</h1>
+<p>The Quest map symbols are color-coded to help you guide the Heroes through these Quests. Here’s
+what the various map symbol colors mean.</p>
+<ul>
+<li style="overflow: auto"><div width="10px" height="10px" style="background: #fe6601; float: left; width: 30px; height: 30px"></div>Gold: This color is used to highlight traps that the Heroes can detect by searching.</li>
+<li style="overflow:auto"><div width="10px" height="10px" style="background: #a8c5ba; float: left; width: 30px; height: 30px"></div>Light Green: This color is used to highlight traps and other hazards that the Heroes
+can neither see nor detect by searching.</li>
+<li style="overflow:auto"><div width="10px" height="10px" style="background: #003928; float: left; width: 30px; height: 30px"></div>Dark Green: This color is used to highlight monster symbols. See the Monster Chart
+on the back cover for actual symbols.</li>
+</ul>
+<p><b>In each Quest, notes prefaced with a capital letter correspond to a matching letter location on
+the Quest map. Remember that Mercenaries cannot be hired in Quests 1-3.</p>
 `
 
 intro_motm = `
@@ -1730,16 +2340,18 @@ running these adventures, it may not answer every question
 you have during play. When in doubt, use your experience
 and imagination to make the best choice. Remember that you
 are the ultimate authority in your HERO QUEST world!</b></p>
-<h2>Quest Map Guide</h2>
+<h1>Quest Map Guide</h1>
 <p>The Quest map symbols are color-coded to help you guide the Heroes through these Quests.
-Here’s what the various map symbol colors mean.<y/p>
-<p><b>Gold</b> This color is used to highlight traps that the Heroes can detect by searching.</p>
-<p><b>Light Green</b> This color is used to highlight traps and other hazards that the Heroes
-can neither see nor detect by searching.</p>
-<p><b>Dark Green</b> This color is used to highlight monster symbols. See the Monster Chart
-on the inside back cover for actual symbols.</p>
+Here’s what the various map symbol colors mean.</p>
+<ul>
+<li style="overflow: auto"><div width="10px" height="10px" style="background: #fe6601; float: left; width: 30px; height: 30px"></div>Gold: This color is used to highlight traps that the Heroes can detect by searching.</li>
+<li style="overflow:auto"><div width="10px" height="10px" style="background: #a8c5ba; float: left; width: 30px; height: 30px"></div>Light Green: This color is used to highlight traps and other hazards that the Heroes
+can neither see nor detect by searching.</li>
+<li style="overflow:auto"><div width="10px" height="10px" style="background: #003928; float: left; width: 30px; height: 30px"></div>Dark Green: This color is used to highlight monster symbols. See the Monster Chart
+on the inside back cover for actual symbols.</li>
+</ul>
 <p><b>In each Quest, notes prefaced with a capital letter correspond to a matching letter location on
-the Quest map.</b></p>
+the Quest map.</p>
 `
 
 campaigns = {
@@ -1758,7 +2370,7 @@ campaigns = {
     "GS": {name: "HQBase", quests: gs_us, intro: intro_gs_eu.replaceAll("Morcar", "Zargon") , outro: outro_gs_eu.replaceAll("Morcar", "Zargon")},
     "KK": {name: "Kellar's Keep", quests: kk, intro: intro_kk_us, outro: outro_kk_us, instructions: instructions_kk_us},
     "RotWL": {name: "Return Of The Witch Lord", quests: rotwl, intro: intro_rotwl_us, outro: outro_rotwl_us, instructions: instructions_rotwl_us},
-    "FH": {name: "The Frozen Horror", quests: fh},
+    "FH": {name: "The Frozen Horror", quests: fh, intro: intro_fh, outro: outro_fh, instructions: instructions_fh},
     "MM": {name: "The Mage Of The Mirror", quests: mm, intro: intro_motm, outro: outro_motm, instructions: instructions_motm},
   },
 }

@@ -283,5 +283,40 @@
 <object id="Door" left="16.0" top="6.0" rotation="downward" zorder="0.0" />
 <object id="Door" left="16.0" top="10.0" rotation="rightward" zorder="0.0" />
 </board>
-<speech></speech>
+<speech>
+“The minions of the Frozen Horror have captured
+Gothar, the Barbarian tribe’s Great Elder. He has
+been taken to an evil Chaos stronghold near Ice
+Mountain. Gothar has great wisdom, but he is old
+and frail. He cannot survive long in the cruel
+hands of the creatures of Chaos. Your final solo
+test is to enter the stronghold, find Gothar, and
+bring him out safely. Begin on the spiral stairway
+and return to it to end your Quest.”
+</speech>
+<note>A  If the Barbarian searches for treasure in this room, the wea-
+pons rack holds a battle axe. (See the Armory on the cardboard
+platform in the Game System for this weapon.)</note>
+<note>B  If the Barbarian searches for treasure in this room, 70 gold
+coins are found in the chest.</note>
+<note>C  If the Barbarian searches for treasure in this room, a helmet is
+found in the chest. (See the Armory on the cardboard platform
+in the Game System for this item.)</note>
+<note>D  This chest has a poison needle trap on it. If the Barbarian
+searches for treasure before the trap is disarmed, he loses
+1 Body Point. One hundred and fifty gold coins are found in
+the chest.</note>
+<note>E  As the Barbarian enters this room, the two Chaos Warriors
+have just tied Gothar down on the rack. They ignore Gothar
+and concentrate on attacking the Barbarian. If the Barbarian
+kills the Chaos Warriors, Gothar is freed. Use any available
+Hero figure for Gothar; place him next to the Barbarian.
+Gothar is under the Barbarian’s control and moves after
+him. Gothar’s stats are as follows:</note>
+<note>MOVEMENT 6 ATTACK 1 DEFEND 2 BODY 2 MIND 4</note>
+<note>The Barbarian must bring Gothar to the spiral stairway to
+fulfill this final solo Quest. Any monsters encountered attack
+only the Barbarian, as they are under orders to capture Gothar
+alive. If the Barbarian dies, Gothar is automatically captured.</note>
+<note>Wandering Monsters in this Quest: 2 Orcs</note>
 </quest>

@@ -193,5 +193,47 @@
 <object id="LetterE" left="16.0" top="4.0" rotation="downward" zorder="5.0" />
 <object id="LetterF" left="13.0" top="10.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<note>Zargon, Quests 9 and 10 are actually one double-sized Quest. Notes A
+through F refer to the Quest 9 map; notes G through M refer to the
+Quest 10 map. The Heroes will be moving back and forth between
+these two Quests. Mind and Body Points are not restored when the
+Heroes cross between Quests 9 and 10, Reset the gameboard (as
+described in Note A at right) when the Heroes cross between Quests.</note>
+<speech>
+“Now that the Scepter of Glacial Majesty has been
+destroyed, the Frozen Horror is vulnerable. The
+time to destroy it is now! Start from the iron en-
+trance door. First, you must find the spiral stairway 4
+that leads to the Frozen Catacombs. There you will :
+find the Crystal Key. This key will open the final
+door, the door to the Seat of Power, where the
+Frozen Horror awaits. Be sure to take Mercenaries
+along on your Quest!”
+</speech>
+<note>A  This is the spiral stairway that leads to room “G” in Quest 10.
+When a Hero moves onto the stairway to enter Quest 10, remove
+that Hero’s figure from the gameboard. Tell the players that they
+cannot enter Quest 10 until all the Heroes have moved onto the
+stairway. Once all Heroes have moved onto the stairway, remove
+the Quest 9 setup from the board. When the Heroes return to
+Quest 9, set out only room “A” until they explore other rooms.
+Monsters they killed previously do not reappear.</note>
+<note>B  See room “D” of Quest 7 for more information about the living
+fog room.</note>
+<note>C  This ice tunnel is connected to the ice tunnel in the other room
+“C.” Any Hero or monster landing on one of these squares
+immediately moves to the other ice tunnel square.</note>
+<note>D  In the ice vault room, this chest has an exploding latch trap on
+it. Ifa Hero searches for treasure before the trap is disarmed,
+that Hero loses 1 Body Point. The chest contains 400 gold coins
+and 2 Potions of Healing. Each potion restores up to 4 lost
+Body Points.</note>
+<note>E  The first Hero to search for treasure in this room finds a spell
+scroll and a Potion of Healing on the alchemist’s table. The
+potion restores up to 4 lost Body Points. For the spell scroll, the
+Hero draws a spell scroll card at random and lists it on his
+Character Sheet.</note>
+<note>F  The door to the seat of power room will not open until a Hero
+with the crystal key moves adjacent to it and opens it. See the
+Monster Chart on the back cover for the Frozen Horror’s powers.</note>
 </quest>

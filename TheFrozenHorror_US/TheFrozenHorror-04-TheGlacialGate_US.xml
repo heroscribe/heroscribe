@@ -205,5 +205,50 @@
 <object id="LetterC" left="9.0" top="18.0" rotation="downward" zorder="5.0" />
 <object id="LetterE" left="15.0" top="2.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+“You have done well, Barbarian! The tribal leaders
+have appointed you their champion to oppose the
+Frozen Horror and its minions. Now you and your
+companions—the Dwarf, the Elf and the Wizard—
+are ready to assault Ice Mountain. An iron door is
+your entry into the outer chambers of the Frozen
+Horror’s subterranean fortress. Find the wooden
+exit door to enter the deeper recesses of the
+mountain.” 
+</speech>
+<note>A  The first Hero to search for treasure in this room finds the
+Snowshoes of Speed lying atop the tomb. (See the new artifact
+card.)</note>
+<note>B  he Heroes see a locked cage in the center of this room. There
+is an Ice Gremlin inside. It pleads with the Heroes to free it,
+saying that the Frozen Horror has left it there to die and it
+wants revenge. If a Hero announces that he’s freeing the Ice
+Gremlin and moves adjacent to the cage, the cage opens. The
+Ice Gremlin leaps out and steals one item from the Hero who
+freed it. The Ice Gremlin decides which item to steal, but it
+cannot be the armor or shield a Hero is using, nor the weapon
+he is wielding. The item stolen should be crossed off the Hero’s
+Character Sheet. The Ice Gremlin immediately disappears
+through a hole in the floor. (Remove the Ice Gremlin figure
+from the gameboard.)</note>
+<note>C  The first Hero to search for treasure in this room finds a spell
+scroll hidden in the bookcase. The Hero draws a spell scroll
+card at random and lists it on his Character Sheet.</note>
+<note>D  This chest has a trap with an explosive device. If a Hero
+searches for treasure before the trap is disarmed, all Heroes
+in the room lose 2 Body Points. The chest contains 600 gold
+coins.</note>
+<note>E  The ice ledge that surrounds the crevasse is very slippery. When
+a Hero steps through a door and moves onto his first square in
+this room, he must roll 1 combat die. The Hero is safe and can
+continue moving if a skull or white shield is rolled. If a black
+shield is rolled, however, the Hero begins slipping into the
+crevasse, suffering 1 Body Point of damage. The Hero must
+immediately roll another combat die. If another black shield is
+rolled, the Hero plummets into the crevasse, never to be seen
+again. Any other roll means the Hero returns to the square in
+which he entered the room, ending his turn. At the beginning
+of any turn in which a Hero is in this room, he must first roll to
+see if he slips into the crevasse.</note>
+<note>Wandering Monsters in this Quest: 2 Fimir</note>
 </quest>

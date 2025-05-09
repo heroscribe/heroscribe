@@ -190,5 +190,37 @@
 <object id="LetterD" left="23.0" top="13.0" rotation="downward" zorder="5.0" />
 <object id="LetterC" left="16.0" top="14.0" rotation="downward" zorder="5.0" />
 </board>
-<speech></speech>
+<speech>
+“Know Mighty Heroes, that Keiviigass was a
+Barbarian of great power and fame. Centuries ago, —
+he drove the Frozen Horror from Ice Mountain,
+ending the reign of terror. Sadly, Kelvinos did not |
+return from that final battle; his body was never
+found. Some say that he walks again, but as an un-
+dead servant of Chaos. You shall start at the iiron
+door and explore until. you find the wooden exit
+ae that leads you closer to the Frozen Horror.”
+</speech>
+<note>A  The first Hero to search for treasure in this ice vault finds 500
+gold coins in the chest.</note>
+<note>B  The first Hero to search for treasure in this room finds 2
+Potions of Healing in the chest. Each potion restores up to 4
+lost Body Points.</note>
+<note>C  The Barbarian Hero Kelvinos is now a monster, an undead slave
+of the Frozen Horror. He is in the square marked “KEL.” Use
+the extra Barbarian figure (or any other figure) for Kelvinos.
+His stats are as follows:</note>
+<note>MOVEMENT 5 ATTACK 4 DEFEND 4 BODY 4 MIND 0</note>
+<note>The first Hero to search for treasure in this room finds the
+Amulet of the North in the chest. (See the new artifact card.)</note>
+<note>D  Few things are as they appear in the living fog room. Monsters
+and fog likenesses of monsters are all over this room. Whenever
+a Hero attacks a monster, the Hero first rolls a combat die to
+see if he attacks a fog likeness instead of a real monster. Ona
+roll of a black shield or skull, the Hero is confused and attacks
+a fog likeness. (The Hero wastes his attack.) Only ona roll of a
+white shield does the Hero see a real monster. The Hero may
+then roll his normal attack and the monster defends as usual.
+The monsters always see the Heroes correctly.</note>
+<note>Wandering Monsters in this Quest: 2 Yeti</note>
 </quest>
