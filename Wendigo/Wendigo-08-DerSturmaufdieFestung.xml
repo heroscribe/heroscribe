@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE quest PUBLIC
+"-//org.lightless//HeroScribe Quest 1.4//EN"
+"http://lightless.org/files/xml/quest-1.4.dtd">
+
+<quest name="Der Sturm auf die Festung" region="Europe" version="1.0" width="1" height="1">
+<board>
+<dark left="13" top="13" height="1" width="1"/>
+<dark left="13" top="14" height="1" width="1"/>
+<dark left="13" top="15" height="1" width="1"/>
+<dark left="13" top="16" height="1" width="1"/>
+<dark left="13" top="17" height="1" width="1"/>
+<dark left="14" top="13" height="1" width="1"/>
+<dark left="14" top="14" height="1" width="1"/>
+<dark left="14" top="15" height="1" width="1"/>
+<dark left="14" top="16" height="1" width="1"/>
+<dark left="14" top="17" height="1" width="1"/>
+<dark left="7" top="10" height="1" width="1"/>
+<dark left="8" top="10" height="1" width="1"/>
+<dark left="9" top="10" height="1" width="1"/>
+<dark left="10" top="10" height="1" width="1"/>
+<dark left="17" top="10" height="1" width="1"/>
+<dark left="18" top="10" height="1" width="1"/>
+<dark left="19" top="10" height="1" width="1"/>
+<dark left="20" top="10" height="1" width="1"/>
+<dark left="10" top="7" height="1" width="1"/>
+<dark left="10" top="8" height="1" width="1"/>
+<dark left="10" top="9" height="1" width="1"/>
+<dark left="10" top="11" height="1" width="1"/>
+<dark left="10" top="12" height="1" width="1"/>
+<dark left="10" top="13" height="1" width="1"/>
+<dark left="17" top="7" height="1" width="1"/>
+<dark left="17" top="8" height="1" width="1"/>
+<dark left="17" top="9" height="1" width="1"/>
+<dark left="17" top="11" height="1" width="1"/>
+<dark left="17" top="12" height="1" width="1"/>
+<dark left="17" top="13" height="1" width="1"/>
+<dark left="11" top="7" height="1" width="1"/>
+<dark left="16" top="7" height="1" width="1"/>
+<dark left="11" top="13" height="1" width="1"/>
+<dark left="12" top="13" height="1" width="1"/>
+<dark left="15" top="13" height="1" width="1"/>
+<dark left="16" top="13" height="1" width="1"/>
+<dark left="6" top="5" height="1" width="1"/>
+<dark left="6" top="6" height="1" width="1"/>
+<dark left="6" top="7" height="1" width="1"/>
+<dark left="6" top="8" height="1" width="1"/>
+<dark left="6" top="9" height="1" width="1"/>
+<dark left="10" top="2" height="1" width="1"/>
+<dark left="10" top="3" height="1" width="1"/>
+<dark left="10" top="4" height="1" width="1"/>
+<dark left="7" top="5" height="1" width="1"/>
+<dark left="8" top="5" height="1" width="1"/>
+<dark left="9" top="5" height="1" width="1"/>
+<dark left="7" top="6" height="1" width="1"/>
+<dark left="7" top="7" height="1" width="1"/>
+<dark left="7" top="8" height="1" width="1"/>
+<dark left="7" top="9" height="1" width="1"/>
+<dark left="8" top="6" height="1" width="1"/>
+<dark left="8" top="7" height="1" width="1"/>
+<dark left="8" top="8" height="1" width="1"/>
+<dark left="8" top="9" height="1" width="1"/>
+<dark left="9" top="6" height="1" width="1"/>
+<dark left="9" top="7" height="1" width="1"/>
+<dark left="9" top="8" height="1" width="1"/>
+<dark left="9" top="9" height="1" width="1"/>
+<dark left="10" top="5" height="1" width="1"/>
+<dark left="10" top="6" height="1" width="1"/>
+<dark left="11" top="2" height="1" width="1"/>
+<dark left="11" top="3" height="1" width="1"/>
+<dark left="11" top="4" height="1" width="1"/>
+<dark left="11" top="5" height="1" width="1"/>
+<dark left="11" top="6" height="1" width="1"/>
+<dark left="12" top="2" height="1" width="1"/>
+<dark left="12" top="3" height="1" width="1"/>
+<dark left="12" top="4" height="1" width="1"/>
+<dark left="12" top="5" height="1" width="1"/>
+<dark left="12" top="6" height="1" width="1"/>
+<dark left="6" top="11" height="1" width="1"/>
+<dark left="6" top="12" height="1" width="1"/>
+<dark left="6" top="13" height="1" width="1"/>
+<dark left="6" top="14" height="1" width="1"/>
+<dark left="6" top="15" height="1" width="1"/>
+<dark left="6" top="16" height="1" width="1"/>
+<dark left="6" top="17" height="1" width="1"/>
+<dark left="6" top="18" height="1" width="1"/>
+<dark left="7" top="11" height="1" width="1"/>
+<dark left="7" top="12" height="1" width="1"/>
+<dark left="7" top="13" height="1" width="1"/>
+<dark left="8" top="11" height="1" width="1"/>
+<dark left="8" top="12" height="1" width="1"/>
+<dark left="8" top="13" height="1" width="1"/>
+<dark left="7" top="14" height="1" width="1"/>
+<dark left="9" top="11" height="1" width="1"/>
+<dark left="9" top="12" height="1" width="1"/>
+<dark left="9" top="13" height="1" width="1"/>
+<dark left="8" top="14" height="1" width="1"/>
+<dark left="9" top="14" height="1" width="1"/>
+<dark left="7" top="15" height="1" width="1"/>
+<dark left="7" top="16" height="1" width="1"/>
+<dark left="7" top="17" height="1" width="1"/>
+<dark left="7" top="18" height="1" width="1"/>
+<dark left="8" top="15" height="1" width="1"/>
+<dark left="8" top="16" height="1" width="1"/>
+<dark left="8" top="17" height="1" width="1"/>
+<dark left="8" top="18" height="1" width="1"/>
+<dark left="9" top="15" height="1" width="1"/>
+<dark left="9" top="16" height="1" width="1"/>
+<dark left="9" top="17" height="1" width="1"/>
+<dark left="9" top="18" height="1" width="1"/>
+<dark left="10" top="14" height="1" width="1"/>
+<dark left="10" top="15" height="1" width="1"/>
+<dark left="10" top="16" height="1" width="1"/>
+<dark left="10" top="17" height="1" width="1"/>
+<dark left="10" top="18" height="1" width="1"/>
+<dark left="11" top="14" height="1" width="1"/>
+<dark left="11" top="15" height="1" width="1"/>
+<dark left="11" top="16" height="1" width="1"/>
+<dark left="11" top="17" height="1" width="1"/>
+<dark left="11" top="18" height="1" width="1"/>
+<dark left="12" top="14" height="1" width="1"/>
+<dark left="12" top="15" height="1" width="1"/>
+<dark left="12" top="16" height="1" width="1"/>
+<dark left="12" top="17" height="1" width="1"/>
+<dark left="12" top="18" height="1" width="1"/>
+<dark left="15" top="2" height="1" width="1"/>
+<dark left="15" top="3" height="1" width="1"/>
+<dark left="15" top="4" height="1" width="1"/>
+<dark left="15" top="5" height="1" width="1"/>
+<dark left="15" top="6" height="1" width="1"/>
+<dark left="16" top="2" height="1" width="1"/>
+<dark left="16" top="3" height="1" width="1"/>
+<dark left="16" top="4" height="1" width="1"/>
+<dark left="16" top="5" height="1" width="1"/>
+<dark left="16" top="6" height="1" width="1"/>
+<dark left="17" top="2" height="1" width="1"/>
+<dark left="17" top="3" height="1" width="1"/>
+<dark left="17" top="4" height="1" width="1"/>
+<dark left="17" top="5" height="1" width="1"/>
+<dark left="17" top="6" height="1" width="1"/>
+<dark left="18" top="6" height="1" width="1"/>
+<dark left="19" top="6" height="1" width="1"/>
+<dark left="20" top="6" height="1" width="1"/>
+<dark left="21" top="6" height="1" width="1"/>
+<dark left="18" top="7" height="1" width="1"/>
+<dark left="18" top="8" height="1" width="1"/>
+<dark left="18" top="9" height="1" width="1"/>
+<dark left="19" top="7" height="1" width="1"/>
+<dark left="19" top="8" height="1" width="1"/>
+<dark left="19" top="9" height="1" width="1"/>
+<dark left="20" top="7" height="1" width="1"/>
+<dark left="20" top="8" height="1" width="1"/>
+<dark left="20" top="9" height="1" width="1"/>
+<dark left="21" top="7" height="1" width="1"/>
+<dark left="21" top="8" height="1" width="1"/>
+<dark left="21" top="9" height="1" width="1"/>
+<dark left="15" top="14" height="1" width="1"/>
+<dark left="15" top="15" height="1" width="1"/>
+<dark left="15" top="16" height="1" width="1"/>
+<dark left="15" top="17" height="1" width="1"/>
+<dark left="15" top="18" height="1" width="1"/>
+<dark left="16" top="14" height="1" width="1"/>
+<dark left="16" top="15" height="1" width="1"/>
+<dark left="16" top="16" height="1" width="1"/>
+<dark left="16" top="17" height="1" width="1"/>
+<dark left="16" top="18" height="1" width="1"/>
+<dark left="17" top="14" height="1" width="1"/>
+<dark left="17" top="15" height="1" width="1"/>
+<dark left="17" top="16" height="1" width="1"/>
+<dark left="17" top="17" height="1" width="1"/>
+<dark left="17" top="18" height="1" width="1"/>
+<dark left="18" top="14" height="1" width="1"/>
+<dark left="18" top="15" height="1" width="1"/>
+<dark left="18" top="16" height="1" width="1"/>
+<dark left="18" top="17" height="1" width="1"/>
+<dark left="18" top="18" height="1" width="1"/>
+<dark left="19" top="14" height="1" width="1"/>
+<dark left="19" top="15" height="1" width="1"/>
+<dark left="19" top="16" height="1" width="1"/>
+<dark left="19" top="17" height="1" width="1"/>
+<dark left="19" top="18" height="1" width="1"/>
+<dark left="18" top="13" height="1" width="1"/>
+<dark left="20" top="15" height="1" width="1"/>
+<dark left="20" top="16" height="1" width="1"/>
+<dark left="20" top="17" height="1" width="1"/>
+<dark left="20" top="18" height="1" width="1"/>
+<dark left="21" top="15" height="1" width="1"/>
+<dark left="21" top="16" height="1" width="1"/>
+<dark left="21" top="17" height="1" width="1"/>
+<dark left="21" top="18" height="1" width="1"/>
+<dark left="20" top="14" height="1" width="1"/>
+<dark left="21" top="14" height="1" width="1"/>
+<dark left="18" top="11" height="1" width="1"/>
+<dark left="18" top="12" height="1" width="1"/>
+<dark left="19" top="11" height="1" width="1"/>
+<dark left="19" top="12" height="1" width="1"/>
+<dark left="19" top="13" height="1" width="1"/>
+<dark left="20" top="11" height="1" width="1"/>
+<dark left="20" top="12" height="1" width="1"/>
+<dark left="20" top="13" height="1" width="1"/>
+<dark left="21" top="11" height="1" width="1"/>
+<dark left="21" top="12" height="1" width="1"/>
+<dark left="21" top="13" height="1" width="1"/>
+<object id="LetterX" left="15.0" top="10.0" rotation="downward" zorder="0.0"/>
+<object id="Throne" left="16.0" top="10.0" rotation="leftward" zorder="0.0"/>
+<object id="DoubleBlockedSquare" left="13.0" top="18.0" rotation="downward" zorder="0.0"/>
+<object id="LetterA" left="1.0" top="18.0" rotation="downward" zorder="0.0"/>
+<object id="LetterB" left="26.0" top="18.0" rotation="downward" zorder="0.0"/>
+<object id="SingleBlockedSquare" left="6.0" top="10.0" rotation="downward" zorder="0.0"/>
+<object id="SingleBlockedSquare" left="21.0" top="10.0" rotation="downward" zorder="0.0"/>
+<object id="SingleBlockedSquare" left="12.0" top="7.0" rotation="downward" zorder="0.0"/>
+<object id="SingleBlockedSquare" left="15.0" top="7.0" rotation="downward" zorder="0.0"/>
+<object id="SingleBlockedSquare" left="1.0" top="9.0" rotation="downward" zorder="0.0"/>
+<object id="SingleBlockedSquare" left="26.0" top="9.0" rotation="downward" zorder="0.0"/>
+<object id="SingleBlockedSquare" left="8.0" top="1.0" rotation="downward" zorder="0.0"/>
+<object id="SingleBlockedSquare" left="19.0" top="1.0" rotation="downward" zorder="0.0"/>
+<object id="SecretDoorAlternate" left="13.0" top="7.0" rotation="upward" zorder="0.0"/>
+<object id="Door" left="4.0" top="9.0" rotation="downward" zorder="0.0"/>
+<object id="Door" left="23.0" top="9.0" rotation="downward" zorder="0.0"/>
+<object id="Door" left="3.0" top="4.0" rotation="downward" zorder="0.0"/>
+<object id="Door" left="24.0" top="5.0" rotation="downward" zorder="0.0"/>
+<object id="Door" left="21.0" top="3.0" rotation="leftward" zorder="0.0"/>
+<object id="Door" left="5.0" top="3.0" rotation="leftward" zorder="0.0"/>
+<object id="Door" left="9.0" top="1.0" rotation="downward" zorder="0.0"/>
+<object id="Door" left="18.0" top="1.0" rotation="downward" zorder="0.0"/>
+<object id="Gargoyle" left="8.0" top="3.0" rotation="downward" zorder="0.0"/>
+<object id="Gargoyle" left="23.0" top="7.0" rotation="downward" zorder="0.0"/>
+<object id="ChaosWarrior" left="3.0" top="8.0" rotation="downward" zorder="0.0"/>
+<object id="ChaosWarrior" left="25.0" top="17.0" rotation="downward" zorder="0.0"/>
+<object id="PolarWarbear" left="22.0" top="17.0" rotation="downward" zorder="0.0"/>
+<object id="PolarWarbear" left="24.0" top="17.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="3.0" top="3.0" rotation="downward" zorder="0.0"/>
+<object id="ChaosWarrior" left="22.0" top="16.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="4.0" top="13.0" rotation="downward" zorder="0.0"/>
+<object id="Mummy" left="5.0" top="4.0" rotation="downward" zorder="0.0"/>
+<object id="Mummy" left="4.0" top="2.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="2.0" top="17.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="5.0" top="17.0" rotation="downward" zorder="0.0"/>
+<object id="Zombie" left="4.0" top="16.0" rotation="downward" zorder="0.0"/>
+<object id="Cupboard" left="5.0" top="5.0" rotation="rightward" zorder="0.0"/>
+<object id="Bookcase" left="23.0" top="2.0" rotation="upward" zorder="0.0"/>
+<object id="SorcerersTable" left="11.0" top="9.0" rotation="rightward" zorder="0.0"/>
+<object id="TreasureChest" left="16.0" top="12.0" rotation="upward" zorder="0.0"/>
+<object id="DoubleArrowDoor" left="1.0" top="19.0" rotation="downward" zorder="0.0"/>
+<object id="DoubleArrowDoor" left="26.0" top="19.0" rotation="downward" zorder="0.0"/>
+<object id="LetterD" left="15.0" top="12.0" rotation="downward" zorder="0.0"/>
+<object id="PitTrap" left="16.0" top="11.0" rotation="downward" zorder="0.0"/>
+<object id="PolarWarbear" left="19.0" top="3.0" rotation="downward" zorder="0.0"/>
+<object id="ChaosWarrior" left="20.0" top="5.0" rotation="downward" zorder="0.0"/>
+<object id="Zombie" left="25.0" top="4.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="23.0" top="3.0" rotation="downward" zorder="0.0"/>
+<object id="Mummy" left="22.0" top="5.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="3.0" top="12.0" rotation="downward" zorder="0.0"/>
+<object id="Zombie" left="24.0" top="12.0" rotation="downward" zorder="0.0"/>
+<object id="ChaosWarrior" left="13.0" top="5.0" rotation="downward" zorder="0.0"/>
+<object id="ChaosWarrior" left="14.0" top="5.0" rotation="downward" zorder="0.0"/>
+<object id="LetterC" left="14.0" top="10.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="1.0" top="6.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="1.0" top="5.0" rotation="downward" zorder="0.0"/>
+<object id="Zombie" left="7.0" top="1.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="26.0" top="6.0" rotation="downward" zorder="0.0"/>
+<object id="PolarWarbear" left="21.0" top="1.0" rotation="downward" zorder="0.0"/>
+<object id="PolarWarbear" left="26.0" top="4.0" rotation="downward" zorder="0.0"/>
+</board>
+<speech>
+
+Der Schwarze Lord Washna ist durch den Sturz des Himmlischen Splitters geschwächt. Nutzt die Chance für einen Sturm auf seine Festung! Derjenige, der Washna besiegt, wird vom König mit 200 Goldstücken belohnt. Doch nehmt euch in Acht! Er ist ein geschickter Kämpfer und beherrscht viele dunkle Künste. Unterstützt von den Barbaren und den Soldaten des Königs könnt ihr ihn in die Zange nehmen.</speech>
+<note>
+Der Barbar wird von drei Barbaren seines Stammes begleitet. Die anderen Helden werden jeweils von einer königlichen Wache begleitet.</note>
+<note>
+Decke zu Beginn des Spiels Washnas Thronsaal auf. Washna ist gewarnt und
+ reagiert auf den Vorstoß der Helden. In jeder Runde darf er von seinem 
+Thronsaal aus eine offene Tür auf dem Brett platzieren. Baue den Bereich
+ hinter der Tür auf. Die Monster darin dürfen sofort ziehen und 
+angreifen.</note>
+<note>
+
+A Die ersten beiden Helden starten am Westtor.</note>
+<note>
+
+B Die letzten beiden Helden starten am Osttor.</note>
+<note>
+
+C  Dies ist Washnas Thronsaal. Die 20 Meter dicken Mauern schützen Washna vor allen Zaubern von außerhalb.</note>
+<note>
+
+VASHNA: Angriff: 4, Verteidigung: 12, Bewegung: 8, Intelligenz: 7, Körperkraft: 1</note>
+<note>
+
+D Die Schatztruhe enthält 100 Goldmünzen.</note>
+<note>
+
+Streunendes Monster: Eisbär</note>
+</quest>

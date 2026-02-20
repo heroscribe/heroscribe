@@ -46,6 +46,13 @@ sq = [
 ]
 custom = ["01-A New Beginning", "02-Cozy Home", "03-Carpets for Sale"]
 
+wendigo = [
+  "Wendigo-01-EinEisigerEmpfang", "Wendigo-02-DerTurmdesSeeelefanten", "Wendigo-03-DiePrüfung",
+  "Wendigo-05-SpurenimSchnee", "Wendigo-06-DerHammerderSchöpfung",
+  "Wendigo-07-DerschwarzeSplitter", "Wendigo-08-DerSturmaufdieFestung", "Wendigo-09-DieRückkehrzumKrater",
+  "Wendigo-10-DerUnterirdischeSee"
+]
+
 intro_gs_eu = `
 <p>The fire burns warmly, but casts little light into Mentor's study.
 The flickering shadows only hint at the vast number of books and scrolls
@@ -2372,6 +2379,9 @@ campaigns = {
     "RotWL": {name: "Return Of The Witch Lord", quests: rotwl, intro: intro_rotwl_us, outro: outro_rotwl_us, instructions: instructions_rotwl_us},
     "FH": {name: "The Frozen Horror", quests: fh, intro: intro_fh, outro: outro_fh, instructions: instructions_fh},
     "MM": {name: "The Mage Of The Mirror", quests: mm, intro: intro_motm, outro: outro_motm, instructions: instructions_motm},
+  },
+  "my": {
+	"WDG": {name: "Wendigo", quests: wendigo},
   },
 }
 

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE quest PUBLIC
+"-//org.lightless//HeroScribe Quest 1.4//EN"
+"http://lightless.org/files/xml/quest-1.4.dtd">
+
+<quest name="Der Hammer der Schöpfung" region="Europe" version="1.0" width="1" height="1">
+<board/>
+<speech>
+Vor vielen Zeitaltern war diese Gegend warm und fruchtbar. Hier lebte ein Menschengeschlecht, das der Legende nach eigenes Leben schmieden konnte. Jetzt liegt die Schmiede des Lebens unter ewigem Eis, heimgesucht von den Seelen der alten Schöpfer. Steigt hinab zur Schmiede des Lebens und bergt den Hammer der Schöpfung. Dieses uralte Relikt wird euch helfen, Washnas Quelle der Macht zu zerstören.</speech>
+<note>
+This is a note.</note>
+<note>
+This is another note.</note>
+</quest>

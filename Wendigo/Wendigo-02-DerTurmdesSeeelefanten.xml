@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<!DOCTYPE quest PUBLIC
+"-//org.lightless//HeroScribe Quest 1.4//EN"
+"http://lightless.org/files/xml/quest-1.4.dtd">
+
+<quest name="Der Turm des Seeelefanten" region="Europe" version="1.0" width="1" height="1">
+<board>
+<dark left="1" top="1" height="1" width="1"/>
+<dark left="2" top="1" height="1" width="1"/>
+<dark left="3" top="1" height="1" width="1"/>
+<dark left="4" top="1" height="1" width="1"/>
+<dark left="5" top="1" height="1" width="1"/>
+<dark left="6" top="1" height="1" width="1"/>
+<dark left="7" top="1" height="1" width="1"/>
+<dark left="8" top="1" height="1" width="1"/>
+<dark left="9" top="1" height="1" width="1"/>
+<dark left="10" top="1" height="1" width="1"/>
+<dark left="11" top="1" height="1" width="1"/>
+<dark left="12" top="1" height="1" width="1"/>
+<dark left="13" top="1" height="1" width="1"/>
+<dark left="14" top="1" height="1" width="1"/>
+<dark left="15" top="1" height="1" width="1"/>
+<dark left="16" top="1" height="1" width="1"/>
+<dark left="17" top="1" height="1" width="1"/>
+<dark left="18" top="1" height="1" width="1"/>
+<dark left="19" top="1" height="1" width="1"/>
+<dark left="20" top="1" height="1" width="1"/>
+<dark left="21" top="1" height="1" width="1"/>
+<dark left="22" top="1" height="1" width="1"/>
+<dark left="23" top="1" height="1" width="1"/>
+<dark left="24" top="1" height="1" width="1"/>
+<dark left="25" top="1" height="1" width="1"/>
+<dark left="26" top="1" height="1" width="1"/>
+<dark left="1" top="19" height="1" width="1"/>
+<dark left="2" top="19" height="1" width="1"/>
+<dark left="3" top="19" height="1" width="1"/>
+<dark left="4" top="19" height="1" width="1"/>
+<dark left="5" top="19" height="1" width="1"/>
+<dark left="6" top="19" height="1" width="1"/>
+<dark left="7" top="19" height="1" width="1"/>
+<dark left="8" top="19" height="1" width="1"/>
+<dark left="9" top="19" height="1" width="1"/>
+<dark left="10" top="19" height="1" width="1"/>
+<dark left="11" top="19" height="1" width="1"/>
+<dark left="12" top="19" height="1" width="1"/>
+<dark left="13" top="19" height="1" width="1"/>
+<dark left="14" top="19" height="1" width="1"/>
+<dark left="15" top="19" height="1" width="1"/>
+<dark left="16" top="19" height="1" width="1"/>
+<dark left="17" top="19" height="1" width="1"/>
+<dark left="18" top="19" height="1" width="1"/>
+<dark left="19" top="19" height="1" width="1"/>
+<dark left="20" top="19" height="1" width="1"/>
+<dark left="21" top="19" height="1" width="1"/>
+<dark left="22" top="19" height="1" width="1"/>
+<dark left="23" top="19" height="1" width="1"/>
+<dark left="24" top="19" height="1" width="1"/>
+<dark left="25" top="19" height="1" width="1"/>
+<dark left="26" top="19" height="1" width="1"/>
+<dark left="1" top="2" height="1" width="1"/>
+<dark left="1" top="3" height="1" width="1"/>
+<dark left="1" top="4" height="1" width="1"/>
+<dark left="1" top="5" height="1" width="1"/>
+<dark left="1" top="6" height="1" width="1"/>
+<dark left="1" top="7" height="1" width="1"/>
+<dark left="1" top="8" height="1" width="1"/>
+<dark left="1" top="9" height="1" width="1"/>
+<dark left="1" top="10" height="1" width="1"/>
+<dark left="1" top="11" height="1" width="1"/>
+<dark left="1" top="12" height="1" width="1"/>
+<dark left="1" top="13" height="1" width="1"/>
+<dark left="1" top="14" height="1" width="1"/>
+<dark left="1" top="15" height="1" width="1"/>
+<dark left="1" top="16" height="1" width="1"/>
+<dark left="1" top="17" height="1" width="1"/>
+<dark left="1" top="18" height="1" width="1"/>
+<dark left="26" top="2" height="1" width="1"/>
+<dark left="26" top="3" height="1" width="1"/>
+<dark left="26" top="4" height="1" width="1"/>
+<dark left="26" top="5" height="1" width="1"/>
+<dark left="26" top="6" height="1" width="1"/>
+<dark left="26" top="7" height="1" width="1"/>
+<dark left="26" top="8" height="1" width="1"/>
+<dark left="26" top="9" height="1" width="1"/>
+<dark left="26" top="10" height="1" width="1"/>
+<dark left="26" top="11" height="1" width="1"/>
+<dark left="26" top="12" height="1" width="1"/>
+<dark left="26" top="13" height="1" width="1"/>
+<dark left="26" top="14" height="1" width="1"/>
+<dark left="26" top="15" height="1" width="1"/>
+<dark left="26" top="16" height="1" width="1"/>
+<dark left="26" top="17" height="1" width="1"/>
+<dark left="26" top="18" height="1" width="1"/>
+<dark left="13" top="2" height="1" width="1"/>
+<dark left="13" top="3" height="1" width="1"/>
+<dark left="14" top="2" height="1" width="1"/>
+<dark left="14" top="3" height="1" width="1"/>
+<dark left="2" top="10" height="1" width="1"/>
+<dark left="3" top="10" height="1" width="1"/>
+<dark left="4" top="10" height="1" width="1"/>
+<dark left="23" top="10" height="1" width="1"/>
+<dark left="24" top="10" height="1" width="1"/>
+<dark left="25" top="10" height="1" width="1"/>
+<dark left="2" top="2" height="1" width="1"/>
+<dark left="2" top="3" height="1" width="1"/>
+<dark left="2" top="4" height="1" width="1"/>
+<dark left="3" top="2" height="1" width="1"/>
+<dark left="3" top="3" height="1" width="1"/>
+<dark left="3" top="4" height="1" width="1"/>
+<dark left="4" top="2" height="1" width="1"/>
+<dark left="4" top="3" height="1" width="1"/>
+<dark left="4" top="4" height="1" width="1"/>
+<dark left="5" top="2" height="1" width="1"/>
+<dark left="5" top="3" height="1" width="1"/>
+<dark left="5" top="4" height="1" width="1"/>
+<dark left="6" top="2" height="1" width="1"/>
+<dark left="6" top="3" height="1" width="1"/>
+<dark left="6" top="4" height="1" width="1"/>
+<dark left="2" top="5" height="1" width="1"/>
+<dark left="3" top="5" height="1" width="1"/>
+<dark left="4" top="5" height="1" width="1"/>
+<dark left="5" top="5" height="1" width="1"/>
+<dark left="2" top="6" height="1" width="1"/>
+<dark left="2" top="7" height="1" width="1"/>
+<dark left="2" top="8" height="1" width="1"/>
+<dark left="2" top="9" height="1" width="1"/>
+<dark left="3" top="6" height="1" width="1"/>
+<dark left="3" top="7" height="1" width="1"/>
+<dark left="3" top="8" height="1" width="1"/>
+<dark left="3" top="9" height="1" width="1"/>
+<dark left="4" top="6" height="1" width="1"/>
+<dark left="4" top="7" height="1" width="1"/>
+<dark left="4" top="8" height="1" width="1"/>
+<dark left="4" top="9" height="1" width="1"/>
+<dark left="5" top="6" height="1" width="1"/>
+<dark left="5" top="7" height="1" width="1"/>
+<dark left="5" top="8" height="1" width="1"/>
+<dark left="5" top="9" height="1" width="1"/>
+<dark left="7" top="2" height="1" width="1"/>
+<dark left="7" top="3" height="1" width="1"/>
+<dark left="7" top="4" height="1" width="1"/>
+<dark left="8" top="2" height="1" width="1"/>
+<dark left="8" top="3" height="1" width="1"/>
+<dark left="8" top="4" height="1" width="1"/>
+<dark left="9" top="2" height="1" width="1"/>
+<dark left="9" top="3" height="1" width="1"/>
+<dark left="9" top="4" height="1" width="1"/>
+<dark left="2" top="11" height="1" width="1"/>
+<dark left="2" top="12" height="1" width="1"/>
+<dark left="2" top="13" height="1" width="1"/>
+<dark left="2" top="14" height="1" width="1"/>
+<dark left="3" top="11" height="1" width="1"/>
+<dark left="3" top="12" height="1" width="1"/>
+<dark left="3" top="13" height="1" width="1"/>
+<dark left="3" top="14" height="1" width="1"/>
+<dark left="4" top="11" height="1" width="1"/>
+<dark left="4" top="12" height="1" width="1"/>
+<dark left="4" top="13" height="1" width="1"/>
+<dark left="4" top="14" height="1" width="1"/>
+<dark left="5" top="11" height="1" width="1"/>
+<dark left="5" top="12" height="1" width="1"/>
+<dark left="5" top="13" height="1" width="1"/>
+<dark left="5" top="14" height="1" width="1"/>
+<dark left="6" top="11" height="1" width="1"/>
+<dark left="6" top="12" height="1" width="1"/>
+<dark left="6" top="13" height="1" width="1"/>
+<dark left="2" top="15" height="1" width="1"/>
+<dark left="3" top="15" height="1" width="1"/>
+<dark left="4" top="15" height="1" width="1"/>
+<dark left="5" top="15" height="1" width="1"/>
+<dark left="2" top="16" height="1" width="1"/>
+<dark left="2" top="17" height="1" width="1"/>
+<dark left="2" top="18" height="1" width="1"/>
+<dark left="3" top="16" height="1" width="1"/>
+<dark left="3" top="17" height="1" width="1"/>
+<dark left="3" top="18" height="1" width="1"/>
+<dark left="4" top="16" height="1" width="1"/>
+<dark left="4" top="17" height="1" width="1"/>
+<dark left="4" top="18" height="1" width="1"/>
+<dark left="5" top="16" height="1" width="1"/>
+<dark left="5" top="17" height="1" width="1"/>
+<dark left="5" top="18" height="1" width="1"/>
+<dark left="7" top="11" height="1" width="1"/>
+<dark left="7" top="12" height="1" width="1"/>
+<dark left="7" top="13" height="1" width="1"/>
+<dark left="10" top="14" height="1" width="1"/>
+<dark left="10" top="15" height="1" width="1"/>
+<dark left="10" top="16" height="1" width="1"/>
+<dark left="10" top="17" height="1" width="1"/>
+<dark left="10" top="18" height="1" width="1"/>
+<dark left="11" top="14" height="1" width="1"/>
+<dark left="11" top="15" height="1" width="1"/>
+<dark left="11" top="16" height="1" width="1"/>
+<dark left="11" top="17" height="1" width="1"/>
+<dark left="11" top="18" height="1" width="1"/>
+<dark left="12" top="14" height="1" width="1"/>
+<dark left="12" top="15" height="1" width="1"/>
+<dark left="12" top="16" height="1" width="1"/>
+<dark left="12" top="17" height="1" width="1"/>
+<dark left="12" top="18" height="1" width="1"/>
+<dark left="11" top="8" height="1" width="1"/>
+<dark left="11" top="9" height="1" width="1"/>
+<dark left="11" top="10" height="1" width="1"/>
+<dark left="11" top="11" height="1" width="1"/>
+<dark left="11" top="12" height="1" width="1"/>
+<dark left="12" top="8" height="1" width="1"/>
+<dark left="12" top="9" height="1" width="1"/>
+<dark left="12" top="10" height="1" width="1"/>
+<dark left="12" top="11" height="1" width="1"/>
+<dark left="12" top="12" height="1" width="1"/>
+<dark left="13" top="8" height="1" width="1"/>
+<dark left="13" top="9" height="1" width="1"/>
+<dark left="13" top="10" height="1" width="1"/>
+<dark left="13" top="11" height="1" width="1"/>
+<dark left="13" top="12" height="1" width="1"/>
+<dark left="14" top="8" height="1" width="1"/>
+<dark left="14" top="9" height="1" width="1"/>
+<dark left="14" top="10" height="1" width="1"/>
+<dark left="14" top="11" height="1" width="1"/>
+<dark left="14" top="12" height="1" width="1"/>
+<dark left="15" top="8" height="1" width="1"/>
+<dark left="15" top="9" height="1" width="1"/>
+<dark left="15" top="10" height="1" width="1"/>
+<dark left="15" top="11" height="1" width="1"/>
+<dark left="15" top="12" height="1" width="1"/>
+<dark left="16" top="8" height="1" width="1"/>
+<dark left="16" top="9" height="1" width="1"/>
+<dark left="16" top="10" height="1" width="1"/>
+<dark left="16" top="11" height="1" width="1"/>
+<dark left="16" top="12" height="1" width="1"/>
+<dark left="15" top="2" height="1" width="1"/>
+<dark left="15" top="3" height="1" width="1"/>
+<dark left="15" top="4" height="1" width="1"/>
+<dark left="15" top="5" height="1" width="1"/>
+<dark left="15" top="6" height="1" width="1"/>
+<dark left="16" top="2" height="1" width="1"/>
+<dark left="16" top="3" height="1" width="1"/>
+<dark left="16" top="4" height="1" width="1"/>
+<dark left="16" top="5" height="1" width="1"/>
+<dark left="16" top="6" height="1" width="1"/>
+<dark left="17" top="2" height="1" width="1"/>
+<dark left="17" top="3" height="1" width="1"/>
+<dark left="17" top="4" height="1" width="1"/>
+<dark left="17" top="5" height="1" width="1"/>
+<dark left="17" top="6" height="1" width="1"/>
+<dark left="18" top="2" height="1" width="1"/>
+<dark left="18" top="3" height="1" width="1"/>
+<dark left="18" top="4" height="1" width="1"/>
+<dark left="18" top="5" height="1" width="1"/>
+<dark left="18" top="6" height="1" width="1"/>
+<dark left="19" top="2" height="1" width="1"/>
+<dark left="19" top="3" height="1" width="1"/>
+<dark left="19" top="4" height="1" width="1"/>
+<dark left="19" top="5" height="1" width="1"/>
+<dark left="20" top="2" height="1" width="1"/>
+<dark left="20" top="3" height="1" width="1"/>
+<dark left="20" top="4" height="1" width="1"/>
+<dark left="20" top="5" height="1" width="1"/>
+<dark left="21" top="2" height="1" width="1"/>
+<dark left="21" top="3" height="1" width="1"/>
+<dark left="21" top="4" height="1" width="1"/>
+<dark left="21" top="5" height="1" width="1"/>
+<dark left="22" top="2" height="1" width="1"/>
+<dark left="22" top="3" height="1" width="1"/>
+<dark left="22" top="4" height="1" width="1"/>
+<dark left="22" top="5" height="1" width="1"/>
+<dark left="19" top="6" height="1" width="1"/>
+<dark left="20" top="6" height="1" width="1"/>
+<dark left="21" top="6" height="1" width="1"/>
+<dark left="18" top="7" height="1" width="1"/>
+<dark left="18" top="8" height="1" width="1"/>
+<dark left="18" top="9" height="1" width="1"/>
+<dark left="19" top="7" height="1" width="1"/>
+<dark left="19" top="8" height="1" width="1"/>
+<dark left="19" top="9" height="1" width="1"/>
+<dark left="20" top="7" height="1" width="1"/>
+<dark left="20" top="8" height="1" width="1"/>
+<dark left="20" top="9" height="1" width="1"/>
+<dark left="21" top="7" height="1" width="1"/>
+<dark left="21" top="8" height="1" width="1"/>
+<dark left="21" top="9" height="1" width="1"/>
+<dark left="22" top="6" height="1" width="1"/>
+<dark left="22" top="7" height="1" width="1"/>
+<dark left="22" top="8" height="1" width="1"/>
+<dark left="22" top="9" height="1" width="1"/>
+<dark left="23" top="6" height="1" width="1"/>
+<dark left="23" top="7" height="1" width="1"/>
+<dark left="23" top="8" height="1" width="1"/>
+<dark left="23" top="9" height="1" width="1"/>
+<dark left="24" top="6" height="1" width="1"/>
+<dark left="24" top="7" height="1" width="1"/>
+<dark left="24" top="8" height="1" width="1"/>
+<dark left="24" top="9" height="1" width="1"/>
+<dark left="25" top="6" height="1" width="1"/>
+<dark left="25" top="7" height="1" width="1"/>
+<dark left="25" top="8" height="1" width="1"/>
+<dark left="25" top="9" height="1" width="1"/>
+<dark left="23" top="5" height="1" width="1"/>
+<dark left="24" top="5" height="1" width="1"/>
+<dark left="25" top="5" height="1" width="1"/>
+<dark left="23" top="2" height="1" width="1"/>
+<dark left="23" top="3" height="1" width="1"/>
+<dark left="23" top="4" height="1" width="1"/>
+<dark left="24" top="2" height="1" width="1"/>
+<dark left="24" top="3" height="1" width="1"/>
+<dark left="24" top="4" height="1" width="1"/>
+<dark left="25" top="2" height="1" width="1"/>
+<dark left="25" top="3" height="1" width="1"/>
+<dark left="25" top="4" height="1" width="1"/>
+<dark left="19" top="15" height="1" width="1"/>
+<dark left="19" top="16" height="1" width="1"/>
+<dark left="19" top="17" height="1" width="1"/>
+<dark left="19" top="18" height="1" width="1"/>
+<dark left="20" top="15" height="1" width="1"/>
+<dark left="20" top="16" height="1" width="1"/>
+<dark left="20" top="17" height="1" width="1"/>
+<dark left="20" top="18" height="1" width="1"/>
+<dark left="21" top="15" height="1" width="1"/>
+<dark left="21" top="16" height="1" width="1"/>
+<dark left="21" top="17" height="1" width="1"/>
+<dark left="21" top="18" height="1" width="1"/>
+<dark left="22" top="15" height="1" width="1"/>
+<dark left="22" top="16" height="1" width="1"/>
+<dark left="22" top="17" height="1" width="1"/>
+<dark left="22" top="18" height="1" width="1"/>
+<dark left="23" top="15" height="1" width="1"/>
+<dark left="24" top="15" height="1" width="1"/>
+<dark left="25" top="15" height="1" width="1"/>
+<dark left="23" top="16" height="1" width="1"/>
+<dark left="23" top="17" height="1" width="1"/>
+<dark left="23" top="18" height="1" width="1"/>
+<dark left="24" top="16" height="1" width="1"/>
+<dark left="24" top="17" height="1" width="1"/>
+<dark left="24" top="18" height="1" width="1"/>
+<dark left="25" top="16" height="1" width="1"/>
+<dark left="25" top="17" height="1" width="1"/>
+<dark left="25" top="18" height="1" width="1"/>
+<object id="OpenDoor" left="19.0" top="10.0" rotation="upward" zorder="0.0"/>
+<object id="OpenDoor" left="21.0" top="12.0" rotation="leftward" zorder="0.0"/>
+<object id="Door" left="18.0" top="14.0" rotation="leftward" zorder="0.0"/>
+<object id="OpenDoor" left="17.0" top="13.0" rotation="rightward" zorder="0.0"/>
+<object id="LetterC" left="25.0" top="12.0" rotation="downward" zorder="0.0"/>
+<object id="WeaponsRack" left="10.0" top="2.0" rotation="downward" zorder="0.0"/>
+<object id="Stairway" left="6.0" top="5.0" rotation="downward" zorder="0.0"/>
+<object id="Door" left="9.0" top="7.0" rotation="leftward" zorder="0.0"/>
+<object id="SecretDoorAlternate" left="12.0" top="5.0" rotation="leftward" zorder="0.0"/>
+<object id="SingleBlockedSquare" left="5.0" top="10.0" rotation="downward" zorder="0.0"/>
+<object id="SingleBlockedSquare" left="22.0" top="10.0" rotation="downward" zorder="0.0"/>
+<object id="DoubleBlockedSquare" left="13.0" top="4.0" rotation="downward" zorder="0.0"/>
+<object id="Door" left="8.0" top="10.0" rotation="downward" zorder="0.0"/>
+<object id="Door" left="9.0" top="13.0" rotation="downward" zorder="0.0"/>
+<object id="Door" left="14.0" top="16.0" rotation="leftward" zorder="0.0"/>
+<object id="DoubleBlockedSquare" left="13.0" top="18.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="17.0" top="14.0" rotation="downward" zorder="0.0"/>
+<object id="IceGremlin" left="10.0" top="4.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="8.0" top="17.0" rotation="downward" zorder="0.0"/>
+<object id="Skeleton" left="6.0" top="16.0" rotation="downward" zorder="0.0"/>
+<object id="LetterA" left="11.0" top="3.0" rotation="downward" zorder="0.0"/>
+<object id="Bookcase" left="6.0" top="18.0" rotation="upward" zorder="0.0"/>
+<object id="SlipperyIce2x1" left="13.0" top="4.0" rotation="downward" zorder="0.0"/>
+<object id="SlipperyIce2x1" left="13.0" top="18.0" rotation="downward" zorder="0.0"/>
+<object id="SlipperyIce1x1" left="5.0" top="10.0" rotation="downward" zorder="0.0"/>
+<object id="SlipperyIce1x1" left="22.0" top="10.0" rotation="downward" zorder="0.0"/>
+<object id="SlipperyIce1x1" left="17.0" top="8.0" rotation="downward" zorder="0.0"/>
+<object id="LetterB" left="20.0" top="13.0" rotation="downward" zorder="0.0"/>
+</board>
+<speech>
+Königin Barbara steht unter dem Einfluss des bösen Zauberers Vonatar. Der König zahlt dir eine Belohnung von 100 Goldstücken, wenn du Vonotar besiegst. Vonotar lebt in einem Turm inmitten eines vereisten Sees. Du reibst dich mit Walrossfett ein, das dich vor Erfrierungen schützt. Dann schlägst du ein Loch in die Eisdecke und tauchst zum versteckten Eingang unter dem Turm. Eine endlose Wendeltreppe führt dich ins oberste Gemach.</speech>
+<note>
+A Am Waffenständer hängt Borins Rüstung. Gib dem Barbar die entsprechende Beutekarte.</note>
+<note>
+B Wenn der Barbar seinen Zug in diesem Raum beendet, ersetze die offene Tür durch einen Spiegel. Dann betritt Vonotar durch einen anderen Spiegel den Raum.</note>
+<note>
+VONOTAR: Angriff: 2, Verteidigung: 3, Bewegung: 6, Intelligenz: 7, Körperkraft: 1</note>
+<note>
+Vonotar kennt alle Spiegelzauber.</note>
+<note>
+Durch den Trubildzauber gehen die Schläge des Barbaren ins Leere, bis alle Spiegel zerstört sind. Um einen Spiegel zu zerstören, muss der Barbar ihn angreifen und mindestens einen Totenkopf würfeln.</note>
+<note>
+Ist Vonotar besiegt, ersetze alle zerstörten Spiegel durch offene Türen.</note>
+<note>
+C Hier schläft die echte Barbara auf einem Samtkissen. Bringe sie zurück in den Palast, denn dort regiert nur ihr Trugbild.</note>
+</quest>
