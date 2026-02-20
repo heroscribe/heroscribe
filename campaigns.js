@@ -47,10 +47,10 @@ sq = [
 custom = ["01-A New Beginning", "02-Cozy Home", "03-Carpets for Sale"]
 
 wendigo = [
-  "Wendigo-01-EinEisigerEmpfang", "Wendigo-02-DerTurmdesSeeelefanten", "Wendigo-03-DiePrüfung",
-  "Wendigo-05-SpurenimSchnee", "Wendigo-06-DerHammerderSchöpfung",
-  "Wendigo-07-DerschwarzeSplitter", "Wendigo-08-DerSturmaufdieFestung", "Wendigo-09-DieRückkehrzumKrater",
-  "Wendigo-10-DerUnterirdischeSee"
+  "01-EinEisigerEmpfang", "02-DerTurmdesSeeelefanten", "03-DiePrüfung",
+  "05-SpurenimSchnee", "06-DerHammerderSchöpfung",
+  "07-DerschwarzeSplitter", "08-DerSturmaufdieFestung", "09-DieRückkehrzumKrater",
+  "10-DerUnterirdischeSee"
 ]
 
 intro_gs_eu = `
