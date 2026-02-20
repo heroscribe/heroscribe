@@ -2371,7 +2371,6 @@ campaigns = {
     "WoM": {name: "Wizards Of Morcar", quests: wom, instructions: instructions_wom, intro: intro_wom},
     "DC": {name: "The Dark Company", quests: dc},
     "SQ": {name: "Solo Quests", quests: sq},
-	"WDG": {name: "Wendigo", quests: wendigo},
   },
   "US": {
     "ADC": {name: "Adventure Design Kit", quests: custom},
@@ -2381,8 +2380,8 @@ campaigns = {
     "FH": {name: "The Frozen Horror", quests: fh, intro: intro_fh, outro: outro_fh, instructions: instructions_fh},
     "MM": {name: "The Mage Of The Mirror", quests: mm, intro: intro_motm, outro: outro_motm, instructions: instructions_motm},
   },
-  "my": {
-	
+  "My": {
+	"WDG": {name: "Wendigo", quests: wendigo},
   },
 }
 
