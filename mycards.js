@@ -2,9 +2,9 @@ cards_my = {
 artifacts: [
   {title: "Borin's Armour", text: "You may roll 4 dice in defence.", image: "", type: "armour"},
   {title: "Spirit Blade", text: "You may roll 3 dice in attack, 4 against undead creatures.", image: "", type: "weapon"},
-  {title: "Orcs Bane", text: "You may roll 2 dice in attack.<br/>Each turn may attack an Orc as an extra action.", image: "", type: "weapon"},
+  {title: "Orcs Bane", text: "You may roll 2 dice in attack.<br/>Each turn you may attack an Orc as an extra action.", image: "", type: "weapon"},
   {title: "Wand of Recall", text: "Each turn you may cast a spell as an extra action.", image: ""},
-  {title: "Talisman of Lore", text: "Once per quest you may cast one discarded spell.", image: ""},
+  {title: "Talisman of Lore", text: "Increases your mind points by 2 as long as it is in your possession.", image: ""},
 ],
 treasure: [
   {title: "Potion of Healing", text: "Restore up to 4 lost Body points.", image: "", type: "potion"},
@@ -23,7 +23,7 @@ treasure: [
   {title: "Gold!", text: "25 gold coins.", image: "gold_eu", type: "25 gold"},
   {title: "Gold!", text: "25 gold coins.", image: "gold_eu", type: "25 gold"},
   {title: "Gold!", text: "25 gold coins.", image: "gold_eu", type: "25 gold"},
-  {title: "Nothing", text: "Despite a thorough search you find nothing.", image: ""},
+  {title: "Nothing", text: "", image: ""},
   {title: "Trap!", text: "You lose one body point.", image: "hazard1"},
   {title: "Trap!", text: "You lose one body point.", image: "hazard1"},
   {title: "Trap!", text: "You lose one body point.", image: "trap03"},
@@ -39,8 +39,8 @@ earthspells: [
   {title: "Rock Skin", text: "The target may roll 4 dice in defence until he loses a Body point.", image: "", type: "Earth Spell"},
   ],
 firespells: [
-  {title: "Fire of Wrath", text: "A target anywhere on the board suffers the loss of 1 body point, which he may defend against normally.", image: "", type: "Fire Spell"},
-  {title: "Ball of Flame", text: "The target suffers the loss of 2 body points, which he may defend against normally.", image: "", type: "Fire Spell"},
+  {title: "Fire of Wrath", text: "A target anywhere on the board loses 1 body point, which he may defend against normally.", image: "", type: "Fire Spell"},
+  {title: "Ball of Flame", text: "The target loses 2 body points, which he may defend against normally.", image: "", type: "Fire Spell"},
   {title: "Courage", text: "The target gets one extra attack.", image: "", type: "Fire Spell"},
 ],
 waterspells: [
