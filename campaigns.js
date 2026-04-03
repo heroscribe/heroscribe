@@ -502,6 +502,42 @@ If both scores are equal, neither character inflicts any damage. If a character 
 monster loses all his Mind points as a result of a Mind Blast, he is knocked
 unconscious and remains out of play for the rest of that Quest. Mind points are
 recovered between Quests in the same way as Body points.</p>
+<h1>The Quests</h1>
+<h2>General Rules</h2>
+<p>The following Quests can either be played individually or as a continuous adventure, 
+with one Quest following on from the next. If you choose to play them as a series of 
+Quests, the following rules apply.</p>
+<h2>Playing the Quests as a Series</h2>
+<p>At the start of the first Quest, each character should receive five healing potions, 
+each of which will heal the character up to his maximum Body points once. Take a note 
+of these potions on the character sheets and cross them off as you use them. Any number 
+of potions may be used in any one Quest.</p>
+<p>Characters that use magic may replenish their spells between Quests, but they must 
+keep the same spells they chose right at the start of the first Quest.</p>
+<p>Characters may not buy new equipment between these Quests but may keep anything they 
+have found in those Quests.</p>
+<p>The Evil Wizard player should reshuffle the treasure pack between each Quest, 
+returning any used treasure cards from the previous Quest to the pack.</p>
+<p>If any of the characters are killed during a Quest, Mentor is able to magically 
+transport a new starting character to join the party at the beginning of the following 
+Quest.</p>
+<h2>Advice to Players</h2>
+<p>Before the characters begin these Quests, they should carefully choose the equipment 
+and the magical items they will take with them. Remember, the crossbow and the spear are 
+two invaluable weapons in any Quest. The crossbow allows a character to kill a monster 
+without entering a room and running the risk of falling foul of any traps. The spear 
+allows a character to join in an attack against a foe who might otherwise be blocked by 
+other attacking characters. Players should stick together as one party and advance 
+carefully, searching for traps and trying not to move through any rooms which they have 
+not checked.</p>
+<h2>Advice to the Evil Wizard Player</h2>
+<p>The Evil Wizard Player should try to lure the heroes into his traps by making them 
+chase monsters or charge to the attack. He should make the best use of the new traps and 
+spells now available to him.</p>
+<p><b>For example:</b> <i>Look at the second Quest in this book. In room A there are two 
+Orcs with crossbows positioned behind two concealed pit traps. If the players charge the 
+Orcs they risk falling into the pit traps, but if they don't, the Orcs will shoot them 
+with their crossbows.</i></p>
 `
 
 intro_atoh = `
